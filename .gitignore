@@ -1,0 +1,165 @@
+# ==============================================================================
+# RG Tech Manufacturing ERP - Root .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Archives & Large Binary Files (CRITICAL for GitHub 100MB Limit)
+# ------------------------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.iso
+2022019010015 SY Project.zip
+
+# ------------------------------------------------------------------------------
+# 2. Database & Data Storage (Local MongoDB / SQLite / Backups)
+# ------------------------------------------------------------------------------
+**/data/db/
+backend/data/
+data/
+*.wt
+*.bson
+mongod.lock
+diagnostic.data/
+WiredTiger*
+_mdb_catalog.wt
+sizeStorer.wt
+storage.bson
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.sql
+
+# ------------------------------------------------------------------------------
+# 3. Environment & Sensitive Credentials
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+!.env.*.example
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+Login Cred.txt
+*.pem
+*.key
+*.cert
+*.crt
+*.p12
+*.pfx
+secrets/
+credentials.json
+
+# ------------------------------------------------------------------------------
+# 4. Python & Virtual Environments (Backend)
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.venv/
+venv/
+env/
+myenv/
+ENV/
+env.bak/
+venv.bak/
+
+# Python Testing & Quality Cache
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+.dmypy.json
+dmypy.json
+
+# ------------------------------------------------------------------------------
+# 5. Node.js & Next.js (Frontend)
+# ------------------------------------------------------------------------------
+node_modules/
+**/node_modules/
+.next/
+**/.next/
+out/
+**/out/
+.turbo/
+**/.turbo/
+.vercel/
+
+# TypeScript & Build Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+lerna-debug.log*
+
+# ------------------------------------------------------------------------------
+# 6. Operating System & IDE Files
+# ------------------------------------------------------------------------------
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ------------------------------------------------------------------------------
+# 7. General Logs & Temporary Files
+# ------------------------------------------------------------------------------
+*.log
+logs/
+tmp/
+temp/

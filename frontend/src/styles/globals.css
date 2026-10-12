@@ -1,0 +1,110 @@
+@import "tailwindcss";
+
+:root {
+  /* Core Canvas & Surfaces */
+  --bg-main: #F8FAFC;
+  --surface-primary: #FFFFFF;
+  --surface-secondary: #F1F5F9;
+  --sidebar-bg: #FFFFFF;
+  --header-bg: #FFFFFF;
+  
+  --text-primary: #0F172A;
+  --text-secondary: #475569;
+  --text-muted: #94A3B8;
+  
+  --border-color: #E2E8F0;
+  --divider-color: #F1F5F9;
+  --input-bg: #FFFFFF;
+
+  /* Executive Brand Colors (Deep Slate / Neutral Charcoal) */
+  --accent-primary: #0F172A;
+  --accent-hover: #1E293B;
+  --accent-light: #F1F5F9;
+  --accent-secondary: #334155;
+
+  /* Semantic Colors (Restrained and Classic) */
+  --color-success: #15803D;
+  --color-success-bg: #DCFCE7;
+  --color-warning: #B45309;
+  --color-warning-bg: #FEF3C7;
+  --color-error: #B91C1C;
+  --color-error-bg: #FEE2E2;
+  --color-info: #0369A1;
+  --color-info-bg: #E0F2FE;
+
+  --background: #F8FAFC;
+  --foreground: #0F172A;
+}
+
+@theme inline {
+  --color-bg-main: var(--bg-main);
+  --color-surface-primary: var(--surface-primary);
+  --color-surface-secondary: var(--surface-secondary);
+  --color-sidebar-bg: var(--sidebar-bg);
+  --color-header-bg: var(--header-bg);
+  
+  --color-text-primary: var(--text-primary);
+  --color-text-secondary: var(--text-secondary);
+  --color-text-muted: var(--text-muted);
+  
+  --color-border-color: var(--border-color);
+  --color-divider-color: var(--divider-color);
+  --color-input-bg: var(--input-bg);
+
+  --color-accent-primary: var(--accent-primary);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-light: var(--accent-light);
+  --color-accent-secondary: var(--accent-secondary);
+
+  --color-success: var(--color-success);
+  --color-success-bg: var(--color-success-bg);
+  --color-warning: var(--color-warning);
+  --color-warning-bg: var(--color-warning-bg);
+  --color-error: var(--color-error);
+  --color-error-bg: var(--color-error-bg);
+  --color-info: var(--color-info);
+  --color-info-bg: var(--color-info-bg);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+body {
+  background-color: #F8FAFC;
+  color: #0F172A;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  letter-spacing: -0.011em;
+}
+
+/* Custom crisp shadows */
+.shadow-subtle {
+  box-shadow: 0 1px 3px rgba(32, 39, 34, 0.04), 0 1px 2px rgba(32, 39, 34, 0.02);
+}
+
+.shadow-card {
+  box-shadow: 0 1px 3px rgba(32, 39, 34, 0.05), 0 4px 12px rgba(32, 39, 34, 0.03);
+}
+
+.shadow-card-elevated {
+  box-shadow: 0 2px 6px rgba(32, 39, 34, 0.04), 0 12px 28px rgba(32, 39, 34, 0.06);
+}
+
+/* Custom scrollbars matching off-white aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #E7E5DE;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #73786F;
+}
+

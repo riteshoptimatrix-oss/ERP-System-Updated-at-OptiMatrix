@@ -1,0 +1,83 @@
+services:
+  # ============================================================================
+  # MongoDB Database Service
+  # ============================================================================
+  mongodb:
+    image: mongo:8.0
+    container_name: RG_erp_mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_DATABASE: RG_erp
+    volumes:
+      - mongodb_data:/data/db
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.adminCommand('ping')"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 10s
+    networks:
+      - RG_erp_network
+
+  # ============================================================================
+  # FastAPI Backend Service
+  # ============================================================================
+  backend:
+    build:
+      context: ..
+      dockerfile: infrastructure/docker/backend.Dockerfile
+    container_name: RG_erp_backend
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      ENVIRONMENT: development
+      HOST: 0.0.0.0
+      PORT: 8000
+      PROJECT_NAME: "RG Tech ERP"
+      API_V1_PREFIX: /api/v1
+      LOG_LEVEL: INFO
+      LOG_JSON_FORMAT: "true"
+      MONGODB_URI: mongodb://mongodb:27017
+      MONGODB_DB_NAME: RG_erp
+      ALLOWED_CORS_ORIGINS: '["http://localhost:3000","http://127.0.0.1:3000"]'
+    depends_on:
+      mongodb:
+        condition: service_healthy
+    networks:
+      - RG_erp_network
+
+  # ============================================================================
+  # Next.js Frontend Service
+  # ============================================================================
+  frontend:
+    build:
+      context: ..
+      dockerfile: infrastructure/docker/frontend.Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: http://localhost:8000
+        NEXT_PUBLIC_APP_ENV: development
+    container_name: RG_erp_frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: 3000
+      NEXT_PUBLIC_API_URL: http://localhost:8000
+      NEXT_PUBLIC_APP_ENV: development
+      INTERNAL_BACKEND_URL: http://backend:8000
+    depends_on:
+      - backend
+    networks:
+      - RG_erp_network
+
+networks:
+  RG_erp_network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+    driver: local

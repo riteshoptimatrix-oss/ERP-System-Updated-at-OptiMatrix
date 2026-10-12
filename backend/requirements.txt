@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+motor
+pymongo
+python-json-logger
+argon2-cffi
+slowapi
+email-validator
+pytest
+pytest-asyncio
+httpx
+openpyxl
+python-multipart
+mongomock-motor

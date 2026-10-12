@@ -1,0 +1,17 @@
+{
+    "full_name": "string",
+    "role": "SUPER_ADMIN",
+    "account_type": "SUPER_ADMIN",
+    "department": "string",
+    "job_role": "string",
+    "job_roles": [
+        "string"
+    ],
+    "employee_code": "string",
+    "allowed_units": [
+        "Unit_1"
+    ],
+    "is_active": true,
+    "password": "stringstring",
+    "must_change_password": true
+}
