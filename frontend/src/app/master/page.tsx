@@ -123,66 +123,66 @@ export default function MasterDataHubPage() {
 
   return (
     <div className="space-y-6">
-        {/* Header Banner */}
-        <div className="bg-white border border-neutral-200 rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div>
-            <h1 className="text-2xl font-bold text-neutral-900 tracking-tight">
-              Master Data Management
-            </h1>
-            <p className="text-sm text-neutral-600 mt-1 max-w-2xl">
-              Centralized, unit-aware master registries for RG Tech. Maintained with duplicate prevention,
-              strict validations, audit trails, and import template capabilities.
-            </p>
-          </div>
-        </div>
-
-        {/* Master Data Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          {modules.map((m) => {
-            const Icon = m.icon;
-            return (
-              <Card key={m.title} className="hover:shadow-md transition-shadow flex flex-col justify-between border-neutral-200">
-                <div className="flex flex-col h-full justify-between">
-                  <div>
-                    <div className="flex items-center justify-between mb-4">
-                      <div className={`w-10 h-10 rounded-lg flex items-center justify-center border ${m.color}`}>
-                        <Icon className="w-5 h-5" />
-                      </div>
-                      <span className="text-xs font-semibold px-2 py-0.5 rounded bg-neutral-100 text-neutral-700 border border-neutral-200">
-                        {m.badge}
-                      </span>
-                    </div>
-
-                    <h3 className="font-semibold text-neutral-900 text-base">{m.title}</h3>
-                    <p className="text-xs text-neutral-500 mt-2 line-clamp-3 leading-relaxed">
-                      {m.description}
-                    </p>
-                  </div>
-
-                  <div className="mt-5 pt-4 border-t border-neutral-100 flex items-center justify-between">
-                    <a
-                      href={masterClient.getTemplateUrl(m.entityKey)}
-                      download
-                      className="inline-flex items-center gap-1.5 text-xs text-neutral-600 hover:text-neutral-900 font-medium px-2 py-1 rounded hover:bg-neutral-100 transition-colors"
-                      title="Download clean CSV Excel template"
-                    >
-                      <Download className="w-3.5 h-3.5" />
-                      <span>Template</span>
-                    </a>
-
-                    <Link
-                      href={m.href}
-                      className="inline-flex items-center gap-1 text-xs font-semibold text-[#315C45] hover:text-blue-800"
-                    >
-                      <span>Manage</span>
-                      <ArrowRight className="w-3.5 h-3.5" />
-                    </Link>
-                  </div>
-                </div>
-              </Card>
-            );
-          })}
+      {/* Header Banner */}
+      <div className="bg-white border border-neutral-200 rounded-xl p-6 shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <h1 className="text-2xl font-bold text-neutral-900 tracking-tight">
+            Master Data Management
+          </h1>
+          <p className="text-sm text-neutral-600 mt-1 max-w-2xl">
+            Centralized, unit-aware master registries for Opti Matrix. Maintained with duplicate prevention,
+            strict validations, audit trails, and import template capabilities.
+          </p>
         </div>
       </div>
+
+      {/* Master Data Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        {modules.map((m) => {
+          const Icon = m.icon;
+          return (
+            <Card key={m.title} className="hover:shadow-md transition-shadow flex flex-col justify-between border-neutral-200">
+              <div className="flex flex-col h-full justify-between">
+                <div>
+                  <div className="flex items-center justify-between mb-4">
+                    <div className={`w-10 h-10 rounded-lg flex items-center justify-center border ${m.color}`}>
+                      <Icon className="w-5 h-5" />
+                    </div>
+                    <span className="text-xs font-semibold px-2 py-0.5 rounded bg-neutral-100 text-neutral-700 border border-neutral-200">
+                      {m.badge}
+                    </span>
+                  </div>
+
+                  <h3 className="font-semibold text-neutral-900 text-base">{m.title}</h3>
+                  <p className="text-xs text-neutral-500 mt-2 line-clamp-3 leading-relaxed">
+                    {m.description}
+                  </p>
+                </div>
+
+                <div className="mt-5 pt-4 border-t border-neutral-100 flex items-center justify-between">
+                  <a
+                    href={masterClient.getTemplateUrl(m.entityKey)}
+                    download
+                    className="inline-flex items-center gap-1.5 text-xs text-neutral-600 hover:text-neutral-900 font-medium px-2 py-1 rounded hover:bg-neutral-100 transition-colors"
+                    title="Download clean CSV Excel template"
+                  >
+                    <Download className="w-3.5 h-3.5" />
+                    <span>Template</span>
+                  </a>
+
+                  <Link
+                    href={m.href}
+                    className="inline-flex items-center gap-1 text-xs font-semibold text-[#315C45] hover:text-blue-800"
+                  >
+                    <span>Manage</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+              </div>
+            </Card>
+          );
+        })}
+      </div>
+    </div>
   );
 }

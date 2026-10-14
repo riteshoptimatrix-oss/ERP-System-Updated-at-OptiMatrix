@@ -91,7 +91,7 @@ ENTITY_TEMPLATES = {
 
 class ExcelImportRepository:
     """
-    Enterprise Migration & Upload Repository for RG Tech.
+    Enterprise Migration & Upload Repository for Opti Matrix.
     Performs parsing, dry-run validations, duplicate detection, row-level error breakdown,
     and auditable idempotent commits.
     """
@@ -120,7 +120,7 @@ class ExcelImportRepository:
         ws.title = f"Template_{entity_type.value}"
 
         # Instruction row
-        ws.append([f"RG Tech - IMPORT TEMPLATE FOR {entity_type.value.upper()}"])
+        ws.append([f"Opti Matrix - IMPORT TEMPLATE FOR {entity_type.value.upper()}"])
         ws.append(["Note: Do not rename column headers. Required columns are marked in Blue."])
         ws.append([])
 

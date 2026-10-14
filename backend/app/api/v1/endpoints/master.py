@@ -281,12 +281,7 @@ async def create_master_record(
     Create a new master record with validation, duplicate code prevention, and audit stamp.
     Requires 'master:create' permission.
     """
-    if current_user.get("role") == RoleName.SUPER_ADMIN.value:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Super Admin (Owner) has strict read-only monitoring access. Master record creation is prohibited."
-        )
-    if "master:create" not in current_user.get("permissions", []):
+    if current_user.get("role") != RoleName.SUPER_ADMIN.value and "master:create" not in current_user.get("permissions", []):
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Permission 'master:create' required.")
 
     cfg = ENTITY_CONFIG.get(entity)
@@ -324,12 +319,7 @@ async def update_master_record(
     Update an existing master record with duplicate code prevention and audit trail.
     Requires 'master:update' permission.
     """
-    if current_user.get("role") == RoleName.SUPER_ADMIN.value:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Super Admin (Owner) has strict read-only monitoring access. Master record updates are prohibited."
-        )
-    if "master:update" not in current_user.get("permissions", []):
+    if current_user.get("role") != RoleName.SUPER_ADMIN.value and "master:update" not in current_user.get("permissions", []):
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Permission 'master:update' required.")
 
     cfg = ENTITY_CONFIG.get(entity)
@@ -369,12 +359,7 @@ async def delete_master_record(
     Deactivate or permanently remove a master record.
     Requires 'master:update' (or 'master:delete' / 'master:administer') permission.
     """
-    if current_user.get("role") == RoleName.SUPER_ADMIN.value:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Super Admin (Owner) has strict read-only monitoring access. Master record deletion is prohibited."
-        )
-    if "master:update" not in current_user.get("permissions", []):
+    if current_user.get("role") != RoleName.SUPER_ADMIN.value and "master:update" not in current_user.get("permissions", []):
         raise HTTPException(status_code=status.HTTP_403_FORBIDDEN, detail="Permission 'master:update' required.")
 
     repo = get_repo(entity)

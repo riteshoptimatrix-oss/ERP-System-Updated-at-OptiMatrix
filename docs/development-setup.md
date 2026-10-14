@@ -1,6 +1,6 @@
 # Development Setup & Operations Guide
 
-This guide details local development and containerized Docker setup for the RG Tech ERP.
+This guide details local development and containerized Docker setup for the Opti Matrix ERP.
 
 ---
 

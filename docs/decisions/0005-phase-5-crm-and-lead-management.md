@@ -4,7 +4,7 @@ Date: 2026-10-10
 Status: Accepted
 
 ## Context
-RG Tech requires a CRM and Lead Management system for managing incoming machinery inquiries across its two manufacturing units (Unit 1 & Unit 2). Key business requirements:
+Opti Matrix requires a CRM and Lead Management system for managing incoming machinery inquiries across its two manufacturing units (Unit 1 & Unit 2). Key business requirements:
 1. Capture inquiries from various sources (Direct Inquiry, Trade Expo, Website, Referral, Cold Outreach, Existing Clients).
 2. Track lead stage progression (`NEW` -> `CONTACTED` -> `QUALIFIED` -> `PROPOSAL_SENT` -> `NEGOTIATION` -> `CONVERTED` / `LOST`).
 3. Schedule follow-ups, logging interactions (calls, meetings, emails, site visits, notes).

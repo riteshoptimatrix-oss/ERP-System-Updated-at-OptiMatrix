@@ -38,7 +38,7 @@ export const inventoryClient = {
   async getDashboard(unit_id?: string): Promise<InventoryDashboardSummary> {
     const query = unit_id ? `?unit_id=${unit_id}` : '';
     const res = await apiClient.get<InventoryDashboardSummary>(`/inventory/dashboard${query}`);
-    if (!res.data) throw new Error('Failed to fetch inventory dashboard metrics');
+    if (!res.data) throw new Error(res.error?.message || 'Failed to fetch inventory dashboard metrics');
     return res.data;
   },
 
@@ -57,7 +57,7 @@ export const inventoryClient = {
 
     const qs = query.toString() ? `?${query.toString()}` : '';
     const res = await apiClient.get<PaginatedResponse<StockBalance>>(`/inventory/balances${qs}`);
-    if (!res.data) throw new Error('Failed to retrieve stock balances');
+    if (!res.data) throw new Error(res.error?.message || 'Failed to retrieve stock balances');
     return res.data;
   },
 

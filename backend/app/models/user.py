@@ -80,7 +80,7 @@ class RoleDefinition(BaseModel):
     permissions: List[str]  # List of "module:action"
 
 
-# Default RBAC Matrix definition for RG Tech
+# Default RBAC Matrix definition for Opti Matrix
 ALL_MODULES = [m.value for m in ModuleName]
 ALL_ACTIONS = [a.value for a in ActionType]
 
@@ -299,9 +299,7 @@ JOB_ROLE_DEFAULT_PERMISSIONS = {
 
 DEFAULT_ROLE_PERMISSIONS = {
     RoleName.SUPER_ADMIN: [
-        f"{m}:{ActionType.READ.value}" for m in ALL_MODULES
-    ] + [
-        f"{m}:{ActionType.EXPORT.value}" for m in ALL_MODULES
+        f"{m}:{a}" for m in ALL_MODULES for a in ALL_ACTIONS
     ],
     RoleName.ADMIN: [
         f"{m}:{a}" for m in ALL_MODULES for a in ALL_ACTIONS
@@ -362,11 +360,11 @@ def resolve_user_permissions(user_doc: Dict[str, Any], role_doc: Optional[Dict[s
     - Base role permissions (from database role doc or DEFAULT_ROLE_PERMISSIONS)
     - All assigned job roles from JOB_ROLE_DEFAULT_PERMISSIONS (supports multi-job roles)
     - Any direct custom permissions granted to the user account
-    - Super Admin (Owner) is strictly enforced to read + export permissions only across all modules
+    - Super Admin has full unrestricted access across all modules and actions
     """
     role_str = user_doc.get("role", RoleName.EMPLOYEE.value)
 
-    # Super Admin (Owner) strict executive read-only policy
+    # Super Admin has full unrestricted access to all permissions
     if role_str == RoleName.SUPER_ADMIN.value:
         return sorted(list(set(DEFAULT_ROLE_PERMISSIONS[RoleName.SUPER_ADMIN])))
 

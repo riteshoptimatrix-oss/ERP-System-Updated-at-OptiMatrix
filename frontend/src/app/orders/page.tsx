@@ -45,7 +45,7 @@ const ORDER_STATUS_OPTIONS: { label: string; value: OrderStatus | 'ALL' }[] = [
 ];
 
 export default function SalesOrdersPage() {
-  const { activeUnit, hasPermission } = useAuth();
+  const { activeUnit, hasPermission, isLoading } = useAuth();
   const canRead = hasPermission('orders', 'read');
   const canCreate = hasPermission('orders', 'create');
 
@@ -92,7 +92,7 @@ export default function SalesOrdersPage() {
 
   // Load KPI Dashboard metrics
   const fetchDashboardMetrics = useCallback(async () => {
-    if (!canRead) return;
+    if (!canRead || isLoading) return;
     try {
       setIsMetricsLoading(true);
       const data = await ordersClient.getDashboard(activeUnit || undefined);
@@ -102,11 +102,11 @@ export default function SalesOrdersPage() {
     } finally {
       setIsMetricsLoading(false);
     }
-  }, [canRead, activeUnit]);
+  }, [canRead, isLoading, activeUnit]);
 
   // Load Paginated Orders
   const fetchOrders = useCallback(async () => {
-    if (!canRead) return;
+    if (!canRead || isLoading) return;
     try {
       setIsLoadingOrders(true);
       const params: ListOrdersParams = {
@@ -124,7 +124,7 @@ export default function SalesOrdersPage() {
     } finally {
       setIsLoadingOrders(false);
     }
-  }, [canRead, searchQuery, selectedStatus, activeUnit, page]);
+  }, [canRead, isLoading, searchQuery, selectedStatus, activeUnit, page]);
 
   // Load Master data for creation dropdowns
   const loadMasterData = useCallback(async () => {
@@ -141,12 +141,16 @@ export default function SalesOrdersPage() {
   }, []);
 
   useEffect(() => {
-    fetchDashboardMetrics();
-  }, [fetchDashboardMetrics]);
+    if (!isLoading && canRead) {
+      fetchDashboardMetrics();
+    }
+  }, [fetchDashboardMetrics, isLoading, canRead]);
 
   useEffect(() => {
-    fetchOrders();
-  }, [fetchOrders]);
+    if (!isLoading && canRead) {
+      fetchOrders();
+    }
+  }, [fetchOrders, isLoading, canRead]);
 
   useEffect(() => {
     if (isCreateOpen) {
@@ -366,7 +370,7 @@ export default function SalesOrdersPage() {
     },
   ];
 
-  if (!canRead) {
+  if (!isLoading && !canRead) {
     return (
       <div className="max-w-md mx-auto mt-20 text-center p-8 bg-white  rounded-xl shadow-sm border border-[#E7E5DE] ">
         <ShieldAlert className="w-12 h-12 text-amber-600 mx-auto mb-3" />

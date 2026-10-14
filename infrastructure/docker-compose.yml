@@ -36,7 +36,7 @@ services:
       ENVIRONMENT: development
       HOST: 0.0.0.0
       PORT: 8000
-      PROJECT_NAME: "RG Tech ERP"
+      PROJECT_NAME: "Opti Matrix ERP"
       API_V1_PREFIX: /api/v1
       LOG_LEVEL: INFO
       LOG_JSON_FORMAT: "true"

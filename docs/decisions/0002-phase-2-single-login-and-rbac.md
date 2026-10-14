@@ -4,7 +4,7 @@
 Accepted
 
 ## Context
-The entire RG Tech Manufacturing ERP requires **ONE shared authentication system and ONE login page**.
+The entire Opti Matrix Manufacturing ERP requires **ONE shared authentication system and ONE login page**.
 All users across all manufacturing operations (Sales, Inventory, BOM, Production, QC, Wastage, Power, HR, Payroll, Finance) authenticate through the same entrypoint. Following authentication, access to modules, actions, and specific plants (Unit 1 vs Unit 2) must be strictly governed by role and permission assignments.
 
 ## Decisions

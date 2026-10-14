@@ -86,7 +86,7 @@ export default function ChangePasswordPage() {
             <Building2 className="w-4 h-4 text-white" />
           </div>
           <div>
-            <span className="font-semibold text-sm tracking-tight text-[#202722]">RG TECH ERP</span>
+            <span className="font-semibold text-sm tracking-tight text-[#202722]">Opti Matrix ERP</span>
             <span className="text-xs text-[#73786F] ml-2 font-mono">ENFLOW PRECISION SYSTEMS</span>
           </div>
         </div>
@@ -118,7 +118,7 @@ export default function ChangePasswordPage() {
                   Set Your Secure Password
                 </h1>
                 <p className="text-xs sm:text-sm text-[#73786F] leading-relaxed">
-                  Welcome to RG Tech ERP. Your account was provisioned with a temporary initial password.
+                  Welcome to Opti Matrix ERP. Your account was provisioned with a temporary initial password.
                   To protect manufacturing operations and access your workspace, please create a new confidential password.
                 </p>
               </div>
@@ -321,11 +321,10 @@ export default function ChangePasswordPage() {
               <button
                 type="submit"
                 disabled={isSubmitting || !isValid}
-                className={`w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-lg text-xs font-semibold text-white transition-all shadow-xs order-1 sm:order-2 ${
-                  isValid && !isSubmitting
+                className={`w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-lg text-xs font-semibold text-white transition-all shadow-xs order-1 sm:order-2 ${isValid && !isSubmitting
                     ? 'bg-[#315C45] hover:bg-[#284a37] cursor-pointer'
                     : 'bg-[#315C45]/50 cursor-not-allowed'
-                }`}
+                  }`}
               >
                 {isSubmitting ? (
                   <>
@@ -346,7 +345,7 @@ export default function ChangePasswordPage() {
 
       {/* Footer */}
       <footer className="border-t border-[#E6E4DC] bg-[#FFFFFF] px-6 py-3 text-center text-xs text-[#73786F]">
-        <span>RG Tech Enterprise Resource Planning • Secure Authentication Gateway</span>
+        <span>Opti Matrix Enterprise Resource Planning • Secure Authentication Gateway</span>
       </footer>
     </div>
   );

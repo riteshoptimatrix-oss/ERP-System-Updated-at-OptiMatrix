@@ -1,11 +1,11 @@
-# RG Tech Manufacturing ERP
+# Opti Matrix Manufacturing ERP
 
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg?logo=fastapi)](https://fastapi.tiangolo.com)
 [![Next.js](https://img.shields.io/badge/Next.js-16.4+-black.svg?logo=next.js)](https://nextjs.org/)
 [![MongoDB](https://img.shields.io/badge/MongoDB-8.0+-47A248.svg?logo=mongodb)](https://mongodb.com/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0+-38B2AC.svg?logo=tailwind-css)](https://tailwindcss.com/)
 
-Production-grade Manufacturing ERP system for **RG Tech**, operating two primary industrial manufacturing units:
+Production-grade Manufacturing ERP system for **Opti Matrix**, operating two primary industrial manufacturing units:
 - **Unit 1**: Heavy Machining, Boring, Milling, and Fabrication.
 - **Unit 2**: Finishing, Precision Sub-assembly, Quality Control, and Dispatch.
 

@@ -49,7 +49,7 @@ def create_application() -> FastAPI:
     app = FastAPI(
         title=settings.PROJECT_NAME,
         version="0.1.0",
-        description="Production-grade Manufacturing ERP Backend for RG Tech (Unit 1: Heavy Machining & Unit 2: Precision Assembly & QC)",
+        description="Production-grade Manufacturing ERP Backend for Opti Matrix (Unit 1: Heavy Machining & Unit 2: Precision Assembly & QC)",
         lifespan=lifespan,
         docs_url="/docs" if not settings.is_production else None,
         redoc_url="/redoc" if not settings.is_production else None,

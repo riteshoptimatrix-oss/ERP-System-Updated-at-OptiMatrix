@@ -81,7 +81,7 @@ export default function LoginPage() {
             </div>
             <div>
               <span className="font-semibold text-base tracking-tight text-[#202722] block font-sans">
-                RG TECH
+                Opti Matrix
               </span>
               <span className="text-[11px] font-medium tracking-wider text-[#73786F] uppercase block">
                 Enterprise Operations
@@ -156,8 +156,8 @@ export default function LoginPage() {
 
         {/* Footer info */}
         <div className="relative z-15 pt-6 border-t border-[#E6E4DC] flex flex-wrap items-center justify-between gap-2 text-xs text-[#73786F]">
-          <h2><span>&copy; 2023 RG Tech Inc.</span></h2>
-          <span className="font-mono text-[15px]">RG Tech Manufacturing ERP &bull; Dual-Facility Architecture</span>
+          <h2><span>&copy; 2023 Opti Matrix Inc.</span></h2>
+          <span className="font-mono text-[15px]">Opti Matrix Manufacturing ERP &bull; Dual-Facility Architecture</span>
         </div>
       </section>
 
@@ -177,7 +177,7 @@ export default function LoginPage() {
                 Welcome back
               </h2>
               <p className="text-xs sm:text-sm text-[#73786F] mt-1.5">
-                Sign in to your RG Tech workspace.
+                Sign in to your Opti Matrix workspace.
               </p>
             </div>
 
@@ -292,7 +292,7 @@ export default function LoginPage() {
 
           {/* Understated bottom badge */}
           <div className="mt-6 text-center text-xs text-[#73786F]">
-            <span>RG Tech ERP &bull; Protected by enterprise RBAC</span>
+            <span>Opti Matrix ERP &bull; Protected by enterprise RBAC</span>
           </div>
         </div>
       </section>

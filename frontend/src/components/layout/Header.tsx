@@ -3,9 +3,9 @@
 import React from 'react';
 import Link from 'next/link';
 import { Badge } from '@/components/ui/Badge';
-import { useAuth } from '@/context/AuthContext';
 import { Button } from '@/components/ui/Button';
-import { LogOut, UserCircle, Eye } from 'lucide-react';
+import { useAuth } from '@/context/AuthContext';
+import { LogOut, UserCircle, ShieldCheck } from 'lucide-react';
 
 export interface HeaderProps {
   onToggleSidebar?: () => void;
@@ -37,7 +37,7 @@ export const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
             </div>
             <div>
               <h1 className="text-base font-semibold text-[#0F172A] leading-tight">
-                RG Tech
+                Opti Matrix
               </h1>
               <p className="text-xs text-[#64748B]">
                 Manufacturing Operations ERP
@@ -85,9 +85,9 @@ export const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
                 <UserCircle className="h-4 w-4 text-[#0F172A]" />
                 <span className="font-semibold text-[#0F172A]">{user.full_name}</span>
                 {user.role === 'SUPER_ADMIN' ? (
-                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold tracking-wider uppercase bg-amber-100 text-amber-900 border border-amber-300">
-                    <Eye className="h-3 w-3 text-amber-700" />
-                    Read-Only Owner
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded text-[10px] font-bold tracking-wider uppercase bg-purple-100 text-purple-900 border border-purple-300">
+                    <ShieldCheck className="h-3 w-3 text-purple-700" />
+                    Super Admin (Full Access)
                   </span>
                 ) : (
                   <Badge variant="neutral">{user.role}</Badge>

@@ -1,7 +1,7 @@
 # Architecture Decision Record (ADR) 0012: Phase 12 - HR, Attendance, and Payroll Management
 
 ## Context
-RG Tech operates two manufacturing facilities (`Unit 1` and `Unit 2`) with specialized production line staff, CNC machinists, QC technicians, warehouse workers, and general administration personnel. To ensure seamless production operations, accurate cost allocation, and strict statutory compliance, the enterprise requires an auditable Human Resources, Attendance, and Payroll management module.
+Opti Matrix operates two manufacturing facilities (`Unit 1` and `Unit 2`) with specialized production line staff, CNC machinists, QC technicians, warehouse workers, and general administration personnel. To ensure seamless production operations, accurate cost allocation, and strict statutory compliance, the enterprise requires an auditable Human Resources, Attendance, and Payroll management module.
 
 Crucial business mandates for this implementation:
 1. **Attendance-to-Payroll Integration**: Payroll calculations must be grounded in verified daily punch records, approved leaves, loss-of-pay (LOP) deductions for unpaid absences, and supervisor-approved overtime hours.

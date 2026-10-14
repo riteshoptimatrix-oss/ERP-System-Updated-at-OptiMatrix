@@ -338,20 +338,16 @@ export default function UsersManagementPage() {
                       </div>
                     </td>
                     <td className="py-3 px-3">
-                      {currentUser?.role === 'SUPER_ADMIN' ? (
-                        <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-mono font-medium bg-slate-100 text-slate-500 border border-slate-200">
-                          Read-only
-                        </span>
-                      ) : currentUser?.id !== u.id && hasPermission('users', 'update') ? (
+                      {currentUser?.id !== u.id && (hasPermission('users', 'update') || currentUser?.role === 'SUPER_ADMIN') ? (
                         <div className="flex items-center gap-1.5">
-                          {/* HR can only reset EMPLOYEE passwords, Admin can reset non-super-admin */}
-                          {(currentUser?.role === 'ADMIN' || (currentUser?.role === 'HR' && u.role === 'EMPLOYEE')) && (
+                          {/* Super Admin, Admin, and HR (for employees) can reset passwords */}
+                          {(currentUser?.role === 'SUPER_ADMIN' || currentUser?.role === 'ADMIN' || (currentUser?.role === 'HR' && u.role === 'EMPLOYEE')) && (
                             <Button
                               variant="outline"
                               size="sm"
                               onClick={() => openResetModal(u)}
                               className="text-[11px] py-1 px-2 flex items-center gap-1 text-slate-700 hover:text-emerald-700"
-                              title="Reset Employee Password"
+                              title="Reset Password"
                             >
                               <RotateCcw className="h-3 w-3" />
                               Reset
@@ -550,9 +546,12 @@ export default function UsersManagementPage() {
                       <option value="ADMIN">Admin (Assigned administrative permissions)</option>
                     )}
                     <option value="HR">HR (Assigned HR permissions)</option>
+                    {currentUser?.role === 'SUPER_ADMIN' && (
+                      <option value="SUPER_ADMIN">Super Admin (Full access to all features)</option>
+                    )}
                   </select>
                   <p className="text-[10px] text-slate-500 mt-0.5">
-                    Super Admin (Owner) is strict read-only executive monitoring.
+                    Super Admin has full access to all features across both manufacturing units.
                   </p>
                 </div>
 

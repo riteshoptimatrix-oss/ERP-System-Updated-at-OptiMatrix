@@ -261,7 +261,7 @@ export default function EmployeePayrollPage() {
                   <h3 className="text-base font-bold text-[#0F172A]">
                     Payslip Breakdown &bull; {selectedPayslip.period}
                   </h3>
-                  <span className="text-[11px] text-[#64748B]">RG Tech Manufacturing Operations ERP</span>
+                  <span className="text-[11px] text-[#64748B]">Opti Matrix Manufacturing Operations ERP</span>
                 </div>
               </div>
               <button

@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from app.api.v1.endpoints import (
     health, auth, users, roles, audit, dashboard, master, crm, orders,
     inventory, bom, production, wastage, power, hr, payroll, finance,
-    reports, imports, employee, notifications, tasks,
+    reports, imports, employee, notifications, tasks, announcements,
 )
 
 api_router = APIRouter()
@@ -30,4 +30,5 @@ api_router.include_router(imports.router)
 api_router.include_router(employee.router)
 api_router.include_router(notifications.router)
 api_router.include_router(tasks.router)
+api_router.include_router(announcements.router)
 

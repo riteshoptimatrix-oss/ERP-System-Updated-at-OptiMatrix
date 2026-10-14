@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# RG Tech ERP - Automated MongoDB Recovery Script
+# Opti Matrix ERP - Automated MongoDB Recovery Script
 # Restores database from a compressed mongodump archive with safety confirmation.
 # ==============================================================================
 

@@ -33,12 +33,17 @@ class ApiClient {
       }
     }
 
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), 6000);
+
     try {
       const response = await fetch(url, {
         credentials: 'include', // Automatically send and receive HttpOnly session cookies
         ...options,
+        signal: options.signal || controller.signal,
         headers,
       });
+      clearTimeout(timeoutId);
 
       const contentType = response.headers.get('content-type');
       let responseData: unknown = null;
@@ -48,10 +53,18 @@ class ApiClient {
       }
 
       if (!response.ok) {
-        const errorBody = responseData as { error?: ApiError } | null;
-        const errorData: ApiError = errorBody?.error || {
+        const errorBody = responseData as { error?: ApiError; detail?: string | any } | null;
+        let errorMessage = response.statusText || 'Request failed';
+        if (errorBody?.error?.message) {
+          errorMessage = errorBody.error.message;
+        } else if (typeof errorBody?.detail === 'string') {
+          errorMessage = errorBody.detail;
+        } else if (Array.isArray(errorBody?.detail)) {
+          errorMessage = errorBody.detail.map((d: any) => d.msg || JSON.stringify(d)).join(', ');
+        }
+        const errorData: ApiError = {
           code: response.status,
-          message: response.statusText || 'Request failed',
+          message: errorMessage,
         };
         return {
           status: response.status,
@@ -72,6 +85,8 @@ class ApiClient {
           message: errorMessage,
         },
       };
+    } finally {
+      clearTimeout(timeoutId);
     }
   }
 

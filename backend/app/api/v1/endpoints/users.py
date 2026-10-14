@@ -33,8 +33,8 @@ async def get_departments_and_roles_metadata():
             {
                 "type": AccountType.SUPER_ADMIN.value,
                 "label": "Super Admin (Owner)",
-                "access": "Sirf read-only monitoring",
-                "assignable": False,
+                "access": "Full access to all features",
+                "assignable": True,
             },
             {
                 "type": AccountType.ADMIN.value,
@@ -124,8 +124,8 @@ async def create_user(
     """
     current_role = current_user.get("role")
 
-    # 1. Super Admin (Owner) accounts cannot be provisioned via user management
-    if payload.role == RoleName.SUPER_ADMIN or payload.account_type == AccountType.SUPER_ADMIN:
+    # 1. Super Admin accounts cannot be provisioned by non-Super-Admins
+    if current_role != RoleName.SUPER_ADMIN.value and (payload.role == RoleName.SUPER_ADMIN or payload.account_type == AccountType.SUPER_ADMIN):
         raise HTTPException(
             status_code=status.HTTP_400_BAD_REQUEST,
             detail="Super Admin (Owner) accounts cannot be provisioned via user management."
@@ -273,10 +273,10 @@ async def update_user(
                     status_code=status.HTTP_400_BAD_REQUEST,
                     detail="Cannot deactivate the final active Super Admin (Owner) account. System requires at least one active Owner."
                 )
-        if current_role != RoleName.ADMIN.value:
+        if current_role not in [RoleName.ADMIN.value, RoleName.SUPER_ADMIN.value]:
             raise HTTPException(
                 status_code=status.HTTP_403_FORBIDDEN,
-                detail="Only authorized Administrators can update profile settings for Super Admin."
+                detail="Only authorized Administrators or Super Admin can update profile settings for Super Admin."
             )
 
     # 2. HR Privilege Escalation Prevention

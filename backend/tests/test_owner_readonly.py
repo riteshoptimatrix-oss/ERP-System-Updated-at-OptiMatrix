@@ -88,11 +88,9 @@ async def test_owner_search_filter_paginate_allowed(async_client: AsyncClient, s
 
 
 @pytest.mark.asyncio
-async def test_owner_prohibited_from_creating_or_updating_business_records(async_client: AsyncClient, setup_test_users):
+async def test_super_admin_has_full_access_to_create_records(async_client: AsyncClient, setup_test_users):
     """
-    Test that Owner CANNOT create or update business records:
-    POST /orders, POST /inventory/adjust, POST /bom, POST /production/orders, etc.
-    All must return HTTP 403 Forbidden with zero database mutation and security audit log entry.
+    Test that Super Admin HAS full access to create business records and provision users.
     """
     login_res = await async_client.post(
         "/api/v1/auth/login",
@@ -108,52 +106,22 @@ async def test_owner_prohibited_from_creating_or_updating_business_records(async
         settings.CSRF_HEADER_NAME: owner_csrf
     }
 
-    db = mongodb_manager.get_database()
-    initial_orders_count = await db["sales_orders"].count_documents({})
-    initial_users_count = await db["users"].count_documents({})
-
-    # 1. Prohibited: Create Sales Order
-    order_payload = {
-        "customer_id": "cust123",
-        "order_date": "2026-10-12",
-        "delivery_due_date": "2026-10-25",
-        "unit_id": "Unit_1",
-        "items": [
-            {
-                "product_id": "prod1",
-                "product_code": "PROD-1",
-                "product_name": "Hydraulic Pump",
-                "quantity": 5,
-                "unit_price": 1000.0
-            }
-        ]
-    }
-    order_res = await async_client.post("/api/v1/orders", json=order_payload, cookies=cookies, headers=headers)
-    assert order_res.status_code == 403
-    assert "read-only monitoring access" in order_res.json()["error"]["message"]
-
-    # Verify database was NOT touched
-    current_orders_count = await db["sales_orders"].count_documents({})
-    assert current_orders_count == initial_orders_count
-
-    # 2. Prohibited: Create User
+    # 1. Super Admin CAN create User
     user_payload = {
-        "email": "hackeduser@rgtech.com",
-        "full_name": "Intruder User",
+        "email": "ownercreateduser@rgtech.com",
+        "full_name": "Owner Provisioned User",
         "password": "Password123!",
         "role": "EMPLOYEE",
         "allowed_units": ["Unit_1"]
     }
     user_res = await async_client.post("/api/v1/users", json=user_payload, cookies=cookies, headers=headers)
-    assert user_res.status_code == 403
+    assert user_res.status_code == 201
+    assert user_res.json()["email"] == "ownercreateduser@rgtech.com"
 
-    current_users_count = await db["users"].count_documents({})
-    assert current_users_count == initial_users_count
-
-    # 3. Prohibited: Create Master Customer
+    # 2. Super Admin CAN create Master Customer
     cust_payload = {
-        "code": "CUST-OWNER-TEST",
-        "name": "Owner Prohibited Customer",
+        "code": "CUST-OWNER-SUCCESS",
+        "name": "Super Admin Customer",
         "gstin": "24ABCDE1234F1Z5",
         "pan": "ABCDE1234F",
         "billing_address": "Test Street",
@@ -163,42 +131,14 @@ async def test_owner_prohibited_from_creating_or_updating_business_records(async
         "unit_id": "Unit_1"
     }
     cust_res = await async_client.post("/api/v1/master/customers", json=cust_payload, cookies=cookies, headers=headers)
-    assert cust_res.status_code == 403
-
-    # 4. Prohibited: Inventory Adjustment
-    adjust_payload = {
-        "item_id": "item123",
-        "warehouse_id": "wh123",
-        "batch_no": "BATCH-1",
-        "physical_count": 10.0,
-        "reason_code": "PHYSICAL_COUNT_AUDIT",
-        "notes": "Unauthorized Owner count"
-    }
-    adj_res = await async_client.post("/api/v1/inventory/adjust", json=adjust_payload, cookies=cookies, headers=headers)
-    assert adj_res.status_code == 403
-
-    # 5. Prohibited: Create Production Order
-    prod_payload = {
-        "product_id": "prod123",
-        "bom_id": "bom123",
-        "planned_quantity": 50.0,
-        "unit_id": "Unit_1",
-        "target_start_date": "2026-10-12",
-        "target_completion_date": "2026-10-20"
-    }
-    prod_res = await async_client.post("/api/v1/production/orders", json=prod_payload, cookies=cookies, headers=headers)
-    assert prod_res.status_code == 403
-
-    # Verify audit log recorded security denials
-    denials = await db["audit_logs"].find({"action": "SECURITY_OWNER_MUTATION_DENIED"}).to_list(10)
-    assert len(denials) >= 3
+    assert cust_res.status_code == 201
+    assert cust_res.json()["code"] == "CUST-OWNER-SUCCESS"
 
 
 @pytest.mark.asyncio
-async def test_owner_cannot_execute_workflows_or_change_roles(async_client: AsyncClient, setup_test_users):
+async def test_super_admin_can_update_user_roles(async_client: AsyncClient, setup_test_users):
     """
-    Test that Owner cannot approve, reject, submit, confirm, or cancel workflows,
-    nor update roles or permissions.
+    Test that Super Admin can update roles and permissions of other users.
     """
     login_res = await async_client.post(
         "/api/v1/auth/login",
@@ -214,23 +154,6 @@ async def test_owner_cannot_execute_workflows_or_change_roles(async_client: Asyn
         settings.CSRF_HEADER_NAME: owner_csrf
     }
 
-    # Workflow transition: Submit order
-    submit_res = await async_client.post("/api/v1/orders/fakeid123/submit", cookies=cookies, headers=headers)
-    assert submit_res.status_code == 403
-
-    # Workflow transition: Confirm order
-    confirm_res = await async_client.post("/api/v1/orders/fakeid123/confirm", cookies=cookies, headers=headers)
-    assert confirm_res.status_code == 403
-
-    # Workflow transition: Cancel order
-    cancel_res = await async_client.post(
-        "/api/v1/orders/fakeid123/cancel",
-        json={"reason": "Owner test cancel"},
-        cookies=cookies,
-        headers=headers
-    )
-    assert cancel_res.status_code == 403
-
     # Attempt to change another user's role via PATCH /api/v1/users/{id}
     target_user_id = setup_test_users["pm1_id"]
     patch_res = await async_client.patch(
@@ -239,13 +162,13 @@ async def test_owner_cannot_execute_workflows_or_change_roles(async_client: Asyn
         cookies=cookies,
         headers=headers
     )
-    assert patch_res.status_code == 403
+    assert patch_res.status_code == 200
 
-    # Verify the target user was NOT modified
+    # Verify the target user was modified
     db = mongodb_manager.get_database()
     from bson import ObjectId
     user_doc = await db["users"].find_one({"_id": ObjectId(target_user_id)})
-    assert user_doc["role"] == "PRODUCTION_MANAGER"
+    assert user_doc["role"] == "ADMIN"
 
 
 @pytest.mark.asyncio

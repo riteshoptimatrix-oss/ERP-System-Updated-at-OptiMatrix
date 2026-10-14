@@ -13,6 +13,11 @@ export const AppShell: React.FC<{ children: React.ReactNode }> = ({ children }) 
   const [mobileSidebarOpen, setMobileSidebarOpen] = useState(false);
   const isAuthPage = pathname === '/login' || pathname === '/change-password';
 
+  // If user is on the login or change-password page, render immediately without blocking on session check
+  if (isAuthPage) {
+    return <>{children}</>;
+  }
+
   if (isLoading) {
     return (
       <div className="min-h-[500px] flex items-center justify-center bg-[#F8FAFC]">
@@ -22,11 +27,6 @@ export const AppShell: React.FC<{ children: React.ReactNode }> = ({ children }) 
         </div>
       </div>
     );
-  }
-
-  // If user is on the login or change-password page, render full-bleed without the main dashboard header/sidebar
-  if (isAuthPage) {
-    return <>{children}</>;
   }
 
   // If unauthenticated on another route, render header and children
@@ -42,27 +42,6 @@ export const AppShell: React.FC<{ children: React.ReactNode }> = ({ children }) 
   return (
     <>
       <Header onToggleSidebar={() => setMobileSidebarOpen(!mobileSidebarOpen)} />
-      {user.role === 'SUPER_ADMIN' && (
-        <div className="bg-[#0F172A] text-white border-b border-neutral-700/60 px-4 py-2 sm:px-6">
-          <div className="max-w-7xl mx-auto flex flex-col sm:flex-row sm:items-center sm:justify-between gap-1 text-xs">
-            <div className="flex items-center gap-2">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
-              </span>
-              <span className="font-mono tracking-wider font-bold text-amber-400 uppercase text-[11px] bg-amber-950/60 border border-amber-500/30 px-2 py-0.5 rounded">
-                READ-ONLY MONITORING
-              </span>
-              <span className="text-slate-200 font-medium">
-                Super Admin (Owner) Executive Surveillance Mode
-              </span>
-            </div>
-            <div className="text-slate-400 text-[11px] hidden sm:block">
-              Full cross-unit read access (Unit 1 & 2) • Business mutations & approvals strictly prohibited
-            </div>
-          </div>
-        </div>
-      )}
       <div className="flex min-h-[calc(100vh-4rem)]">
         <Sidebar
           isOpen={mobileSidebarOpen}

@@ -588,7 +588,7 @@ export default function EmployeesPage() {
                 <option value="HR">HR (Assigned HR permissions)</option>
               </select>
               <p className="text-[11px] text-slate-500 mt-1">
-                Super Admin (Owner) is reserved for strict read-only executive monitoring.
+                Super Admin has full access to all features across both manufacturing units.
               </p>
             </div>
 

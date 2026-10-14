@@ -4,7 +4,7 @@ Date: 2026-10-10
 Status: Accepted
 
 ## Context
-Manufacturing machinery at RG Tech across `Unit 1` and `Unit 2` requires multi-level Bill of Materials (BOM) management linking finished products to raw material component requirements. Key requirements include:
+Manufacturing machinery at Opti Matrix across `Unit 1` and `Unit 2` requires multi-level Bill of Materials (BOM) management linking finished products to raw material component requirements. Key requirements include:
 1. Version and revision history (`R1`, `R2`, ...) where approved revisions are strictly immutable.
 2. Distinct active status per product and manufacturing unit.
 3. Explicit scrap / wastage allowance formulas and estimated component costing.

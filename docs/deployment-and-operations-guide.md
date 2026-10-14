@@ -1,4 +1,4 @@
-# RG Tech ERP - Production Deployment & Operations Guide
+# Opti Matrix ERP - Production Deployment & Operations Guide
 
 ## 1. Environment Architecture & Configuration
 
@@ -17,7 +17,7 @@ The ERP system consists of three coordinated tiers:
 | `ENVIRONMENT` | Deployment environment | `production` |
 | `HOST` | Bind host | `0.0.0.0` |
 | `PORT` | Bind port | `8000` |
-| `PROJECT_NAME` | Application Name | `RG Tech ERP` |
+| `PROJECT_NAME` | Application Name | `Opti Matrix ERP` |
 | `API_V1_PREFIX` | API Route Prefix | `/api/v1` |
 | `LOG_LEVEL` | Logging verbosity | `INFO` |
 | `LOG_JSON_FORMAT` | Structured JSON log output | `true` |

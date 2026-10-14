@@ -1,8 +1,8 @@
-# RG Tech ERP - Release Notes v1.0.0 (Phase 1–15 Production Release)
+# Opti Matrix ERP - Release Notes v1.0.0 (Phase 1–15 Production Release)
 
 ## Release Overview
 **Version**: 1.0.0-GA  
-**Target Architecture**: RG Tech Dual-Facility Industrial Machinery ERP (`Unit 1` and `Unit 2`)  
+**Target Architecture**: Opti Matrix Dual-Facility Industrial Machinery ERP (`Unit 1` and `Unit 2`)  
 **Deployment Date**: October 2026  
 
 ---

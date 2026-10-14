@@ -169,8 +169,8 @@ export default function RolesPage() {
               </div>
               <div className="pt-3 border-t border-slate-100 text-[11px] text-slate-500">
                 {acc.type === 'SUPER_ADMIN' && (
-                  <p className="text-amber-800 bg-amber-50 p-2 rounded border border-amber-200/60">
-                    Executive surveillance across Unit 1 &amp; 2. All business creations, modifications, approvals, and mutations strictly blocked.
+                  <p className="text-purple-800 bg-purple-50 p-2 rounded border border-purple-200/60">
+                    Full executive access across Unit 1 &amp; 2. Complete administrative, operational, approval, and management authority across all ERP modules.
                   </p>
                 )}
                 {acc.type === 'ADMIN' && (

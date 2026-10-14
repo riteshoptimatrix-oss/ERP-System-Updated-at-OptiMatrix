@@ -4,7 +4,7 @@
 Accepted
 
 ## Context
-RG Tech operates two manufacturing facilities: Unit 1 and Unit 2. Users authenticate via a single corporate login system (Phase 2) and must only access modules, metrics, and data relevant to their role and authorized facility assignments.
+Opti Matrix operates two manufacturing facilities: Unit 1 and Unit 2. Users authenticate via a single corporate login system (Phase 2) and must only access modules, metrics, and data relevant to their role and authorized facility assignments.
 
 Phase 3 requires:
 1. A unified responsive application shell with collapsible desktop/mobile navigation drawers.

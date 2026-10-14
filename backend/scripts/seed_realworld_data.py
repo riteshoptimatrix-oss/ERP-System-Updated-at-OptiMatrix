@@ -1,5 +1,5 @@
 """
-RG Tech ERP — Real-World Data Seeding Script
+Opti Matrix ERP — Real-World Data Seeding Script
 File: backend/scripts/seed_realworld_data.py
 
 Seeds realistic manufacturing ERP data across all departments:
@@ -1198,7 +1198,7 @@ async def run_cleanup(db):
 # MAIN
 # ---------------------------------------------------------------------------
 async def main():
-    parser = argparse.ArgumentParser(description="RG Tech ERP Real-World Data Seeding Script")
+    parser = argparse.ArgumentParser(description="Opti Matrix ERP Real-World Data Seeding Script")
     parser.add_argument("--cleanup", action="store_true", help="Remove all seeded real-world data")
     args = parser.parse_args()
 
@@ -1214,7 +1214,7 @@ async def main():
             return
 
         print("=" * 65)
-        print("RG Tech ERP - Real-World Data Seeding")
+        print("Opti Matrix ERP - Real-World Data Seeding")
         print("=" * 65)
 
         print("\n[1/12] Categories...")

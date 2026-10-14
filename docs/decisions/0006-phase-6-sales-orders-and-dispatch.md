@@ -4,7 +4,7 @@ Date: 2026-10-10
 Status: Accepted
 
 ## Context
-Phase 6 implements the core order-to-cash operational execution for RG Tech across its two manufacturing units (`Unit 1` and `Unit 2`):
+Phase 6 implements the core order-to-cash operational execution for Opti Matrix across its two manufacturing units (`Unit 1` and `Unit 2`):
 1. Sales order capture linked to verified Customer Master records and Finished Product Master catalog.
 2. Complete order state lifecycle: `DRAFT` -> `SUBMITTED` -> `CONFIRMED` -> `PARTIALLY_DISPATCHED` -> `DISPATCHED` / `CANCELLED`.
 3. Packing slip generation referencing specific sales orders and tracking crate/pallet package counts and weights.

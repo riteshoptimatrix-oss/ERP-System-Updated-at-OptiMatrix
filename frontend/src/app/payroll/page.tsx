@@ -988,7 +988,7 @@ export default function PayrollPage() {
           <div className="space-y-4 text-sm max-h-[75vh] overflow-y-auto">
             <div className="border-b pb-3 flex justify-between">
               <div>
-                <h3 className="font-bold text-base text-slate-900">RG TECH PVT LTD</h3>
+                <h3 className="font-bold text-base text-slate-900">Opti Matrix PVT LTD</h3>
                 <p className="text-xs text-slate-500">
                   Manufacturing Unit: {selectedPayslip.unit_id === 'Unit_1' ? 'Unit 1 (Machining)' : selectedPayslip.unit_id === 'Unit_2' ? 'Unit 2 (Assembly & QC)' : 'All Units'}
                 </p>

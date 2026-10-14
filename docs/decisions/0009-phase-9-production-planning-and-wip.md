@@ -4,7 +4,7 @@ Date: 2026-10-10
 Status: Accepted
 
 ## Context
-RG Tech requires structured production planning and work-in-progress (WIP) tracking across both manufacturing units (`Unit 1` and `Unit 2`).
+Opti Matrix requires structured production planning and work-in-progress (WIP) tracking across both manufacturing units (`Unit 1` and `Unit 2`).
 Key operational mandates include:
 1. Production planning and order generation linked to approved BOM revisions and specific manufacturing units.
 2. Verified material availability and reservation checks prior to issuing raw materials.

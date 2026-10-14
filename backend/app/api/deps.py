@@ -130,50 +130,18 @@ async def get_current_active_user(user: Dict[str, Any] = Depends(get_current_use
 def require_permission(module: Any, action: Any):
     """
     Dependency factory to check if the user has the required permission: 'module:action'.
-    Super Admin (Owner) has strict monitoring-only read and export access across all modules.
-    Any business mutation (create, update, approve, post, administer, etc.) attempted by
-    Super Admin is strictly rejected with an audit-logged HTTP 403 Forbidden.
+    Super Admin has full access across all modules and actions.
     """
     async def permission_checker(request: Request, user: Dict[str, Any] = Depends(get_current_active_user)) -> Dict[str, Any]:
         module_val = module.value if hasattr(module, "value") else str(module)
         action_val = action.value if hasattr(action, "value") else str(action)
         required_perm = f"{module_val}:{action_val}"
-        user_perms = user.get("permissions", [])
+        user_perms = user.get("permissions") or []
         user_role = user.get("role")
 
-        # Super Admin (Owner) strict executive monitoring policy:
+        # Super Admin has full unrestricted access across all features
         if user_role == RoleName.SUPER_ADMIN.value:
-            if action_val in [ActionType.READ.value, ActionType.EXPORT.value]:
-                return user
-
-            # Reject and log security denial for any mutation
-            logger.warning(
-                f"SECURITY DENIAL: Prohibited business mutation attempt by Super Admin (Owner) {user.get('email')}: action='{action_val}', module='{module_val}', url='{request.url.path}'"
-            )
-            try:
-                db = mongodb_manager.get_database()
-                await db["audit_logs"].insert_one({
-                    "user_id": str(user.get("_id", "")),
-                    "email": user.get("email"),
-                    "action": "SECURITY_OWNER_MUTATION_DENIED",
-                    "resource": required_perm,
-                    "timestamp": datetime.now(timezone.utc),
-                    "status": "DENIED",
-                    "details": {
-                        "method": request.method,
-                        "url": str(request.url.path),
-                        "module": module_val,
-                        "action": action_val,
-                        "reason": "Super Admin (Owner) account is strictly read-only monitoring and cannot perform business mutations or administrative modifications."
-                    }
-                })
-            except Exception as audit_err:
-                logger.error(f"Failed to record audit log for denied owner mutation: {audit_err}")
-
-            raise HTTPException(
-                status_code=status.HTTP_403_FORBIDDEN,
-                detail="Super Admin (Owner) has strict read-only monitoring access. Business creation, modification, approval, and workflow actions are prohibited."
-            )
+            return user
 
         if required_perm not in user_perms:
             logger.warning(
@@ -186,6 +154,24 @@ def require_permission(module: Any, action: Any):
         return user
 
     return permission_checker
+
+
+def require_super_admin(user: Dict[str, Any] = Depends(get_current_active_user)) -> Dict[str, Any]:
+    """
+    Dependency that restricts endpoint access strictly to Super Admin.
+    Any other role (HR, Production Manager, Inventory Manager, Employee, etc.)
+    receives an immediate HTTP 403 Forbidden.
+    """
+    user_role = user.get("role")
+    if user_role != RoleName.SUPER_ADMIN.value:
+        logger.warning(
+            f"Forbidden access attempt to Super Admin restricted endpoint by user '{user.get('email')}' (Role: {user_role})"
+        )
+        raise HTTPException(
+            status_code=status.HTTP_403_FORBIDDEN,
+            detail="Access forbidden: this action is exclusively restricted to the Super Admin."
+        )
+    return user
 
 
 def require_unit_access(unit_param_name: str = "unit_id"):

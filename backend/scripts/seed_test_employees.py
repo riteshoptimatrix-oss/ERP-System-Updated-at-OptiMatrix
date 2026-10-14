@@ -1,5 +1,5 @@
 """
-RG Tech ERP - Test Employee Seeding and Verification Script
+Opti Matrix ERP - Test Employee Seeding and Verification Script
 File: backend/scripts/seed_test_employees.py
 
 Provisions 16 deterministic employee accounts (2 per department across 8 departments)
@@ -229,7 +229,7 @@ def verify_environment_safety():
 def generate_credentials_file_content(verified_accounts: List[Dict[str, Any]]) -> str:
     """Generate exact Login Cred.txt content from verified accounts."""
     lines = [
-        "RG TECH — INITIAL EMPLOYEE LOGIN CREDENTIALS",
+        "Opti Matrix — INITIAL EMPLOYEE LOGIN CREDENTIALS",
         "Environment: Development/Test",
         f"Initial password for all listed accounts: {INITIAL_DEFAULT_PASSWORD}",
         "Employees must change their password on first login.",
@@ -262,7 +262,7 @@ async def run_seed(db: Any) -> int:
     verified_accounts: List[Dict[str, Any]] = []
 
     print("=" * 60)
-    print("RG TECH ERP — Seeding 16 Test Employee Accounts (8 Departments)")
+    print("Opti Matrix ERP — Seeding 16 Test Employee Accounts (8 Departments)")
     print("=" * 60)
 
     for item in SEED_EMPLOYEES_DATA:
@@ -459,7 +459,7 @@ async def run_reset_passwords(db: Any) -> int:
 
 
 async def main():
-    parser = argparse.ArgumentParser(description="RG Tech ERP Test Employee Seeding Script")
+    parser = argparse.ArgumentParser(description="Opti Matrix ERP Test Employee Seeding Script")
     parser.add_argument("--cleanup", action="store_true", help="Remove seeded test employee accounts")
     parser.add_argument("--verify", action="store_true", help="Verify existence and schema of test employee accounts")
     parser.add_argument("--reset-passwords", action="store_true", help="Reset all 16 test accounts to initial password (admin@123)")

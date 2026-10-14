@@ -15,7 +15,7 @@ except ImportError:
 
 class ReportsRepository:
     """
-    Central reporting and analytics engine for RG Tech.
+    Central reporting and analytics engine for Opti Matrix.
     Reconciles real transactions across orders, dispatch, inventory, BOM,
     production, QC, wastage, downtime, attendance, payroll, and finance.
     """
@@ -810,7 +810,7 @@ class ReportsRepository:
         ws.title = f"{report_response.report_type.value.title()} Report"
 
         # Title and KPI banner
-        ws.append([f"RG Tech ERP - {report_response.report_type.value.upper()} REPORT"])
+        ws.append([f"Opti Matrix ERP - {report_response.report_type.value.upper()} REPORT"])
         title_cell = ws.cell(row=1, column=1)
         title_cell.font = Font(name="Arial", size=14, bold=True, color="1E3A8A")
 

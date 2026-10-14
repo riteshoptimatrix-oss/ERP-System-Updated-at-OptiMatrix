@@ -6,8 +6,8 @@ import { AuthProvider } from '@/context/AuthContext';
 import { AppShell } from '@/components/layout/AppShell';
 
 export const metadata: Metadata = {
-  title: 'RG Tech ERP',
-  description: 'Production-grade Manufacturing ERP System for RG Tech (Unit 1: Heavy Machining & Unit 2: Assembly & QC)',
+  title: 'Opti Matrix ERP',
+  description: 'Production-grade Manufacturing ERP System for Opti Matrix (Unit 1: Heavy Machining & Unit 2: Assembly & QC)',
 };
 
 export default function RootLayout({

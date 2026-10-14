@@ -61,10 +61,9 @@ async def test_super_admin_has_read_only_monitoring_access(async_client: AsyncCl
 
 
 @pytest.mark.asyncio
-async def test_owner_strict_read_only_blocks_business_mutations(async_client: AsyncClient, setup_test_users):
+async def test_super_admin_has_full_access_to_mutations(async_client: AsyncClient, setup_test_users):
     """
-    Test Super Admin (Owner) cannot mutate business records or provision users.
-    Any write attempt returns HTTP 403 and records a security audit log.
+    Test Super Admin has full access to mutate business records and provision users.
     """
     login_res = await async_client.post(
         "/api/v1/auth/login",
@@ -91,14 +90,9 @@ async def test_owner_strict_read_only_blocks_business_mutations(async_client: As
             "allowed_units": ["BOTH"]
         }
     )
-    assert create_res.status_code == 403
-    assert "read-only monitoring" in create_res.json()["error"]["message"]
-
-    # Verify audit log was recorded for security denial
-    db = mongodb_manager.get_database()
-    denial_log = await db["audit_logs"].find_one({"action": "SECURITY_OWNER_MUTATION_DENIED"})
-    assert denial_log is not None
-    assert denial_log["status"] == "DENIED"
+    assert create_res.status_code == 201
+    created_user = create_res.json()
+    assert created_user["email"] == "testownerwrite@rgtech.com"
 
 
 @pytest.mark.asyncio

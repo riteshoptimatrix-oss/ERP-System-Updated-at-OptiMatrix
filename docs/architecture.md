@@ -1,8 +1,8 @@
-# RG Tech Manufacturing ERP Architecture Documentation
+# Opti Matrix Manufacturing ERP Architecture Documentation
 
 ## 1. System Overview
 
-RG Tech operates two manufacturing divisions:
+Opti Matrix operates two manufacturing divisions:
 - **Unit 1**: Heavy Machining, Boring, Milling, and primary steel fabrication.
 - **Unit 2**: Finishing, Precision Sub-assembly, Quality Inspection, and Final Dispatch.
 
@@ -92,7 +92,7 @@ The **RG ERP** is architected to unify all spreadsheet-based registers and legac
 
 ## 4. Multi-Unit Data Modeling Strategy
 
-RG Tech operates **Unit 1** and **Unit 2**.
+Opti Matrix operates **Unit 1** and **Unit 2**.
 To allow unified operations with plant-level isolation:
 1. Every manufacturing collection (Orders, Production Batches, Inventory, Machines) will include an indexed `unit_id` or `facility_code` field (`"Unit_1"` | `"Unit_2"`).
 2. Repositories will support multi-tenant query filters scoped to either plant or corporate consolidated views.

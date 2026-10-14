@@ -192,14 +192,13 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }
   };
 
-  const isReadOnlyOwner = user?.role === 'SUPER_ADMIN';
+  const isReadOnlyOwner = false;
 
   const hasPermission = (module: string, action: string): boolean => {
     if (!user) return false;
-    // Super Admin (Owner) executive monitoring policy:
-    // Only 'read' and 'export' are permitted. All business mutations, approvals, and write operations are strictly prohibited.
+    // Super Admin has full unrestricted access across all modules and actions
     if (user.role === 'SUPER_ADMIN') {
-      return action === 'read' || action === 'export';
+      return true;
     }
     const required = `${module}:${action}`;
     return user.permissions.includes(required);

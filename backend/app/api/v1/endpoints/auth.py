@@ -43,7 +43,7 @@ def _safe_parse_units(units: Any) -> List[ManufacturingUnit]:
     "/login",
     response_model=AuthStatusResponse,
     summary="Unified Enterprise Login",
-    description="Single login entrypoint for all RG Tech employees across all operational modules."
+    description="Single login entrypoint for all Opti Matrix employees across all operational modules."
 )
 @limiter.limit(settings.RATE_LIMIT_LOGIN)
 async def login(
@@ -88,13 +88,20 @@ async def login(
     is_valid = verify_password(clean_pwd, user.get("hashed_password", "")) or verify_password(credentials.password, user.get("hashed_password", ""))
     
     # Seamless initial employee credentials support:
-    # If user has not changed initial password yet, accept both company standard variants ('admin123' and 'admin@123')
+    # If user has not changed initial password yet, accept <FirstName>@rgtech.com as well as company standard variants
     if not is_valid and (user.get("must_change_password") or user.get("password_changed_at") is None):
+        first_name = (user.get("full_name") or "").split()[0]
         initial_variants = ["admin123", "admin@123", "admin123!", "admin@123!"]
-        if clean_pwd.lower() in initial_variants:
+        if first_name:
+            initial_variants.extend([
+                f"{first_name}@rgtech.com",
+                f"{first_name.lower()}@rgtech.com",
+                f"{first_name.capitalize()}@rgtech.com",
+            ])
+        if clean_pwd.lower() in [v.lower() for v in initial_variants]:
             is_valid = True
         else:
-            for variant in ["admin123", "admin@123", "Admin123", "Admin@123"]:
+            for variant in initial_variants:
                 if verify_password(variant, user.get("hashed_password", "")):
                     is_valid = True
                     break
@@ -500,16 +507,11 @@ async def reset_password(
     and invalidates all existing sessions of the target employee.
     """
     user_perms = current_user.get("permissions", [])
-    if "users:update" not in user_perms and "hr:update" not in user_perms and "users:create" not in user_perms:
+    user_role = current_user.get("role")
+    if user_role != RoleName.SUPER_ADMIN.value and "users:update" not in user_perms and "hr:update" not in user_perms and "users:create" not in user_perms:
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Permission required to reset employee passwords."
-        )
-
-    if current_user.get("role") == RoleName.SUPER_ADMIN.value:
-        raise HTTPException(
-            status_code=status.HTTP_403_FORBIDDEN,
-            detail="Super Admin (Owner) is strictly read-only and cannot perform password resets."
         )
 
     if not ObjectId.is_valid(payload.user_id):
@@ -540,7 +542,7 @@ async def reset_password(
                 detail="HR accounts cannot reset Administrator or Owner passwords."
             )
 
-    if target_user.get("role") == RoleName.SUPER_ADMIN.value:
+    if target_user.get("role") == RoleName.SUPER_ADMIN.value and current_user.get("role") != RoleName.SUPER_ADMIN.value:
         raise HTTPException(
             status_code=status.HTTP_403_FORBIDDEN,
             detail="Owner password cannot be reset via this workflow."

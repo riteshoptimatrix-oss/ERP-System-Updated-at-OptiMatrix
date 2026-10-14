@@ -18,7 +18,7 @@ class Settings(BaseSettings):
     ENVIRONMENT: str = Field(default="development", description="App environment (development, staging, production, test)")
     HOST: str = Field(default="0.0.0.0", description="Bind host")
     PORT: int = Field(default=8000, description="Bind port")
-    PROJECT_NAME: str = Field(default="RG Tech ERP", description="Project display name")
+    PROJECT_NAME: str = Field(default="Opti Matrix ERP", description="Project display name")
     API_V1_PREFIX: str = Field(default="/api/v1", description="API v1 route prefix")
 
     # Logging

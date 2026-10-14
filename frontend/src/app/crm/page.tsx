@@ -47,7 +47,7 @@ const PRIORITY_OPTIONS: { label: string; value: LeadPriority | 'ALL' }[] = [
 ];
 
 export default function CrmDashboardPage() {
-  const { activeUnit, hasPermission, user } = useAuth();
+  const { activeUnit, hasPermission, user, isLoading } = useAuth();
   const canRead = hasPermission('crm', 'read');
   const canCreate = hasPermission('crm', 'create');
 
@@ -303,7 +303,7 @@ export default function CrmDashboardPage() {
     },
   ];
 
-  if (!canRead) {
+  if (!isLoading && !canRead) {
     return (
       <div className="max-w-md mx-auto mt-20 text-center p-8 bg-white  rounded-xl shadow-sm border border-[#E7E5DE] ">
         <ShieldAlert className="w-12 h-12 text-amber-600 mx-auto mb-3" />

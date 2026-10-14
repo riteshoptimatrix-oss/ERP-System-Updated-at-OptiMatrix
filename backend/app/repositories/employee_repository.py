@@ -17,7 +17,7 @@ from app.schemas.notification import NotificationType
 
 logger = logging.getLogger("app.repositories.employee")
 
-# Configured annual leave quotas for RG Tech manufacturing staff
+# Configured annual leave quotas for Opti Matrix manufacturing staff
 ANNUAL_LEAVE_QUOTAS = {
     LeaveType.CASUAL_LEAVE.value: {"name": "Casual Leave (CL)", "quota": 12.0},
     LeaveType.SICK_LEAVE.value: {"name": "Sick Leave (SL)", "quota": 10.0},

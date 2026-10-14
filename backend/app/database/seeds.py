@@ -147,6 +147,14 @@ async def seed_initial_roles_and_admin() -> None:
         await db["import_batches"].create_index("status")
         await db["import_batches"].create_index("created_at")
 
+        # Announcements and read tracking collections indexes
+        await db["announcements"].create_index([("published_at", -1)])
+        await db["announcements"].create_index("is_deleted")
+        await db["announcements"].create_index("audience_type")
+        await db["announcements"].create_index("recipients")
+        await db["announcement_reads"].create_index([("announcement_id", 1), ("user_id", 1)], unique=True)
+        await db["announcement_reads"].create_index("user_id")
+
         # 2. Seed standard Chart of Accounts
         from app.repositories.finance_repository import FinanceRepository
         finance_repo = FinanceRepository(db)
@@ -167,7 +175,7 @@ async def seed_initial_roles_and_admin() -> None:
                 upsert=True
             )
 
-        # 3. Super Admin root user (RG Tech Owner)
+        # 3. Super Admin root user (Opti Matrix Owner)
         admin_primary_email = "admin@rgtech.com"
         admin_username = "admin"
         admin_password_hash = hash_password("admin123")
@@ -341,7 +349,7 @@ async def seed_initial_roles_and_admin() -> None:
         ann_col = db["announcements"]
         if await ann_col.count_documents({}) == 0:
             await ann_col.insert_one({
-                "title": "Welcome to RG Tech Operational ERP",
+                "title": "Welcome to Opti Matrix Operational ERP",
                 "content": "All manufacturing staff and supervisors across Unit 1 and Unit 2 must record daily shift check-ins and submit leave applications through the Employee Workspace.",
                 "priority": "HIGH",
                 "unit_id": "BOTH",

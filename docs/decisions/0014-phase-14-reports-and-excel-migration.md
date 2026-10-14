@@ -4,7 +4,7 @@
 Accepted
 
 ## Context
-RG Tech operates across two manufacturing plants (`Unit 1` and `Unit 2`) producing industrial machinery. To support operational decisions, leadership and plant managers require real-time reporting across sales, orders, dispatches, stock ledger, BOM versions, production orders, WIP, quality inspections, scrap wastage, power downtime, workforce attendance, payroll runs, and double-entry financial journals. Furthermore, migrating legacy Excel workbooks must ensure data integrity without risking accidental overwrites or data loss.
+Opti Matrix operates across two manufacturing plants (`Unit 1` and `Unit 2`) producing industrial machinery. To support operational decisions, leadership and plant managers require real-time reporting across sales, orders, dispatches, stock ledger, BOM versions, production orders, WIP, quality inspections, scrap wastage, power downtime, workforce attendance, payroll runs, and double-entry financial journals. Furthermore, migrating legacy Excel workbooks must ensure data integrity without risking accidental overwrites or data loss.
 
 ## Decisions
 

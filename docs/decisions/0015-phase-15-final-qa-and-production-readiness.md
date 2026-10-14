@@ -4,7 +4,7 @@
 Accepted
 
 ## Context
-RG Tech ERP encompasses 15 development phases covering Multi-Tenant Facility Scoping (`Unit 1` and `Unit 2`), Master Data, CRM, Sales & Dispatch, Inventory & Ledger Movements, Bill of Materials, Production Planning & WIP, Quality Control & Vendor Hold Enforcement, Scrap Wastage & Power Downtime, HR & Payroll, Double-Entry Finance & Accounting, Cross-Module Analytical Reports, and Auditable Excel Migration. Phase 15 is the culmination: conducting a thorough security and QA audit, verifying end-to-end integration across all subsystems, testing deployment containers, validating backup/restore procedures, and creating the definitive production release guide.
+Opti Matrix ERP encompasses 15 development phases covering Multi-Tenant Facility Scoping (`Unit 1` and `Unit 2`), Master Data, CRM, Sales & Dispatch, Inventory & Ledger Movements, Bill of Materials, Production Planning & WIP, Quality Control & Vendor Hold Enforcement, Scrap Wastage & Power Downtime, HR & Payroll, Double-Entry Finance & Accounting, Cross-Module Analytical Reports, and Auditable Excel Migration. Phase 15 is the culmination: conducting a thorough security and QA audit, verifying end-to-end integration across all subsystems, testing deployment containers, validating backup/restore procedures, and creating the definitive production release guide.
 
 ## Decisions
 

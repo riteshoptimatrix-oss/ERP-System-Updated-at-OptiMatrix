@@ -164,10 +164,10 @@ async def test_first_login_mandatory_password_change_enforcement(setup_test_db):
 
 
 @pytest.mark.asyncio
-async def test_owner_readonly_monitoring_policy(setup_test_db):
+async def test_super_admin_full_access_policy(setup_test_db):
     """
-    Verifies that Super Admin (Owner) is strictly restricted to read and export.
-    Any mutation attempt is rejected with HTTP 403 Forbidden and logged.
+    Verifies that Super Admin has full unrestricted access across the system.
+    Super Admin can read records, login, and perform creations/mutations.
     """
     db = setup_test_db
     owner_pass = "ValidOwnerPass123!"
@@ -195,11 +195,11 @@ async def test_owner_readonly_monitoring_policy(setup_test_db):
         me_res = await client.get("/api/v1/auth/me")
         assert me_res.status_code == 200
 
-        # Owner CANNOT create users or mutate business state
+        # Owner CAN create users
         mutate_res = await client.post("/api/v1/users", json={
-            "email": "hacked@rgtech.com",
-            "full_name": "Illegal User",
+            "email": "createdbyowner@rgtech.com",
+            "full_name": "Created By Owner",
             "password": "Password123!456",
             "role": "EMPLOYEE"
         }, headers={"X-CSRF-Token": csrf})
-        assert mutate_res.status_code == 403
+        assert mutate_res.status_code == 201

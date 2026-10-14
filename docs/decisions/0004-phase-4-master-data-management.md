@@ -4,7 +4,7 @@
 Accepted
 
 ## Context
-RG Tech operates across two manufacturing facilities: Unit 1 and Unit 2. To eliminate legacy spreadsheet registers and manual tracking, the ERP requires a resilient, audited, and strictly-typed Master Data Management system.
+Opti Matrix operates across two manufacturing facilities: Unit 1 and Unit 2. To eliminate legacy spreadsheet registers and manual tracking, the ERP requires a resilient, audited, and strictly-typed Master Data Management system.
 
 Phase 4 requires:
 1. Customer master

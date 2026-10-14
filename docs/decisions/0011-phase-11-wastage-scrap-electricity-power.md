@@ -4,7 +4,7 @@ Date: 2026-10-10
 Status: Accepted
 
 ## Context
-Manufacturing precision machinery at RG Tech across facilities (`Unit 1` and `Unit 2`) produces physical material scrap and is subject to grid power outages and utility fluctuations. Key operational mandates include:
+Manufacturing precision machinery at Opti Matrix across facilities (`Unit 1` and `Unit 2`) produces physical material scrap and is subject to grid power outages and utility fluctuations. Key operational mandates include:
 1. Daily shop-floor scrap and wastage logging categorized by reason, UoM, and material item.
 2. Association of scrap records with specific production orders and manufacturing units.
 3. Strict separation of machine downtime (outage duration) from physical scrap loss.

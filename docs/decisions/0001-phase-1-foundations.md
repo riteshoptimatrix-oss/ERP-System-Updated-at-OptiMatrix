@@ -4,7 +4,7 @@
 Accepted
 
 ## Context
-RG Tech operates two manufacturing facilities (Unit 1 & Unit 2) and currently tracks plant activities using multiple disconnected spreadsheet registers.
+Opti Matrix operates two manufacturing facilities (Unit 1 & Unit 2) and currently tracks plant activities using multiple disconnected spreadsheet registers.
 Phase 1 requires establishing a high-assurance, production-oriented application foundation for the new Manufacturing ERP system.
 
 ## Decisions

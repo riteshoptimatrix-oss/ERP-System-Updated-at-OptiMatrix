@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # ==============================================================================
-# RG Tech ERP - Automated MongoDB Backup Script
+# Opti Matrix ERP - Automated MongoDB Backup Script
 # Creates compressed, timestamped mongodump archives and cleans up old backups.
 # ==============================================================================
 

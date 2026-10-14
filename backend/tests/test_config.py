@@ -6,7 +6,7 @@ def test_settings_default_values():
     Test Settings defaults.
     """
     settings = Settings()
-    assert settings.PROJECT_NAME == "RG Tech ERP"
+    assert settings.PROJECT_NAME == "Opti Matrix ERP"
     assert settings.PORT == 8000
     assert "http://localhost:3000" in settings.ALLOWED_CORS_ORIGINS
 

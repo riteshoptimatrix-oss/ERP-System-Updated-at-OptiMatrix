@@ -262,7 +262,7 @@ export default function EmployeeNotificationsPage() {
 
                 <div className="mt-4 pt-3 border-t border-[#E2E8F0] flex items-center justify-between text-[11px] text-[#64748B]">
                   <span>Published by: <span className="font-semibold text-[#0F172A]">{ann.author_name || 'Management Office'}</span></span>
-                  <span>RG Tech Manufacturing Operations</span>
+                  <span>Opti Matrix Manufacturing Operations</span>
                 </div>
               </Card>
             ))

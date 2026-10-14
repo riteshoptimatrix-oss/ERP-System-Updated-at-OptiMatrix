@@ -31,10 +31,12 @@ import {
   Upload,
   CheckCircle2,
   AlertCircle,
+  ShieldAlert,
 } from 'lucide-react';
 
 export default function InventoryHubPage() {
-  const { activeUnit, hasPermission } = useAuth();
+  const { activeUnit, hasPermission, isLoading } = useAuth();
+  const canRead = hasPermission('inventory', 'read');
   const canCreate = hasPermission('inventory', 'create');
   const canUpdate = hasPermission('inventory', 'update');
   const canPost = hasPermission('inventory', 'post');
@@ -128,15 +130,17 @@ export default function InventoryHubPage() {
   // Data Fetching Handlers
   // -------------------------------------------------------------
   const fetchDashboard = useCallback(async () => {
+    if (!canRead) return;
     try {
       const data = await inventoryClient.getDashboard(activeUnit === 'BOTH' ? undefined : activeUnit);
       setMetrics(data);
     } catch (err: unknown) {
       console.error('Error fetching inventory summary:', err);
     }
-  }, [activeUnit]);
+  }, [canRead, activeUnit]);
 
   const fetchBalances = useCallback(async () => {
+    if (!canRead) return;
     try {
       setIsLoadingBalances(true);
       const res = await inventoryClient.listBalances({
@@ -153,9 +157,10 @@ export default function InventoryHubPage() {
     } finally {
       setIsLoadingBalances(false);
     }
-  }, [activeUnit, balanceSearch, selectedItemType, belowReorderOnly]);
+  }, [canRead, activeUnit, balanceSearch, selectedItemType, belowReorderOnly]);
 
   const fetchLedger = useCallback(async () => {
+    if (!canRead) return;
     try {
       setIsLoadingLedger(true);
       const res = await inventoryClient.listLedger({
@@ -170,9 +175,10 @@ export default function InventoryHubPage() {
     } finally {
       setIsLoadingLedger(false);
     }
-  }, [activeUnit, ledgerMovementType]);
+  }, [canRead, activeUnit, ledgerMovementType]);
 
   const fetchAlerts = useCallback(async () => {
+    if (!canRead) return;
     try {
       setIsLoadingAlerts(true);
       const data = await inventoryClient.getLowStockAlerts(activeUnit === 'BOTH' ? undefined : activeUnit);
@@ -182,9 +188,10 @@ export default function InventoryHubPage() {
     } finally {
       setIsLoadingAlerts(false);
     }
-  }, [activeUnit]);
+  }, [canRead, activeUnit]);
 
   const fetchMasterData = useCallback(async () => {
+    if (!canRead) return;
     try {
       const [rmRes, fgRes, whRes] = await Promise.all([
         masterClient.list('materials', { page_size: 100 }).catch(() => ({ items: [], total: 0, page: 1, page_size: 100, total_pages: 0 })),
@@ -197,7 +204,7 @@ export default function InventoryHubPage() {
     } catch (err) {
       console.warn('Master metadata for inventory currently unavailable:', err);
     }
-  }, []);
+  }, [canRead]);
 
   useEffect(() => {
     fetchDashboard();
@@ -556,6 +563,18 @@ export default function InventoryHubPage() {
       ),
     },
   ];
+
+  if (!isLoading && !canRead) {
+    return (
+      <div className="max-w-md mx-auto mt-20 text-center p-8 bg-white rounded-xl shadow-sm border border-[#E7E5DE]">
+        <ShieldAlert className="w-12 h-12 text-amber-600 mx-auto mb-3" />
+        <h2 className="text-xl font-bold text-slate-900">Access Restricted</h2>
+        <p className="text-sm text-slate-600 mt-2">
+          You do not possess the required <code>inventory:read</code> permission to view Inventory & Stock.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6">

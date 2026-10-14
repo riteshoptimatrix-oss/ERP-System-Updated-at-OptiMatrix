@@ -26,7 +26,7 @@ export const ordersClient = {
   async getDashboard(unit_id?: string): Promise<OrderDashboardSummary> {
     const query = unit_id ? `?unit_id=${unit_id}` : '';
     const res = await apiClient.get<OrderDashboardSummary>(`/orders/dashboard${query}`);
-    if (!res.data) throw new Error('Failed to fetch orders dashboard metrics');
+    if (!res.data) throw new Error(res.error?.message || 'Failed to fetch orders dashboard metrics');
     return res.data;
   },
 
@@ -46,7 +46,7 @@ export const ordersClient = {
 
     const qs = query.toString() ? `?${query.toString()}` : '';
     const res = await apiClient.get<PaginatedResponse<SalesOrder>>(`/orders${qs}`);
-    if (!res.data) throw new Error('Failed to retrieve sales orders');
+    if (!res.data) throw new Error(res.error?.message || 'Failed to retrieve sales orders');
     return res.data;
   },
 

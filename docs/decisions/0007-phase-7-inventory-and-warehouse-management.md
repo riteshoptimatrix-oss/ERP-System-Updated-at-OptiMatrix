@@ -4,7 +4,7 @@ Date: 2026-10-10
 Status: Accepted
 
 ## Context
-RG Tech requires complete inventory tracking across its manufacturing facilities (`Unit 1` and `Unit 2`) for Raw Materials and Finished Goods. The inventory system must provide:
+Opti Matrix requires complete inventory tracking across its manufacturing facilities (`Unit 1` and `Unit 2`) for Raw Materials and Finished Goods. The inventory system must provide:
 1. Multi-warehouse stock tracking with live on-hand, reserved, and available balance calculations (`available = on_hand - reserved`).
 2. Atomic negative-stock rejection to eliminate phantom balances and prevent overdrafts under high concurrency.
 3. Immutable ledger appending for all transactions (`inventory_ledger`), guaranteeing complete auditability.
