@@ -2060,30 +2060,38 @@ async def seed_payroll(db, emp_map: Dict[str, Any]):
     await items_col.delete_many({"_seed": SEED_TAG})
 
     months = [
-        ("PAY-2026-07", "July 2026", "2026-07-01", "2026-07-31", "PAID"),
-        ("PAY-2026-08", "August 2026", "2026-08-01", "2026-08-31", "PAID"),
-        ("PAY-2026-09", "September 2026", "2026-09-01", "2026-09-30", "PAID"),
-        ("PAY-2026-10", "October 2026", "2026-10-01", "2026-10-31", "DRAFT"),
+        ("PAY-2026-07", "2026-07", "July 2026", "2026-07-01", "2026-07-31", "POSTED"),
+        ("PAY-2026-08", "2026-08", "August 2026", "2026-08-01", "2026-08-31", "POSTED"),
+        ("PAY-2026-09", "2026-09", "September 2026", "2026-09-01", "2026-09-30", "POSTED"),
+        ("PAY-2026-10", "2026-10", "October 2026", "2026-10-01", "2026-10-31", "DRAFT"),
     ]
 
     total_payslips = 0
-    for run_num, month_lbl, s_date, e_date, run_status in months:
+    for run_num, period_str, month_lbl, s_date, e_date, run_status in months:
         gross_total = 0.0
         net_total = 0.0
+        ded_total = 0.0
         count_emps = 0
 
         run_doc = {
             "run_number": run_num,
+            "period": period_str,
             "period_label": month_lbl,
             "start_date": s_date,
             "end_date": e_date,
             "status": run_status,
-            "unit_id": "BOTH",
+            "unit_id": "Unit_1",
+            "working_days_in_month": 26,
             "total_employees": len([e for e in emp_map.values() if e.get("is_active")]),
+            "total_gross_payout": 0.0,
+            "total_deductions": 0.0,
+            "total_net_payout": 0.0,
             "gross_amount": 0.0,
             "net_amount": 0.0,
-            "approved_by": "Ritesh Gajjar" if run_status == "PAID" else None,
-            "processed_at": d_ago(10) if run_status == "PAID" else NOW,
+            "approved_by": "Ritesh Gajjar" if run_status == "POSTED" else None,
+            "posted_by": "Ritesh Gajjar" if run_status == "POSTED" else None,
+            "created_by": "Ritesh Gajjar",
+            "processed_at": d_ago(10) if run_status == "POSTED" else NOW,
             "created_at": d_ago(15),
             "_seed": SEED_TAG,
         }
@@ -2110,34 +2118,47 @@ async def seed_payroll(db, emp_map: Dict[str, Any]):
 
             gross_total += gross
             net_total += net
+            ded_total += tot_ded
             count_emps += 1
 
             payslip_doc = {
                 "payroll_run_id": run_id,
                 "run_number": run_num,
+                "period": period_str,
                 "employee_id": emp["id"],
                 "employee_code": code,
                 "employee_name": emp["name"],
                 "department": emp["dept"],
                 "designation": emp["desig"],
-                "unit_id": emp["unit_id"],
+                "unit_id": emp["unit_id"] if emp["unit_id"] in ["Unit_1", "Unit_2"] else "Unit_1",
+                "standard_working_days": 26,
                 "working_days": 26,
+                "present_days": 24.0,
                 "days_present": 24,
+                "paid_leave_days": 2.0,
+                "unpaid_leave_days": 0.0,
                 "leave_days": 2,
+                "overtime_hours": 4.0,
+                "basic": basic,
                 "basic_salary": basic,
                 "hra": sal["hra"],
+                "conveyance": sal["conveyance_allowance"],
                 "conveyance_allowance": sal["conveyance_allowance"],
                 "special_allowance": sal["special_allowance"],
+                "overtime_pay": round(sal.get("overtime_hourly_rate", 150.0) * 4.0, 2),
                 "gross_earnings": gross,
+                "lop_deduction": 0.0,
                 "pf_deduction": pf,
                 "esi_deduction": esi,
                 "professional_tax": pt,
                 "tds_deduction": tds,
                 "total_deductions": tot_ded,
+                "net_pay": net,
                 "net_payable": net,
-                "payment_status": "PAID" if run_status == "PAID" else "PENDING",
+                "payment_status": "PAID" if run_status == "POSTED" else "PENDING",
                 "bank_name": sal["bank_name"],
                 "bank_account_number": sal["bank_account_number"],
+                "bank_ifsc": sal.get("bank_ifsc", "HDFC0000123"),
                 "created_at": NOW,
                 "_seed": SEED_TAG,
             }
@@ -2147,7 +2168,13 @@ async def seed_payroll(db, emp_map: Dict[str, Any]):
         # Update totals in run doc
         await runs_col.update_one(
             {"_id": res.inserted_id},
-            {"$set": {"gross_amount": round(gross_total, 2), "net_amount": round(net_total, 2)}}
+            {"$set": {
+                "total_gross_payout": round(gross_total, 2),
+                "total_deductions": round(ded_total, 2),
+                "total_net_payout": round(net_total, 2),
+                "gross_amount": round(gross_total, 2),
+                "net_amount": round(net_total, 2),
+            }}
         )
 
     print(f"  [PAYROLL] Seeded {len(months)} Monthly Payroll Runs & {total_payslips} Detailed Payslips.")
@@ -2162,34 +2189,43 @@ async def seed_wastage_and_scrap(db):
     await rep_col.delete_many({"_seed": SEED_TAG})
 
     scrap_logs = [
-        ("SCRAP-2026-0001", "Unit_1", "PRD-2026-0001", "RM-MS-PLATE-6MM",  145.0, "KG", 68.0,  "METAL_TURNINGS", "RECYCLE", "APPROVED"),
-        ("SCRAP-2026-0002", "Unit_1", "PRD-2026-0002", "RM-SS-ROD-20MM",   18.5,  "KG", 280.0, "OFF_CUTS",       "SCRAP_SALE","APPROVED"),
-        ("SCRAP-2026-0003", "Unit_1", "PRD-2026-0004", "RM-CI-CAST-001",   1.0,   "NOS",18500.0,"REJECTED_PARTS", "REWORK",    "LOGGED"),
-        ("SCRAP-2026-0004", "Unit_2", "PRD-2026-0003", "RM-RUBBER-GSKT",   12.0,  "MTR",95.0,  "OFF_CUTS",       "RECYCLE",   "RECONCILED"),
-        ("SCRAP-2026-0005", "Unit_1", "PRD-2026-0007", "RM-MS-PLATE-10MM", 85.0,  "KG", 72.0,  "METAL_TURNINGS", "SCRAP_SALE","APPROVED"),
-        ("SCRAP-2026-0006", "Unit_2", "PRD-2026-0008", "RM-NYLON-BUSH",    8.0,   "NOS",75.0,   "REJECTED_PARTS", "RECYCLE",   "LOGGED"),
-        ("SCRAP-2026-0007", "Unit_1", "PRD-2026-0009", "RM-WELD-ROD-E6013",6.0,   "KG", 160.0, "SLAG",           "SCRAP_SALE","RECONCILED"),
-        ("SCRAP-2026-0008", "Unit_2", "PRD-2026-0003", "RM-BEARING-6205",  2.0,   "NOS",240.0,  "REJECTED_PARTS", "REWORK",    "APPROVED"),
+        ("SCRAP-2026-0001", "Unit_1", "PRD-2026-0001", "RM-MS-PLATE-6MM",  145.0, "KG", 68.0,  "MACHINING_SWARF",    "RECYCLE_INTERNAL", "APPROVED"),
+        ("SCRAP-2026-0002", "Unit_1", "PRD-2026-0002", "RM-SS-ROD-20MM",   18.5,  "KG", 280.0, "CUTTING_OFFCUT",     "SCRAP_YARD_SALE",  "APPROVED"),
+        ("SCRAP-2026-0003", "Unit_1", "PRD-2026-0004", "RM-CI-CAST-001",   1.0,   "NOS",18500.0,"REJECTED_DEFECTIVE", "HOLD_REVIEW",      "SUBMITTED"),
+        ("SCRAP-2026-0004", "Unit_2", "PRD-2026-0003", "RM-RUBBER-GSKT",   12.0,  "MTR",95.0,  "CUTTING_OFFCUT",     "RECYCLE_INTERNAL", "APPROVED"),
+        ("SCRAP-2026-0005", "Unit_1", "PRD-2026-0007", "RM-MS-PLATE-10MM", 85.0,  "KG", 72.0,  "MACHINING_SWARF",    "SCRAP_YARD_SALE",  "APPROVED"),
+        ("SCRAP-2026-0006", "Unit_2", "PRD-2026-0008", "RM-NYLON-BUSH",    8.0,   "NOS",75.0,   "REJECTED_DEFECTIVE", "HOLD_REVIEW",      "SUBMITTED"),
+        ("SCRAP-2026-0007", "Unit_1", "PRD-2026-0009", "RM-WELD-ROD-E6013",6.0,   "KG", 160.0, "OTHER",              "DISPOSAL",         "APPROVED"),
+        ("SCRAP-2026-0008", "Unit_2", "PRD-2026-0003", "RM-BEARING-6205",  2.0,   "NOS",240.0,  "REJECTED_DEFECTIVE", "RECYCLE_INTERNAL", "APPROVED"),
     ]
 
     for entry_num, unit_id, prd_num, item_code, qty, uom, rate, cat, disp, st in scrap_logs:
         cost = round(qty * rate, 2)
         doc = {
             "entry_number": entry_num,
+            "entry_date": date_str(d_ago(15)),
             "unit_id": unit_id,
             "production_order_number": prd_num,
+            "item_id": f"ID-{item_code}",
             "item_code": item_code,
             "item_name": item_code,
+            "item_type": "RAW_MATERIAL",
             "quantity": qty,
             "uom": uom,
+            "unit_cost": rate,
             "standard_cost": rate,
+            "total_cost": cost,
             "total_scrap_value": cost,
             "scrap_category": cat,
+            "reason": f"Shop floor scrap generated during processing of {item_code}",
             "disposition": disp,
             "status": st,
-            "entry_date": date_str(d_ago(15)),
+            "operator_name": "Bhavik Chauhan",
+            "machine_id": "MCH-VMC-01" if unit_id == "Unit_1" else "MCH-ASM-01",
+            "notes": "Verified against shop floor rejection bin",
             "recorded_by": "Bhavik Chauhan",
             "approved_by": "Neha Modi" if st == "APPROVED" else None,
+            "created_by": "Bhavik Chauhan",
             "created_at": d_ago(15),
             "_seed": SEED_TAG,
         }
@@ -2223,19 +2259,24 @@ async def seed_power_and_electricity(db):
         u1_consumed = 980.0 + (day_offset % 12) * 15.0
         doc_u1 = {
             "reading_number": f"ELEC-U1-{61 - day_offset:04d}",
-            "meter_number": "MTR-U1-HT01",
-            "meter_type": "HIGH_TENSION",
-            "unit_id": "Unit_1",
+            "reading_date": d_str,
             "date": d_str,
+            "unit_id": "Unit_1",
+            "meter_id": "MTR-U1-HT01",
+            "meter_number": "MTR-U1-HT01",
+            "meter_type": "GRID_EB",
             "opening_reading_kwh": round(u1_kwh, 2),
             "closing_reading_kwh": round(u1_kwh + u1_consumed, 2),
             "units_consumed_kwh": round(u1_consumed, 2),
             "power_factor": 0.98,
             "peak_demand_kva": 240.0,
+            "shift": "General",
+            "status": "CONFIRMED",
             "dg_units_kwh": 35.0 if day_offset % 7 == 0 else 0.0,
             "tariff_rate_inr": 8.50,
             "total_power_cost": round(u1_consumed * 8.50, 2),
             "recorded_by": "Ramesh Solanki",
+            "created_by": "Ramesh Solanki",
             "created_at": dt,
             "_seed": SEED_TAG,
         }
@@ -2247,19 +2288,24 @@ async def seed_power_and_electricity(db):
         u2_consumed = 360.0 + (day_offset % 8) * 10.0
         doc_u2 = {
             "reading_number": f"ELEC-U2-{61 - day_offset:04d}",
-            "meter_number": "MTR-U2-LT01",
-            "meter_type": "LOW_TENSION",
-            "unit_id": "Unit_2",
+            "reading_date": d_str,
             "date": d_str,
+            "unit_id": "Unit_2",
+            "meter_id": "MTR-U2-LT01",
+            "meter_number": "MTR-U2-LT01",
+            "meter_type": "GRID_EB",
             "opening_reading_kwh": round(u2_kwh, 2),
             "closing_reading_kwh": round(u2_kwh + u2_consumed, 2),
             "units_consumed_kwh": round(u2_consumed, 2),
             "power_factor": 0.99,
             "peak_demand_kva": 95.0,
+            "shift": "General",
+            "status": "CONFIRMED",
             "dg_units_kwh": 0.0,
             "tariff_rate_inr": 8.50,
             "total_power_cost": round(u2_consumed * 8.50, 2),
             "recorded_by": "Chetan Prajapati",
+            "created_by": "Chetan Prajapati",
             "created_at": dt,
             "_seed": SEED_TAG,
         }
@@ -2269,24 +2315,35 @@ async def seed_power_and_electricity(db):
 
     # Power Outages / Grid Cuts
     outages = [
-        ("OUTAGE-2026-0001", "Unit_1", 45, "GRID_TRIP", "GEB 66kV substation feeder isolator flashover", 25.0),
+        ("OUTAGE-2026-0001", "Unit_1", 45, "GRID_FAILURE", "GEB 66kV substation feeder isolator flashover", 25.0),
         ("OUTAGE-2026-0002", "Unit_2", 30, "SCHEDULED_MAINTENANCE", "Transformer tap changer maintenance", 15.0),
-        ("OUTAGE-2026-0003", "Unit_1", 75, "VOLTAGE_FLUCTUATION", "Heavy thunderstorm lightning strike on GIDC overhead lines", 40.0),
-        ("OUTAGE-2026-0004", "Unit_2", 20, "DG_CHANGEOVER", "Quarterly diesel generator load test and switchover", 10.0),
-        ("OUTAGE-2026-0005", "Unit_1", 60, "GRID_TRIP", "Main HT breaker trip due to industrial feeder overload", 32.0),
+        ("OUTAGE-2026-0003", "Unit_1", 75, "GRID_FAILURE", "Heavy thunderstorm lightning strike on GIDC overhead lines", 40.0),
+        ("OUTAGE-2026-0004", "Unit_2", 20, "LOCAL_TRIP", "Quarterly diesel generator load test and switchover", 10.0),
+        ("OUTAGE-2026-0005", "Unit_1", 60, "GRID_FAILURE", "Main HT breaker trip due to industrial feeder overload", 32.0),
     ]
     for inc_num, unit_id, dur_min, cause, desc, fuel_liters in outages:
+        dt_start = d_ago(dur_min // 2)
+        dt_end = dt_start + timedelta(minutes=dur_min)
         out_doc = {
             "incident_number": inc_num,
             "unit_id": unit_id,
-            "incident_date": date_str(d_ago(dur_min // 2)),
+            "incident_date": date_str(dt_start),
+            "start_time": dt_start,
+            "end_time": dt_end,
+            "duration_minutes": float(dur_min),
             "outage_duration_minutes": dur_min,
             "outage_type": cause,
+            "reason": desc,
             "description": desc,
+            "backup_generator_used": True,
+            "fuel_consumed_liters": fuel_liters,
             "dg_diesel_consumed_litres": fuel_liters,
             "production_hours_lost": round(dur_min / 60.0, 2),
+            "affected_departments": ["Machining" if unit_id == "Unit_1" else "Assembly & QC"],
+            "production_order_ids": ["PRD-2026-0001" if unit_id == "Unit_1" else "PRD-2026-0003"],
             "recorded_by": "Ramesh Solanki",
-            "created_at": d_ago(dur_min // 2),
+            "created_by": "Ramesh Solanki",
+            "created_at": dt_start,
             "_seed": SEED_TAG,
         }
         await cuts_col.insert_one(out_doc)
@@ -2332,16 +2389,21 @@ async def seed_orders_and_invoices(db, cust_map: Dict[str, Any], prod_map: Dict[
         subtotal = round(qty * unit_price, 2)
         tax = round(subtotal * 0.18, 2)
         total = round(subtotal + tax, 2)
+        total_dispatched = qty if st == "DISPATCHED" else (1.0 if st == "PARTIALLY_DISPATCHED" else 0.0)
+        disp_pct = round((total_dispatched / qty) * 100.0, 1)
 
         order_doc = {
             "order_number": ord_num,
             "customer_id": cust["id"],
             "customer_code": cust_code,
             "customer_name": cust["name"],
-            "unit_id": unit_id,
+            "customer_po_number": f"PO-{cust_code}-9912",
+            "unit_id": unit_id if unit_id in ["Unit_1", "Unit_2"] else "Unit_1",
             "status": st,
-            "order_date": date_str(ord_d),
+            "order_date": ord_d,
             "delivery_due_date": date_str(del_d),
+            "billing_address": f"Plot {cust_code[-3:]}, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+            "shipping_address": f"Plot {cust_code[-3:]}, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
             "items": [
                 {
                     "product_id": prod["id"],
@@ -2349,6 +2411,9 @@ async def seed_orders_and_invoices(db, cust_map: Dict[str, Any], prod_map: Dict[
                     "product_name": prod["name"],
                     "quantity": qty,
                     "unit_price": unit_price,
+                    "discount_percent": 0.0,
+                    "tax_percent": 18.0,
+                    "dispatched_quantity": total_dispatched,
                     "subtotal": subtotal,
                     "tax_amount": tax,
                     "total_amount": total,
@@ -2357,7 +2422,12 @@ async def seed_orders_and_invoices(db, cust_map: Dict[str, Any], prod_map: Dict[
             ],
             "subtotal": subtotal,
             "tax_total": tax,
+            "grand_total": total,
             "total_amount": total,
+            "total_ordered_qty": qty,
+            "total_dispatched_qty": total_dispatched,
+            "dispatch_percent": disp_pct,
+            "created_by": "Priya Shah",
             "created_at": ord_d,
             "_seed": SEED_TAG,
         }
