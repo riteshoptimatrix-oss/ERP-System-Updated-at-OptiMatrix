@@ -1,0 +1,82 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e2f"
+    },
+    "bill_number": "BILL-2026-001",
+    "vendor_id": "6acf133b35a67d012664f0f6",
+    "vendor_code": "VEND-001",
+    "vendor_name": "Jindal Steel & Power Ltd",
+    "subtotal": 385000.0,
+    "tax_amount": 69300.0,
+    "total_amount": 454300.0,
+    "bill_date": "2026-09-24",
+    "due_date": "2026-10-29",
+    "status": "PAID",
+    "description": "Heavy MS plate raw material consignment",
+    "created_at": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e30"
+    },
+    "bill_number": "BILL-2026-002",
+    "vendor_id": "6acf133b35a67d012664f0f7",
+    "vendor_code": "VEND-002",
+    "vendor_name": "Bharat Heavy Electrical Motors",
+    "subtotal": 142000.0,
+    "tax_amount": 25560.0,
+    "total_amount": 167560.0,
+    "bill_date": "2026-09-24",
+    "due_date": "2026-10-29",
+    "status": "PAID",
+    "description": "AC induction motors batch for ENV machines",
+    "created_at": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e31"
+    },
+    "bill_number": "BILL-2026-003",
+    "vendor_id": "6acf133b35a67d012664f0fa",
+    "vendor_code": "VEND-005",
+    "vendor_name": "SKF Bearings India Ltd",
+    "subtotal": 98000.0,
+    "tax_amount": 17640.0,
+    "total_amount": 115640.0,
+    "bill_date": "2026-09-24",
+    "due_date": "2026-10-29",
+    "status": "OPEN",
+    "description": "SKF 6205ZZ deep groove bearings quarterly batch",
+    "created_at": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e32"
+    },
+    "bill_number": "BILL-2026-004",
+    "vendor_id": "6acf133b35a67d012664f0fc",
+    "vendor_code": "VEND-007",
+    "vendor_name": "Gujarat Precision Castings Ltd",
+    "subtotal": 220000.0,
+    "tax_amount": 39600.0,
+    "total_amount": 259600.0,
+    "bill_date": "2026-09-24",
+    "due_date": "2026-10-29",
+    "status": "OPEN",
+    "description": "Cast iron machine body roughs grade 25",
+    "created_at": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

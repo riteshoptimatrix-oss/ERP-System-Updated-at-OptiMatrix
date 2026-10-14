@@ -1,0 +1,970 @@
+<USER_REQUEST>
+this is Daily Electricity & Scrap Tracker :- 
+Date	Total Production (kg)	Product Type	Startup Scrap (kg)	Cutting Scrap (kg)	Total Scrap (kg)	Scrap % of Production	Electricity Off No. of Times	Total Off Time (min)	Machine Working Hours	Shift Duration (Hr)	Main  Reason	Remarks
+12-Aug-2026	395.00	Braider	2.25	0.50	2.75	0.70%	0	0	8.5	8		
+13-Aug-2026	309.00	Braider	8.00	9.00	17.00	5.50%	1	70	8.5	8	power failure	
+14-Aug-2026	150.00	Tubing	2.10	0.00	15.10	10.07%	2	80	8	8	power failure	
+17-Aug-2026	320.00	Tubing	3.00	0.00	3.00	0.94%	1	5	8	8	power failure	
+18-Aug-2026	255.0	Tubing	35.00	0.80	35.80	14.04%	0	0	8	8	...	
+19-Aug-2026	341.00	Tubing	4.00	0.00	4.00	1.17%	0	0	8	8	...	
+20-Aug-2026	315.00	Tubing	14.50	0.00	14.50	4.60%	1	5	8	8	power failure	
+21-Aug-2026	325.57	Tubing	9.70	0.00	9.70	2.98%	1	5	8	8	power failure	
+24-Aug-2026	319.00	Braider	3.50	6.20	9.70	3.04%	0	0	7.5	8	...	
+25-Aug-2026	261.00	Tubing	5.90	0.90	6.80	2.61%	2	71	8.5	8	power failure	
+26-Aug-2026	358.00	Tubing	9.10	0.10	9.20	2.57%	1	6	8.5	8	power failure	
+27-Aug-2026	319.16	Tubing	4.00	0.20	4.20	1.32%	2	60	8	9	power failure	
+28-Aug-2026	294.00	Tubing	9.00	6.20	15.20	5.17%	2	130	6.5	9	power failure	
+29-Aug-2026	244.00	Tubing	23.6	2.10	25.70	10.53%	2	143	6.5	9	power failure	
+31-Aug-2026	338.00	Tubing	9.10	0.00	9.10	2.69%	3	50	8	9	power failure	
+1-Sep-2026	343.00	Braided	11.00	1.00	12.00	3.50%	2	43	8.5	9	power failure	
+2-Sep-2026	380.00	Braided	6.20	0.50	6.70	1.76%	1	11	8.5	9	power failure	
+3-Sep-2026	366.00	Braided	6.20	6.70	12.90	3.52%	2	14	9	9	power failure	
+4-Sep-2026	484.00	Tubing	..	..	0.00	0.00%	...	...	..	9	...	
+7-Sep-2026	435.00	Tubing	3.00	1.00	4.00	0.92%	0	0	9.5	9	...	
+8-Sep-2026	436.00	Tubing	2.00	0.00	2.00	0.46%	0	0	9.5	9	...	
+9-Sep-2026	272.00	Braided	4.50	1.00	5.50	2.02%	2	30	8	9	power failure	
+10-Sep-2026	410.00	Braided	3.90	0.00	3.90	0.95%	0	0	9	9	...	
+11-Sep-2026	426.00	Braided	7.20	0.00	7.20	1.69%	0	0	9.5	9	...	
+12-Sep-2026	348.00	Braided	7.80	1.00	8.80	2.53%	1	10	9.5	9	power failure	
+14-Sep-2026	373.00	Tubing	1.50	0.00	1.50	0.40%	1	5	8.5	9	power failure	
+15-Sep-2026	360.00	Tubing	5.00	1.00	6.00	1.67%	3	41	9	9	power failure	
+16-Sep-2026	360.00	Tubing	4.00	2.00	6.00	1.67%	3	23	8	9	power failure	
+18-Sep-2026	460.00	Tubing	13.00	1.00	14.00	3.04%	0	0	9	9	power failure	
+21-Sep-2026	408.00	Tubing	4.00	0.00	4.00	0.98%	2	18	9	9	power failure	
+22-Sep-2026	517.00	Tubing	2.00	0.00	2.00	0.39%	1	15	11	12	power failure	
+23-Sep-2026	523.00	Tubing	3.00	0.00	3.00	0.57%	0	0	11	12	...	
+24-Sep-2026	434.00	Tubing	5.00	1.50	6.50	1.50%	2	28	11	12	power failure	
+25-Sep-2026	232.00	Braided	8.00	3.00	11.00	4.74%	4	120	7	12	power failure	
+26-Sep-2026	445.00	Braided	6.00	2.50	8.50	1.91%	1	10	11	12	power failure	
+28-Sep-2026	412.00	Braided	7.20	2.00	9.20	2.23%	2	20	10	12	power failure	
+29-Sep-2026	395.00	Braided & Tubing	5.00	1.00	6.00	1.52%	0	0	10	12	...	
+30-Sep-2026	467.00	Tubing	6.00	2.00	8.00	1.71%	1	5	11	12	power failure	
+1-Oct-2026	390	Tubing	5	2	7.00	0:25:51	2	140	9:40:00	12	power failure	
+2-Oct-2026	0.00				0.00	0.00%						
+3-Oct-2026	320.00	Tubing	4.00	0.00	4.00	1.25%	0	420	5:00:00	12	"The machine started at 3:00 PM 
+due to the late arrival of resin"	
+5-Oct-2026						0.00%						
+
+
+iske hisab se sab kuch hai na ERP System me ?
+
+Also for this :- 
+Daily Power Cut Log 
+
+    	Date	Power Cut Time	Power Restored Time	"Machine Restart 
+    Delay(Min)"	Downtime Duration	Generator Used	Reason	Remarks
+1	06-Aug-2026	10:53 AM	11:05 AM		0:12:00	No	power cut	
+2	06-Aug-2026	15:40	15:50		0:10:00	No	power cut	
+3	06-Aug-2026	5:20 PM	6:22 PM		1:02:00	No	power cut	
+4	07-Aug-2026	10:20	10:40		0:20:00	No	power cut	
+5	07-Aug-2026	4:00 PM	5:00 PM		1:00:00	No	power cut	
+6	10-08-26	2:40 PM	2:50 PM		0:10:00	No	power cut	
+7	10-08-26	3:55 PM	4:05 PM		0:10:00	No	power cut	
+8	10-08-26	4:30 PM	4:40 PM		0:10:00	No	power cut	
+9	10-08-26	10:45 AM	10:55 AM		0:10:00	No	power cut	
+10	13-08-26	14:50	4:00 PM		1:10:00	No	fuse failure	
+11	14-08-26	12:10 PM	1:05 PM		0:55:00	No	power cut	
+12	14-08-26	3:55 PM	4:20 PM		0:25:00	No	power cut	
+13	17-08-26	16:30	4:35 PM		0:05:00	No	power cut	
+14	20-08-26	11:00 AM	11:05 AM		0:05:00	No	power cut	
+14	20-08-26	4:05 PM	4:10 PM		0:05:00	No	power cut	
+15	25-08-26	12:51	12:57 PM		0:06:00	No	power cut	
+16	25-08-26	2:55 PM	4:00 PM		1:05:00	No	power cut	
+17	26-08-26	12:00 PM	12:06 PM		0:06:00	No	power cut	
+18	27-08-26	10:30 AM	11:15 AM		0:45:00	No	power cut	
+19	27-08-26	11:30 AM	11:45 AM		0:15:00	No	power cut	
+20	28-08-26	9:48 AM	09:52		0:04:00	No	power cut	
+21	28-08-26	4:30 PM	6:30 PM		2:00:00	No	power cut	
+22	29-08-26	11:00 AM	1:05 PM		2:05:00	No	power cut	
+23	29-08-26	2:07 PM	2:25 PM		0:18:00	No	power cut	
+24	31-08-26	11:14 AM	11:31 AM		0:17:00	No	power cut	
+25	31-08-26	3:21 PM	3:33 PM		0:12:00	No	power cut	
+26	31-08-26	3:45 PM	4:06 PM		0:21:00	No	power cut	
+27	01-09-26	1:10 PM	1:25 PM		0:15:00	No	power cut	
+28	01-09-26	4:12 PM	4:40 PM		0:28:00	No	power cut	
+29	02-09-26	10:48 AM	10:59 AM		0:11:00	No	power cut	
+30	03-09-26	11:25 AM	11:27 AM		0:02:00	No	power cut	
+31	03-09-26	12:09 PM	12:21 PM		0:12:00	No	power cut	
+32	04-09-26	11:00 AM	11:15 AM		0:15:00	No	power cut	
+33	04-09-26	12:37 PM	12:42 PM		0:05:00	No	power cut	
+34	04-09-26	6:57 PM	7:10 PM		0:13:00	No	power cut	
+35	09-09-26	1:10 PM	1:30 PM		0:20:00	No	power cut	
+36	09-09-26	6:21 PM	6:30 PM		0:09:00	No	power cut	
+37	12-09-26	9:45 AM	9:55 AM		0:10:00	No	power cut	
+38	14-09-26	6:35 PM	6:40 PM		0:05:00	No	power cut	
+39	15-09-26	10:57 AM	11:05 AM		0:08:00	No	power cut	
+40	15-09-26	12:05 PM	12:10 PM		0:05:00	No	power cut	
+41	15-09-26	1:17 PM	1:45 PM		0:28:00	No	power cut	
+42	16-09-26	12:10 PM	12:20		0:10:00			
+43	16-09-26	3:31 PM	3:40 PM		0:09:00	No	power cut	
+44	16-09-26	4:36 PM	4:40 PM		0:04:00	No	power cut	
+45	21-09-26	11:05 AM	11:15 AM		0:10:00	No	power cut	
+46	21-09-26	12:32 PM	12:40 PM		0:08:00	No	power cut	
+47	22-09-26	9:45 AM	10:00 AM		0:15:00	No	power cut	
+48	24-09-26	1:30 PM	1:50 PM		0:20:00	No	power cut	
+49	24-09-26	3:10 PM	3:18 PM		0:08:00	No	power cut	
+50	25-09-26	11:50 PM	11:59 PM		0:09:00	No	power cut	
+51	25-09-26	4:05 PM	4:10 PM		0:05:00	No	power cut	
+52	25-09-26	4:20 PM	4:40 PM		0:20:00	No	power cut	
+53	25-09-26	5:03 PM	6:30 PM		1:27:00	No	power cut	
+54	26-09-26	11:00 AM	11:10 AM		0:10:00	No	power cut	
+55	28-09-26	10:25 AM	10:30 AM		0:05:00	No	power cut	
+56	28-09-26	12:45 PM	1:00 PM		0:15:00	No	power cut	
+57	30-09-26	9:45 AM	9:50 AM		0:05:00	No	power cut	
+58	01-10-26	12:18 PM	12:23 PM	10	0:14:43	No	power cut	
+59	01-10-26	5:55 PM	6:20 PM	100	2:05:00	No	power cut	
+60	05-10-26	9:40 AM	11:40 AM	50	2:50:00	No	power cut	MCB Trip
+61						No	power cut	
+62						No	power cut	
+63						No	power cut	
+64						No	power cut	
+						No	power cut	
+						No	power cut	
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+
+in Packing & Dispatch Report i need like this :- 
+31-Jul-2026	1	49.4	Pooja 	waterflo	Braided	24 inch	700	4-Aug-2026			
+31-Jul-2026	2	48.4	Pooja 	waterflo	Braided	24 inch	700	4-Aug-2026			
+31-Jul-2026	3	49.4	Pooja 	waterflo	Braided	24 inch	700	4-Aug-2026			
+31-Jul-2026	4	48.4	Pooja 	waterflo	Braided	24 inch	700	4-Aug-2026			
+31-Jul-2026	5	48.4	Pooja 	waterflo	Braided	24 inch	700	4-Aug-2026			
+31-Jul-2026	6	50.5	Pooja 	waterflo	Braided	24 inch	700	4-Aug-2026			
+31-Jul-2026	7	21.5	Pooja 	waterflo	Braided	24 inch	300	4-Aug-2026			
+3-Aug-2026	8	40.4	rabi	waterflo	Braided	1 mtr	350	4-Aug-2026			
+3-Aug-2026	9	40.4	rabi	waterflo	Braided	1 mtr	350	4-Aug-2026			
+3-Aug-2026	10	40.8	rabi	waterflo	Braided	1 mtr	350	4-Aug-2026			
+3-Aug-2026	11	40.7	rabi	waterflo	Braided	1 mtr	350	4-Aug-2026			
+3-Aug-2026	16	39.6	rabi	waterflo	Braided	1 mtr	350	4-Aug-2026			
+4-Aug-2026	17	44.2	Shanti	waterflo	Braided	1 mtr	375	5-Aug-2026			
+4-Aug-2026	18	43.8	Shanti	waterflo	Braided	1 mtr	375	5-Aug-2026			
+3-Aug-2026	12	44.8	rabi	waterflo	Braided	1.5 mtr	250	4-Aug-2026			
+3-Aug-2026	13	44.8	rabi	waterflo	Braided	1.5 mtr	250	4-Aug-2026			
+3-Aug-2026	14	44.8	rabi	waterflo	Braided	1.5 mtr	250	4-Aug-2026			
+3-Aug-2026	15	44.4	rabi	waterflo	Braided	1.5 mtr	250	4-Aug-2026			
+3-Aug-2026	S Bin		Manisha	Schintler	Tubing	24 inch	300	4-Aug-2026			
+3-Aug-2026	B bin		Manisha	Schintler	Tubing	24 inch	700	4-Aug-2026			
+4-Aug-2026	19	51	Shanti	marino	Braided	18 inch	1000	5-Aug-2026			
+4-Aug-2026	20	51.4	Shanti	marino	Braided	18 inch	1000	5-Aug-2026			
+4-Aug-2026	21	68.8	Shanti	marino	Braided	24 inch	1000	5-Aug-2026			
+4-Aug-2026	22	63.2	Shanti	marino	Braided	24 inch	1000	5-Aug-2026			
+4-Aug-2026	23	69.4	Shanti	marino	Braided	24 inch	1000	5-Aug-2026			
+4-Aug-2026	24	48.1	Shanti	marino	Braided	24 inch	700	5-Aug-2026			
+5-Aug-2026	1	48.4	Shanti	marino	Braided	24 inch	700	5-Aug-2026			
+5-Aug-2026	2	48.6	Shanti	marino	Braided	24 inch	700	5-Aug-2026			
+5-Aug-2026	3	48.3	Shanti	marino	Braided	24 inch	700	5-Aug-2026			
+5-Aug-2026	4	48.3	Shanti	marino	Braided	24 inch	700	5-Aug-2026			
+5-Aug-2026	5	52.3	Shanti	marino	Braided	24 inch	750	8-Aug-2026			
+6-Aug-2026	6	50.5	Shanti	marino	Braided	24 inch	750	8-Aug-2026			
+6-Aug-2026	7	34.3	Shanti	marino	Braided	1 mtr	300	8-Aug-2026			
+6-Aug-2026	8	35.2	Shanti	marino	Braided	1 mtr	300	8-Aug-2026			
+6-Aug-2026	9	35.3	Shanti	marino	Braided	1 mtr	300	8-Aug-2026			
+6-Aug-2026	10	35.2	Shanti	marino	Braided	1 mtr	300	8-Aug-2026			
+6-Aug-2026	11	35.6	Shanti	marino	Braided	1 mtr	300	8-Aug-2026			
+7-Aug-2026	13	39.9	Shanti	waterflo	tubing(old)	1 mtr	400	12-Aug-2026			
+7-Aug-2026	12	39.8	Shanti	waterflo	tubing(old)	1 mtr	400	12-Aug-2026			
+7-Aug-2026	14	19.4	Shanti	waterflo	tubing(old)	1 mtr	200	12-Aug-2026			
+7-Aug-2026	12	43	Shanti	marino	Braided	 1.5 mtr	250	8-Aug-2026			
+7-Aug-2026	13	43	Shanti	marino	Braided	1.5 mtr	250	8-Aug-2026			
+7-Aug-2026	14	43.5	Shanti	marino	Braided	1.5 mtr	250	8-Aug-2026			
+7-Aug-2026	15	41.5	Shanti	marino	Braided	1.5 mtr	242	8-Aug-2026			
+8-Aug-2026	16	34.2	Shanti	marino	Tubing	1.5 mtr	230	8-Aug-2026			
+8-Aug-2026	17	36.7	Shanti	marino	Tubing	1.5 mtr	250	8-Aug-2026			
+8-Aug-2026	10	36.3	Shanti	waterflo	tubing(old)	1.5 mtr	250	12-Aug-2026			
+8-Aug-2026	11	35.4	Shanti	waterflo	tubing(old)	1.5 mtr	250	12-Aug-2026			
+8-Aug-2026	1	47.4	Shanti	Schintler	Tubing	18 inch	1000	12-Aug-2026			
+8-Aug-2026	2	47.1	Shanti	Schintler	Tubing	18 inch	1000	12-Aug-2026			
+10-Aug-2026	3	47.6	Shanti	Schintler	Tubing	18 inch	1000	12-Aug-2026			
+10-Aug-2026	4	47.3	Shanti	Schintler	Tubing	18 inch	1000	12-Aug-2026			
+10-Aug-2026	5	46.9	Shanti	Schintler	Tubing	18 inch	1000	12-Aug-2026			
+10-Aug-2026	6	31.1	Shanti	Artimis	Tubing	1 mtr	300	12-Aug-2026			
+10-Aug-2026	7	47.4	Shanti	Artimis	Tubing	24 inch	700	12-Aug-2026			
+10-Aug-2026	8	13.9	Shanti	Artimis	Tubing	18 inch	300	12-Aug-2026			
+10-Aug-2026	9	30.3	Shanti	Artimis	Tubing	1.5 mtr	200	12-Aug-2026			
+11-Aug-2026	15	25.4	Manisha	Vojal	Tubing	24 inch	400	12-Aug-2026			
+11-Aug-2026	16	20.9	Manisha	Vojal	Tubing	1 mtr	200	12-Aug-2026			
+11-Aug-2026	17	15.7	Manisha	Vojal	Tubing	1.5 mtr	100	12-Aug-2026			
+11-Aug-2026	18	31.1	Manisha	marino	Tubing	1 mtr	300	12-Aug-2026			
+11-Aug-2026	19	31	Manisha	marino	Tubing	1 mtr	300	12-Aug-2026			
+11-Aug-2026	1	44.4	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	2	43.7	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	3	44.4	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	4	44.3	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	5	42.9	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	6	44.2	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	7	44.1	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	8	43.2	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	9	44.3	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+12-Aug-2026	10	42.9	Manisha	Idol	Braided	29 inch	500	19-Aug-2026			
+13-Aug-2026	11	31.1	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	12	28.5	Shanti	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	13	30.5	Shanti	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	14	30.7	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	15	31.2	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	16	32.4	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	17	31	Shanti	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	18	31.3	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	19	31	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	20	31.2	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	21	31.4	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	22	31.8	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	23	31.3	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	24	31.3	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	25	31.5	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	26	31.2	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+13-Aug-2026	27	31.1	Manisha	Idol	Braided	36 inch	300	19-Aug-2026			
+18-Aug-2026	28	30.3	Manisha	Schintler	Tubing	24 inch	500	19-Aug-2026			
+18-Aug-2026	29	30.4	Manisha	Schintler	Tubing	24 inch	500	19-Aug-2026			
+18-Aug-2026	30	30.8	Manisha	Schintler	Tubing	24 inch	500	19-Aug-2026			
+18-Aug-2026	31	31.4	Manisha	Schintler	Tubing	24 inch	500	19-Aug-2026			
+18-Aug-2026	32	30.8	Manisha	marino	Tubing	1 mtr	300	19-Aug-2026			
+18-Aug-2026	33	30.8	Manisha	marino	Tubing	1 mtr	300	19-Aug-2026			
+18-Aug-2026	34	29.8	Manisha	waterflo	Tubing	1 mtr	300	19-Aug-2026			
+18-Aug-2026	35	30.9	Manisha	waterflo	Tubing	1 mtr	300	19-Aug-2026			
+18-Aug-2026	36	30.6	Manisha	waterflo	Tubing	1 mtr	300	19-Aug-2026			
+18-Aug-2026	37	50.4	Manisha	Schintler	Tubing	18 inch	1000	19-Aug-2026			
+19-Aug-2026	38	45.9	Manisha	Schintler	Tubing	18 inch	1000	19-Aug-2026			
+19-Aug-2026	39	46.6	Manisha	Schintler	Tubing	18 inch	1000	19-Aug-2026			
+22-Aug-2026	1	37.4	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+22-Aug-2026	2	35.6	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+22-Aug-2026	3	36.5	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+22-Aug-2026	4	35	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+22-Aug-2026	5	35.7	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+22-Aug-2026	6	36.2	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+22-Aug-2026	7	36.6	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+22-Aug-2026	8	35.8	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+22-Aug-2026	9	36.1	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+25-Aug-2026	10	36.2	Manisha	marino	Tubing	1 mtr	350	28-Aug-2026			
+25-Aug-2026	11	31	Shanti	Plain	Tubing	1.5 mtr	200	28-Aug-2026			
+25-Aug-2026	12	31.1	Shanti	Plain	Tubing	1.5 mtr	200	28-Aug-2026			
+25-Aug-2026	13	29.1	Shanti	Plain	Tubing	1.5 mtr	200	28-Aug-2026			
+25-Aug-2026	14	30.5	Shanti	Plain	Tubing	1.5 mtr	200	28-Aug-2026			
+25-Aug-2026	15	30.1	Shanti	Plain	Tubing	1.5 mtr	200	28-Aug-2026			
+26-Aug-2026	16	30.3	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+26-Aug-2026	17	29.8	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+26-Aug-2026	18	29.9	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+26-Aug-2026	19	29.9	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+26-Aug-2026	20	29.7	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+24-Aug-2026	Bin 1	27.1	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+24-Aug-2026	Bin 2	27.2	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+24-Aug-2026	Bin 3	27.9	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+24-Aug-2026	Bin 4	27.3	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+24-Aug-2026	Bin 5	27.1	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+24-Aug-2026	Bin 6	27.4	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+25-Aug-2026	Bin 7	27.4	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+25-Aug-2026	Bin 8	28	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+25-Aug-2026	Bin 9	27	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+25-Aug-2026	Bin 10	27	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+25-Aug-2026	Bin 11	27.5	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+25-Aug-2026	Bin 12	27.2	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+25-Aug-2026	Bin 13	27	Manisha	marino	Braided	24 inch	350	28-Aug-2026	Dis-Aug01		
+27-Aug-2026	21	30.1	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+27-Aug-2026	22	30.1	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+27-Aug-2026	23	30.1	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+27-Aug-2026	24	29.8	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+27-Aug-2026	25	29.9	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+27-Aug-2026	26	29.9	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+27-Aug-2026	27	30	Manisha	waterflo	Tubing	1.5 mtr	200	28-Aug-2026			
+28-Aug-2026	1	29.8	Manisha	waterflo	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	2	29.8	Manisha	waterflo	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	3	29.8	Manisha	waterflo	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	4	29.9	Manisha	waterflo	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	5	31.5	Manisha	waterflo	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	6	30	Manisha	waterflo	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	7	30	Manisha	waterflo	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	8	29.9	Manisha	waterflo	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	9	37.3	Manisha	waterflo	Tubing	1.5 mtr	250	7-Sep-2026			
+28-Aug-2026	10	37.8	Manisha	waterflo	Tubing	1.5 mtr	250	7-Sep-2026			
+28-Aug-2026	11	29.9	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	12	29.7	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+28-Aug-2026	13	29.8	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	14	30.2	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	15	30.1	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	16	29.9	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	17	30.1	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	18	29.7	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	19	30.2	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	20	30.4	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	21	30	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	22	30.2	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	23	29.9	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	24	29.9	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	25	30.3	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	26	31.8	Manisha	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	27	29.8	Manisha	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+29-Aug-2026	28	30.5	Manisha	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+1-Sep-2026	29	15.1	Shanti	Vojal	Tubing	1.5 mtr	100	5-Sep-2026			
+1-Sep-2026	30	15	Shanti	Vojal	Tubing	1 mtr	150	5-Sep-2026			
+1-Sep-2026	31	20.4	Shanti	Artimis	Tubing	1 mtr	200	5-Sep-2026			
+1-Sep-2026	32	30	Shanti	marino	Tubing	1.5 mtr	200	5-Sep-2026			
+1-Sep-2026	33	30.2	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+1-Sep-2026	Bin 1	28	Shanti	Vojal	Tubing	18 inch	600	5-Sep-2026	DIS-Sep01		
+1-Sep-2026	Bin 2	18.4	Shanti	Artimis	Tubing	24 inch	250	5-Sep-2026	DIS-Sep01		
+1-Sep-2026	Bin 3	24.6	Shanti	Vojal	Tubing	24 inch	350	5-Sep-2026	DIS-Sep01		
+1-Sep-2026	Bin 4	24.7	Shanti	Vojal	Tubing	24 inch	350	5-Sep-2026	DIS-Sep01		
+1-Sep-2026	Bin 5	21.7	Shanti	Vojal	Tubing	24 inch	300	5-Sep-2026	DIS-Sep01		
+2-Sep-2026	34	30.2	Shanti	marino	Tubing	1.5 mtr	200	7-Sep-2026			
+2-Sep-2026	35	29.9	Shanti	marino	Tubing	1.5 mtr	200	5-Sep-2026			
+2-Sep-2026	Bin 6	32.9	Shanti	SSS	Tubing	24 inch	500	5-Sep-2026	DIS-Sep01		
+2-Sep-2026	Bin 7	32.8	Shanti	SSS	Tubing	24 inch	500	5-Sep-2026	DIS-Sep01		
+2-Sep-2026	Bin 8	33	Shanti	SSS	Tubing	24 inch	500	5-Sep-2026	DIS-Sep01		
+2-Sep-2026	Bin 9	33	Shanti	SSS	Tubing	24 inch	500	5-Sep-2026	DIS-Sep01		
+2-Sep-2026	36	34.9	Shanti	Alpha flow	Braided	24 inch	500	5-Sep-2026			
+2-Sep-2026	37	52.8	Shanti	Blue Mount	Braided	18 inch	1000	5-Sep-2026			
+3-Sep-2026	38	34.4	Shanti	Blue Mount	Braided	24 inch	500	5-Sep-2026			
+3-Sep-2026	39	35.6	Shanti	Blue Mount	Braided	24 inch	500	5-Sep-2026			
+3-Sep-2026	40	47.7	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+3-Sep-2026	41	47.8	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+3-Sep-2026	42	48.4	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+3-Sep-2026	43	47.4	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+3-Sep-2026	44	47.8	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+3-Sep-2026	45	48.8	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+3-Sep-2026	46	47.8	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+3-Sep-2026	47	48.4	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+3-Sep-2026	48	47.6	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+4-Sep-2026	49	47.5	Shanti	waterflo	Braided	24 inch	700	5-Sep-2026			
+4-Sep-2026	50	33.9	Shanti	waterflo	Braided	24 inch	500	5-Sep-2026			
+4-Sep-2026	51	34.1	Shanti	waterflo	Braided	24 inch	500	5-Sep-2026			
+4-Sep-2026	52	31.3	Shanti	Alpha flow	Tubing	24 inch	500	5-Sep-2026			
+4-Sep-2026	53	19.6	Shanti	enflow	Tubing	2 mtr	100	5-Sep-2026			
+4-Sep-2026	54	35.3	Shanti	SSS	Tubing	1 mtr	350	5-Sep-2026			
+5-Sep-2026	55	31.1	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	56	31	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	57	31.1	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	58	31	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	59	31.1	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	60	31.1	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	61	31.1	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	62	31.1	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	63	31.1	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	64	31.1	Shanti	CS	Tubing	1 mtr	300	5-Sep-2026			
+5-Sep-2026	1	31	Shanti	Misri Superior 	Tubing	24 inch	500	7-Sep-2026			
+5-Sep-2026	2	47.1	Shanti	marino	Braided	24 inch	700	7-Sep-2026			
+5-Sep-2026	3	46.1	Shanti	marino	Braided	24 inch	700	7-Sep-2026			
+5-Sep-2026	4	48.3	Shanti	marino	Braided	24 inch	700	7-Sep-2026			
+5-Sep-2026	5	26.8	Shanti	marino	Braided	24 inch	400	7-Sep-2026			
+5-Sep-2026	6	41.1	Shanti	waterflo	Braided	18 inch	800	7-Sep-2026			
+5-Sep-2026	7	41.1	Shanti	waterflo	Braided	18 inch	800	7-Sep-2026			
+5-Sep-2026	8	46.4	Shanti	waterflo	Braided	18 inch	900	7-Sep-2026			
+7-Sep-2026	9	30.3	Shanti	enflow	Tubing	1.5 mtr	200	7-Sep-2026			
+7-Sep-2026	10	30.2	Shanti	enflow	Tubing	1.5 mtr	200	7-Sep-2026			
+7-Sep-2026	11	21.4	Shanti	enflow	Tubing	18 inch	500	7-Sep-2026			
+8-Sep-2026	1	25	Shanti	enflow	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	2	25.3	Shanti	enflow	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	3	24.9	Shanti	enflow	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	4	25.3	Shanti	enflow	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	5	24.2	Shanti	akant 	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	6	26.9	Shanti	akant 	Tubing	24 inch	444	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	7	25.1	Shanti	waterflo	Tubing	1 mtr	250	19-Sep-2026	DIS-SEP05		
+8-Sep-2026	8	25.2	Shanti	waterflo	Tubing	1 mtr	250	19-Sep-2026	DIS-SEP05		
+8-Sep-2026	Bin - 1	23.8	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 2	25	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 3	24.4	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 4	23.9	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 5	23.7	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 6	23.7	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 7	23.7	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 8	23.8	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 9	24.4	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 10	24.1	Shanti	enflow	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+8-Sep-2026	Bin - 11	23.6	Shanti	akant 	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	Bin - 12	23.8	Shanti	akant 	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	Bin - 13	23.9	Shanti	akant 	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	Bin - 14	23.7	Shanti	akant 	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	Bin - 15	23.8	Shanti	akant 	Tubing	24 inch	400	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	Bin - 16	9.3	Shanti	akant 	Tubing	24 inch	156	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	9	24.6	Manisha	akant 	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	10	25.3	Manisha	akant 	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	11	24.3	Manisha	akant 	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	12	23.2	Manisha	akant 	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	13	25.1	Manisha	akant 	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	14	25.2	Manisha	akant 	Tubing	1 mtr	250	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	15	24	Shanti	marino	Tubing	1 mtr	250	19-Sep-2026	DIS-SEP05		
+9-Sep-2026	16	25.4	Shanti	marino	Tubing	1 mtr	250	19-Sep-2026	DIS-SEP05		
+9-Sep-2026	17	25.2	Shanti	marino	Tubing	1 mtr	250	19-Sep-2026	DIS-SEP05		
+9-Sep-2026	18	15.2	Shanti	marino	Tubing	1 mtr	150	19-Sep-2026	DIS-SEP05		
+9-Sep-2026	Bin - 17	20.4	Shanti	marino	Braided	18 inch	400	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	Bin - 18	20	Shanti	marino	Braided	18 inch	400	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	Bin - 19	20.2	Manisha	marino	Braided	18 inch	400	12-Sep-2026	DIS-SEP02		
+9-Sep-2026	Bin -20 	20	Manisha	marino	Braided	18 inch	400	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	Bin -21	19.9	Manisha	marino	Braided	18 inch	400	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	19	27.9	Manisha	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	20	28.1	Manisha	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	21	28.2	Manisha	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	22	28	Manisha	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	23	28.5	Manisha	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	24	28.3	Shanti	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	25	28.4	Shanti	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	26	28	Shanti	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	27	28.5	Shanti	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	28	28.3	Shanti	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	29	28.2	Shanti	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	30	42.1	Shanti	marino	Braided	1.5 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	31	24.7	Shanti	marino	Braided	1.5 mtr	250	12-Sep-2026	DIS-SEP02		
+10-Sep-2026	32	42.6	Manisha	marino	Braided	1.5 mtr	250	12-Sep-2026	DIS-SEP02		
+11-Sep-2026	33	42.3	Shanti	marino	Braided	1.5 mtr	250	12-Sep-2026	DIS-SEP02		
+11-Sep-2026	34	28.4	Manisha	marino	Braided	1 mtr	250	12-Sep-2026	DIS-SEP02		
+11-Sep-2026	35	44.8	Manisha	marino	Braided	2 mtr	200	12-Sep-2026	DIS-SEP02		
+11-Sep-2026	36	34	Shanti	waterflo	Braided	1.5 mtr	200	12-Sep-2026	DIS-SEP02		
+11-Sep-2026	37	34	Shanti	waterflo	Braided	1.5 mtr	200	12-Sep-2026	DIS-SEP02		
+11-Sep-2026	38	34	Shanti	waterflo	Braided	1.5 mtr	200	12-Sep-2026	DIS-SEP02		
+11-Sep-2026	39	34	Shanti	waterflo	Braided	1.5 mtr	200	12-Sep-2026	DIS-SEP02		
+11-Sep-2026	40	34.7	Shanti	waterflo	Braided	1.5 mtr	200	12-Sep-2026	DIS-SEP02		
+12-Sep-2026	1	28.3	Manisha	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	2	28	Manisha	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	3	28.4	Manisha	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	4	27.9	Manisha	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	5	28.6	Manisha	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	6	27.7	Manisha	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	7	28	Manisha	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	8	28.3	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	9	28.2	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	10	27.6	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	11	26.8	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	12	27.3	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	13	27.7	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	14	27.8	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	15	28.2	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	16	28.1	Shanti	waterflo	Braided	1 mtr	250	15-Sep-2026	DIS-SEP03		
+12-Sep-2026	17	25.8	Shanti	Blue Mount	Braided	18 inch	500	15-Sep-2026	DIS-SEP03		
+14-Sep-2026	18	26.2	Manisha	Blue Mount	Braided	18 inch	500	15-Sep-2026	DIS-SEP03		
+14-Sep-2026	19	34.1	Shanti	Blue Mount	Braided	24 inch	500	15-Sep-2026	DIS-SEP03		
+14-Sep-2026	20	33.8	Shanti	Blue Mount	Braided	24 inch	500	15-Sep-2026	DIS-SEP03		
+14-Sep-2026	21	25.6	Manisha	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+14-Sep-2026	22	25.1	Shanti	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+14-Sep-2026	23	25.1	Shanti	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+14-Sep-2026	24	25.6	Manisha	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+14-Sep-2026	25	25.6	Shanti	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	26	25.6	Manisha	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	27	25.6	Manisha	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	28	26.6	Manisha	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	29	25.4	Manisha	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	30	25.3	Manisha	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	31	25.7	Manisha	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	32	25.6	Shanti	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	33	25.3	Shanti	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	34	25.9	Shanti	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	35	25.5	Shanti	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	36	25.4	Shanti	CS	Tubing	1 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	37	37.9	Shanti	CS	Tubing	1.5 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	38	37.5	Shanti	CS	Tubing	1.5 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	39	37.9	Shanti	CS	Tubing	1.5 mtr	250	16-Sep-2026	DIS-SEP04		
+15-Sep-2026	40	28.8	Shanti	CS	Tubing	1.5 mtr	250	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	41	30.3	Manisha	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	42	30	Manisha	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	43	29.7	Manisha	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	44	30	Manisha	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	45	30	Manisha	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	46	29.7	Manisha	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	47	29.9	Manisha	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	48	29.9	Manisha	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	49	29.7	Shanti	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	50	29.4	Shanti	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	51	29.7	Shanti	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	52	29.7	Shanti	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	53	29.8	Shanti	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	54	29.6	Shanti	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	55	29.4	Shanti	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+16-Sep-2026	56	29.8	Shanti	CS	Tubing	24 inch	500	16-Sep-2026	DIS-SEP04		
+19-Sep-2026	19	47.7	Shanti	marino	Braided	24 inch	700	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	1	30	Shanti	CS	Tubing	24 inch	500	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	2	30	Shanti	CS	Tubing	24 inch	500	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	3	29.9	Manisha	CS	Tubing	24 inch	500	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	4	30.2	Manisha	CS	Tubing	24 inch	500	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	5	30.3	Manisha	CS	Tubing	2 mtr	150	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	6	30.5	Manisha	CS	Tubing	2 mtr	150	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	7	39.9	Manisha	CS	Tubing	2 mtr	200	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	8	22.3	Shanti	CS	Tubing	18 inch	500	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	9	22.2	Shanti	CS	Tubing	18 inch	500	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	10	22.1	Shanti	CS	Tubing	18 inch	500	19-Sep-2026	DIS-SEP05		
+18-Sep-2026	11	29.5	Shanti	Vojal	Tubing	24 inch	500	19-Sep-2026	DIS-SEP05		
+19-Sep-2026	12	29.4	Shanti	Vojal	Tubing	24 inch	500	19-Sep-2026	DIS-SEP05		
+	13	22.3	Shanti	Vojal	Tubing	1.5 mtr	150	19-Sep-2026	DIS-SEP05		
+19-Sep-2026	14	15.6	Shanti	Vojal	Tubing	1 mtr	150	19-Sep-2026	DIS-SEP05		
+19-Sep-2026	15	20.1	Shanti	Vojal	Tubing	1 mtr	200	19-Sep-2026	DIS-SEP05		
+19-Sep-2026	16	41.5	Manisha	Vojal	Tubing	2 mtr	200	19-Sep-2026	DIS-SEP05		
+19-Sep-2026	17	17.9	Manisha	Vojal	Tubing	18 inch	400	19-Sep-2026	DIS-SEP05		
+22-Sep-2026	1	53.5	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	2	53	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	3	52.9	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	4	54.2	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	5	51.8	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	6	53.6	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	7	54.1	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	8	53.5	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	9	53.7	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	10	53.2	-	Ottertec	Tubing	24 inch	5	23-Sep-2026			
+22-Sep-2026	11	52	-	Ottertec	Tubing	36 inch	5	23-Sep-2026			
+22-Sep-2026	12	52.7	-	Ottertec	Tubing	36 inch	5	23-Sep-2026			
+22-Sep-2026	13	52.5	-	Ottertec	Tubing	36 inch	5	23-Sep-2026			
+22-Sep-2026	14	53.35	-	Ottertec	Tubing	36 inch	5	23-Sep-2026			
+22-Sep-2026	15	52.3	-	Ottertec	Tubing	36 inch	5	23-Sep-2026			
+22-Sep-2026	16	52.4	-	Ottertec	Tubing	1 mtr	5	23-Sep-2026			
+22-Sep-2026	17	53.3	-	Ottertec	Tubing	1 mtr	5	23-Sep-2026			
+22-Sep-2026	18	52.4	-	Ottertec	Tubing	1 mtr	5	23-Sep-2026			
+22-Sep-2026	19	55.1	-	Ottertec	Tubing	1 mtr	5	23-Sep-2026			
+22-Sep-2026	20	52.5	-	Ottertec	Tubing	1 mtr	5	23-Sep-2026			
+22-Sep-2026	21	53.8	-	Ottertec	Tubing	1.5 mtr	5	23-Sep-2026			
+22-Sep-2026	22	52.4	-	Ottertec	Tubing	1.5 mtr	5	23-Sep-2026			
+22-Sep-2026	23	52.9	-	Ottertec	Tubing	1.5 mtr	5	23-Sep-2026			
+22-Sep-2026	24	53	-	Ottertec	Tubing	1.5 mtr	5	23-Sep-2026			
+22-Sep-2026	25	53	-	Ottertec	Tubing	1.5 mtr	5	23-Sep-2026			
+22-Sep-2026	26	52.9	-	Ottertec	Tubing	1.5 mtr	5	23-Sep-2026			
+24-Sep-2026	1	23.5	Manisha	CS	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+24-Sep-2026	2	24.7	Manisha	CS	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+24-Sep-2026	3	26.6	Manisha	CS	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+24-Sep-2026	...		Manisha	CS	Tubing	1 mtr	140			In stock	
+25-Sep-2026	7	29.5	Shanti	enflow	Tubing	24 inch	500	30-Sep-2026	DIS-SEP07		
+23-Sep-2026	Bin-1	23.5	Moumita Sardar	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+23-Sep-2026	Bin-2	23.8	Moumita Sardar	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+23-Sep-2026	Bin-3	23.8	Rina sardar	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+23-Sep-2026	Bin-4	24	Rina sardar	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-5	23.4	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-6	23.6	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-7	23.4	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-8	25.3	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-9	23.8	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-10	22.7	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-11	23.5	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-12	23.5	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-13	23.5	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-14	23.2	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-15	23.5	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-16	23.5	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-17	23.5	Manisha	CS	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-18	17.5	Manisha	CS	Tubing	24 inch	300	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	4	24.2	Manisha	Futura	Tubing	36 inch	250	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	5	24.2	Manisha	Futura	Tubing	36 inch	250	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-19	18.5	Manisha	Futura	Tubing	18 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-20	18	Manisha	Futura	Tubing	18 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-21	17.8	Manisha	Futura	Tubing	18 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-22	17.6	Manisha	Futura	Tubing	18 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-23	18.4	Manisha	Futura	Tubing	18 inch	400	26-Sep-2026	DIS-SEP06		
+24-Sep-2026	Bin-24	18.9	Manisha	Futura	Tubing	18 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-25	18.7	Manisha	Futura	Tubing	18 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-26	15.8	Manisha	Futura	Tubing	18 inch	388	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-27	8.7	Manisha	Ceraflo	Tubing	18 inch	200	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-28	22.8	Manisha	Ceraflo	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-29	22.8	Manisha	Ceraflo	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-30	23.7	Manisha	Ceraflo	Tubing	24 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-31	17	Manisha	Ceraflo	Tubing	24 inch	300	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	6	31.2	Shanti	Ceraflo	Tubing	1 mtr	315	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-32	20.3	Manisha	Paras flow 	Braided	18 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-33	9.9	Manisha	Paras flow 	Braided	18 inch	200	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-34	27.2	Manisha	Paras flow 	Braided	24 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-35	25.7	Manisha	Paras flow 	Braided	24 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-36	27	Manisha	Paras flow 	Braided	24 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-37	26.8	Manisha	Paras flow 	Braided	24 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	Bin-38	27	Manisha	Paras flow 	Braided	24 inch	400	26-Sep-2026	DIS-SEP06		
+25-Sep-2026	8	59	-	Paras flow 	Braided	24 inch	5	26-Sep-2026	DIS-SEP06		
+26-Sep-2026	Bin-1	19.1	Shanti	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-2	19.1	Shanti	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-3	19.3	Shanti	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-4	19.7	Shanti	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-5	19.3	Shanti	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-6	19.9	Moumita Sardar	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-7	19.5	Moumita Sardar	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-8	19	Moumita Sardar	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-9	19.6	Moumita Sardar	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	Bin-10	19.4	Moumita Sardar	waterflo	Braided	18 inch	400	30-Sep-2026	DIS-SEP07		
+26-Sep-2026	1	32.5	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	2	32.3	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	3	32.5	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	4	32.5	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	5	31.7	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	6	32.3	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	7	32.6	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	8	32.9	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	9	31.8	Rina sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	10	32.3	Rina sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	11	31.9	Rina sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	12	32.5	Rina sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	13	32.3	Rina sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	14	31.5	Rina sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+28-Sep-2026	15	32.6	Shanti	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	16	32.4	Moumita Sardar	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	17	29	Shanti	waterflo	Braided	24 inch	460	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	18	31.8	Shanti	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	19	31.8	Shanti	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	20	32.1	Shanti	waterflo	Braided	24 inch	500	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	21	27.4	Moumita Sardar	waterflo	Braided	1 mtr	250	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	22	26.9	Moumita Sardar	waterflo	Braided	1 mtr	250	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	23	27	Moumita Sardar	waterflo	Braided	1 mtr	250	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	24	26.8	Shanti	waterflo	Braided	1 mtr	250	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	25	26.8	Shanti	waterflo	Braided	1 mtr	250	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	26	26.4	Shanti	waterflo	Braided	1 mtr	250	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	27	25.5	Shanti	waterflo	Braided	1 mtr	250	30-Sep-2026	DIS-SEP07		
+29-Sep-2026	28	26.9	Shanti	waterflo	Braided	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	29	24.6	Shanti	enflow	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	30	24.9	Shanti	enflow	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	31	25.2	Shanti	enflow	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	32	25	Shanti	enflow	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	33	24.8	Shanti	enflow	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	34	24.8	Shanti	enflow	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	35	24.6	Shanti	enflow	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	36	24.7	Shanti	enflow	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	37	36.8	Shanti	enflow	Tubing	1.5 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	38	37.2	Shanti	enflow	Tubing	1.5 mtr	250	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	39	22.3	Shanti	enflow	Tubing	18 inch	500	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	40	31.4	Shanti	enflow	Tubing	2 mtr	150	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	41	30	Shanti	enflow	Tubing	2 mtr	150	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	42	39.4	Shanti	enflow	Tubing	2 mtr	200	30-Sep-2026	DIS-SEP07		
+30-Sep-2026	..	25.5	Shanti	waterflo	Tubing	1 mtr	250	30-Sep-2026	DIS-SEP07		
+1-Oct-2026	1	24.5	Shanti	waterflo	Tubing	1 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	2	24.9	Shanti	waterflo	Tubing	1 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	3	25.5	Moumita Sardar	waterflo	Tubing	1 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	4	24.6	Moumita Sardar	waterflo	Tubing	1 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	5	24.7	Moumita Sardar	waterflo	Tubing	1 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	6	25.4	Moumita Sardar	waterflo	Tubing	1 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	7	36.9	Shanti	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	8	36.8	Shanti	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	9	37.2	Shanti	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	10	37.4	Shanti	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	11	36.9	Shanti	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	12	36.7	Shanti	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	13	36.2	Moumita Sardar	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	14	37	Moumita Sardar	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	15	36.6	Moumita Sardar	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	16	38.8	Moumita Sardar	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	17	37.6	Moumita Sardar	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+1-Oct-2026	18	36.8	Moumita Sardar	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+3-Oct-2026	19	37.3	-	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		Granules mix
+3-Oct-2026	20	39.1	-	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		Granules mix
+3-Oct-2026	21	37.9	-	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		Granules mix
+5-Oct-2026	22	36.4	Shanti	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+5-Oct-2026	23	36.7	Shanti	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+5-Oct-2026	24	36.3	Moumita Sardar	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+5-Oct-2026	25	37	Moumita Sardar	waterflo	Tubing	1.5 mtr	250	6-Oct-2026	DIS-OCT01		
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+										
+
+	
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+											
+
+
+
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-10-14T11:48:04+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\hp\Desktop\Ritesh Gajjar Work\2022019010015 SY Project\frontend\src\app\production\page.tsx (LANGUAGE_TSX)
+Cursor is on line: 4
+Other open documents:
+- c:\Users\hp\Desktop\Ritesh Gajjar Work\2022019010015 SY Project\scratch_test.py (LANGUAGE_PYTHON)
+- c:\Users\hp\Desktop\Ritesh Gajjar Work\2022019010015 SY Project\frontend\src\components\ui\Input.tsx (LANGUAGE_TSX)
+- c:\Users\hp\Desktop\Ritesh Gajjar Work\2022019010015 SY Project\scratch_test_daily.py (LANGUAGE_PYTHON)
+- c:\Users\hp\Desktop\Ritesh Gajjar Work\2022019010015 SY Project\frontend\src\types\production.ts (LANGUAGE_TYPESCRIPT)
+- c:\Users\hp\Desktop\Ritesh Gajjar Work\2022019010015 SY Project\backend\app\schemas\orders.py (LANGUAGE_PYTHON)
+</ADDITIONAL_METADATA>

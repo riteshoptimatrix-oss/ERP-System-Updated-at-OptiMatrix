@@ -10,6 +10,10 @@ from app.schemas.production import (
     ProductionOrderResponse,
     ProductionVarianceReport,
     ProductionDashboardSummary,
+    DailyProductionEntry,
+    DailyProductionCreate,
+    DailyProductionUpdate,
+    DailyProductionSummary,
 )
 from app.schemas.master import PaginatedResponse
 
@@ -68,6 +72,114 @@ async def get_production_dashboard(
     repo = get_production_repo()
     summary = await repo.get_dashboard_summary(unit_id)
     return ProductionDashboardSummary(**summary)
+
+
+# -------------------------------------------------------------
+# Daily Production Planning & Actual
+# Main daily entry screen for Shivakumar (department-wise)
+# -------------------------------------------------------------
+@router.get("/daily", response_model=List[DailyProductionEntry])
+async def list_daily_production(
+    date: Optional[str] = Query(None, description="Filter by date YYYY-MM-DD"),
+    department: Optional[str] = Query(None, description="Filter by department: Machining, Assembly, Fabrication, QC, Grinding, Welding"),
+    unit_id: Optional[str] = Query(None, description="Filter by unit"),
+    labour: Optional[str] = Query(None, description="Filter by labour name"),
+    machine: Optional[str] = Query(None, description="Filter by machine"),
+    search: Optional[str] = Query(None, description="Search order#, customer, variant, labour, machine"),
+    current_user: Dict[str, Any] = Depends(require_permission("production", "read")),
+) -> List[DailyProductionEntry]:
+    """
+    Retrieve Daily Production Planning & Actual lines.
+    Main daily entry screen for Shivakumar with dynamic completion % and performance % metrics.
+    """
+    repo = get_production_repo()
+    docs = await repo.list_daily_production(
+        date_val=date,
+        department=department,
+        unit_id=unit_id,
+        labour=labour,
+        machine=machine,
+        search=search,
+    )
+    return [DailyProductionEntry(**d) for d in docs]
+
+
+@router.get("/daily/summary", response_model=DailyProductionSummary)
+async def get_daily_production_summary(
+    date: Optional[str] = Query(None, description="Filter by date YYYY-MM-DD"),
+    department: Optional[str] = Query(None, description="Filter by department"),
+    unit_id: Optional[str] = Query(None, description="Filter by unit"),
+    current_user: Dict[str, Any] = Depends(require_permission("production", "read")),
+) -> DailyProductionSummary:
+    """
+    Aggregate totals and department-wise breakdown for Daily Production Planning & Actual.
+    """
+    repo = get_production_repo()
+    summary = await repo.get_daily_production_summary(
+        date_val=date,
+        department=department,
+        unit_id=unit_id,
+    )
+    return DailyProductionSummary(**summary)
+
+
+@router.post("/daily", response_model=DailyProductionEntry, status_code=status.HTTP_201_CREATED)
+async def create_daily_production(
+    payload: DailyProductionCreate,
+    current_user: Dict[str, Any] = Depends(require_permission("production", "create")),
+    _: None = Depends(verify_csrf_token),
+) -> DailyProductionEntry:
+    """
+    Record daily production planned and actual quantities for a machine/operator.
+    """
+    repo = get_production_repo()
+    user_name = current_user.get("full_name") or current_user.get("email") or "Shivakumar"
+    created = await repo.create_daily_production_entry(
+        entry_data=payload.model_dump(),
+        recorded_by=user_name,
+    )
+    return DailyProductionEntry(**created)
+
+
+@router.put("/daily/{entry_id}", response_model=DailyProductionEntry)
+async def update_daily_production(
+    entry_id: str = Path(..., description="Daily production entry ID"),
+    payload: DailyProductionUpdate = ...,
+    current_user: Dict[str, Any] = Depends(require_permission("production", "update")),
+    _: None = Depends(verify_csrf_token),
+) -> DailyProductionEntry:
+    """
+    Update actual output, rework, scrap, standard targets, or supervisor remarks.
+    """
+    repo = get_production_repo()
+    updated = await repo.update_daily_production_entry(
+        entry_id=entry_id,
+        update_data=payload.model_dump(exclude_unset=True),
+    )
+    if not updated:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Daily production record '{entry_id}' not found.",
+        )
+    return DailyProductionEntry(**updated)
+
+
+@router.delete("/daily/{entry_id}", status_code=status.HTTP_204_NO_CONTENT)
+async def delete_daily_production(
+    entry_id: str = Path(..., description="Daily production entry ID"),
+    current_user: Dict[str, Any] = Depends(require_permission("production", "update")),
+    _: None = Depends(verify_csrf_token),
+) -> None:
+    """
+    Remove a daily production record.
+    """
+    repo = get_production_repo()
+    deleted = await repo.delete_daily_production_entry(entry_id)
+    if not deleted:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Daily production record '{entry_id}' not found.",
+        )
 
 
 # -------------------------------------------------------------

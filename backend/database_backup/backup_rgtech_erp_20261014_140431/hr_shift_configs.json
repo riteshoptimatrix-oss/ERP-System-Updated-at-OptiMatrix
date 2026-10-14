@@ -1,0 +1,82 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f101"
+    },
+    "shift_code": "SHIFT-GEN",
+    "name": "General Administrative & Tech Shift",
+    "shift_type": "GENERAL",
+    "start_time": "09:00",
+    "end_time": "18:00",
+    "break_duration_minutes": 60,
+    "grace_period_minutes": 15,
+    "standard_work_hours": 8.0,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "created_by": "SYSTEM"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f102"
+    },
+    "shift_code": "SHIFT-MORN",
+    "name": "Morning Machining & Fabrication Shift",
+    "shift_type": "SHIFT_1",
+    "start_time": "06:00",
+    "end_time": "14:00",
+    "break_duration_minutes": 30,
+    "grace_period_minutes": 10,
+    "standard_work_hours": 8.0,
+    "unit_id": "Unit_1",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "created_by": "SYSTEM"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f103"
+    },
+    "shift_code": "SHIFT-EVE",
+    "name": "Evening Assembly & Wiring Shift",
+    "shift_type": "SHIFT_2",
+    "start_time": "14:00",
+    "end_time": "22:00",
+    "break_duration_minutes": 30,
+    "grace_period_minutes": 10,
+    "standard_work_hours": 8.0,
+    "unit_id": "Unit_2",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "created_by": "SYSTEM"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f104"
+    },
+    "shift_code": "SHIFT-NIGHT",
+    "name": "Overnight Continuous Boring Shift",
+    "shift_type": "NIGHT",
+    "start_time": "22:00",
+    "end_time": "06:00",
+    "break_duration_minutes": 30,
+    "grace_period_minutes": 10,
+    "standard_work_hours": 8.0,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "created_by": "SYSTEM"
+  }
+]

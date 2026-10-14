@@ -5,6 +5,7 @@ import {
   PowerCutLog,
   PowerCutLogCreateInput,
   PowerSummary,
+  DailyElectricityScrapTracker,
 } from '@/types/power';
 import { PaginatedResponse } from '@/types/master';
 
@@ -92,4 +93,28 @@ export const powerClient = {
     if (!res.data) throw new Error('Failed to log power outage incident');
     return res.data;
   },
+
+  /**
+   * List Daily Electricity & Scrap Tracker entries
+   */
+  async listScrapTracker(params: {
+    unit_id?: string;
+    product_type?: string;
+    search?: string;
+    page?: number;
+    page_size?: number;
+  } = {}): Promise<PaginatedResponse<DailyElectricityScrapTracker>> {
+    const query = new URLSearchParams();
+    if (params.unit_id) query.append('unit_id', params.unit_id);
+    if (params.product_type) query.append('product_type', params.product_type);
+    if (params.search) query.append('search', params.search);
+    if (params.page) query.append('page', String(params.page));
+    if (params.page_size) query.append('page_size', String(params.page_size));
+
+    const qs = query.toString() ? `?${query.toString()}` : '';
+    const res = await apiClient.get<PaginatedResponse<DailyElectricityScrapTracker>>(`/power/scrap-tracker${qs}`);
+    if (!res.data) throw new Error('Failed to retrieve electricity & scrap tracker entries');
+    return res.data;
+  },
 };
+

@@ -1,0 +1,239 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf12ddf54727e83c4f9748"
+    },
+    "code": "LEAD-2026-0001",
+    "company_name": "RadheDispoWorld",
+    "contact_person": "Ritesh Gajjar",
+    "email": "radhedispoworld@gmail.com",
+    "phone": "+918980005230",
+    "source": "WEBSITE",
+    "status": "CONVERTED",
+    "priority": "COLD",
+    "assigned_to": null,
+    "estimated_value": 400000.0,
+    "machine_interest": "Pipe 40mm ",
+    "unit_id": "Unit_1",
+    "next_follow_up": {
+      "$date": "2026-10-15T05:27:00Z"
+    },
+    "notes": "",
+    "created_at": {
+      "$date": "2026-10-14T05:27:57.772Z"
+    },
+    "created_by": "admin@rgtech.com",
+    "updated_at": {
+      "$date": "2026-10-14T05:29:09.337Z"
+    },
+    "updated_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e3a"
+    },
+    "code": "LEAD-2026-001",
+    "company_name": "Navkar Packaging Industries Pvt Ltd",
+    "contact_person": "Mr. Hiren Shah",
+    "email": "hiren.shah@navkarpack.com",
+    "phone": "+91 98250 34120",
+    "source": "TRADE_EXPO",
+    "status": "NEGOTIATION",
+    "priority": "HOT",
+    "assigned_to": "priyashah@rgtech.com",
+    "estimated_value": 1850000.0,
+    "machine_interest": "High-Speed Automatic Envelope Machine ENV-200",
+    "unit_id": "Unit_1",
+    "next_follow_up": {
+      "$date": "2026-10-17T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e3c"
+    },
+    "code": "LEAD-2026-002",
+    "company_name": "Deccan Converting & Paper Bags Ltd",
+    "contact_person": "Smt. Jayashree Rao",
+    "email": "jrao@deccanconverting.in",
+    "phone": "+91 98480 12890",
+    "source": "DIRECT_INQUIRY",
+    "status": "PROPOSAL_SENT",
+    "priority": "WARM",
+    "assigned_to": "rohangupta@rgtech.com",
+    "estimated_value": 920000.0,
+    "machine_interest": "Carton Packaging Machine PKG-300 with conveyor",
+    "unit_id": "Unit_2",
+    "next_follow_up": {
+      "$date": "2026-10-17T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e3e"
+    },
+    "code": "LEAD-2026-003",
+    "company_name": "Apex Stationery & Forms Co.",
+    "contact_person": "Mr. Rajesh Agarwal",
+    "email": "rajesh@apexforms.com",
+    "phone": "+91 98100 45678",
+    "source": "WEBSITE",
+    "status": "QUALIFIED",
+    "priority": "HOT",
+    "assigned_to": "priyashah@rgtech.com",
+    "estimated_value": 450000.0,
+    "machine_interest": "Compact Desktop Envelope Machine ENV-MINI",
+    "unit_id": "Unit_1",
+    "next_follow_up": null,
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e40"
+    },
+    "code": "LEAD-2026-004",
+    "company_name": "Shree Ganesh Book Mfg & Printers",
+    "contact_person": "Mr. Paresh Soni",
+    "email": "paresh@shreeganeshprint.com",
+    "phone": "+91 98240 77123",
+    "source": "REFERRAL",
+    "status": "CONVERTED",
+    "priority": "HOT",
+    "assigned_to": "priyashah@rgtech.com",
+    "estimated_value": 2450000.0,
+    "machine_interest": "Semi-Automatic Envelope Machine ENV-100",
+    "unit_id": "BOTH",
+    "next_follow_up": null,
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e42"
+    },
+    "code": "LEAD-2026-005",
+    "company_name": "Maruti Cartons & Corrugators",
+    "contact_person": "Mr. Vikas Kadam",
+    "email": "vkadam@maruticartons.com",
+    "phone": "+91 98210 99456",
+    "source": "COLD_CALL",
+    "status": "CONTACTED",
+    "priority": "COLD",
+    "assigned_to": "meeranair@rgtech.com",
+    "estimated_value": 560000.0,
+    "machine_interest": "Automatic Carton Packer spare assemblies",
+    "unit_id": "Unit_2",
+    "next_follow_up": {
+      "$date": "2026-10-13T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e44"
+    },
+    "code": "LEAD-2026-006",
+    "company_name": "Tamil Nadu Educational Stationery",
+    "contact_person": "Mr. S. Ramanathan",
+    "email": "ramanathan@tnstationery.org",
+    "phone": "+91 94440 33210",
+    "source": "TRADE_EXPO",
+    "status": "LOST",
+    "priority": "COLD",
+    "assigned_to": "rohangupta@rgtech.com",
+    "estimated_value": 1200000.0,
+    "machine_interest": "Tender bid lost on pricing discount terms",
+    "unit_id": "Unit_1",
+    "next_follow_up": null,
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e46"
+    },
+    "code": "LEAD-2026-007",
+    "company_name": "Kalyani Paper Converting Works",
+    "contact_person": "Mr. Anirudh Kalyani",
+    "email": "anirudh@kalyanipapers.com",
+    "phone": "+91 98220 11987",
+    "source": "EXISTING_CLIENT",
+    "status": "PROPOSAL_SENT",
+    "priority": "WARM",
+    "assigned_to": "priyashah@rgtech.com",
+    "estimated_value": 820000.0,
+    "machine_interest": "ENV-100 tooling expansion with window die-cutter",
+    "unit_id": "Unit_1",
+    "next_follow_up": {
+      "$date": "2026-10-17T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e48"
+    },
+    "code": "LEAD-2026-008",
+    "company_name": "Galaxy Blister & Box Packers",
+    "contact_person": "Mr. Manish Chawla",
+    "email": "manish@galaxypack.com",
+    "phone": "+91 98110 88234",
+    "source": "WEBSITE",
+    "status": "NEW",
+    "priority": "WARM",
+    "assigned_to": "meeranair@rgtech.com",
+    "estimated_value": 1450000.0,
+    "machine_interest": "Inquiry for PKG-300 carton forming station",
+    "unit_id": "Unit_2",
+    "next_follow_up": null,
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

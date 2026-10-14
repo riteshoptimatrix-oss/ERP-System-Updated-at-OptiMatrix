@@ -36,6 +36,8 @@ import {
   Receipt,
   Clock,
   Calendar,
+  ClipboardList,
+  Megaphone,
 } from 'lucide-react';
 
 interface NavItem {
@@ -75,7 +77,7 @@ const RAW_NAV_GROUPS: NavGroup[] = [
       { name: 'My Leaves', href: '/employee/leave', icon: Clock, module: 'employee', action: 'read', isEmployeePortal: true },
       { name: 'My Tasks', href: '/employee/tasks', icon: CheckSquare, module: 'employee', action: 'read', isEmployeePortal: true },
       { name: 'My Salary & Payslips', href: '/employee/payroll', icon: Receipt, module: 'employee', action: 'read', isEmployeePortal: true },
-      { name: 'Announcements', href: '/employee/notifications', icon: Bell, module: 'employee', action: 'read', isEmployeePortal: true },
+      { name: 'Announcements & Bulletins', href: '/announcements', icon: Megaphone, module: 'employee', action: 'read', isEmployeePortal: true },
     ],
   },
   {
@@ -85,6 +87,7 @@ const RAW_NAV_GROUPS: NavGroup[] = [
     items: [
       { name: 'CRM & Leads', href: '/crm', icon: Users2, module: 'crm', action: 'read' },
       { name: 'Sales Orders & Dispatch', href: '/orders', icon: ShoppingCart, module: 'orders', action: 'read' },
+      { name: 'Order Planning', href: '/orders?tab=planning', icon: ClipboardList, module: 'orders', action: 'read' },
     ],
   },
   {
@@ -95,6 +98,7 @@ const RAW_NAV_GROUPS: NavGroup[] = [
       { name: 'Inventory & Stock', href: '/inventory', icon: Boxes, module: 'inventory', action: 'read' },
       { name: 'Bill of Materials', href: '/bom', icon: Scroll, module: 'bom', action: 'read' },
       { name: 'Production & WIP', href: '/production', icon: Cog, module: 'production', action: 'read' },
+      { name: 'Daily Production Planning', href: '/production?tab=daily', icon: ClipboardList, module: 'production', action: 'read' },
       { name: 'Wastage & Scrap', href: '/wastage', icon: Trash2, module: 'wastage', action: 'read' },
       { name: 'Power & Downtime', href: '/power', icon: Zap, module: 'power', action: 'read' },
     ],
@@ -121,6 +125,7 @@ const RAW_NAV_GROUPS: NavGroup[] = [
       { name: 'Excel Migration', href: '/master/import', icon: LineChart, module: 'master', action: 'create' },
       { name: 'User Management', href: '/users', icon: UserCog, module: 'users', action: 'read' },
       { name: 'Roles & RBAC', href: '/roles', icon: Shield, module: 'roles', action: 'read' },
+      { name: 'Company Announcements', href: '/announcements', icon: Megaphone, module: 'users', action: 'read' },
       { name: 'Audit Logs', href: '/audit', icon: History, module: 'audit', action: 'read' },
     ],
   },
@@ -175,6 +180,11 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen = false, onClose }) => 
         }
 
         const authorizedItems = group.items.filter((item) => {
+          // Hide 'My Salary & Payslips' specifically for Super Admin
+          if (user.role === 'SUPER_ADMIN' && item.href === '/employee/payroll') {
+            return false;
+          }
+
           const hasAccess = item.href === '/' || Boolean(item.isEmployeePortal) || hasPermission(item.module, item.action);
           if (!hasAccess) return false;
           if (!searchQuery.trim()) return true;

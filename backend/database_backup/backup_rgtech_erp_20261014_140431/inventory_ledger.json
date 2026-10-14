@@ -1,0 +1,30 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf16ebacdf5d42def47a96"
+    },
+    "transaction_number": "TXN-2026-0001",
+    "movement_type": "MATERIAL_INWARD",
+    "item_id": "6acf133b35a67d012664f0db",
+    "item_code": "FP-ENV-200",
+    "item_name": "Fully Automatic Envelope Machine ENV-200",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b2",
+    "warehouse_code": "WH-U1-WIP",
+    "warehouse_name": "Unit 1 Machining WIP Buffer Bay",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-01",
+    "quantity_change": 100.0,
+    "balance_after": 100.0,
+    "unit_cost": 5000.0,
+    "uom": "PCS",
+    "reference_id": "Unit 1234",
+    "reference_type": "PURCHASE_INVOICE",
+    "reason": "MATERIAL_INWARD",
+    "notes": "Inward receipt from supplier N/A, Invoice: Unit 1234",
+    "created_at": {
+      "$date": "2026-10-14T05:45:15.350Z"
+    },
+    "created_by": "admin@rgtech.com"
+  }
+]

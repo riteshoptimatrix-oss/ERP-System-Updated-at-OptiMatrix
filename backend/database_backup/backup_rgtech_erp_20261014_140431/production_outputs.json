@@ -1,0 +1,117 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1af"
+    },
+    "order_id": "6acf133b35a67d012664f1ae",
+    "order_number": "PRD-2026-0001",
+    "product_id": "6acf133b35a67d012664f0da",
+    "product_code": "FP-ENV-100",
+    "produced_quantity": 5.0,
+    "rejected_quantity": 0.0,
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "batch_no": "BATCH-FP-ENV-100-0001",
+    "unit_id": "Unit_1",
+    "status": "PASSED",
+    "operator_name": "Amit Patel",
+    "notes": "Batch outputs for project PRD-2026-0001",
+    "created_at": {
+      "$date": "2026-09-30T05:51:39.563Z"
+    },
+    "created_by": "amitpatel@rgtech.com",
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1b2"
+    },
+    "order_id": "6acf133b35a67d012664f1b1",
+    "order_number": "PRD-2026-0002",
+    "product_id": "6acf133b35a67d012664f0db",
+    "product_code": "FP-ENV-200",
+    "produced_quantity": 2.0,
+    "rejected_quantity": 0.0,
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "batch_no": "BATCH-FP-ENV-200-0002",
+    "unit_id": "Unit_1",
+    "status": "PENDING_INSPECTION",
+    "operator_name": "Rahul Sharma",
+    "notes": "Batch outputs for project PRD-2026-0002",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "created_by": "rahulsharma@rgtech.com",
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1b6"
+    },
+    "order_id": "6acf133b35a67d012664f1b5",
+    "order_number": "PRD-2026-0004",
+    "product_id": "6acf133b35a67d012664f0dd",
+    "product_code": "FP-ENV-MINI",
+    "produced_quantity": 10.0,
+    "rejected_quantity": 1.0,
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "batch_no": "BATCH-FP-ENV-MINI-0004",
+    "unit_id": "Unit_1",
+    "status": "PASSED",
+    "operator_name": "Jagdish Panchal",
+    "notes": "Batch outputs for project PRD-2026-0004",
+    "created_at": {
+      "$date": "2026-10-05T05:51:39.563Z"
+    },
+    "created_by": "jagdishpanchal@rgtech.com",
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1bb"
+    },
+    "order_id": "6acf133b35a67d012664f1ba",
+    "order_number": "PRD-2026-0007",
+    "product_id": "6acf133b35a67d012664f0db",
+    "product_code": "FP-ENV-200",
+    "produced_quantity": 4.0,
+    "rejected_quantity": 0.0,
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "batch_no": "BATCH-FP-ENV-200-0007",
+    "unit_id": "Unit_1",
+    "status": "PENDING_INSPECTION",
+    "operator_name": "Rahul Sharma",
+    "notes": "Batch outputs for project PRD-2026-0007",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "created_by": "rahulsharma@rgtech.com",
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133c35a67d012664f1bf"
+    },
+    "order_id": "6acf133b35a67d012664f1be",
+    "order_number": "PRD-2026-0009",
+    "product_id": "6acf133b35a67d012664f0dd",
+    "product_code": "FP-ENV-MINI",
+    "produced_quantity": 8.0,
+    "rejected_quantity": 0.0,
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "batch_no": "BATCH-FP-ENV-MINI-0009",
+    "unit_id": "Unit_1",
+    "status": "PASSED",
+    "operator_name": "Jagdish Panchal",
+    "notes": "Batch outputs for project PRD-2026-0009",
+    "created_at": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "created_by": "jagdishpanchal@rgtech.com",
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

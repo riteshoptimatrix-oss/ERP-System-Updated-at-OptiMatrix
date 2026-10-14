@@ -513,10 +513,18 @@ class InventoryRepository:
         Assigns deduction to the default finished goods warehouse for the unit.
         """
         # Find finished goods warehouse for this unit
-        wh_query: Dict[str, Any] = {"unit_id": unit_id}
-        wh_doc = await self.warehouses_col.find_one(wh_query)
+        wh_doc = await self.warehouses_col.find_one({
+            "unit_id": unit_id,
+            "warehouse_type": "FINISHED_GOODS",
+        })
         if not wh_doc:
-            # Fallback to any warehouse in unit or create an allocation
+            wh_doc = await self.warehouses_col.find_one({
+                "unit_id": unit_id,
+                "code": {"$regex": "FG", "$options": "i"},
+            })
+        if not wh_doc:
+            wh_doc = await self.warehouses_col.find_one({"unit_id": unit_id})
+        if not wh_doc:
             wh_doc = await self.warehouses_col.find_one({})
 
         if not wh_doc:
@@ -538,10 +546,26 @@ class InventoryRepository:
                 continue
 
             item_info = await self.resolve_item_info(p_code, ItemType.FINISHED_GOOD)
+
+            # Resolve matching batch with available stock in this warehouse
+            stock_doc = await self.stock_col.find_one({
+                "item_code": item_info["item_code"],
+                "warehouse_code": wh_info["warehouse_code"],
+                "current_quantity": {"$gte": p_qty},
+            }) or await self.stock_col.find_one({
+                "item_code": item_info["item_code"],
+                "warehouse_code": wh_info["warehouse_code"],
+                "current_quantity": {"$gt": 0},
+            }) or await self.stock_col.find_one({
+                "item_code": item_info["item_code"],
+                "warehouse_code": wh_info["warehouse_code"],
+            })
+            batch_no = stock_doc.get("batch_no", "DEFAULT") if stock_doc else "DEFAULT"
+
             ledger_entry = await self.record_stock_movement(
                 item_info=item_info,
                 warehouse_info=wh_info,
-                batch_no="DEFAULT",
+                batch_no=batch_no,
                 quantity_change=-abs(p_qty),
                 movement_type=MovementType.SALES_DISPATCH,
                 unit_cost=item_info["standard_cost"],

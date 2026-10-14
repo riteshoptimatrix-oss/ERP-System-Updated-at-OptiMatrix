@@ -15,6 +15,9 @@ from app.schemas.orders import (
     OrderDashboardSummary,
     OrderCancellationRequest,
     StockAvailabilityResult,
+    OrderPlanningItem,
+    OrderPlanningUpdate,
+    OrderPlanningSummary,
 )
 from app.schemas.master import PaginatedResponse
 
@@ -52,6 +55,85 @@ async def get_orders_dashboard(
     repo = get_orders_repo()
     summary = await repo.get_dashboard_summary(target_unit)
     return OrderDashboardSummary(**summary)
+
+
+# -------------------------------------------------------------
+# Order Planning (By Variant and Length)
+# Updated by Taha; one line per variant and length
+# -------------------------------------------------------------
+@router.get("/planning", response_model=List[OrderPlanningItem])
+async def list_order_planning(
+    unit_id: Optional[str] = Query(None, description="Filter planning lines by unit"),
+    priority: Optional[str] = Query(None, description="Filter by priority: URGENT, HIGH, MEDIUM, LOW"),
+    order_status: Optional[str] = Query(None, description="Filter by order status"),
+    final_approval: Optional[str] = Query(None, description="Filter by approval: APPROVED, PENDING, ON_HOLD"),
+    search: Optional[str] = Query(None, description="Search order#, customer, variant, length, brand"),
+    current_user: Dict[str, Any] = Depends(require_permission("orders", "read")),
+) -> List[OrderPlanningItem]:
+    """
+    Retrieve one line per variant and length for shop-floor production planning.
+    Includes live calculated Balance Qty (Order - Produced) and Dispatch Balance (Order - Dispatched).
+    """
+    repo = get_orders_repo()
+    docs = await repo.list_order_planning(
+        unit_id=unit_id,
+        priority=priority,
+        order_status=order_status,
+        final_approval=final_approval,
+        search=search,
+    )
+    return [OrderPlanningItem(**d) for d in docs]
+
+
+@router.get("/planning/summary", response_model=OrderPlanningSummary)
+async def get_order_planning_summary(
+    unit_id: Optional[str] = Query(None, description="Filter summary by unit"),
+    current_user: Dict[str, Any] = Depends(require_permission("orders", "read")),
+) -> OrderPlanningSummary:
+    """
+    Aggregated quantities and line statistics for the variant and length planning sheet.
+    """
+    repo = get_orders_repo()
+    res = await repo.get_order_planning_summary(unit_id=unit_id)
+    return OrderPlanningSummary(**res)
+
+
+@router.put("/planning/{planning_id}", response_model=OrderPlanningItem)
+async def update_order_planning(
+    planning_id: str = Path(..., description="Order planning item ID"),
+    payload: OrderPlanningUpdate = ...,
+    current_user: Dict[str, Any] = Depends(require_permission("orders", "update")),
+    _: None = Depends(verify_csrf_token),
+) -> OrderPlanningItem:
+    """
+    Update planned quantity, produced quantity, approval status, or remarks on a planning line.
+    """
+    repo = get_orders_repo()
+    user_name = current_user.get("full_name") or current_user.get("email") or "Taha"
+    updated = await repo.update_order_planning_item(
+        item_id=planning_id,
+        update_data=payload.model_dump(exclude_unset=True),
+        updated_by=user_name,
+    )
+    if not updated:
+        raise HTTPException(
+            status_code=status.HTTP_404_NOT_FOUND,
+            detail=f"Order planning record '{planning_id}' not found.",
+        )
+    return OrderPlanningItem(**updated)
+
+
+@router.post("/planning/sync", response_model=Dict[str, Any])
+async def sync_order_planning(
+    current_user: Dict[str, Any] = Depends(require_permission("orders", "create")),
+    _: None = Depends(verify_csrf_token),
+) -> Dict[str, Any]:
+    """
+    Manually synchronize confirmed orders into the variant & length planning matrix.
+    """
+    repo = get_orders_repo()
+    count = await repo.sync_order_planning_from_orders()
+    return {"message": "Order planning synchronized successfully", "new_lines_created": count}
 
 
 # -------------------------------------------------------------

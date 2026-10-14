@@ -14,6 +14,7 @@ import {
   MeterType,
   OutageType,
   PowerSummary,
+  DailyElectricityScrapTracker,
 } from '@/types/power';
 import {
   Zap,
@@ -25,6 +26,7 @@ import {
   CheckCircle2,
   X,
   Gauge,
+  FileSpreadsheet,
 } from 'lucide-react';
 
 const OUTAGE_TYPE_LABELS: Record<OutageType, string> = {
@@ -45,8 +47,8 @@ export default function PowerTrackingPage() {
   const { activeUnit, hasPermission } = useAuth();
   const canCreate = hasPermission('power', 'create');
 
-  // Active Tab: 'OUTAGES' | 'READINGS'
-  const [activeTab, setActiveTab] = useState<'OUTAGES' | 'READINGS'>('OUTAGES');
+  // Active Tab: 'OUTAGES' | 'SCRAP' | 'READINGS'
+  const [activeTab, setActiveTab] = useState<'OUTAGES' | 'SCRAP' | 'READINGS'>('OUTAGES');
 
   // KPI Metrics
   const [summary, setSummary] = useState<PowerSummary | null>(null);
@@ -55,6 +57,11 @@ export default function PowerTrackingPage() {
   const [outages, setOutages] = useState<PowerCutLog[]>([]);
   const [isLoadingOutages, setIsLoadingOutages] = useState(false);
   const [selectedOutageType, setSelectedOutageType] = useState<string>('ALL');
+
+  // Scrap Tracker State
+  const [scrapTrackers, setScrapTrackers] = useState<DailyElectricityScrapTracker[]>([]);
+  const [isLoadingScrap, setIsLoadingScrap] = useState(false);
+  const [scrapSearch, setScrapSearch] = useState<string>('');
 
   // Meter Readings State
   const [readings, setReadings] = useState<ElectricityReading[]>([]);
@@ -111,6 +118,15 @@ export default function PowerTrackingPage() {
         });
         setOutages(outagesRes.items || []);
         setIsLoadingOutages(false);
+      } else if (activeTab === 'SCRAP') {
+        setIsLoadingScrap(true);
+        const scrapRes = await powerClient.listScrapTracker({
+          unit_id: unitParam,
+          search: scrapSearch || undefined,
+          page_size: 100,
+        });
+        setScrapTrackers(scrapRes.items || []);
+        setIsLoadingScrap(false);
       } else {
         setIsLoadingReadings(true);
         const readingsRes = await powerClient.listReadings({
@@ -124,9 +140,10 @@ export default function PowerTrackingPage() {
     } catch (err: unknown) {
       setActionError(err instanceof Error ? err.message : 'Failed to fetch power data');
       setIsLoadingOutages(false);
+      setIsLoadingScrap(false);
       setIsLoadingReadings(false);
     }
-  }, [activeUnit, activeTab, selectedOutageType, selectedMeterType]);
+  }, [activeUnit, activeTab, selectedOutageType, scrapSearch, selectedMeterType]);
 
   useEffect(() => {
     loadData();
@@ -230,34 +247,47 @@ export default function PowerTrackingPage() {
       ),
     },
     {
-      key: 'start_time',
-      header: 'Start Time',
+      key: 'incident_date',
+      header: 'Date',
       render: (row) => (
-        <span className="text-xs">{new Date(row.start_time).toLocaleString()}</span>
-      ),
-    },
-    {
-      key: 'end_time',
-      header: 'End Time',
-      render: (row) => (
-        <span className="text-xs">{new Date(row.end_time).toLocaleString()}</span>
-      ),
-    },
-    {
-      key: 'duration_minutes',
-      header: 'Downtime',
-      render: (row) => (
-        <span className="font-bold text-xs text-rose-600 text-rose-400">
-          {row.duration_minutes} mins
+        <span className="text-xs font-medium text-slate-800">
+          {row.incident_date || (row.start_time ? new Date(row.start_time).toISOString().split('T')[0] : '—')}
         </span>
       ),
     },
     {
-      key: 'outage_type',
-      header: 'Category',
+      key: 'power_cut_time',
+      header: 'Power Cut Time',
       render: (row) => (
-        <span className="text-xs font-medium">
-          {OUTAGE_TYPE_LABELS[row.outage_type as OutageType] || row.outage_type}
+        <span className="text-xs font-mono font-medium text-rose-600">
+          {row.power_cut_time || (row.start_time ? new Date(row.start_time).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '—')}
+        </span>
+      ),
+    },
+    {
+      key: 'power_restored_time',
+      header: 'Restored Time',
+      render: (row) => (
+        <span className="text-xs font-mono font-medium text-emerald-600">
+          {row.power_restored_time || (row.end_time ? new Date(row.end_time).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }) : '—')}
+        </span>
+      ),
+    },
+    {
+      key: 'restart_delay_minutes',
+      header: 'Restart Delay (Min)',
+      render: (row) => (
+        <span className="text-xs font-semibold text-amber-600">
+          {row.restart_delay_minutes ? `${row.restart_delay_minutes} min` : '—'}
+        </span>
+      ),
+    },
+    {
+      key: 'duration_minutes',
+      header: 'Downtime Duration',
+      render: (row) => (
+        <span className="font-bold text-xs text-rose-600">
+          {row.downtime_duration_str || `${row.duration_minutes} mins`}
         </span>
       ),
     },
@@ -284,11 +314,132 @@ export default function PowerTrackingPage() {
       ),
     },
     {
-      key: 'affected_departments',
-      header: 'Affected Areas',
+      key: 'remarks',
+      header: 'Remarks',
       render: (row) => (
-        <span className="text-[11px] text-slate-500">
-          {row.affected_departments.join(', ')}
+        <span className="text-xs text-slate-500">
+          {row.remarks || '—'}
+        </span>
+      ),
+    },
+  ];
+
+  // Columns for Daily Electricity & Scrap Tracker
+  const scrapTrackerColumns: Column<DailyElectricityScrapTracker>[] = [
+    {
+      key: 'date',
+      header: 'Date',
+      render: (row) => (
+        <span className="font-medium text-xs text-slate-900">
+          {row.date}
+        </span>
+      ),
+    },
+    {
+      key: 'total_production_kg',
+      header: 'Total Prod (kg)',
+      render: (row) => (
+        <span className="font-semibold text-xs text-[#315C45]">
+          {row.total_production_kg.toFixed(2)}
+        </span>
+      ),
+    },
+    {
+      key: 'product_type',
+      header: 'Product Type',
+      render: (row) => (
+        <Badge variant={row.product_type === 'Braider' ? 'success' : 'neutral'}>
+          {row.product_type || '—'}
+        </Badge>
+      ),
+    },
+    {
+      key: 'startup_scrap_kg',
+      header: 'Startup Scrap (kg)',
+      render: (row) => (
+        <span className="text-xs text-slate-700">
+          {row.startup_scrap_kg.toFixed(2)}
+        </span>
+      ),
+    },
+    {
+      key: 'cutting_scrap_kg',
+      header: 'Cutting Scrap (kg)',
+      render: (row) => (
+        <span className="text-xs text-slate-700">
+          {row.cutting_scrap_kg.toFixed(2)}
+        </span>
+      ),
+    },
+    {
+      key: 'total_scrap_kg',
+      header: 'Total Scrap (kg)',
+      render: (row) => (
+        <span className="font-bold text-xs text-rose-600">
+          {row.total_scrap_kg.toFixed(2)}
+        </span>
+      ),
+    },
+    {
+      key: 'scrap_percent_str',
+      header: 'Scrap %',
+      render: (row) => (
+        <span className="font-semibold text-xs text-amber-600">
+          {row.scrap_percent_str}
+        </span>
+      ),
+    },
+    {
+      key: 'electricity_off_count',
+      header: 'Power Off Times',
+      render: (row) => (
+        <span className="text-xs font-semibold text-slate-800">
+          {row.electricity_off_count}
+        </span>
+      ),
+    },
+    {
+      key: 'total_off_time_min',
+      header: 'Off Time (min)',
+      render: (row) => (
+        <span className="text-xs text-rose-500 font-medium">
+          {row.total_off_time_min}
+        </span>
+      ),
+    },
+    {
+      key: 'machine_working_hours',
+      header: 'Working Hrs',
+      render: (row) => (
+        <span className="text-xs text-slate-700">
+          {row.machine_working_hours}
+        </span>
+      ),
+    },
+    {
+      key: 'shift_duration_hr',
+      header: 'Shift (Hr)',
+      render: (row) => (
+        <span className="text-xs text-slate-600">
+          {row.shift_duration_hr}
+        </span>
+      ),
+    },
+    {
+      key: 'main_reason',
+      header: 'Main Reason',
+      render: (row) => (
+        <span className="text-xs text-slate-600 max-w-xs truncate block">
+          {row.main_reason || '—'}
+        </span>
+      ),
+    },
+    {
+      key: 'remarks',
+      header: 'Remarks',
+      render: (row) => (
+        <span className="text-xs text-slate-500 max-w-xs truncate block">
+          {row.remarks || '—'}
         </span>
       ),
     },
@@ -500,7 +651,18 @@ export default function PowerTrackingPage() {
             }`}
         >
           <Clock className="w-4 h-4" />
-          Power Outages & Machine Downtime Log ({outages.length})
+          Daily Power Cut Log ({outages.length})
+        </button>
+
+        <button
+          onClick={() => setActiveTab('SCRAP')}
+          className={`py-2 px-4 text-xs font-semibold border-b-2 transition-colors flex items-center gap-2 ${activeTab === 'SCRAP'
+            ? 'border-[#315C45] text-[#315C45] border-blue-400 text-blue-400'
+            : 'border-transparent text-slate-500 hover:text-slate-700 hover:text-slate-300'
+            }`}
+        >
+          <FileSpreadsheet className="w-4 h-4 text-emerald-600" />
+          Daily Electricity &amp; Scrap Tracker ({scrapTrackers.length})
         </button>
 
         <button
@@ -521,7 +683,7 @@ export default function PowerTrackingPage() {
           <div className="flex flex-col sm:flex-row gap-3 mb-4 justify-between">
             <h2 className="text-sm font-semibold text-slate-800  flex items-center gap-2">
               <Clock className="w-4 h-4 text-rose-500" />
-              Power-Cut Interruption Log
+              Power-Cut Interruption Log (60+ Incidents with Restart Delay &amp; Downtime)
             </h2>
 
             <select
@@ -540,6 +702,35 @@ export default function PowerTrackingPage() {
             columns={outageColumns}
             data={outages}
             isLoading={isLoadingOutages}
+            keyExtractor={(row) => row.id}
+          />
+        </Card>
+      ) : activeTab === 'SCRAP' ? (
+        <Card className="p-4">
+          <div className="flex flex-col sm:flex-row gap-3 mb-4 justify-between items-start sm:items-center">
+            <div>
+              <h2 className="text-sm font-semibold text-slate-800  flex items-center gap-2">
+                <FileSpreadsheet className="w-4 h-4 text-emerald-600" />
+                Daily Electricity &amp; Scrap Tracker (Production, Scrap Breakdown &amp; Working Hours)
+              </h2>
+              <p className="text-xs text-slate-500 mt-0.5">
+                Tracks total production kg, startup &amp; cutting scrap breakdown, electricity off frequency, and downtime
+              </p>
+            </div>
+
+            <input
+              type="text"
+              placeholder="Search date, type, reason..."
+              value={scrapSearch}
+              onChange={(e) => setScrapSearch(e.target.value)}
+              className="py-1.5 px-3 text-xs bg-slate-50 border border-[#E7E5DE] rounded-lg w-full sm:w-64"
+            />
+          </div>
+
+          <DataTable
+            columns={scrapTrackerColumns}
+            data={scrapTrackers}
+            isLoading={isLoadingScrap}
             keyExtractor={(row) => row.id}
           />
         </Card>

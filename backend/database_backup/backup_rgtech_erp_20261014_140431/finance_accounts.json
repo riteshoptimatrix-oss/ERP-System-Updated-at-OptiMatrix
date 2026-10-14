@@ -1,0 +1,418 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f107"
+    },
+    "account_code": "1000-CASH",
+    "name": "Petty Cash",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Cash on hand",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f108"
+    },
+    "account_code": "1010-BANK-HDFC",
+    "name": "HDFC Bank Operating Account",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Primary operating bank account",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f109"
+    },
+    "account_code": "1020-BANK-SBI",
+    "name": "SBI Current Account",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Secondary collections bank account",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f10a"
+    },
+    "account_code": "1100-ACCOUNTS-RECEIVABLE",
+    "name": "Trade Accounts Receivable",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Customer invoice receivables",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f10b"
+    },
+    "account_code": "1200-RAW-MATERIAL-INVENTORY",
+    "name": "Raw Material Inventory Valuation",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Stock balance of raw materials",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f10c"
+    },
+    "account_code": "1210-FINISHED-GOODS-INVENTORY",
+    "name": "Finished Goods Inventory Valuation",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Stock balance of finished envelope and packaging machines",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f10d"
+    },
+    "account_code": "1220-WIP-INVENTORY",
+    "name": "Work-in-Progress (WIP) Valuation",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Machining and assembly WIP buffer value",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f10e"
+    },
+    "account_code": "1500-PLANT-MACHINERY",
+    "name": "Plant & Machinery (Gross)",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Heavy CNC milling, boring machines and lathes",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f10f"
+    },
+    "account_code": "1510-ACCUM-DEPRECIATION",
+    "name": "Accumulated Depreciation",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "Cumulative depreciation reserve",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f110"
+    },
+    "account_code": "2000-ACCOUNTS-PAYABLE",
+    "name": "Trade Accounts Payable",
+    "account_type": "LIABILITY",
+    "unit_id": "BOTH",
+    "description": "Outstanding vendor bills",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f111"
+    },
+    "account_code": "2100-PF-PAYABLE",
+    "name": "Provident Fund (PF) Payable",
+    "account_type": "LIABILITY",
+    "unit_id": "BOTH",
+    "description": "Employee and employer PF liability",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f112"
+    },
+    "account_code": "2110-ESI-PAYABLE",
+    "name": "ESI Contribution Payable",
+    "account_type": "LIABILITY",
+    "unit_id": "BOTH",
+    "description": "Employee state insurance liability",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f113"
+    },
+    "account_code": "2120-PT-PAYABLE",
+    "name": "Professional Tax (PT) Payable",
+    "account_type": "LIABILITY",
+    "unit_id": "BOTH",
+    "description": "State professional tax liability",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f114"
+    },
+    "account_code": "2130-TDS-PAYABLE",
+    "name": "TDS Withholding Tax Payable",
+    "account_type": "LIABILITY",
+    "unit_id": "BOTH",
+    "description": "TDS deducted from vendor and payroll disbursements",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f115"
+    },
+    "account_code": "2140-SALARY-NET-PAYABLE",
+    "name": "Net Salaries & Wages Payable",
+    "account_type": "LIABILITY",
+    "unit_id": "BOTH",
+    "description": "Net unpaid monthly payroll balance",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f116"
+    },
+    "account_code": "2200-GST-OUTPUT-PAYABLE",
+    "name": "GST Output Tax Payable",
+    "account_type": "LIABILITY",
+    "unit_id": "BOTH",
+    "description": "GST collected on machine deliveries",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f117"
+    },
+    "account_code": "2210-GST-INPUT-CREDIT",
+    "name": "GST Input Tax Credit (ITC)",
+    "account_type": "ASSET",
+    "unit_id": "BOTH",
+    "description": "GST paid on raw material and consumable procurement",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f118"
+    },
+    "account_code": "3000-SHARE-CAPITAL",
+    "name": "Paid-Up Equity Share Capital",
+    "account_type": "EQUITY",
+    "unit_id": "BOTH",
+    "description": "Owner contributed equity capital",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f119"
+    },
+    "account_code": "3100-RETAINED-EARNINGS",
+    "name": "Retained Earnings / Surplus",
+    "account_type": "EQUITY",
+    "unit_id": "BOTH",
+    "description": "Accumulated operating profits",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f11a"
+    },
+    "account_code": "4000-SALES-REVENUE",
+    "name": "Sales Revenue - Machinery",
+    "account_type": "REVENUE",
+    "unit_id": "BOTH",
+    "description": "Commercial machine sales revenue",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f11b"
+    },
+    "account_code": "4100-SCRAP-SALES-REVENUE",
+    "name": "Scrap & Waste Sales Revenue",
+    "account_type": "REVENUE",
+    "unit_id": "BOTH",
+    "description": "Revenue from recycling metal chips and scrap",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f11c"
+    },
+    "account_code": "5000-RAW-MATERIAL-CONSUMPTION",
+    "name": "Direct Material Consumption",
+    "account_type": "EXPENSE",
+    "unit_id": "BOTH",
+    "description": "Direct steel and components consumed in production",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f11d"
+    },
+    "account_code": "5100-DIRECT-LABOR-WAGES",
+    "name": "Direct Shopfloor Wages & Salaries",
+    "account_type": "EXPENSE",
+    "unit_id": "BOTH",
+    "description": "Production and machinist compensation",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f11e"
+    },
+    "account_code": "5200-POWER-ELECTRICITY-EXPENSE",
+    "name": "Factory Power & Electricity Cost",
+    "account_type": "EXPENSE",
+    "unit_id": "BOTH",
+    "description": "HT and LT electricity consumption expense",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f11f"
+    },
+    "account_code": "5300-OPERATING-EXPENSES",
+    "name": "General Factory Overheads",
+    "account_type": "EXPENSE",
+    "unit_id": "BOTH",
+    "description": "Maintenance, freight, safety gear, office utilities",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f120"
+    },
+    "account_code": "5400-SCRAP-LOSS-EXPENSE",
+    "name": "Production Scrap & Rejection Loss",
+    "account_type": "EXPENSE",
+    "unit_id": "BOTH",
+    "description": "Material machining variance and scrapped parts",
+    "is_active": true,
+    "current_balance": 0.0,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  }
+]

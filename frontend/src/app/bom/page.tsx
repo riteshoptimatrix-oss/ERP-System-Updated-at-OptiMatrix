@@ -31,7 +31,9 @@ import {
   Upload,
   AlertTriangle,
   Boxes,
+  Download,
 } from 'lucide-react';
+import { printBOMToPdf, printExplosionToPdf } from '@/utils/bom-pdf';
 
 export default function BOMHubPage() {
   const { activeUnit, hasPermission } = useAuth();
@@ -435,6 +437,15 @@ export default function BOMHubPage() {
               <Calculator className="w-3.5 h-3.5 mr-1" /> Explode
             </Button>
           )}
+          <Button
+            size="sm"
+            variant="outline"
+            onClick={() => printBOMToPdf(b)}
+            title="Download / Print Bill of Materials as PDF"
+            className="text-slate-700 hover:text-slate-900 border-slate-300 bg-white hover:bg-slate-50"
+          >
+            <Download className="w-3.5 h-3.5 mr-1 text-[#315C45]" /> PDF
+          </Button>
         </div>
       ),
     },
@@ -683,6 +694,15 @@ export default function BOMHubPage() {
                     </p>
                   </div>
                 </div>
+                <Button
+                  size="sm"
+                  variant="outline"
+                  onClick={() => printExplosionToPdf(calcResult)}
+                  className="bg-white text-slate-800 border-slate-300 hover:bg-slate-50 shadow-sm flex items-center gap-1.5"
+                >
+                  <Download className="w-3.5 h-3.5 text-[#315C45]" />
+                  Download PDF
+                </Button>
               </div>
 
               <Card className="overflow-hidden p-0">

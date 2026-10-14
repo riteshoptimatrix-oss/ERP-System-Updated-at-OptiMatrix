@@ -1,4 +1,5 @@
 import re
+import logging
 from typing import Any, Dict, List, Optional, Tuple
 from datetime import datetime, timezone
 from motor.motor_asyncio import AsyncIOMotorDatabase
@@ -13,6 +14,8 @@ from app.schemas.orders import (
     PackingSlipCreate,
     DispatchRecordCreate,
 )
+
+logger = logging.getLogger(__name__)
 
 
 class OrdersRepository(BaseRepository):
@@ -717,3 +720,253 @@ class OrdersRepository(BaseRepository):
             "total_dispatched_value": 0.0,
             "total_pending_dispatches": confirmed_orders + partially_dispatched,
         }
+
+    # -------------------------------------------------------------
+    # Order Planning (By Variant and Length)
+    # Updated by Taha; one line per variant and length
+    # -------------------------------------------------------------
+    async def list_order_planning(
+        self,
+        unit_id: Optional[str] = None,
+        priority: Optional[str] = None,
+        order_status: Optional[str] = None,
+        final_approval: Optional[str] = None,
+        search: Optional[str] = None,
+    ) -> List[Dict[str, Any]]:
+        """
+        List Order Planning records filtered by unit, status, priority, or search term.
+        """
+        filter_query: Dict[str, Any] = {}
+        if unit_id and unit_id not in ["ALL", "BOTH"]:
+            filter_query["$or"] = [{"unit_id": unit_id}, {"unit_id": "BOTH"}]
+        if priority:
+            filter_query["priority"] = priority.upper()
+        if order_status:
+            filter_query["order_status"] = order_status.upper()
+        if final_approval:
+            filter_query["final_approval"] = final_approval.upper()
+        if search:
+            regex_patt = {"$regex": search, "$options": "i"}
+            filter_query["$or"] = [
+                {"order_number": regex_patt},
+                {"customer": regex_patt},
+                {"brand": regex_patt},
+                {"variant": regex_patt},
+                {"length": regex_patt},
+            ]
+
+        # If order_planning collection is empty, automatically seed/sync from existing confirmed orders
+        count = await self.db["order_planning"].count_documents({})
+        if count == 0:
+            await self.sync_order_planning_from_orders()
+
+        cursor = self.db["order_planning"].find(filter_query).sort([("order_date", -1), ("order_number", 1)])
+        docs = await cursor.to_list(length=1000)
+        for doc in docs:
+            doc["id"] = str(doc["_id"])
+            # Ensure computed fields are accurate
+            order_qty = float(doc.get("order_qty", 0.0))
+            produced_qty = float(doc.get("produced_qty", 0.0))
+            dispatch_qty = float(doc.get("dispatch_qty", 0.0))
+            doc["balance_qty"] = max(0.0, order_qty - produced_qty)
+            doc["dispatch_balance"] = max(0.0, order_qty - dispatch_qty)
+        return docs
+
+    async def get_order_planning_summary(self, unit_id: Optional[str] = None) -> Dict[str, Any]:
+        """
+        Calculate aggregate planning metrics across all variant lines.
+        """
+        filter_query: Dict[str, Any] = {}
+        if unit_id and unit_id not in ["ALL", "BOTH"]:
+            filter_query["$or"] = [{"unit_id": unit_id}, {"unit_id": "BOTH"}]
+
+        docs = await self.db["order_planning"].find(filter_query).to_list(length=2000)
+        total_planning_lines = len(docs)
+        total_order_qty = 0.0
+        total_planned_qty = 0.0
+        total_produced_qty = 0.0
+        total_balance_qty = 0.0
+        total_dispatch_qty = 0.0
+        total_dispatch_balance = 0.0
+        approved_lines = 0
+        pending_lines = 0
+
+        for d in docs:
+            oq = float(d.get("order_qty", 0.0))
+            pq = float(d.get("planned_qty", 0.0))
+            prq = float(d.get("produced_qty", 0.0))
+            dq = float(d.get("dispatch_qty", 0.0))
+            bal = max(0.0, oq - prq)
+            dbal = max(0.0, oq - dq)
+
+            total_order_qty += oq
+            total_planned_qty += pq
+            total_produced_qty += prq
+            total_balance_qty += bal
+            total_dispatch_qty += dq
+            total_dispatch_balance += dbal
+
+            if d.get("final_approval", "APPROVED").upper() == "APPROVED":
+                approved_lines += 1
+            else:
+                pending_lines += 1
+
+        return {
+            "total_planning_lines": total_planning_lines,
+            "total_order_qty": round(total_order_qty, 2),
+            "total_planned_qty": round(total_planned_qty, 2),
+            "total_produced_qty": round(total_produced_qty, 2),
+            "total_balance_qty": round(total_balance_qty, 2),
+            "total_dispatch_qty": round(total_dispatch_qty, 2),
+            "total_dispatch_balance": round(total_dispatch_balance, 2),
+            "approved_lines": approved_lines,
+            "pending_lines": pending_lines,
+        }
+
+    async def update_order_planning_item(
+        self,
+        item_id: str,
+        update_data: Dict[str, Any],
+        updated_by: str = "Taha",
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Update a planning line (quantities, dates, approval, remarks, etc.).
+        """
+        if not ObjectId.is_valid(item_id):
+            return None
+
+        clean_update = {k: v for k, v in update_data.items() if v is not None}
+        clean_update["updated_at"] = datetime.now(timezone.utc)
+        clean_update["updated_by"] = updated_by
+
+        current = await self.db["order_planning"].find_one({"_id": ObjectId(item_id)})
+        if not current:
+            return None
+
+        # Recalculate balance quantities if any quantity is modified
+        order_qty = float(current.get("order_qty", 0.0))
+        produced_qty = float(clean_update.get("produced_qty", current.get("produced_qty", 0.0)))
+        dispatch_qty = float(clean_update.get("dispatch_qty", current.get("dispatch_qty", 0.0)))
+        clean_update["balance_qty"] = max(0.0, order_qty - produced_qty)
+        clean_update["dispatch_balance"] = max(0.0, order_qty - dispatch_qty)
+
+        await self.db["order_planning"].update_one(
+            {"_id": ObjectId(item_id)},
+            {"$set": clean_update},
+        )
+        updated = await self.db["order_planning"].find_one({"_id": ObjectId(item_id)})
+        if updated:
+            updated["id"] = str(updated["_id"])
+        return updated
+
+    async def create_order_planning_item(
+        self,
+        item_data: Dict[str, Any],
+        created_by: str = "Taha",
+    ) -> Dict[str, Any]:
+        """
+        Add a new variant/length planning row manually.
+        """
+        item_data["created_at"] = datetime.now(timezone.utc)
+        item_data["updated_at"] = datetime.now(timezone.utc)
+        item_data["updated_by"] = created_by
+        oq = float(item_data.get("order_qty", 0.0))
+        prq = float(item_data.get("produced_qty", 0.0))
+        dq = float(item_data.get("dispatch_qty", 0.0))
+        item_data["balance_qty"] = max(0.0, oq - prq)
+        item_data["dispatch_balance"] = max(0.0, oq - dq)
+
+        res = await self.db["order_planning"].insert_one(item_data)
+        item_data["id"] = str(res.inserted_id)
+        return item_data
+
+    async def sync_order_planning_from_orders(self) -> int:
+        """
+        Synchronize confirmed sales orders into granular variant and length planning lines.
+        """
+        cursor = self.collection.find({"status": {"$ne": OrderStatus.CANCELLED.value}})
+        orders = await cursor.to_list(length=500)
+        inserted_count = 0
+
+        for order in orders:
+            order_num = order.get("order_number", "")
+            order_date_str = (
+                order["order_date"].strftime("%Y-%m-%d")
+                if isinstance(order.get("order_date"), datetime)
+                else str(order.get("order_date", "2026-10-10"))[:10]
+            )
+            req_dispatch_str = (
+                order["required_delivery_date"].strftime("%Y-%m-%d")
+                if isinstance(order.get("required_delivery_date"), datetime)
+                else str(order.get("required_delivery_date", "2026-10-25"))[:10]
+            )
+            customer = order.get("customer_name", "Valued Customer")
+            customer_code = order.get("customer_code", "")
+            unit = order.get("unit_id", "Unit_1")
+            status = order.get("status", "CONFIRMED")
+
+            for idx, item in enumerate(order.get("items", [])):
+                p_name = item.get("product_name", "Precision Component")
+                p_code = item.get("product_code", "")
+                qty = float(item.get("quantity", 10.0))
+                disp_qty = float(item.get("dispatched_quantity", 0.0))
+                brand = "OptiMatrix"
+
+                # Parse variant & length from product spec or name
+                variant = p_name
+                length = "Standard"
+                if "100" in p_code:
+                    variant = f"{p_name} (Standard)"
+                    length = "100 mm"
+                elif "150" in p_code:
+                    variant = f"{p_name} (Heavy)"
+                    length = "150 mm"
+                elif "50" in p_code or "PRO" in p_code:
+                    variant = f"{p_name} (Pro)"
+                    length = "200 mm"
+                elif "MINI" in p_code:
+                    variant = f"{p_name} (Compact)"
+                    length = "50 mm"
+
+                # Check if already exists in order_planning
+                existing = await self.db["order_planning"].find_one({
+                    "order_number": order_num,
+                    "variant": variant,
+                    "length": length,
+                })
+                if existing:
+                    continue
+
+                produced = disp_qty if disp_qty > 0 else (qty if status == "DISPATCHED" else (round(qty * 0.6, 1) if status == "PARTIALLY_DISPATCHED" else 0.0))
+                planned = qty
+
+                doc = {
+                    "order_id": str(order["_id"]),
+                    "order_number": order_num,
+                    "order_date": order_date_str,
+                    "customer": customer,
+                    "customer_code": customer_code,
+                    "brand": brand,
+                    "variant": variant,
+                    "length": length,
+                    "order_qty": qty,
+                    "required_dispatch_date": req_dispatch_str,
+                    "priority": "HIGH" if "0001" in order_num or "0003" in order_num else "MEDIUM",
+                    "order_status": status,
+                    "planned_qty": planned,
+                    "produced_qty": produced,
+                    "balance_qty": max(0.0, qty - produced),
+                    "dispatch_qty": disp_qty,
+                    "dispatch_balance": max(0.0, qty - disp_qty),
+                    "final_approval": "APPROVED",
+                    "remarks": f"Planned for {unit}. Material verified.",
+                    "unit_id": unit,
+                    "created_at": datetime.now(timezone.utc),
+                    "updated_at": datetime.now(timezone.utc),
+                    "updated_by": "Taha",
+                }
+                await self.db["order_planning"].insert_one(doc)
+                inserted_count += 1
+
+        return inserted_count
+

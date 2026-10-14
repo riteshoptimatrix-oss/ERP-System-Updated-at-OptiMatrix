@@ -1,0 +1,98 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0da"
+    },
+    "code": "FP-ENV-100",
+    "name": "Semi-Automatic Envelope Machine ENV-100",
+    "category_id": "CAT-FP-ENV",
+    "uom": "PCS",
+    "drawing_no": "DWG-ENV-100-R3",
+    "revision_no": "R3",
+    "standard_cost": 185000.0,
+    "selling_price": 245000.0,
+    "min_stock_level": 2.0,
+    "unit_id": "Unit_1",
+    "description": "100 env/min machine with rotary feeder and folding stations",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0db"
+    },
+    "code": "FP-ENV-200",
+    "name": "Fully Automatic Envelope Machine ENV-200",
+    "category_id": "CAT-FP-ENV",
+    "uom": "PCS",
+    "drawing_no": "DWG-ENV-200-R2",
+    "revision_no": "R2",
+    "standard_cost": 310000.0,
+    "selling_price": 415000.0,
+    "min_stock_level": 1.0,
+    "unit_id": "Unit_1",
+    "description": "200 env/min continuous gumming, window-cutting and stacking unit",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0dc"
+    },
+    "code": "FP-PKG-300",
+    "name": "Automated Carton Packing Machine PKG-300",
+    "category_id": "CAT-FP-PKG",
+    "uom": "PCS",
+    "drawing_no": "DWG-PKG-300-R1",
+    "revision_no": "R1",
+    "standard_cost": 420000.0,
+    "selling_price": 565000.0,
+    "min_stock_level": 1.0,
+    "unit_id": "Unit_2",
+    "description": "30 cartons/min robotic cartoning with tape and hotmelt sealer",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0dd"
+    },
+    "code": "FP-ENV-MINI",
+    "name": "Compact Desktop Envelope Machine ENV-MINI",
+    "category_id": "CAT-FP-ENV",
+    "uom": "PCS",
+    "drawing_no": "DWG-ENV-MINI-R1",
+    "revision_no": "R1",
+    "standard_cost": 95000.0,
+    "selling_price": 128000.0,
+    "min_stock_level": 3.0,
+    "unit_id": "Unit_1",
+    "description": "50 env/min single-phase tabletop office envelope maker",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  }
+]

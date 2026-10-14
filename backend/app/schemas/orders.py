@@ -232,3 +232,59 @@ class OrderDashboardSummary(BaseModel):
     total_pipeline_value: float
     total_dispatched_value: float
     total_pending_dispatches: int
+
+
+# -------------------------------------------------------------
+# Order Planning (By Variant and Length)
+# Updated by Taha; one line per variant and length
+# -------------------------------------------------------------
+class OrderPlanningItem(BaseModel):
+    id: Optional[str] = None
+    order_id: Optional[str] = None
+    order_number: str = Field(..., description="Order No. e.g. SO-2026-0001")
+    order_date: str = Field(..., description="Order Date (YYYY-MM-DD)")
+    customer: str = Field(..., description="Customer Name")
+    customer_code: Optional[str] = None
+    brand: str = Field(default="OptiMatrix", description="Brand")
+    variant: str = Field(..., description="Variant / Machine Model")
+    length: str = Field(default="Standard", description="Cut length or dimensional spec")
+    order_qty: float = Field(..., ge=0.0, description="Order Qty")
+    required_dispatch_date: Optional[str] = Field(None, description="Required Dispatch Date")
+    priority: str = Field(default="MEDIUM", description="Priority (URGENT, HIGH, MEDIUM, LOW)")
+    order_status: str = Field(default="CONFIRMED", description="Order Status")
+    planned_qty: float = Field(default=0.0, ge=0.0, description="Planned Qty")
+    produced_qty: float = Field(default=0.0, ge=0.0, description="Produced Qty")
+    balance_qty: float = Field(default=0.0, description="Balance Qty (Order Qty - Produced Qty)")
+    dispatch_qty: float = Field(default=0.0, ge=0.0, description="Dispatch Qty")
+    dispatch_balance: float = Field(default=0.0, description="Dispatch Balance (Order Qty - Dispatch Qty)")
+    final_approval: str = Field(default="APPROVED", description="Final Approval (APPROVED, PENDING, ON_HOLD)")
+    remarks: Optional[str] = Field(None, description="Remarks")
+    unit_id: Optional[str] = "Unit_1"
+    updated_at: Optional[datetime] = None
+    updated_by: Optional[str] = "Taha"
+
+
+class OrderPlanningUpdate(BaseModel):
+    planned_qty: Optional[float] = None
+    produced_qty: Optional[float] = None
+    dispatch_qty: Optional[float] = None
+    required_dispatch_date: Optional[str] = None
+    priority: Optional[str] = None
+    order_status: Optional[str] = None
+    final_approval: Optional[str] = None
+    remarks: Optional[str] = None
+    brand: Optional[str] = None
+    variant: Optional[str] = None
+    length: Optional[str] = None
+
+
+class OrderPlanningSummary(BaseModel):
+    total_planning_lines: int
+    total_order_qty: float
+    total_planned_qty: float
+    total_produced_qty: float
+    total_balance_qty: float
+    total_dispatch_qty: float
+    total_dispatch_balance: float
+    approved_lines: int
+    pending_lines: int

@@ -1,0 +1,138 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f096"
+    },
+    "code": "KG",
+    "name": "Kilogram",
+    "symbol": "kg",
+    "description": "Weight in kilograms",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f097"
+    },
+    "code": "MTR",
+    "name": "Metre",
+    "symbol": "m",
+    "description": "Linear length in metres",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f098"
+    },
+    "code": "PCS",
+    "name": "Pieces",
+    "symbol": "pcs",
+    "description": "Countable distinct units",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f099"
+    },
+    "code": "LTR",
+    "name": "Litre",
+    "symbol": "L",
+    "description": "Liquid volume in litres",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f09a"
+    },
+    "code": "NOS",
+    "name": "Numbers",
+    "symbol": "nos",
+    "description": "Count of components",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f09b"
+    },
+    "code": "SET",
+    "name": "Set",
+    "symbol": "set",
+    "description": "Tooling and hardware sets",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f09c"
+    },
+    "code": "ROL",
+    "name": "Roll",
+    "symbol": "rol",
+    "description": "Roll of gasket or wire",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f09d"
+    },
+    "code": "BOX",
+    "name": "Box",
+    "symbol": "box",
+    "description": "Packaged hardware box",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  }
+]

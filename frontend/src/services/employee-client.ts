@@ -7,6 +7,7 @@ import {
   EmployeeTask,
   NotificationItem,
   AnnouncementItem,
+  AnnouncementRecipientOption,
 } from '@/types/employee';
 import { AttendanceEntry, LeaveApplication, Payslip, SalaryStructure } from '@/types/hr';
 import { PaginatedResponse } from '@/types/master';
@@ -217,13 +218,86 @@ class EmployeeClient {
   }
 
   /**
-   * List plant announcements
+   * List announcements (scoped to audience and permissions)
    */
-  async listAnnouncements(unitId?: string): Promise<AnnouncementItem[]> {
-    const query = unitId ? `?unit_id=${encodeURIComponent(unitId)}` : '';
-    const res = await apiClient.get<AnnouncementItem[]>(`/api/v1/notifications/announcements${query}`);
+  async listAnnouncements(params?: {
+    unitId?: string;
+    audienceType?: string;
+    priority?: string;
+    search?: string;
+  }): Promise<AnnouncementItem[]> {
+    const q = new URLSearchParams();
+    if (params?.unitId) q.append('unit_id', params.unitId);
+    if (params?.audienceType) q.append('audience_type', params.audienceType);
+    if (params?.priority) q.append('priority', params.priority);
+    if (params?.search) q.append('search', params.search);
+    const qs = q.toString() ? `?${q.toString()}` : '';
+    const res = await apiClient.get<AnnouncementItem[]>(`/api/v1/announcements${qs}`);
     if (!res.data) throw new Error(res.error?.message || 'Failed to fetch announcements');
     return res.data;
+  }
+
+  /**
+   * Fetch targetable recipients (Super Admin only)
+   */
+  async listAnnouncementRecipients(): Promise<AnnouncementRecipientOption[]> {
+    const res = await apiClient.get<AnnouncementRecipientOption[]>('/api/v1/announcements/recipients');
+    if (!res.data) throw new Error(res.error?.message || 'Failed to load recipients');
+    return res.data;
+  }
+
+  /**
+   * Create announcement (Super Admin only)
+   */
+  async createAnnouncement(payload: {
+    title: string;
+    message: string;
+    priority?: 'LOW' | 'NORMAL' | 'HIGH' | 'URGENT';
+    unit_id?: string;
+    audience_type: 'all' | 'specific' | 'department' | 'role';
+    recipients?: string[];
+    recipient_names?: string[];
+    expires_at?: string | null;
+  }): Promise<AnnouncementItem> {
+    const res = await apiClient.post<AnnouncementItem>('/api/v1/announcements', payload);
+    if (!res.data) throw new Error(res.error?.message || 'Failed to create announcement');
+    return res.data;
+  }
+
+  /**
+   * Update announcement (Super Admin only)
+   */
+  async updateAnnouncement(
+    id: string,
+    payload: {
+      title?: string;
+      message?: string;
+      priority?: 'LOW' | 'NORMAL' | 'HIGH' | 'URGENT';
+      unit_id?: string;
+      audience_type?: 'all' | 'specific' | 'department' | 'role';
+      recipients?: string[];
+      recipient_names?: string[];
+      expires_at?: string | null;
+    }
+  ): Promise<AnnouncementItem> {
+    const res = await apiClient.put<AnnouncementItem>(`/api/v1/announcements/${encodeURIComponent(id)}`, payload);
+    if (!res.data) throw new Error(res.error?.message || 'Failed to update announcement');
+    return res.data;
+  }
+
+  /**
+   * Delete announcement (Super Admin only)
+   */
+  async deleteAnnouncement(id: string): Promise<void> {
+    const res = await apiClient.delete(`/api/v1/announcements/${encodeURIComponent(id)}`);
+    if (res.error) throw new Error(res.error.message || 'Failed to delete announcement');
+  }
+
+  /**
+   * Mark announcement as read
+   */
+  async markAnnouncementRead(id: string): Promise<void> {
+    await apiClient.patch(`/api/v1/announcements/${encodeURIComponent(id)}/read`, {});
   }
 }
 

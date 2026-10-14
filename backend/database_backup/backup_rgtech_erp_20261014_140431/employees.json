@@ -1,0 +1,1090 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf09d377fcf49754f5b414"
+    },
+    "code": "EMP-001",
+    "full_name": "Mayank Gajjar",
+    "email": "mayan@rgtech.com",
+    "phone": "+91 98250 12345",
+    "department": "Inventory & Purchase",
+    "designation": "Purchase Executive",
+    "account_type": "EMPLOYEE",
+    "job_role": "Purchase Executive",
+    "job_roles": [
+      "Purchase Executive"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2023-04-01",
+    "emergency_contact": "+91 98250 99999",
+    "reporting_officer_id": "6acf133b35a67d012664f139",
+    "reporting_officer_name": "Suresh Raina",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-04-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f122"
+    },
+    "code": "EMP-101",
+    "full_name": "Rahul Sharma",
+    "email": "rahulsharma@rgtech.com",
+    "phone": "+91 98200 10001",
+    "department": "Production Department",
+    "designation": "Production Manager",
+    "account_type": "EMPLOYEE",
+    "job_role": "Production Manager",
+    "job_roles": [
+      "Production Manager",
+      "Production Planner"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2022-01-15",
+    "emergency_contact": "+91 98200 90001",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-01-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f125"
+    },
+    "code": "EMP-102",
+    "full_name": "Amit Patel",
+    "email": "amitpatel@rgtech.com",
+    "phone": "+91 98200 10002",
+    "department": "Production Department",
+    "designation": "Production Supervisor",
+    "account_type": "EMPLOYEE",
+    "job_role": "Production Supervisor",
+    "job_roles": [
+      "Production Supervisor",
+      "Shift In-charge"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2022-06-01",
+    "emergency_contact": "+91 98200 90002",
+    "reporting_officer_id": "6acf133b35a67d012664f121",
+    "reporting_officer_name": "Rahul Sharma",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-06-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f128"
+    },
+    "code": "EMP-103",
+    "full_name": "Jagdish Panchal",
+    "email": "jagdishpanchal@rgtech.com",
+    "phone": "+91 98200 10003",
+    "department": "Production Department",
+    "designation": "Machine Operator",
+    "account_type": "EMPLOYEE",
+    "job_role": "Machine Operator",
+    "job_roles": [
+      "Machine Operator"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2023-02-10",
+    "emergency_contact": "+91 98200 90003",
+    "reporting_officer_id": "6acf133b35a67d012664f124",
+    "reporting_officer_name": "Amit Patel",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-02-10T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f12b"
+    },
+    "code": "EMP-104",
+    "full_name": "Suresh Suthar",
+    "email": "sureshsuthar@rgtech.com",
+    "phone": "+91 98200 10004",
+    "department": "Production Department",
+    "designation": "Assembly Operator",
+    "account_type": "EMPLOYEE",
+    "job_role": "Assembly Operator",
+    "job_roles": [
+      "Assembly Operator",
+      "Shift In-charge"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2023-04-15",
+    "emergency_contact": "+91 98200 90004",
+    "reporting_officer_id": "6acf133b35a67d012664f121",
+    "reporting_officer_name": "Rahul Sharma",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-04-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f12e"
+    },
+    "code": "EMP-105",
+    "full_name": "Neha Modi",
+    "email": "nehamodi@rgtech.com",
+    "phone": "+91 98200 10005",
+    "department": "Quality Control",
+    "designation": "QC Manager",
+    "account_type": "EMPLOYEE",
+    "job_role": "QC Manager",
+    "job_roles": [
+      "QC Manager"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2022-03-01",
+    "emergency_contact": "+91 98200 90005",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-03-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f131"
+    },
+    "code": "EMP-106",
+    "full_name": "Vikas Verma",
+    "email": "vikasverma@rgtech.com",
+    "phone": "+91 98200 10006",
+    "department": "Quality Control",
+    "designation": "QC Inspector",
+    "account_type": "EMPLOYEE",
+    "job_role": "QC Inspector",
+    "job_roles": [
+      "QC Inspector"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2022-08-15",
+    "emergency_contact": "+91 98200 90006",
+    "reporting_officer_id": "6acf133b35a67d012664f12d",
+    "reporting_officer_name": "Neha Modi",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-08-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f134"
+    },
+    "code": "EMP-107",
+    "full_name": "Anjali Trivedi",
+    "email": "anjalitrivedi@rgtech.com",
+    "phone": "+91 98200 10007",
+    "department": "Quality Control",
+    "designation": "QA Engineer",
+    "account_type": "EMPLOYEE",
+    "job_role": "QA Engineer",
+    "job_roles": [
+      "QA Engineer",
+      "Testing Technician"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2023-01-20",
+    "emergency_contact": "+91 98200 90007",
+    "reporting_officer_id": "6acf133b35a67d012664f12d",
+    "reporting_officer_name": "Neha Modi",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-01-20T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f137"
+    },
+    "code": "EMP-108",
+    "full_name": "Bhavik Chauhan",
+    "email": "bhavikchauhan@rgtech.com",
+    "phone": "+91 98200 10008",
+    "department": "Quality Control",
+    "designation": "Wastage Inspector",
+    "account_type": "EMPLOYEE",
+    "job_role": "Wastage Inspector",
+    "job_roles": [
+      "Wastage Inspector"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2023-07-01",
+    "emergency_contact": "+91 98200 90008",
+    "reporting_officer_id": "6acf133b35a67d012664f130",
+    "reporting_officer_name": "Vikas Verma",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-07-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f13a"
+    },
+    "code": "EMP-109",
+    "full_name": "Suresh Raina",
+    "email": "sureshraina@rgtech.com",
+    "phone": "+91 98200 10009",
+    "department": "Inventory & Purchase",
+    "designation": "Inventory Manager",
+    "account_type": "EMPLOYEE",
+    "job_role": "Inventory Manager",
+    "job_roles": [
+      "Inventory Manager",
+      "Purchase Manager"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2022-02-01",
+    "emergency_contact": "+91 98200 90009",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-02-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f13d"
+    },
+    "code": "EMP-110",
+    "full_name": "Dinesh Karthik",
+    "email": "dineshkarthik@rgtech.com",
+    "phone": "+91 98200 10010",
+    "department": "Inventory & Purchase",
+    "designation": "Storekeeper",
+    "account_type": "EMPLOYEE",
+    "job_role": "Storekeeper",
+    "job_roles": [
+      "Storekeeper"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2022-09-15",
+    "emergency_contact": "+91 98200 90010",
+    "reporting_officer_id": "6acf133b35a67d012664f139",
+    "reporting_officer_name": "Suresh Raina",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-09-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f140"
+    },
+    "code": "EMP-111",
+    "full_name": "Paresh Solanki",
+    "email": "pareshsolanki@rgtech.com",
+    "phone": "+91 98200 10011",
+    "department": "Inventory & Purchase",
+    "designation": "Warehouse Executive",
+    "account_type": "EMPLOYEE",
+    "job_role": "Warehouse Executive",
+    "job_roles": [
+      "Warehouse Executive"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2023-08-01",
+    "emergency_contact": "+91 98200 90011",
+    "reporting_officer_id": "6acf133b35a67d012664f139",
+    "reporting_officer_name": "Suresh Raina",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-08-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f143"
+    },
+    "code": "EMP-112",
+    "full_name": "Priya Shah",
+    "email": "priyashah@rgtech.com",
+    "phone": "+91 98200 10012",
+    "department": "Sales & CRM",
+    "designation": "Sales Manager",
+    "account_type": "EMPLOYEE",
+    "job_role": "Sales Manager",
+    "job_roles": [
+      "Sales Manager",
+      "Lead Manager"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2022-04-01",
+    "emergency_contact": "+91 98200 90012",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-04-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f146"
+    },
+    "code": "EMP-113",
+    "full_name": "Rohan Gupta",
+    "email": "rohangupta@rgtech.com",
+    "phone": "+91 98200 10013",
+    "department": "Sales & CRM",
+    "designation": "Sales Executive",
+    "account_type": "EMPLOYEE",
+    "job_role": "Sales Executive",
+    "job_roles": [
+      "Sales Executive"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2022-10-01",
+    "emergency_contact": "+91 98200 90013",
+    "reporting_officer_id": "6acf133b35a67d012664f142",
+    "reporting_officer_name": "Priya Shah",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-10-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f149"
+    },
+    "code": "EMP-114",
+    "full_name": "Meera Nair",
+    "email": "meeranair@rgtech.com",
+    "phone": "+91 98200 10014",
+    "department": "Sales & CRM",
+    "designation": "CRM Executive",
+    "account_type": "EMPLOYEE",
+    "job_role": "CRM Executive",
+    "job_roles": [
+      "CRM Executive",
+      "Customer Relationship Executive"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2023-03-15",
+    "emergency_contact": "+91 98200 90014",
+    "reporting_officer_id": "6acf133b35a67d012664f142",
+    "reporting_officer_name": "Priya Shah",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-03-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f14c"
+    },
+    "code": "EMP-115",
+    "full_name": "Hardik Dave",
+    "email": "hardikdave@rgtech.com",
+    "phone": "+91 98200 10015",
+    "department": "Sales & CRM",
+    "designation": "Lead Manager",
+    "account_type": "EMPLOYEE",
+    "job_role": "Lead Manager",
+    "job_roles": [
+      "Lead Manager"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2023-06-01",
+    "emergency_contact": "+91 98200 90015",
+    "reporting_officer_id": "6acf133b35a67d012664f142",
+    "reporting_officer_name": "Priya Shah",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-06-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f14f"
+    },
+    "code": "EMP-116",
+    "full_name": "Sanjay Rawat",
+    "email": "sanjayrawat@rgtech.com",
+    "phone": "+91 98200 10016",
+    "department": "Dispatch & Logistics",
+    "designation": "Dispatch Manager",
+    "account_type": "EMPLOYEE",
+    "job_role": "Dispatch Manager",
+    "job_roles": [
+      "Dispatch Manager"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2022-05-10",
+    "emergency_contact": "+91 98200 90016",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-05-10T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f152"
+    },
+    "code": "EMP-117",
+    "full_name": "Karan Malhotra",
+    "email": "karanmalhotra@rgtech.com",
+    "phone": "+91 98200 10017",
+    "department": "Dispatch & Logistics",
+    "designation": "Dispatch Executive",
+    "account_type": "EMPLOYEE",
+    "job_role": "Dispatch Executive",
+    "job_roles": [
+      "Dispatch Executive"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2022-11-01",
+    "emergency_contact": "+91 98200 90017",
+    "reporting_officer_id": "6acf133b35a67d012664f14e",
+    "reporting_officer_name": "Sanjay Rawat",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-11-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f155"
+    },
+    "code": "EMP-118",
+    "full_name": "Nilesh Parmar",
+    "email": "nileshparmar@rgtech.com",
+    "phone": "+91 98200 10018",
+    "department": "Dispatch & Logistics",
+    "designation": "Packing Operator",
+    "account_type": "EMPLOYEE",
+    "job_role": "Packing Operator",
+    "job_roles": [
+      "Packing Operator"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2023-05-15",
+    "emergency_contact": "+91 98200 90018",
+    "reporting_officer_id": "6acf133b35a67d012664f14e",
+    "reporting_officer_name": "Sanjay Rawat",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-05-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f158"
+    },
+    "code": "EMP-119",
+    "full_name": "Vinod Makwana",
+    "email": "vinodmakwana@rgtech.com",
+    "phone": "+91 98200 10019",
+    "department": "Dispatch & Logistics",
+    "designation": "Logistics Coordinator",
+    "account_type": "EMPLOYEE",
+    "job_role": "Logistics Coordinator",
+    "job_roles": [
+      "Logistics Coordinator"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2023-09-01",
+    "emergency_contact": "+91 98200 90019",
+    "reporting_officer_id": "6acf133b35a67d012664f14e",
+    "reporting_officer_name": "Sanjay Rawat",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-09-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f15b"
+    },
+    "code": "EMP-120",
+    "full_name": "Ananya Iyer",
+    "email": "ananyaiyer@rgtech.com",
+    "phone": "+91 98200 10020",
+    "department": "Billing & Finance",
+    "designation": "Billing Manager",
+    "account_type": "ADMIN",
+    "job_role": "Billing Manager",
+    "job_roles": [
+      "Billing Manager",
+      "Finance Manager"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2022-01-20",
+    "emergency_contact": "+91 98200 90020",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-01-20T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f15e"
+    },
+    "code": "EMP-121",
+    "full_name": "Manish Tiwari",
+    "email": "manishtiwari@rgtech.com",
+    "phone": "+91 98200 10021",
+    "department": "Billing & Finance",
+    "designation": "Accountant",
+    "account_type": "EMPLOYEE",
+    "job_role": "Accountant",
+    "job_roles": [
+      "Accountant"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2022-07-01",
+    "emergency_contact": "+91 98200 90021",
+    "reporting_officer_id": "6acf133b35a67d012664f15a",
+    "reporting_officer_name": "Ananya Iyer",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-07-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f161"
+    },
+    "code": "EMP-122",
+    "full_name": "Swati Kulkarni",
+    "email": "swatikulkarni@rgtech.com",
+    "phone": "+91 98200 10022",
+    "department": "Billing & Finance",
+    "designation": "Billing Executive",
+    "account_type": "EMPLOYEE",
+    "job_role": "Billing Executive",
+    "job_roles": [
+      "Billing Executive"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2023-02-15",
+    "emergency_contact": "+91 98200 90022",
+    "reporting_officer_id": "6acf133b35a67d012664f15a",
+    "reporting_officer_name": "Ananya Iyer",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-02-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f164"
+    },
+    "code": "EMP-123",
+    "full_name": "Chirag Barot",
+    "email": "chiragbarot@rgtech.com",
+    "phone": "+91 98200 10023",
+    "department": "Billing & Finance",
+    "designation": "Accounts Executive",
+    "account_type": "EMPLOYEE",
+    "job_role": "Accounts Executive",
+    "job_roles": [
+      "Accounts Executive"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2023-10-01",
+    "emergency_contact": "+91 98200 90023",
+    "reporting_officer_id": "6acf133b35a67d012664f15d",
+    "reporting_officer_name": "Manish Tiwari",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-10-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f167"
+    },
+    "code": "EMP-124",
+    "full_name": "Kavita Deshmukh",
+    "email": "kavitadeshmukh@rgtech.com",
+    "phone": "+91 98200 10024",
+    "department": "HR & Administration",
+    "designation": "HR Manager",
+    "account_type": "HR",
+    "job_role": "HR Manager",
+    "job_roles": [
+      "HR Manager",
+      "Payroll Manager"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2022-02-15",
+    "emergency_contact": "+91 98200 90024",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-02-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f16a"
+    },
+    "code": "EMP-125",
+    "full_name": "Deepak Joshi",
+    "email": "deepakjoshi@rgtech.com",
+    "phone": "+91 98200 10025",
+    "department": "HR & Administration",
+    "designation": "HR Executive",
+    "account_type": "HR",
+    "job_role": "HR Executive",
+    "job_roles": [
+      "HR Executive",
+      "Attendance Manager"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2022-08-01",
+    "emergency_contact": "+91 98200 90025",
+    "reporting_officer_id": "6acf133b35a67d012664f166",
+    "reporting_officer_name": "Kavita Deshmukh",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-08-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f16c"
+    },
+    "code": "EMP-126",
+    "full_name": "Pooja Patel",
+    "email": "hr@rgtech.com",
+    "phone": "+91 98200 10026",
+    "department": "HR & Administration",
+    "designation": "Payroll Manager",
+    "account_type": "HR",
+    "job_role": "Payroll Manager",
+    "job_roles": [
+      "Payroll Manager",
+      "HR Manager"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2022-03-10",
+    "emergency_contact": "+91 98200 90026",
+    "reporting_officer_id": "6acf133b35a67d012664f166",
+    "reporting_officer_name": "Kavita Deshmukh",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-03-10T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f16f"
+    },
+    "code": "EMP-127",
+    "full_name": "Rina Goswami",
+    "email": "rinagoswami@rgtech.com",
+    "phone": "+91 98200 10027",
+    "department": "HR & Administration",
+    "designation": "Recruiter",
+    "account_type": "EMPLOYEE",
+    "job_role": "Recruiter",
+    "job_roles": [
+      "Recruiter",
+      "Office Administrator"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2023-04-10",
+    "emergency_contact": "+91 98200 90027",
+    "reporting_officer_id": "6acf133b35a67d012664f166",
+    "reporting_officer_name": "Kavita Deshmukh",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-04-10T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f172"
+    },
+    "code": "EMP-128",
+    "full_name": "Ramesh Solanki",
+    "email": "rameshsolanki@rgtech.com",
+    "phone": "+91 98200 10028",
+    "department": "Maintenance & Technical",
+    "designation": "Maintenance Manager",
+    "account_type": "EMPLOYEE",
+    "job_role": "Maintenance Manager",
+    "job_roles": [
+      "Maintenance Manager"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2022-02-20",
+    "emergency_contact": "+91 98200 90028",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-02-20T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f175"
+    },
+    "code": "EMP-129",
+    "full_name": "Chetan Prajapati",
+    "email": "chetanprajapati@rgtech.com",
+    "phone": "+91 98200 10029",
+    "department": "Maintenance & Technical",
+    "designation": "Maintenance Technician",
+    "account_type": "EMPLOYEE",
+    "job_role": "Maintenance Technician",
+    "job_roles": [
+      "Maintenance Technician",
+      "Electrician"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2022-09-01",
+    "emergency_contact": "+91 98200 90029",
+    "reporting_officer_id": "6acf133b35a67d012664f171",
+    "reporting_officer_name": "Ramesh Solanki",
+    "is_active": true,
+    "created_at": {
+      "$date": "2022-09-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f178"
+    },
+    "code": "EMP-130",
+    "full_name": "Bharat Mistry",
+    "email": "bharatmistry@rgtech.com",
+    "phone": "+91 98200 10030",
+    "department": "Maintenance & Technical",
+    "designation": "Mechanical Technician",
+    "account_type": "EMPLOYEE",
+    "job_role": "Mechanical Technician",
+    "job_roles": [
+      "Mechanical Technician",
+      "CNC Programmer"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2023-01-10",
+    "emergency_contact": "+91 98200 90030",
+    "reporting_officer_id": "6acf133b35a67d012664f171",
+    "reporting_officer_name": "Ramesh Solanki",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-01-10T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f17b"
+    },
+    "code": "EMP-131",
+    "full_name": "Arvind Vaghela",
+    "email": "arvindvaghela@rgtech.com",
+    "phone": "+91 98200 10031",
+    "department": "Maintenance & Technical",
+    "designation": "Electrician",
+    "account_type": "EMPLOYEE",
+    "job_role": "Electrician",
+    "job_roles": [
+      "Electrician"
+    ],
+    "unit_id": "Unit_2",
+    "status": "ACTIVE",
+    "joining_date": "2023-06-20",
+    "emergency_contact": "+91 98200 90031",
+    "reporting_officer_id": "6acf133b35a67d012664f171",
+    "reporting_officer_name": "Ramesh Solanki",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-06-20T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f17e"
+    },
+    "code": "EMP-132",
+    "full_name": "Tanya Saxena",
+    "email": "tanyasaxena@rgtech.com",
+    "phone": "+91 98200 10032",
+    "department": "Production Department",
+    "designation": "Production Planner",
+    "account_type": "EMPLOYEE",
+    "job_role": "Production Planner",
+    "job_roles": [
+      "Production Planner"
+    ],
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2026-10-12",
+    "emergency_contact": "+91 98200 90032",
+    "reporting_officer_id": "6acf133b35a67d012664f121",
+    "reporting_officer_name": "Rahul Sharma",
+    "is_active": true,
+    "created_at": {
+      "$date": "2026-10-12T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f181"
+    },
+    "code": "EMP-133",
+    "full_name": "Rajesh Khanna",
+    "email": "rajeshkhanna@rgtech.com",
+    "phone": "+91 98200 10033",
+    "department": "Quality Control",
+    "designation": "Testing Technician",
+    "account_type": "EMPLOYEE",
+    "job_role": "Testing Technician",
+    "job_roles": [
+      "Testing Technician"
+    ],
+    "unit_id": "Unit_2",
+    "status": "INACTIVE",
+    "joining_date": "2023-01-15",
+    "emergency_contact": "+91 98200 90033",
+    "reporting_officer_id": "6acf133b35a67d012664f12d",
+    "reporting_officer_name": "Neha Modi",
+    "is_active": false,
+    "created_at": {
+      "$date": "2023-01-15T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f184"
+    },
+    "code": "EMP-134",
+    "full_name": "O'Connor-Fernandez D'Souza",
+    "email": "oconnor.dsouza@rgtech.com",
+    "phone": "+91 98200 10034",
+    "department": "Billing & Finance",
+    "designation": "Finance Manager",
+    "account_type": "ADMIN",
+    "job_role": "Finance Manager",
+    "job_roles": [
+      "Finance Manager"
+    ],
+    "unit_id": "BOTH",
+    "status": "ACTIVE",
+    "joining_date": "2023-05-01",
+    "emergency_contact": "+91 98200 90034",
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "is_active": true,
+    "created_at": {
+      "$date": "2023-05-01T00:00:00Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1477cfd89a838fc56834"
+    },
+    "code": "EMP-B411",
+    "full_name": "Ritesh Gajjar",
+    "email": "admin@rgtech.com",
+    "phone": "+91 98000 00000",
+    "department": "Operations",
+    "designation": "Staff",
+    "account_type": "EMPLOYEE",
+    "job_role": "Staff",
+    "unit_id": "Unit_1",
+    "status": "ACTIVE",
+    "joining_date": "2026-10-14",
+    "emergency_contact": "+91 98000 11111",
+    "is_active": true,
+    "created_at": {
+      "$date": "2026-10-14T05:34:47.055Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:34:47.055Z"
+    }
+  }
+]

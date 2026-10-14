@@ -1,0 +1,38 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf1669acdf5d42def47a94"
+    },
+    "order_id": "6acf160e1ebec508c1e7ad6a",
+    "action": "ORDER_CONFIRMED",
+    "description": "Order confirmed and ready for packing & dispatch.",
+    "performed_by": "admin@rgtech.com",
+    "timestamp": {
+      "$date": "2026-10-14T05:43:05.430Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf188bf429915a541f5790"
+    },
+    "order_id": "6acf18736a2d59b83bff4e2b",
+    "action": "DISPATCH_POSTED",
+    "description": "Dispatch DSP-2026-0005 posted via VRL Logistics (1.0 units). Order status updated to DISPATCHED.",
+    "performed_by": "admin@rgtech.com",
+    "timestamp": {
+      "$date": "2026-10-14T05:52:11.405Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1bbca061e0ac4a40918f"
+    },
+    "order_id": "6acf18736a2d59b83bff4e2c",
+    "action": "ORDER_CONFIRMED",
+    "description": "Order confirmed and ready for packing & dispatch.",
+    "performed_by": "admin@rgtech.com",
+    "timestamp": {
+      "$date": "2026-10-14T06:05:48.718Z"
+    }
+  }
+]

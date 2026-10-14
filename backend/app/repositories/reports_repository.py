@@ -208,7 +208,64 @@ class ReportsRepository:
     # -------------------------------------------------------------------------
     # 3. Dispatches & Packing Slips
     # -------------------------------------------------------------------------
+    # -------------------------------------------------------------------------
     async def _report_dispatch(self, unit_filter, date_filter, start_date, end_date, search, page, page_size):
+        # Prefer detailed packing_dispatch_records if available
+        pdr_count = await self.db["packing_dispatch_records"].count_documents({})
+        if pdr_count > 0:
+            query = {**unit_filter}
+            if search:
+                query["$or"] = [
+                    {"dispatch_no": {"$regex": search, "$options": "i"}},
+                    {"box_no": {"$regex": search, "$options": "i"}},
+                    {"operator": {"$regex": search, "$options": "i"}},
+                    {"brand": {"$regex": search, "$options": "i"}},
+                    {"product_type": {"$regex": search, "$options": "i"}},
+                    {"size_length": {"$regex": search, "$options": "i"}},
+                    {"remarks": {"$regex": search, "$options": "i"}},
+                ]
+
+            cursor = self.db["packing_dispatch_records"].find(query).sort("_id", 1)
+            total = await self.db["packing_dispatch_records"].count_documents(query)
+            docs = await cursor.skip((page - 1) * page_size).limit(page_size).to_list(length=page_size)
+
+            kpis = [
+                ReportSummaryKpi(metric_name="Total Packed Bins/Boxes", metric_value=total, formatted_value=str(total)),
+            ]
+
+            columns = [
+                {"key": "date", "label": "Packing Date"},
+                {"key": "box_no", "label": "Box/Bin #"},
+                {"key": "weight_kg", "label": "Weight (kg)"},
+                {"key": "operator", "label": "Packed By / Operator"},
+                {"key": "brand", "label": "Brand / Customer"},
+                {"key": "product_type", "label": "Product Type"},
+                {"key": "size_length", "label": "Size / Length"},
+                {"key": "quantity", "label": "Quantity (Pcs)"},
+                {"key": "dispatch_date", "label": "Dispatch Date"},
+                {"key": "dispatch_no", "label": "Dispatch Slip #"},
+                {"key": "remarks", "label": "Remarks"},
+            ]
+
+            items = [
+                {
+                    "id": str(d["_id"]),
+                    "date": d.get("date", ""),
+                    "box_no": str(d.get("box_no", "")),
+                    "weight_kg": d.get("weight_kg", 0.0),
+                    "operator": d.get("operator", ""),
+                    "brand": d.get("brand", ""),
+                    "product_type": d.get("product_type", ""),
+                    "size_length": d.get("size_length", ""),
+                    "quantity": d.get("quantity", 0),
+                    "dispatch_date": d.get("dispatch_date", ""),
+                    "dispatch_no": d.get("dispatch_no", ""),
+                    "remarks": d.get("remarks", ""),
+                }
+                for d in docs
+            ]
+            return columns, items, total, kpis
+
         query = {**unit_filter}
         if date_filter:
             query["dispatch_date"] = date_filter

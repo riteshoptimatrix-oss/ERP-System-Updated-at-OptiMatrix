@@ -15,10 +15,17 @@ import {
   Clock,
   Check,
   MailCheck,
+  Plus,
 } from 'lucide-react';
 import { formatISTDateTime, formatRelativeTime } from '@/lib/date';
+import { useAuth } from '@/context/AuthContext';
+import { useRouter } from 'next/navigation';
 
 export default function EmployeeNotificationsPage() {
+  const { user } = useAuth();
+  const router = useRouter();
+  const isSuperAdmin = user?.role === 'SUPER_ADMIN';
+
   const [notifications, setNotifications] = useState<NotificationItem[]>([]);
   const [announcements, setAnnouncements] = useState<AnnouncementItem[]>([]);
   const [activeTab, setActiveTab] = useState<'notifications' | 'announcements'>('notifications');
@@ -98,7 +105,18 @@ export default function EmployeeNotificationsPage() {
           </p>
         </div>
 
-        <div className="flex items-center gap-2">
+        <div className="flex flex-wrap items-center gap-2">
+          {isSuperAdmin && (
+            <Button
+              size="sm"
+              onClick={() => router.push('/announcements')}
+              className="text-xs bg-[#0F172A] text-white hover:bg-[#1E293B] flex items-center gap-1.5 font-semibold shadow-sm"
+            >
+              <Plus className="w-3.5 h-3.5" />
+              Create Announcement
+            </Button>
+          )}
+
           <Button
             variant="outline"
             size="sm"
@@ -238,18 +256,29 @@ export default function EmployeeNotificationsPage() {
             </Card>
           ) : (
             announcements.map((ann) => (
-              <Card key={ann.id} className="p-6 border-l-4 border-l-[#0F172A]">
+              <Card key={ann.id} className={`p-6 border-l-4 transition-all ${ann.is_read ? 'border-l-[#CBD5E1]' : 'border-l-[#0F172A] bg-[#FFFFFF]'}`}>
                 <div className="flex items-start justify-between gap-3 mb-2">
-                  <div className="flex items-center gap-2">
+                  <div className="flex flex-wrap items-center gap-2">
                     <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-[#F1F5F9] text-[#0F172A] font-bold border border-[#E2E8F0]">
                       {ann.unit_id === 'Unit_1' ? 'UNIT 1 (MACHINING)' : ann.unit_id === 'Unit_2' ? 'UNIT 2 (ASSEMBLY)' : 'COMPANY WIDE'}
                     </span>
+
+                    {ann.audience_type === 'specific' ? (
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-amber-50 text-amber-800 font-semibold border border-amber-200">
+                        DIRECT NOTICE TO YOU
+                      </span>
+                    ) : ann.audience_type === 'department' ? (
+                      <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-blue-50 text-blue-800 font-semibold border border-blue-200">
+                        DEPARTMENT NOTICE
+                      </span>
+                    ) : null}
+
                     <Badge variant="neutral" className="text-[10px]">
                       {ann.priority || 'NORMAL'}
                     </Badge>
                   </div>
                   <span className="text-[11px] text-[#64748B] font-mono">
-                    {formatISTDateTime(ann.published_at)}
+                    {formatISTDateTime(ann.published_at || ann.created_at)}
                   </span>
                 </div>
 
@@ -257,12 +286,32 @@ export default function EmployeeNotificationsPage() {
                   {ann.title}
                 </h3>
                 <p className="text-xs text-[#475569] leading-relaxed whitespace-pre-line">
-                  {ann.content}
+                  {ann.message || ann.content}
                 </p>
 
-                <div className="mt-4 pt-3 border-t border-[#E2E8F0] flex items-center justify-between text-[11px] text-[#64748B]">
+                <div className="mt-4 pt-3 border-t border-[#E2E8F0] flex flex-wrap items-center justify-between gap-2 text-[11px] text-[#64748B]">
                   <span>Published by: <span className="font-semibold text-[#0F172A]">{ann.author_name || 'Management Office'}</span></span>
-                  <span>Opti Matrix Manufacturing Operations</span>
+                  <div className="flex items-center gap-3">
+                    <span>Opti Matrix Manufacturing Operations</span>
+                    {!ann.is_read && (
+                      <button
+                        type="button"
+                        onClick={async () => {
+                          try {
+                            await employeeClient.markAnnouncementRead(ann.id);
+                            setAnnouncements((prev) =>
+                              prev.map((a) => (a.id === ann.id ? { ...a, is_read: true } : a))
+                            );
+                          } catch {
+                            // silent
+                          }
+                        }}
+                        className="text-[10px] font-semibold text-emerald-700 bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 px-2 py-0.5 rounded transition-colors"
+                      >
+                        Acknowledge / Mark Read
+                      </button>
+                    )}
+                  </div>
                 </div>
               </Card>
             ))

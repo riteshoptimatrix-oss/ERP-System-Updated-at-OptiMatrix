@@ -1,0 +1,792 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf1450dd55ef44ffc19e9b"
+    },
+    "user_id": "6acf133b35a67d012664f124",
+    "employee_code": "EMP-102",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0004 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more leave",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:34:08.946Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14a8dd55ef44ffc19e9c"
+    },
+    "user_id": "6acf133b35a67d012664f12d",
+    "employee_code": "EMP-105",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0009 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:36.040Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14aadd55ef44ffc19e9d"
+    },
+    "user_id": "6acf133b35a67d012664f13c",
+    "employee_code": "EMP-110",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0019 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:38.168Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14abdd55ef44ffc19e9e"
+    },
+    "user_id": "6acf133b35a67d012664f148",
+    "employee_code": "EMP-114",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0029 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:39.543Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14acdd55ef44ffc19e9f"
+    },
+    "user_id": "6acf133b35a67d012664f157",
+    "employee_code": "EMP-119",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0039 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:40.750Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14afdd55ef44ffc19ea0"
+    },
+    "user_id": "6acf133b35a67d012664f166",
+    "employee_code": "EMP-124",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0049 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:43.470Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14b6dd55ef44ffc19ea1"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "employee_code": "EMP-129",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0059 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": true,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:50.383Z"
+    },
+    "read_at": {
+      "$date": "2026-10-14T07:09:22.848Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14b8dd55ef44ffc19ea2"
+    },
+    "user_id": "6acf133b35a67d012664f133",
+    "employee_code": "EMP-107",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0014 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:52.489Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14b9dd55ef44ffc19ea3"
+    },
+    "user_id": "6acf133b35a67d012664f13f",
+    "employee_code": "EMP-111",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0024 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:53.852Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14bbdd55ef44ffc19ea4"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "employee_code": "EMP-116",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0034 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:55.090Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14bcdd55ef44ffc19ea5"
+    },
+    "user_id": "6acf133b35a67d012664f15d",
+    "employee_code": "EMP-121",
+    "title": "Leave Request Rejected",
+    "message": "Your leave request LV-2026-0044 (2.0 days) has been rejected by HR (hr@rgtech.com). Reason: No more Leaves",
+    "notification_type": "ALERT",
+    "is_read": false,
+    "link": "/employee/leave",
+    "created_at": {
+      "$date": "2026-10-14T05:35:56.150Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e4e"
+    },
+    "user_id": "6acf133b35a67d012664f121",
+    "employee_code": "EMP-101",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e4f"
+    },
+    "user_id": "6acf133b35a67d012664f124",
+    "employee_code": "EMP-102",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e50"
+    },
+    "user_id": "6acf133b35a67d012664f127",
+    "employee_code": "EMP-103",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e51"
+    },
+    "user_id": "6acf133b35a67d012664f12a",
+    "employee_code": "EMP-104",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e52"
+    },
+    "user_id": "6acf133b35a67d012664f12d",
+    "employee_code": "EMP-105",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e53"
+    },
+    "user_id": "6acf133b35a67d012664f130",
+    "employee_code": "EMP-106",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e54"
+    },
+    "user_id": "6acf133b35a67d012664f133",
+    "employee_code": "EMP-107",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e55"
+    },
+    "user_id": "6acf133b35a67d012664f136",
+    "employee_code": "EMP-108",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e56"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "employee_code": "EMP-109",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": true,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "read_at": {
+      "$date": "2026-10-14T06:55:47.728Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e57"
+    },
+    "user_id": "6acf133b35a67d012664f13c",
+    "employee_code": "EMP-110",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e58"
+    },
+    "user_id": "6acf09d377fcf49754f5b413",
+    "employee_code": "EMP-001",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e59"
+    },
+    "user_id": "6acf133b35a67d012664f13f",
+    "employee_code": "EMP-111",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e5a"
+    },
+    "user_id": "6acf133b35a67d012664f142",
+    "employee_code": "EMP-112",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e5b"
+    },
+    "user_id": "6acf133b35a67d012664f145",
+    "employee_code": "EMP-113",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e5c"
+    },
+    "user_id": "6acf133b35a67d012664f148",
+    "employee_code": "EMP-114",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e5d"
+    },
+    "user_id": "6acf133b35a67d012664f14b",
+    "employee_code": "EMP-115",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e5e"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "employee_code": "EMP-116",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e5f"
+    },
+    "user_id": "6acf133b35a67d012664f151",
+    "employee_code": "EMP-117",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e60"
+    },
+    "user_id": "6acf133b35a67d012664f154",
+    "employee_code": "EMP-118",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e61"
+    },
+    "user_id": "6acf133b35a67d012664f157",
+    "employee_code": "EMP-119",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e62"
+    },
+    "user_id": "6acf133b35a67d012664f15a",
+    "employee_code": "EMP-120",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e63"
+    },
+    "user_id": "6acf133b35a67d012664f15d",
+    "employee_code": "EMP-121",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e64"
+    },
+    "user_id": "6acf133b35a67d012664f160",
+    "employee_code": "EMP-122",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e65"
+    },
+    "user_id": "6acf133b35a67d012664f163",
+    "employee_code": "EMP-123",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e66"
+    },
+    "user_id": "6acf133b35a67d012664f166",
+    "employee_code": "EMP-124",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e67"
+    },
+    "user_id": "6acf133b35a67d012664f169",
+    "employee_code": "EMP-125",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e68"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "employee_code": "EMP-126",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e69"
+    },
+    "user_id": "6acf133b35a67d012664f16e",
+    "employee_code": "EMP-127",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e6a"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "employee_code": "EMP-128",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e6b"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "employee_code": "EMP-129",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": true,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "read_at": {
+      "$date": "2026-10-14T07:09:22.848Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e6c"
+    },
+    "user_id": "6acf133b35a67d012664f177",
+    "employee_code": "EMP-130",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e6d"
+    },
+    "user_id": "6acf133b35a67d012664f17a",
+    "employee_code": "EMP-131",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e6e"
+    },
+    "user_id": "6acf133b35a67d012664f180",
+    "employee_code": "EMP-133",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e6f"
+    },
+    "user_id": "6acf133b35a67d012664f183",
+    "employee_code": "EMP-134",
+    "title": "September Payslip Generated",
+    "message": "Your monthly itemized payslip for September 2026 is now available for review and download in your profile.",
+    "notification_type": "PAYROLL",
+    "is_read": false,
+    "link": "/employee/payroll",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf28831398cedfc80d7077"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "employee_code": "EMP-128",
+    "title": "Check-In Confirmed",
+    "message": "Logged check-in for 2026-10-14 at 12:30 (Unit_1).",
+    "notification_type": "ATTENDANCE",
+    "is_read": false,
+    "link": "/attendance",
+    "recipient_role": null,
+    "metadata": {},
+    "created_at": {
+      "$date": "2026-10-14T07:00:19.502Z"
+    },
+    "read_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6acf28961398cedfc80d707a"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "employee_code": "EMP-128",
+    "title": "Correction Request Submitted",
+    "message": "Attendance correction request ACR-202610-0001 submitted for 2026-10-14.",
+    "notification_type": "ATTENDANCE",
+    "is_read": false,
+    "link": null,
+    "recipient_role": null,
+    "metadata": {},
+    "created_at": {
+      "$date": "2026-10-14T07:00:38.401Z"
+    },
+    "read_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6acf2acfbfd0d47bb9017b6e"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "employee_code": "EMP-116",
+    "title": "Check-In Confirmed",
+    "message": "Logged check-in for 2026-10-14 at 12:40 (Unit_1).",
+    "notification_type": "ATTENDANCE",
+    "is_read": false,
+    "link": "/attendance",
+    "recipient_role": null,
+    "metadata": {},
+    "created_at": {
+      "$date": "2026-10-14T07:10:07.491Z"
+    },
+    "read_at": null
+  },
+  {
+    "_id": {
+      "$oid": "6acf2ba9bfd0d47bb9017b73"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "employee_code": "EMP-109",
+    "title": "Check-In Confirmed",
+    "message": "Logged check-in for 2026-10-14 at 12:43 (Unit_1).",
+    "notification_type": "ATTENDANCE",
+    "is_read": false,
+    "link": "/attendance",
+    "recipient_role": null,
+    "metadata": {},
+    "created_at": {
+      "$date": "2026-10-14T07:13:45.882Z"
+    },
+    "read_at": null
+  }
+]

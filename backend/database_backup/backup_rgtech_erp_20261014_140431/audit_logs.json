@@ -1,0 +1,2044 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf09e22c4d053867213162"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T04:49:38.572Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf0a1e2c4d053867213163"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T04:50:38.053Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf0a202c4d053867213165"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T04:50:40.390Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf0c4a2c4d053867213166"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T04:59:54.233Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf0c632c4d053867213168"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:00:19.384Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf0ed3080efe2f89101c9c"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:10:43.011Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf0f3a28a3df70aaf1c875"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:12:26.891Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf0f9628a3df70aaf1c876"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:13:58.849Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf10d23ec9cbb7b6ba8b2c"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:19:14.150Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf112637e9e687a3acd4b3"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:20:38.386Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf11d737e9e687a3acd4b5"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:23:35.373Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf11fa6a0622d5dc3a93eb"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:24:10.481Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf11ff6a0622d5dc3a93ed"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:24:15.585Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf12aaf54727e83c4f9745"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:27:06.957Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf12acf54727e83c4f9747"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:27:08.970Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e278da0aeb7802f87d"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:18.771Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e278da0aeb7802f87f"
+    },
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:18.920Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f881"
+    },
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:19.070Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f883"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:19.216Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "INVENTORY_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f885"
+    },
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:19.362Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f887"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:19.576Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f889"
+    },
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:19.778Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f88b"
+    },
+    "user_id": "6acf133b35a67d012664f166",
+    "email": "kavitadeshmukh@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:19.914Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e478da0aeb7802f88d"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:20.064Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e478da0aeb7802f88f"
+    },
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:20.201Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf13f8dd55ef44ffc19e8e"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:40.008Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13fddd55ef44ffc19e90"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:45.538Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1403dd55ef44ffc19e91"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:51.966Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1406dd55ef44ffc19e93"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:32:54.313Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b4b"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:20.052Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b4d"
+    },
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:20.192Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b4f"
+    },
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:20.348Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b51"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:20.544Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "INVENTORY_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b53"
+    },
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:20.720Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1420dd55ef44ffc19e94"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "USER_UPDATE",
+    "resource": "6acf133b35a67d012664f180",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:20.858Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "updated_fields": [
+        "is_active"
+      ]
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b55"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:21.060Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b57"
+    },
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:21.256Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b59"
+    },
+    "user_id": "6acf133b35a67d012664f166",
+    "email": "kavitadeshmukh@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:21.436Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b5b"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:21.616Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b5d"
+    },
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:21.754Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf142fdd55ef44ffc19e95"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:35.476Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1433dd55ef44ffc19e97"
+    },
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:39.990Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14390cbd2745737993eb"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:45.124Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1443dd55ef44ffc19e98"
+    },
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:33:55.345Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1449dd55ef44ffc19e9a"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:01.134Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5b8"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:13.356Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5ba"
+    },
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:13.519Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5bc"
+    },
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:13.670Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5be"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:13.814Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "INVENTORY_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5c0"
+    },
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:13.956Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c2"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:14.109Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c4"
+    },
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:14.261Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c6"
+    },
+    "user_id": "6acf133b35a67d012664f166",
+    "email": "kavitadeshmukh@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:14.426Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c8"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:14.563Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5ca"
+    },
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:14.704Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1476cfd89a838fc56833"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:46.667Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1477cfd89a838fc56836"
+    },
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:34:47.896Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf14cddd55ef44ffc19ea6"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:36:13.516Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf14cfdd55ef44ffc19ea8"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:36:15.183Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1623dfb89d7421814453"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:41:55.886Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1625dfb89d7421814455"
+    },
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:41:57.906Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf16a0fe4bf48eb35106ea"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:44:00.890Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf16a1fe4bf48eb35106ec"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:44:01.406Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf171bacdf5d42def47a98"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:46:03.448Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf175e2a9f7b21bdc5bbd7"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:47:10.092Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf17672a9f7b21bdc5bbd9"
+    },
+    "user_id": "6acf133b35a67d012664f124",
+    "email": "amitpatel@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:47:19.518Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1882f429915a541f578c"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:52:02.293Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf188bf429915a541f578e"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T05:52:11.346Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf1e65b4530e8d862d10c5"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:17:09.666Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e552e633013ef91853"
+    },
+    "user_id": "6acf133b35a67d012664f124",
+    "email": "amitpatel@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:05.814Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e652e633013ef91855"
+    },
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:06.160Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e652e633013ef91857"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:06.450Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e652e633013ef91859"
+    },
+    "user_id": "6acf133b35a67d012664f169",
+    "email": "deepakjoshi@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:06.673Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e652e633013ef9185b"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:06.869Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e752e633013ef9185d"
+    },
+    "user_id": "6acf133b35a67d012664f15d",
+    "email": "manishtiwari@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:07.148Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e752e633013ef9185f"
+    },
+    "user_id": "6acf09d377fcf49754f5b413",
+    "email": "mayan@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:07.739Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e852e633013ef91861"
+    },
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:08.200Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e852e633013ef91863"
+    },
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:08.395Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e852e633013ef91865"
+    },
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:32:08.601Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf235c23e9fb53827b387a"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:38:20.688Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf243323e9fb53827b387c"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:41:54.984Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf250f169543fe9d7aedda"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:45:35.626Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2515169543fe9d7aeddc"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:45:41.014Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2688a0501976ed1a35f4"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:51:52.783Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2690a0501976ed1a35f6"
+    },
+    "user_id": "6acf133b35a67d012664f169",
+    "email": "deepakjoshi@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:52:00.892Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf269da0501976ed1a35f7"
+    },
+    "user_id": "6acf133b35a67d012664f169",
+    "email": "deepakjoshi@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:52:13.071Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf26a3a0501976ed1a35f9"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:52:19.028Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2739a0501976ed1a35fb"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:54:49.335Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2740a0501976ed1a35fd"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:54:56.846Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf275fa0501976ed1a35fe"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:55:27.866Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2767a0501976ed1a3600"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:55:35.925Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "INVENTORY_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf278ca0501976ed1a3602"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:12.065Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2794a0501976ed1a3604"
+    },
+    "user_id": "6acf133b35a67d012664f124",
+    "email": "amitpatel@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:20.380Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2794a0501976ed1a3606"
+    },
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:20.734Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2795a0501976ed1a3608"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:21.242Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2795a0501976ed1a360a"
+    },
+    "user_id": "6acf133b35a67d012664f169",
+    "email": "deepakjoshi@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:21.495Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2795a0501976ed1a360c"
+    },
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:21.755Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "QC_INSPECTOR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2796a0501976ed1a360e"
+    },
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:22.023Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2796a0501976ed1a3610"
+    },
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:22.339Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2796a0501976ed1a3612"
+    },
+    "user_id": "6acf21d131a7ee8dd089743f",
+    "email": "rajeshkhatri@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:22.595Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2796a0501976ed1a3614"
+    },
+    "user_id": "6acf09d377fcf49754f5b413",
+    "email": "mayan@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:22.893Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf27a1a0501976ed1a3615"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:56:33.881Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf27c856f7b28b3872a51f"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T06:57:12.761Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "PRODUCTION_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf28961398cedfc80d7079"
+    },
+    "email": "rameshsolanki@rgtech.com",
+    "action": "ATTENDANCE_CORRECTION_REQUESTED",
+    "resource": "ACR-202610-0001",
+    "timestamp": {
+      "$date": "2026-10-14T07:00:38.369Z"
+    },
+    "status": "PENDING",
+    "details": {
+      "date": "2026-10-14",
+      "reason": "No light"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf28981398cedfc80d707b"
+    },
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:00:40.042Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf28a31398cedfc80d707d"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:00:51.346Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "HR"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf28bd1398cedfc80d707e"
+    },
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:01:17.896Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf28c51398cedfc80d7080"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:01:25.751Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf28f11398cedfc80d7081"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:02:09.809Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf29afbfd0d47bb9017b5e"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:05:19.523Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf29d6bfd0d47bb9017b60"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:05:58.189Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "INVENTORY_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf29e1bfd0d47bb9017b61"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:06:09.123Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf29e5bfd0d47bb9017b63"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:06:13.923Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "INVENTORY_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2a46bfd0d47bb9017b65"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:07:50.869Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2a58bfd0d47bb9017b67"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:08:08.612Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2a97bfd0d47bb9017b69"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:09:11.538Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2ab8bfd0d47bb9017b6a"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:09:44.963Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2abcbfd0d47bb9017b6c"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:09:48.472Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SALES_DISPATCH"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2ad1bfd0d47bb9017b6f"
+    },
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:10:09.877Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2ad5bfd0d47bb9017b71"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:10:12.999Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "INVENTORY_MANAGER"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2bdabfd0d47bb9017b74"
+    },
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:14:34.384Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2bddbfd0d47bb9017b76"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:14:37.762Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "SUPER_ADMIN"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf318f361fe758922bd714"
+    },
+    "action": "ANNOUNCEMENT_CREATED",
+    "performed_by": "admin@rgtech.com",
+    "performed_by_role": "SUPER_ADMIN",
+    "announcement_id": "6acf318f361fe758922bd713",
+    "title": "Testing",
+    "audience_type": "all",
+    "recipient_count": 0,
+    "timestamp": {
+      "$date": "2026-10-14T07:38:55.898Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf3192361fe758922bd715"
+    },
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "action": "AUTH_LOGOUT",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:38:58.412Z"
+    },
+    "status": "SUCCESS"
+  },
+  {
+    "_id": {
+      "$oid": "6acf3195361fe758922bd717"
+    },
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "action": "AUTH_LOGIN_SUCCESS",
+    "resource": "auth",
+    "ip_address": "127.0.0.1",
+    "timestamp": {
+      "$date": "2026-10-14T07:39:01.631Z"
+    },
+    "status": "SUCCESS",
+    "details": {
+      "role": "EMPLOYEE"
+    }
+  }
+]

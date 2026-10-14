@@ -1,0 +1,192 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b0"
+    },
+    "code": "WH-U1-RM01",
+    "name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "location_type": "RAW_MATERIAL",
+    "bay_rack": "Bay-1A Racks 1-12",
+    "capacity_description": "Heavy MS plates, structural channels",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b1"
+    },
+    "code": "WH-U1-RM02",
+    "name": "Unit 1 Castings & Bar Stock Store",
+    "unit_id": "Unit_1",
+    "location_type": "RAW_MATERIAL",
+    "bay_rack": "Bay-1B Racks 1-8",
+    "capacity_description": "Cast iron body roughs, SS round bars",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b2"
+    },
+    "code": "WH-U1-WIP",
+    "name": "Unit 1 Machining WIP Buffer Bay",
+    "unit_id": "Unit_1",
+    "location_type": "WIP",
+    "bay_rack": "Bay-1C WIP Buffer",
+    "capacity_description": "Turned shafts, milled machine bases",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b3"
+    },
+    "code": "WH-U1-FG01",
+    "name": "Unit 1 Finished Envelope Machines Store",
+    "unit_id": "Unit_1",
+    "location_type": "FINISHED_GOODS",
+    "bay_rack": "Bay-1D Packing",
+    "capacity_description": "Tested ENV-100 and ENV-200 units",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b4"
+    },
+    "code": "WH-U1-SCRAP",
+    "name": "Unit 1 Metal Turnings & Offcut Yard",
+    "unit_id": "Unit_1",
+    "location_type": "SCRAP",
+    "bay_rack": "Yard-1E North",
+    "capacity_description": "Steel borings, CNC chips, offcut plates",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b5"
+    },
+    "code": "WH-U2-RM01",
+    "name": "Unit 2 Electricals & Fasteners Store",
+    "unit_id": "Unit_2",
+    "location_type": "RAW_MATERIAL",
+    "bay_rack": "Bay-2A Racks 1-10",
+    "capacity_description": "AC motors, capacitors, bearings",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b6"
+    },
+    "code": "WH-U2-RM02",
+    "name": "Unit 2 Polymers & Paint Store",
+    "unit_id": "Unit_2",
+    "location_type": "RAW_MATERIAL",
+    "bay_rack": "Bay-2B Racks 1-6",
+    "capacity_description": "Rubber gaskets, nylon bushes, coatings",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b7"
+    },
+    "code": "WH-U2-WIP",
+    "name": "Unit 2 Assembly Staging & Testing Bay",
+    "unit_id": "Unit_2",
+    "location_type": "WIP",
+    "bay_rack": "Bay-2C Assembly",
+    "capacity_description": "PKG-300 sub-assemblies in electrical wiring",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b8"
+    },
+    "code": "WH-U2-FG01",
+    "name": "Unit 2 Final Dispatch & Crated FG Bay",
+    "unit_id": "Unit_2",
+    "location_type": "FINISHED_GOODS",
+    "bay_rack": "Bay-2D Dispatch",
+    "capacity_description": "Finished packaging machines ready for loading",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0b9"
+    },
+    "code": "WH-U2-SCRAP",
+    "name": "Unit 2 Assembly Waste & Reject Yard",
+    "unit_id": "Unit_2",
+    "location_type": "SCRAP",
+    "bay_rack": "Yard-2E South",
+    "capacity_description": "Defective components, packaging scrap",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  }
+]

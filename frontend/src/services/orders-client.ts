@@ -5,6 +5,9 @@ import {
   DispatchRecord,
   OrderDashboardSummary,
   StockAvailabilityResult,
+  OrderPlanningItem,
+  OrderPlanningUpdate,
+  OrderPlanningSummary,
 } from '@/types/orders';
 import { PaginatedResponse } from '@/types/master';
 
@@ -148,4 +151,58 @@ export const ordersClient = {
     if (!res.data) throw new Error('Failed to check stock availability');
     return res.data;
   },
+
+  /**
+   * Order Planning (By Variant and Length)
+   * Updated by Taha; one line per variant and length
+   */
+  async listPlanning(params?: {
+    unit_id?: string;
+    priority?: string;
+    order_status?: string;
+    final_approval?: string;
+    search?: string;
+  }): Promise<OrderPlanningItem[]> {
+    const query = new URLSearchParams();
+    if (params?.unit_id) query.set('unit_id', params.unit_id);
+    if (params?.priority) query.set('priority', params.priority);
+    if (params?.order_status) query.set('order_status', params.order_status);
+    if (params?.final_approval) query.set('final_approval', params.final_approval);
+    if (params?.search) query.set('search', params.search);
+
+    const qs = query.toString() ? `?${query.toString()}` : '';
+    const res = await apiClient.get<OrderPlanningItem[]>(`/orders/planning${qs}`);
+    return res.data || [];
+  },
+
+  async getPlanningSummary(unitId?: string): Promise<OrderPlanningSummary> {
+    const qs = unitId ? `?unit_id=${unitId}` : '';
+    const res = await apiClient.get<OrderPlanningSummary>(`/orders/planning/summary${qs}`);
+    if (!res.data) {
+      return {
+        total_planning_lines: 0,
+        total_order_qty: 0,
+        total_planned_qty: 0,
+        total_produced_qty: 0,
+        total_balance_qty: 0,
+        total_dispatch_qty: 0,
+        total_dispatch_balance: 0,
+        approved_lines: 0,
+        pending_lines: 0,
+      };
+    }
+    return res.data;
+  },
+
+  async updatePlanningItem(id: string, data: OrderPlanningUpdate): Promise<OrderPlanningItem> {
+    const res = await apiClient.put<OrderPlanningItem>(`/orders/planning/${id}`, data);
+    if (!res.data) throw new Error('Failed to update planning item');
+    return res.data;
+  },
+
+  async syncPlanning(): Promise<{ message: string; new_lines_created: number }> {
+    const res = await apiClient.post<{ message: string; new_lines_created: number }>('/orders/planning/sync', {});
+    return res.data || { message: 'Synced', new_lines_created: 0 };
+  },
 };
+

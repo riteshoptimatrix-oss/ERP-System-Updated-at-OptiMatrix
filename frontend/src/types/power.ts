@@ -50,6 +50,11 @@ export interface PowerCutLog {
   fuel_consumed_liters?: number | null;
   affected_departments: string[];
   production_order_ids: string[];
+  restart_delay_minutes?: number | null;
+  downtime_duration_str?: string | null;
+  power_cut_time?: string | null;
+  power_restored_time?: string | null;
+  incident_date?: string | null;
   remarks?: string | null;
   created_at: string;
   created_by: string;
@@ -65,7 +70,31 @@ export interface PowerCutLogCreateInput {
   fuel_consumed_liters?: number | null;
   affected_departments: string[];
   production_order_ids?: string[];
+  restart_delay_minutes?: number | null;
+  downtime_duration_str?: string | null;
+  power_cut_time?: string | null;
+  power_restored_time?: string | null;
+  incident_date?: string | null;
   remarks?: string;
+}
+
+export interface DailyElectricityScrapTracker {
+  id: string;
+  date: string;
+  total_production_kg: number;
+  product_type: string;
+  startup_scrap_kg: number;
+  cutting_scrap_kg: number;
+  total_scrap_kg: number;
+  scrap_percent_str: string;
+  electricity_off_count: number;
+  total_off_time_min: number;
+  machine_working_hours: string;
+  shift_duration_hr: number;
+  main_reason?: string | null;
+  remarks?: string | null;
+  unit_id: string;
+  created_at?: string;
 }
 
 export interface PowerSummary {
@@ -79,3 +108,4 @@ export interface PowerSummary {
   total_dg_consumption_kwh: number;
   total_solar_consumption_kwh: number;
 }
+

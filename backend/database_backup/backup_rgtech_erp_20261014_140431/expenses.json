@@ -1,0 +1,87 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e33"
+    },
+    "expense_number": "EXP-2026-001",
+    "category": "Electricity & Utilities",
+    "amount": 84500.0,
+    "unit_id": "Unit_1",
+    "expense_date": "2026-10-02",
+    "payment_method": "BANK_TRANSFER",
+    "description": "Unit 1 Heavy Machining GEB power bill",
+    "approved_by": "Ananya Iyer",
+    "created_at": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e34"
+    },
+    "expense_number": "EXP-2026-002",
+    "category": "Tooling & Machine Maintenance",
+    "amount": 32000.0,
+    "unit_id": "Unit_1",
+    "expense_date": "2026-10-02",
+    "payment_method": "BANK_TRANSFER",
+    "description": "CNC milling cutter inserts and regrinding",
+    "approved_by": "Ananya Iyer",
+    "created_at": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e35"
+    },
+    "expense_number": "EXP-2026-003",
+    "category": "Freight & Inward Haulage",
+    "amount": 24500.0,
+    "unit_id": "Unit_1",
+    "expense_date": "2026-10-02",
+    "payment_method": "BANK_TRANSFER",
+    "description": "Steel plate trailer transport from Noida",
+    "approved_by": "Ananya Iyer",
+    "created_at": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e36"
+    },
+    "expense_number": "EXP-2026-004",
+    "category": "Safety Gear & Shopfloor Consumables",
+    "amount": 12500.0,
+    "unit_id": "Unit_2",
+    "expense_date": "2026-10-02",
+    "payment_method": "BANK_TRANSFER",
+    "description": "Operator safety shoes and welding aprons",
+    "approved_by": "Ananya Iyer",
+    "created_at": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e37"
+    },
+    "expense_number": "EXP-2026-005",
+    "category": "Office & Administration",
+    "amount": 18200.0,
+    "unit_id": "BOTH",
+    "expense_date": "2026-10-02",
+    "payment_method": "BANK_TRANSFER",
+    "description": "Plant broadband, stationery and water dispensers",
+    "approved_by": "Ananya Iyer",
+    "created_at": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

@@ -1,0 +1,202 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0ee"
+    },
+    "code": "VEND-001",
+    "name": "Jindal Steel & Power Ltd",
+    "gstin": "09AAACJ1234A1Z5",
+    "pan": "AAACJ1234A",
+    "contact_person": "Ramesh Gupta",
+    "phone": "+91 11 4105 6000",
+    "email": "sales@jindalsteel.com",
+    "address": "Plot 12 Sector 25, Noida - 201301",
+    "payment_terms_days": 30,
+    "category": "Raw Material",
+    "rating": 4.9,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0ef"
+    },
+    "code": "VEND-002",
+    "name": "Bharat Heavy Electrical Motors",
+    "gstin": "27AAACB2345B1Z3",
+    "pan": "AAACB2345B",
+    "contact_person": "Pradeep Vora",
+    "phone": "+91 22 2579 3456",
+    "email": "orders@bhemotors.com",
+    "address": "LBS Road, Kurla West, Mumbai - 400070",
+    "payment_terms_days": 45,
+    "category": "Raw Material",
+    "rating": 4.6,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0f0"
+    },
+    "code": "VEND-003",
+    "name": "Ahmedabad Precision Rubbers",
+    "gstin": "24AAACA3456C1Z7",
+    "pan": "AAACA3456C",
+    "contact_person": "Bhavesh Patel",
+    "phone": "+91 79 2240 5678",
+    "email": "bhavesh@apr-india.com",
+    "address": "Naroda GIDC Phase-1, Ahmedabad - 382330",
+    "payment_terms_days": 30,
+    "category": "Raw Material",
+    "rating": 4.3,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0f1"
+    },
+    "code": "VEND-004",
+    "name": "Indian Industrial Welding Rods",
+    "gstin": "24AAACI4567D1Z1",
+    "pan": "AAACI4567D",
+    "contact_person": "Mahesh Shah",
+    "phone": "+91 79 2250 1234",
+    "email": "mahesh@iiwrods.com",
+    "address": "Vatva GIDC Phase-2, Ahmedabad - 382445",
+    "payment_terms_days": 30,
+    "category": "Consumable",
+    "rating": 4.1,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0f2"
+    },
+    "code": "VEND-005",
+    "name": "SKF Bearings India Ltd",
+    "gstin": "24AAACS5678E1Z9",
+    "pan": "AAACS5678E",
+    "contact_person": "Neerav Jain",
+    "phone": "+91 79 2657 3000",
+    "email": "neerav@skfbearings.in",
+    "address": "Ring Road, Surat - 395002",
+    "payment_terms_days": 60,
+    "category": "Raw Material",
+    "rating": 4.9,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0f3"
+    },
+    "code": "VEND-006",
+    "name": "Servo Petro Lubricants & Oils",
+    "gstin": "27AAACRP678F1Z5",
+    "pan": "AAACRP678F",
+    "contact_person": "Sangeeta Nair",
+    "phone": "+91 22 4477 0000",
+    "email": "lubricants@servooil.in",
+    "address": "MIDC Mahape, Navi Mumbai - 400710",
+    "payment_terms_days": 30,
+    "category": "Consumable",
+    "rating": 4.4,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0f4"
+    },
+    "code": "VEND-007",
+    "name": "Gujarat Precision Castings Ltd",
+    "gstin": "24AAACG7890G1Z1",
+    "pan": "AAACG7890G",
+    "contact_person": "Yogesh Trivedi",
+    "phone": "+91 265 2341567",
+    "email": "yogesh@gujcastings.com",
+    "address": "Makarpura GIDC, Vadodara - 390010",
+    "payment_terms_days": 45,
+    "category": "Raw Material",
+    "rating": 4.5,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0f5"
+    },
+    "code": "VEND-008",
+    "name": "Asian Industrial Paint Systems",
+    "gstin": "24AAACA9012K1Z8",
+    "pan": "AAACA9012K",
+    "contact_person": "Dharmesh Soni",
+    "phone": "+91 79 2583 0011",
+    "email": "dharmesh@aipaints.com",
+    "address": "Odhav Industrial Area, Ahmedabad - 382415",
+    "payment_terms_days": 30,
+    "category": "Consumable",
+    "rating": 4.2,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  }
+]

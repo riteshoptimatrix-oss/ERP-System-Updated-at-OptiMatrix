@@ -1,0 +1,129 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf09d377fcf49754f5b417"
+    },
+    "title": "Welcome to Opti Matrix Operational ERP",
+    "content": "All manufacturing staff and supervisors across Unit 1 and Unit 2 must record daily shift check-ins and submit leave applications through the Employee Workspace.",
+    "priority": "HIGH",
+    "unit_id": "BOTH",
+    "author_name": "HR Department",
+    "author_role": "HR Manager",
+    "published_at": {
+      "$date": "2026-10-14T04:49:23.577Z"
+    },
+    "expires_at": null,
+    "audience_type": "all",
+    "is_deleted": false,
+    "recipients": []
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e4a"
+    },
+    "title": "Mandatory Eye Protection & Helmet Protocols in Unit 1 CNC Bay",
+    "content": "All machinists, boring technicians, and visitors in Unit 1 must wear certified polycarbonate safety spectacles and safety footwear at all times.",
+    "priority": "HIGH",
+    "unit_id": "Unit_1",
+    "author_name": "Ramesh Solanki",
+    "author_role": "Maintenance Manager",
+    "published_at": {
+      "$date": "2026-10-07T05:51:39.563Z"
+    },
+    "expires_at": {
+      "$date": "2026-11-13T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "audience_type": "all",
+    "is_deleted": false,
+    "recipients": []
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e4b"
+    },
+    "title": "Unit 2 Precision Sub-Assembly Cleanroom Expansion Notice",
+    "content": "Civil and HVAC installation for the Unit 2 sterile packaging line begins next Monday. Use alternate Bay-2B transit aisle.",
+    "priority": "MEDIUM",
+    "unit_id": "Unit_2",
+    "author_name": "Rahul Sharma",
+    "author_role": "Production Manager",
+    "published_at": {
+      "$date": "2026-10-07T05:51:39.563Z"
+    },
+    "expires_at": {
+      "$date": "2026-11-13T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "audience_type": "all",
+    "is_deleted": false,
+    "recipients": []
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e4c"
+    },
+    "title": "Diwali Festival Bonus & Extended Plant Maintenance Holiday",
+    "content": "Management is pleased to announce annual performance festival bonuses processed with October payroll. Plant operations resume on Nov 4.",
+    "priority": "HIGH",
+    "unit_id": "BOTH",
+    "author_name": "Kavita Deshmukh",
+    "author_role": "HR Manager",
+    "published_at": {
+      "$date": "2026-10-07T05:51:39.563Z"
+    },
+    "expires_at": {
+      "$date": "2026-11-13T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "audience_type": "all",
+    "is_deleted": false,
+    "recipients": []
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e4d"
+    },
+    "title": "ISO 9001:2015 Annual Surveillance Audit Schedule",
+    "content": "External certification auditors will inspect Machining Station #1, Calibration records, and Scrap reconciliation next Thursday.",
+    "priority": "URGENT",
+    "unit_id": "BOTH",
+    "author_name": "Neha Modi",
+    "author_role": "QC Manager",
+    "published_at": {
+      "$date": "2026-10-07T05:51:39.563Z"
+    },
+    "expires_at": {
+      "$date": "2026-11-13T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "audience_type": "all",
+    "is_deleted": false,
+    "recipients": []
+  },
+  {
+    "_id": {
+      "$oid": "6acf318f361fe758922bd713"
+    },
+    "title": "Testing",
+    "message": "Testing",
+    "content": "Testing",
+    "priority": "NORMAL",
+    "unit_id": "BOTH",
+    "audience_type": "all",
+    "recipients": [],
+    "recipient_names": [],
+    "author_id": "6acf09d377fcf49754f5b411",
+    "author_name": "Ritesh Gajjar",
+    "author_role": "SUPER_ADMIN",
+    "is_deleted": false,
+    "created_at": {
+      "$date": "2026-10-14T07:38:55.898Z"
+    },
+    "published_at": {
+      "$date": "2026-10-14T07:38:55.898Z"
+    },
+    "updated_at": null,
+    "expires_at": null
+  }
+]

@@ -116,14 +116,14 @@ export default function WastageScrapPage() {
           search: searchQuery || undefined,
           page_size: 100,
         }),
-        masterClient.list<RawMaterial>('materials', { page_size: 100 }),
-        productionClient.listOrders({ unit_id: unitParam, page_size: 100 }),
+        masterClient.list<RawMaterial>('materials', { page_size: 100 }).catch(() => ({ items: [] })),
+        productionClient.listOrders({ unit_id: unitParam, page_size: 100 }).catch(() => ({ items: [] })),
       ]);
 
       setMetrics(metricsRes);
       setEntries(entriesRes.items || []);
-      setMaterials(rawRes.items || []);
-      setProductionOrders(ordersRes.items || []);
+      setMaterials(rawRes?.items || []);
+      setProductionOrders(ordersRes?.items || []);
     } catch (err: unknown) {
       setActionError(err instanceof Error ? err.message : 'Failed to load wastage data');
     } finally {

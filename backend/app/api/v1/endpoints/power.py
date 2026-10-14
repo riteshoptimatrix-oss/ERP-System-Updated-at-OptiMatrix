@@ -10,6 +10,7 @@ from app.schemas.power import (
     PowerCutLogCreate,
     PowerCutLogResponse,
     PowerAnalyticsSummary,
+    DailyElectricityScrapTracker,
 )
 from app.schemas.master import PaginatedResponse
 
@@ -55,6 +56,11 @@ def serialize_outage(doc: Dict[str, Any]) -> PowerCutLogResponse:
         fuel_consumed_liters=doc.get("fuel_consumed_liters"),
         affected_departments=doc.get("affected_departments", []),
         production_order_ids=doc.get("production_order_ids", []),
+        restart_delay_minutes=doc.get("restart_delay_minutes"),
+        downtime_duration_str=doc.get("downtime_duration_str"),
+        power_cut_time=doc.get("power_cut_time"),
+        power_restored_time=doc.get("power_restored_time"),
+        incident_date=doc.get("incident_date"),
         remarks=doc.get("remarks"),
         created_at=doc["created_at"],
         created_by=doc.get("created_by", "SYSTEM"),
@@ -174,3 +180,83 @@ async def list_power_cuts(
         page_size=page_size,
         total_pages=(total + page_size - 1) // page_size if page_size > 0 else 0,
     )
+
+
+# -------------------------------------------------------------
+# 4. Daily Electricity & Scrap Tracker
+# -------------------------------------------------------------
+@router.get("/scrap-tracker", response_model=PaginatedResponse[DailyElectricityScrapTracker])
+async def list_electricity_scrap_tracker(
+    unit_id: Optional[str] = Query(None),
+    product_type: Optional[str] = Query(None),
+    search: Optional[str] = Query(None),
+    page: int = Query(1, ge=1),
+    page_size: int = Query(100, ge=1, le=200),
+    current_user: Dict[str, Any] = Depends(require_permission(ModuleName.POWER, ActionType.READ)),
+    repo: PowerRepository = Depends(get_power_repo),
+):
+    """Retrieve all daily electricity and scrap tracker records."""
+    items, total = await repo.list_electricity_scrap_tracker(
+        unit_id=unit_id,
+        product_type=product_type,
+        search=search,
+        page=page,
+        page_size=page_size,
+    )
+    return PaginatedResponse(
+        items=[
+            DailyElectricityScrapTracker(
+                id=str(d["_id"]),
+                date=d.get("date", ""),
+                total_production_kg=d.get("total_production_kg", 0.0),
+                product_type=d.get("product_type", "Tubing"),
+                startup_scrap_kg=d.get("startup_scrap_kg", 0.0),
+                cutting_scrap_kg=d.get("cutting_scrap_kg", 0.0),
+                total_scrap_kg=d.get("total_scrap_kg", 0.0),
+                scrap_percent_str=d.get("scrap_percent_str", "0.00%"),
+                electricity_off_count=d.get("electricity_off_count", 0),
+                total_off_time_min=d.get("total_off_time_min", 0.0),
+                machine_working_hours=str(d.get("machine_working_hours", "8.0")),
+                shift_duration_hr=d.get("shift_duration_hr", 8.0),
+                main_reason=d.get("main_reason"),
+                remarks=d.get("remarks"),
+                unit_id=d.get("unit_id", "Unit_1"),
+                created_at=d.get("created_at"),
+            )
+            for d in items
+        ],
+        total=total,
+        page=page,
+        page_size=page_size,
+        total_pages=(total + page_size - 1) // page_size if page_size > 0 else 0,
+    )
+
+
+@router.post("/scrap-tracker", response_model=DailyElectricityScrapTracker, status_code=status.HTTP_201_CREATED)
+async def create_electricity_scrap_entry(
+    tracker_data: DailyElectricityScrapTracker,
+    current_user: Dict[str, Any] = Depends(require_permission(ModuleName.POWER, ActionType.CREATE)),
+    csrf: None = Depends(verify_csrf_token),
+    repo: PowerRepository = Depends(get_power_repo),
+):
+    """Create a new daily electricity & scrap entry."""
+    doc = await repo.create_electricity_scrap_tracker(tracker_data.dict())
+    return DailyElectricityScrapTracker(
+        id=str(doc["_id"]),
+        date=doc.get("date", ""),
+        total_production_kg=doc.get("total_production_kg", 0.0),
+        product_type=doc.get("product_type", "Tubing"),
+        startup_scrap_kg=doc.get("startup_scrap_kg", 0.0),
+        cutting_scrap_kg=doc.get("cutting_scrap_kg", 0.0),
+        total_scrap_kg=doc.get("total_scrap_kg", 0.0),
+        scrap_percent_str=doc.get("scrap_percent_str", "0.00%"),
+        electricity_off_count=doc.get("electricity_off_count", 0),
+        total_off_time_min=doc.get("total_off_time_min", 0.0),
+        machine_working_hours=str(doc.get("machine_working_hours", "8.0")),
+        shift_duration_hr=doc.get("shift_duration_hr", 8.0),
+        main_reason=doc.get("main_reason"),
+        remarks=doc.get("remarks"),
+        unit_id=doc.get("unit_id", "Unit_1"),
+        created_at=doc.get("created_at"),
+    )
+

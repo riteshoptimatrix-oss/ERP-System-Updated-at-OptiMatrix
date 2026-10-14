@@ -1,0 +1,587 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f186"
+    },
+    "bom_number": "BOM-ENV100-R3",
+    "product_id": "6acf133b35a67d012664f0da",
+    "product_code": "FP-ENV-100",
+    "product_name": "Semi-Automatic Envelope Machine ENV-100",
+    "revision_no": "R3",
+    "unit_id": "Unit_1",
+    "description": "Standard production BOM for Semi-Automatic Envelope Machine ENV-100 Rev R3",
+    "status": "APPROVED",
+    "is_active": true,
+    "items": [
+      {
+        "material_id": "6acf133b35a67d012664f0c8",
+        "material_code": "RM-MS-PLATE-6MM",
+        "material_name": "MS Plate 6mm IS:2062",
+        "quantity": 180.0,
+        "gross_quantity": 189.0,
+        "uom": "KG",
+        "scrap_percent": 5.0,
+        "unit_cost": 68.0,
+        "total_cost": 12852.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0c9",
+        "material_code": "RM-MS-PLATE-10MM",
+        "material_name": "MS Plate 10mm IS:2062",
+        "quantity": 80.0,
+        "gross_quantity": 83.2,
+        "uom": "KG",
+        "scrap_percent": 4.0,
+        "unit_cost": 72.0,
+        "total_cost": 5990.4
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0ca",
+        "material_code": "RM-SS-ROD-20MM",
+        "material_name": "SS Round Bar 20mm AISI 304",
+        "quantity": 18.0,
+        "gross_quantity": 18.36,
+        "uom": "KG",
+        "scrap_percent": 2.0,
+        "unit_cost": 280.0,
+        "total_cost": 5140.8
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cb",
+        "material_code": "RM-CI-CAST-001",
+        "material_name": "CI Rough Body Casting Grade 25",
+        "quantity": 1.0,
+        "gross_quantity": 1.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 18500.0,
+        "total_cost": 18500.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cc",
+        "material_code": "RM-MS-CHANNEL",
+        "material_name": "MS Channel 100x50 IS:808",
+        "quantity": 8.0,
+        "gross_quantity": 8.24,
+        "uom": "MTR",
+        "scrap_percent": 3.0,
+        "unit_cost": 520.0,
+        "total_cost": 4284.8
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cd",
+        "material_code": "RM-MOTOR-0.5HP",
+        "material_name": "AC Induction Motor 0.5 HP",
+        "quantity": 2.0,
+        "gross_quantity": 2.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 4200.0,
+        "total_cost": 8400.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cf",
+        "material_code": "RM-BEARING-6205",
+        "material_name": "Deep Groove Ball Bearing 6205ZZ",
+        "quantity": 8.0,
+        "gross_quantity": 8.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 240.0,
+        "total_cost": 1920.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d0",
+        "material_code": "RM-CAPACITOR-25",
+        "material_name": "Motor Run Capacitor 25uF 440V",
+        "quantity": 2.0,
+        "gross_quantity": 2.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 180.0,
+        "total_cost": 360.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d1",
+        "material_code": "RM-RUBBER-GSKT",
+        "material_name": "Nitrile Rubber Gasket Strip 3mm",
+        "quantity": 4.0,
+        "gross_quantity": 4.32,
+        "uom": "MTR",
+        "scrap_percent": 8.0,
+        "unit_cost": 95.0,
+        "total_cost": 410.4
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d2",
+        "material_code": "RM-NYLON-BUSH",
+        "material_name": "Engineering Nylon Bush 20x30mm",
+        "quantity": 8.0,
+        "gross_quantity": 8.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 75.0,
+        "total_cost": 600.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d3",
+        "material_code": "RM-WELD-ROD-E6013",
+        "material_name": "Welding Electrode E6013 3.15mm",
+        "quantity": 2.5,
+        "gross_quantity": 2.75,
+        "uom": "KG",
+        "scrap_percent": 10.0,
+        "unit_cost": 160.0,
+        "total_cost": 440.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d4",
+        "material_code": "RM-CUTTING-OIL",
+        "material_name": "Water Soluble Cutting Fluid",
+        "quantity": 2.0,
+        "gross_quantity": 2.0,
+        "uom": "LTR",
+        "scrap_percent": 0.0,
+        "unit_cost": 210.0,
+        "total_cost": 420.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d5",
+        "material_code": "RM-PAINT-GREY",
+        "material_name": "Industrial Enamel Machine Grey",
+        "quantity": 1.5,
+        "gross_quantity": 1.575,
+        "uom": "LTR",
+        "scrap_percent": 5.0,
+        "unit_cost": 340.0,
+        "total_cost": 535.5
+      }
+    ],
+    "total_material_cost": 59853.9,
+    "approved_by": "Ritesh Gajjar",
+    "approved_at": {
+      "$date": "2026-06-16T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-04-17T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f187"
+    },
+    "bom_number": "BOM-ENV200-R2",
+    "product_id": "6acf133b35a67d012664f0db",
+    "product_code": "FP-ENV-200",
+    "product_name": "Fully Automatic Envelope Machine ENV-200",
+    "revision_no": "R2",
+    "unit_id": "Unit_1",
+    "description": "Standard production BOM for Fully Automatic Envelope Machine ENV-200 Rev R2",
+    "status": "APPROVED",
+    "is_active": true,
+    "items": [
+      {
+        "material_id": "6acf133b35a67d012664f0c8",
+        "material_code": "RM-MS-PLATE-6MM",
+        "material_name": "MS Plate 6mm IS:2062",
+        "quantity": 260.0,
+        "gross_quantity": 273.0,
+        "uom": "KG",
+        "scrap_percent": 5.0,
+        "unit_cost": 68.0,
+        "total_cost": 18564.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0c9",
+        "material_code": "RM-MS-PLATE-10MM",
+        "material_name": "MS Plate 10mm IS:2062",
+        "quantity": 130.0,
+        "gross_quantity": 135.2,
+        "uom": "KG",
+        "scrap_percent": 4.0,
+        "unit_cost": 72.0,
+        "total_cost": 9734.4
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0ca",
+        "material_code": "RM-SS-ROD-20MM",
+        "material_name": "SS Round Bar 20mm AISI 304",
+        "quantity": 28.0,
+        "gross_quantity": 28.84,
+        "uom": "KG",
+        "scrap_percent": 3.0,
+        "unit_cost": 280.0,
+        "total_cost": 8075.2
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cb",
+        "material_code": "RM-CI-CAST-001",
+        "material_name": "CI Rough Body Casting Grade 25",
+        "quantity": 2.0,
+        "gross_quantity": 2.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 18500.0,
+        "total_cost": 37000.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cc",
+        "material_code": "RM-MS-CHANNEL",
+        "material_name": "MS Channel 100x50 IS:808",
+        "quantity": 12.0,
+        "gross_quantity": 12.36,
+        "uom": "MTR",
+        "scrap_percent": 3.0,
+        "unit_cost": 520.0,
+        "total_cost": 6427.2
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0ce",
+        "material_code": "RM-MOTOR-1HP",
+        "material_name": "AC Induction Motor 1.0 HP",
+        "quantity": 3.0,
+        "gross_quantity": 3.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 6800.0,
+        "total_cost": 20400.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cf",
+        "material_code": "RM-BEARING-6205",
+        "material_name": "Deep Groove Ball Bearing 6205ZZ",
+        "quantity": 12.0,
+        "gross_quantity": 12.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 240.0,
+        "total_cost": 2880.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d0",
+        "material_code": "RM-CAPACITOR-25",
+        "material_name": "Motor Run Capacitor 25uF 440V",
+        "quantity": 3.0,
+        "gross_quantity": 3.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 180.0,
+        "total_cost": 540.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d1",
+        "material_code": "RM-RUBBER-GSKT",
+        "material_name": "Nitrile Rubber Gasket Strip 3mm",
+        "quantity": 6.0,
+        "gross_quantity": 6.48,
+        "uom": "MTR",
+        "scrap_percent": 8.0,
+        "unit_cost": 95.0,
+        "total_cost": 615.6
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d2",
+        "material_code": "RM-NYLON-BUSH",
+        "material_name": "Engineering Nylon Bush 20x30mm",
+        "quantity": 12.0,
+        "gross_quantity": 12.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 75.0,
+        "total_cost": 900.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d3",
+        "material_code": "RM-WELD-ROD-E6013",
+        "material_name": "Welding Electrode E6013 3.15mm",
+        "quantity": 4.0,
+        "gross_quantity": 4.4,
+        "uom": "KG",
+        "scrap_percent": 10.0,
+        "unit_cost": 160.0,
+        "total_cost": 704.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d4",
+        "material_code": "RM-CUTTING-OIL",
+        "material_name": "Water Soluble Cutting Fluid",
+        "quantity": 3.5,
+        "gross_quantity": 3.5,
+        "uom": "LTR",
+        "scrap_percent": 0.0,
+        "unit_cost": 210.0,
+        "total_cost": 735.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d5",
+        "material_code": "RM-PAINT-GREY",
+        "material_name": "Industrial Enamel Machine Grey",
+        "quantity": 2.5,
+        "gross_quantity": 2.625,
+        "uom": "LTR",
+        "scrap_percent": 5.0,
+        "unit_cost": 340.0,
+        "total_cost": 892.5
+      }
+    ],
+    "total_material_cost": 107467.9,
+    "approved_by": "Ritesh Gajjar",
+    "approved_at": {
+      "$date": "2026-06-16T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-04-17T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f188"
+    },
+    "bom_number": "BOM-PKG300-R1",
+    "product_id": "6acf133b35a67d012664f0dc",
+    "product_code": "FP-PKG-300",
+    "product_name": "Automated Carton Packing Machine PKG-300",
+    "revision_no": "R1",
+    "unit_id": "Unit_2",
+    "description": "Standard production BOM for Automated Carton Packing Machine PKG-300 Rev R1",
+    "status": "APPROVED",
+    "is_active": true,
+    "items": [
+      {
+        "material_id": "6acf133b35a67d012664f0c8",
+        "material_code": "RM-MS-PLATE-6MM",
+        "material_name": "MS Plate 6mm IS:2062",
+        "quantity": 320.0,
+        "gross_quantity": 336.0,
+        "uom": "KG",
+        "scrap_percent": 5.0,
+        "unit_cost": 68.0,
+        "total_cost": 22848.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0c9",
+        "material_code": "RM-MS-PLATE-10MM",
+        "material_name": "MS Plate 10mm IS:2062",
+        "quantity": 150.0,
+        "gross_quantity": 156.0,
+        "uom": "KG",
+        "scrap_percent": 4.0,
+        "unit_cost": 72.0,
+        "total_cost": 11232.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0ca",
+        "material_code": "RM-SS-ROD-20MM",
+        "material_name": "SS Round Bar 20mm AISI 304",
+        "quantity": 35.0,
+        "gross_quantity": 36.05,
+        "uom": "KG",
+        "scrap_percent": 3.0,
+        "unit_cost": 280.0,
+        "total_cost": 10094.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cb",
+        "material_code": "RM-CI-CAST-001",
+        "material_name": "CI Rough Body Casting Grade 25",
+        "quantity": 3.0,
+        "gross_quantity": 3.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 18500.0,
+        "total_cost": 55500.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0ce",
+        "material_code": "RM-MOTOR-1HP",
+        "material_name": "AC Induction Motor 1.0 HP",
+        "quantity": 4.0,
+        "gross_quantity": 4.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 6800.0,
+        "total_cost": 27200.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cf",
+        "material_code": "RM-BEARING-6205",
+        "material_name": "Deep Groove Ball Bearing 6205ZZ",
+        "quantity": 16.0,
+        "gross_quantity": 16.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 240.0,
+        "total_cost": 3840.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d1",
+        "material_code": "RM-RUBBER-GSKT",
+        "material_name": "Nitrile Rubber Gasket Strip 3mm",
+        "quantity": 8.0,
+        "gross_quantity": 8.64,
+        "uom": "MTR",
+        "scrap_percent": 8.0,
+        "unit_cost": 95.0,
+        "total_cost": 820.8
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d3",
+        "material_code": "RM-WELD-ROD-E6013",
+        "material_name": "Welding Electrode E6013 3.15mm",
+        "quantity": 5.0,
+        "gross_quantity": 5.5,
+        "uom": "KG",
+        "scrap_percent": 10.0,
+        "unit_cost": 160.0,
+        "total_cost": 880.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d5",
+        "material_code": "RM-PAINT-GREY",
+        "material_name": "Industrial Enamel Machine Grey",
+        "quantity": 3.0,
+        "gross_quantity": 3.15,
+        "uom": "LTR",
+        "scrap_percent": 5.0,
+        "unit_cost": 340.0,
+        "total_cost": 1071.0
+      }
+    ],
+    "total_material_cost": 133485.8,
+    "approved_by": "Ritesh Gajjar",
+    "approved_at": {
+      "$date": "2026-06-16T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-04-17T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f189"
+    },
+    "bom_number": "BOM-ENVMINI-R1",
+    "product_id": "6acf133b35a67d012664f0dd",
+    "product_code": "FP-ENV-MINI",
+    "product_name": "Compact Desktop Envelope Machine ENV-MINI",
+    "revision_no": "R1",
+    "unit_id": "Unit_1",
+    "description": "Standard production BOM for Compact Desktop Envelope Machine ENV-MINI Rev R1",
+    "status": "APPROVED",
+    "is_active": true,
+    "items": [
+      {
+        "material_id": "6acf133b35a67d012664f0c8",
+        "material_code": "RM-MS-PLATE-6MM",
+        "material_name": "MS Plate 6mm IS:2062",
+        "quantity": 65.0,
+        "gross_quantity": 68.25,
+        "uom": "KG",
+        "scrap_percent": 5.0,
+        "unit_cost": 68.0,
+        "total_cost": 4641.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cc",
+        "material_code": "RM-MS-CHANNEL",
+        "material_name": "MS Channel 100x50 IS:808",
+        "quantity": 4.0,
+        "gross_quantity": 4.12,
+        "uom": "MTR",
+        "scrap_percent": 3.0,
+        "unit_cost": 520.0,
+        "total_cost": 2142.4
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cd",
+        "material_code": "RM-MOTOR-0.5HP",
+        "material_name": "AC Induction Motor 0.5 HP",
+        "quantity": 1.0,
+        "gross_quantity": 1.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 4200.0,
+        "total_cost": 4200.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0cf",
+        "material_code": "RM-BEARING-6205",
+        "material_name": "Deep Groove Ball Bearing 6205ZZ",
+        "quantity": 4.0,
+        "gross_quantity": 4.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 240.0,
+        "total_cost": 960.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d0",
+        "material_code": "RM-CAPACITOR-25",
+        "material_name": "Motor Run Capacitor 25uF 440V",
+        "quantity": 1.0,
+        "gross_quantity": 1.0,
+        "uom": "NOS",
+        "scrap_percent": 0.0,
+        "unit_cost": 180.0,
+        "total_cost": 180.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d1",
+        "material_code": "RM-RUBBER-GSKT",
+        "material_name": "Nitrile Rubber Gasket Strip 3mm",
+        "quantity": 2.0,
+        "gross_quantity": 2.16,
+        "uom": "MTR",
+        "scrap_percent": 8.0,
+        "unit_cost": 95.0,
+        "total_cost": 205.2
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d3",
+        "material_code": "RM-WELD-ROD-E6013",
+        "material_name": "Welding Electrode E6013 3.15mm",
+        "quantity": 1.0,
+        "gross_quantity": 1.1,
+        "uom": "KG",
+        "scrap_percent": 10.0,
+        "unit_cost": 160.0,
+        "total_cost": 176.0
+      },
+      {
+        "material_id": "6acf133b35a67d012664f0d5",
+        "material_code": "RM-PAINT-GREY",
+        "material_name": "Industrial Enamel Machine Grey",
+        "quantity": 0.8,
+        "gross_quantity": 0.84,
+        "uom": "LTR",
+        "scrap_percent": 5.0,
+        "unit_cost": 340.0,
+        "total_cost": 285.6
+      }
+    ],
+    "total_material_cost": 12790.2,
+    "approved_by": "Ritesh Gajjar",
+    "approved_at": {
+      "$date": "2026-06-16T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-04-17T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

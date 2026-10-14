@@ -1,0 +1,3362 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4da4"
+    },
+    "reading_number": "ELEC-U1-0060",
+    "reading_date": "2026-10-13",
+    "date": "2026-10-13",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 125000.0,
+    "closing_reading_kwh": 125995.0,
+    "units_consumed_kwh": 995.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8457.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-13T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4da5"
+    },
+    "reading_number": "ELEC-U2-0060",
+    "reading_date": "2026-10-13",
+    "date": "2026-10-13",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 42000.0,
+    "closing_reading_kwh": 42370.0,
+    "units_consumed_kwh": 370.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3145.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-13T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4da6"
+    },
+    "reading_number": "ELEC-U1-0059",
+    "reading_date": "2026-10-12",
+    "date": "2026-10-12",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 125995.0,
+    "closing_reading_kwh": 127005.0,
+    "units_consumed_kwh": 1010.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8585.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-12T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4da7"
+    },
+    "reading_number": "ELEC-U2-0059",
+    "reading_date": "2026-10-12",
+    "date": "2026-10-12",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 42370.0,
+    "closing_reading_kwh": 42750.0,
+    "units_consumed_kwh": 380.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3230.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-12T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4da8"
+    },
+    "reading_number": "ELEC-U1-0058",
+    "reading_date": "2026-10-11",
+    "date": "2026-10-11",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 127005.0,
+    "closing_reading_kwh": 128030.0,
+    "units_consumed_kwh": 1025.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8712.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-11T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4da9"
+    },
+    "reading_number": "ELEC-U2-0058",
+    "reading_date": "2026-10-11",
+    "date": "2026-10-11",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 42750.0,
+    "closing_reading_kwh": 43140.0,
+    "units_consumed_kwh": 390.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3315.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-11T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4daa"
+    },
+    "reading_number": "ELEC-U1-0057",
+    "reading_date": "2026-10-10",
+    "date": "2026-10-10",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 128030.0,
+    "closing_reading_kwh": 129070.0,
+    "units_consumed_kwh": 1040.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8840.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-10T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dab"
+    },
+    "reading_number": "ELEC-U2-0057",
+    "reading_date": "2026-10-10",
+    "date": "2026-10-10",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 43140.0,
+    "closing_reading_kwh": 43540.0,
+    "units_consumed_kwh": 400.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3400.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-10T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dac"
+    },
+    "reading_number": "ELEC-U1-0056",
+    "reading_date": "2026-10-09",
+    "date": "2026-10-09",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 129070.0,
+    "closing_reading_kwh": 130125.0,
+    "units_consumed_kwh": 1055.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8967.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dad"
+    },
+    "reading_number": "ELEC-U2-0056",
+    "reading_date": "2026-10-09",
+    "date": "2026-10-09",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 43540.0,
+    "closing_reading_kwh": 43950.0,
+    "units_consumed_kwh": 410.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3485.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dae"
+    },
+    "reading_number": "ELEC-U1-0055",
+    "reading_date": "2026-10-08",
+    "date": "2026-10-08",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 130125.0,
+    "closing_reading_kwh": 131195.0,
+    "units_consumed_kwh": 1070.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9095.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-08T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4daf"
+    },
+    "reading_number": "ELEC-U2-0055",
+    "reading_date": "2026-10-08",
+    "date": "2026-10-08",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 43950.0,
+    "closing_reading_kwh": 44370.0,
+    "units_consumed_kwh": 420.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3570.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-08T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db0"
+    },
+    "reading_number": "ELEC-U1-0054",
+    "reading_date": "2026-10-07",
+    "date": "2026-10-07",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 131195.0,
+    "closing_reading_kwh": 132280.0,
+    "units_consumed_kwh": 1085.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 35.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9222.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-07T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db1"
+    },
+    "reading_number": "ELEC-U2-0054",
+    "reading_date": "2026-10-07",
+    "date": "2026-10-07",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 44370.0,
+    "closing_reading_kwh": 44800.0,
+    "units_consumed_kwh": 430.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3655.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-07T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db2"
+    },
+    "reading_number": "ELEC-U1-0053",
+    "reading_date": "2026-10-06",
+    "date": "2026-10-06",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 132280.0,
+    "closing_reading_kwh": 133380.0,
+    "units_consumed_kwh": 1100.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9350.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-06T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db3"
+    },
+    "reading_number": "ELEC-U2-0053",
+    "reading_date": "2026-10-06",
+    "date": "2026-10-06",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 44800.0,
+    "closing_reading_kwh": 45160.0,
+    "units_consumed_kwh": 360.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3060.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-06T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db4"
+    },
+    "reading_number": "ELEC-U1-0052",
+    "reading_date": "2026-10-05",
+    "date": "2026-10-05",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 133380.0,
+    "closing_reading_kwh": 134495.0,
+    "units_consumed_kwh": 1115.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9477.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-05T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db5"
+    },
+    "reading_number": "ELEC-U2-0052",
+    "reading_date": "2026-10-05",
+    "date": "2026-10-05",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 45160.0,
+    "closing_reading_kwh": 45530.0,
+    "units_consumed_kwh": 370.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3145.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-05T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db6"
+    },
+    "reading_number": "ELEC-U1-0051",
+    "reading_date": "2026-10-04",
+    "date": "2026-10-04",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 134495.0,
+    "closing_reading_kwh": 135625.0,
+    "units_consumed_kwh": 1130.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9605.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db7"
+    },
+    "reading_number": "ELEC-U2-0051",
+    "reading_date": "2026-10-04",
+    "date": "2026-10-04",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 45530.0,
+    "closing_reading_kwh": 45910.0,
+    "units_consumed_kwh": 380.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3230.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db8"
+    },
+    "reading_number": "ELEC-U1-0050",
+    "reading_date": "2026-10-03",
+    "date": "2026-10-03",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 135625.0,
+    "closing_reading_kwh": 136770.0,
+    "units_consumed_kwh": 1145.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9732.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-03T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4db9"
+    },
+    "reading_number": "ELEC-U2-0050",
+    "reading_date": "2026-10-03",
+    "date": "2026-10-03",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 45910.0,
+    "closing_reading_kwh": 46300.0,
+    "units_consumed_kwh": 390.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3315.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-03T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dba"
+    },
+    "reading_number": "ELEC-U1-0049",
+    "reading_date": "2026-10-02",
+    "date": "2026-10-02",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 136770.0,
+    "closing_reading_kwh": 137750.0,
+    "units_consumed_kwh": 980.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8330.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dbb"
+    },
+    "reading_number": "ELEC-U2-0049",
+    "reading_date": "2026-10-02",
+    "date": "2026-10-02",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 46300.0,
+    "closing_reading_kwh": 46700.0,
+    "units_consumed_kwh": 400.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3400.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dbc"
+    },
+    "reading_number": "ELEC-U1-0048",
+    "reading_date": "2026-10-01",
+    "date": "2026-10-01",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 137750.0,
+    "closing_reading_kwh": 138745.0,
+    "units_consumed_kwh": 995.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8457.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-01T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dbd"
+    },
+    "reading_number": "ELEC-U2-0048",
+    "reading_date": "2026-10-01",
+    "date": "2026-10-01",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 46700.0,
+    "closing_reading_kwh": 47110.0,
+    "units_consumed_kwh": 410.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3485.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-10-01T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dbe"
+    },
+    "reading_number": "ELEC-U1-0047",
+    "reading_date": "2026-09-30",
+    "date": "2026-09-30",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 138745.0,
+    "closing_reading_kwh": 139755.0,
+    "units_consumed_kwh": 1010.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 35.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8585.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-30T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dbf"
+    },
+    "reading_number": "ELEC-U2-0047",
+    "reading_date": "2026-09-30",
+    "date": "2026-09-30",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 47110.0,
+    "closing_reading_kwh": 47530.0,
+    "units_consumed_kwh": 420.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3570.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-30T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc0"
+    },
+    "reading_number": "ELEC-U1-0046",
+    "reading_date": "2026-09-29",
+    "date": "2026-09-29",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 139755.0,
+    "closing_reading_kwh": 140780.0,
+    "units_consumed_kwh": 1025.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8712.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc1"
+    },
+    "reading_number": "ELEC-U2-0046",
+    "reading_date": "2026-09-29",
+    "date": "2026-09-29",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 47530.0,
+    "closing_reading_kwh": 47960.0,
+    "units_consumed_kwh": 430.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3655.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc2"
+    },
+    "reading_number": "ELEC-U1-0045",
+    "reading_date": "2026-09-28",
+    "date": "2026-09-28",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 140780.0,
+    "closing_reading_kwh": 141820.0,
+    "units_consumed_kwh": 1040.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8840.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-28T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc3"
+    },
+    "reading_number": "ELEC-U2-0045",
+    "reading_date": "2026-09-28",
+    "date": "2026-09-28",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 47960.0,
+    "closing_reading_kwh": 48320.0,
+    "units_consumed_kwh": 360.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3060.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-28T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc4"
+    },
+    "reading_number": "ELEC-U1-0044",
+    "reading_date": "2026-09-27",
+    "date": "2026-09-27",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 141820.0,
+    "closing_reading_kwh": 142875.0,
+    "units_consumed_kwh": 1055.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8967.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-27T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc5"
+    },
+    "reading_number": "ELEC-U2-0044",
+    "reading_date": "2026-09-27",
+    "date": "2026-09-27",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 48320.0,
+    "closing_reading_kwh": 48690.0,
+    "units_consumed_kwh": 370.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3145.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-27T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc6"
+    },
+    "reading_number": "ELEC-U1-0043",
+    "reading_date": "2026-09-26",
+    "date": "2026-09-26",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 142875.0,
+    "closing_reading_kwh": 143945.0,
+    "units_consumed_kwh": 1070.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9095.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-26T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc7"
+    },
+    "reading_number": "ELEC-U2-0043",
+    "reading_date": "2026-09-26",
+    "date": "2026-09-26",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 48690.0,
+    "closing_reading_kwh": 49070.0,
+    "units_consumed_kwh": 380.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3230.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-26T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc8"
+    },
+    "reading_number": "ELEC-U1-0042",
+    "reading_date": "2026-09-25",
+    "date": "2026-09-25",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 143945.0,
+    "closing_reading_kwh": 145030.0,
+    "units_consumed_kwh": 1085.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9222.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-25T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dc9"
+    },
+    "reading_number": "ELEC-U2-0042",
+    "reading_date": "2026-09-25",
+    "date": "2026-09-25",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 49070.0,
+    "closing_reading_kwh": 49460.0,
+    "units_consumed_kwh": 390.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3315.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-25T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dca"
+    },
+    "reading_number": "ELEC-U1-0041",
+    "reading_date": "2026-09-24",
+    "date": "2026-09-24",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 145030.0,
+    "closing_reading_kwh": 146130.0,
+    "units_consumed_kwh": 1100.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9350.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dcb"
+    },
+    "reading_number": "ELEC-U2-0041",
+    "reading_date": "2026-09-24",
+    "date": "2026-09-24",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 49460.0,
+    "closing_reading_kwh": 49860.0,
+    "units_consumed_kwh": 400.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3400.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dcc"
+    },
+    "reading_number": "ELEC-U1-0040",
+    "reading_date": "2026-09-23",
+    "date": "2026-09-23",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 146130.0,
+    "closing_reading_kwh": 147245.0,
+    "units_consumed_kwh": 1115.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 35.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9477.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-23T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dcd"
+    },
+    "reading_number": "ELEC-U2-0040",
+    "reading_date": "2026-09-23",
+    "date": "2026-09-23",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 49860.0,
+    "closing_reading_kwh": 50270.0,
+    "units_consumed_kwh": 410.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3485.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-23T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dce"
+    },
+    "reading_number": "ELEC-U1-0039",
+    "reading_date": "2026-09-22",
+    "date": "2026-09-22",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 147245.0,
+    "closing_reading_kwh": 148375.0,
+    "units_consumed_kwh": 1130.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9605.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dcf"
+    },
+    "reading_number": "ELEC-U2-0039",
+    "reading_date": "2026-09-22",
+    "date": "2026-09-22",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 50270.0,
+    "closing_reading_kwh": 50690.0,
+    "units_consumed_kwh": 420.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3570.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd0"
+    },
+    "reading_number": "ELEC-U1-0038",
+    "reading_date": "2026-09-21",
+    "date": "2026-09-21",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 148375.0,
+    "closing_reading_kwh": 149520.0,
+    "units_consumed_kwh": 1145.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9732.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-21T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd1"
+    },
+    "reading_number": "ELEC-U2-0038",
+    "reading_date": "2026-09-21",
+    "date": "2026-09-21",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 50690.0,
+    "closing_reading_kwh": 51120.0,
+    "units_consumed_kwh": 430.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3655.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-21T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd2"
+    },
+    "reading_number": "ELEC-U1-0037",
+    "reading_date": "2026-09-20",
+    "date": "2026-09-20",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 149520.0,
+    "closing_reading_kwh": 150500.0,
+    "units_consumed_kwh": 980.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8330.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-20T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd3"
+    },
+    "reading_number": "ELEC-U2-0037",
+    "reading_date": "2026-09-20",
+    "date": "2026-09-20",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 51120.0,
+    "closing_reading_kwh": 51480.0,
+    "units_consumed_kwh": 360.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3060.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-20T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd4"
+    },
+    "reading_number": "ELEC-U1-0036",
+    "reading_date": "2026-09-19",
+    "date": "2026-09-19",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 150500.0,
+    "closing_reading_kwh": 151495.0,
+    "units_consumed_kwh": 995.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8457.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd5"
+    },
+    "reading_number": "ELEC-U2-0036",
+    "reading_date": "2026-09-19",
+    "date": "2026-09-19",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 51480.0,
+    "closing_reading_kwh": 51850.0,
+    "units_consumed_kwh": 370.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3145.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd6"
+    },
+    "reading_number": "ELEC-U1-0035",
+    "reading_date": "2026-09-18",
+    "date": "2026-09-18",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 151495.0,
+    "closing_reading_kwh": 152505.0,
+    "units_consumed_kwh": 1010.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8585.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-18T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd7"
+    },
+    "reading_number": "ELEC-U2-0035",
+    "reading_date": "2026-09-18",
+    "date": "2026-09-18",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 51850.0,
+    "closing_reading_kwh": 52230.0,
+    "units_consumed_kwh": 380.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3230.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-18T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd8"
+    },
+    "reading_number": "ELEC-U1-0034",
+    "reading_date": "2026-09-17",
+    "date": "2026-09-17",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 152505.0,
+    "closing_reading_kwh": 153530.0,
+    "units_consumed_kwh": 1025.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8712.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dd9"
+    },
+    "reading_number": "ELEC-U2-0034",
+    "reading_date": "2026-09-17",
+    "date": "2026-09-17",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 52230.0,
+    "closing_reading_kwh": 52620.0,
+    "units_consumed_kwh": 390.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3315.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dda"
+    },
+    "reading_number": "ELEC-U1-0033",
+    "reading_date": "2026-09-16",
+    "date": "2026-09-16",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 153530.0,
+    "closing_reading_kwh": 154570.0,
+    "units_consumed_kwh": 1040.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 35.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8840.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ddb"
+    },
+    "reading_number": "ELEC-U2-0033",
+    "reading_date": "2026-09-16",
+    "date": "2026-09-16",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 52620.0,
+    "closing_reading_kwh": 53020.0,
+    "units_consumed_kwh": 400.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3400.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ddc"
+    },
+    "reading_number": "ELEC-U1-0032",
+    "reading_date": "2026-09-15",
+    "date": "2026-09-15",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 154570.0,
+    "closing_reading_kwh": 155625.0,
+    "units_consumed_kwh": 1055.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8967.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-15T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ddd"
+    },
+    "reading_number": "ELEC-U2-0032",
+    "reading_date": "2026-09-15",
+    "date": "2026-09-15",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 53020.0,
+    "closing_reading_kwh": 53430.0,
+    "units_consumed_kwh": 410.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3485.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-15T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dde"
+    },
+    "reading_number": "ELEC-U1-0031",
+    "reading_date": "2026-09-14",
+    "date": "2026-09-14",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 155625.0,
+    "closing_reading_kwh": 156695.0,
+    "units_consumed_kwh": 1070.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9095.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ddf"
+    },
+    "reading_number": "ELEC-U2-0031",
+    "reading_date": "2026-09-14",
+    "date": "2026-09-14",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 53430.0,
+    "closing_reading_kwh": 53850.0,
+    "units_consumed_kwh": 420.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3570.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de0"
+    },
+    "reading_number": "ELEC-U1-0030",
+    "reading_date": "2026-09-13",
+    "date": "2026-09-13",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 156695.0,
+    "closing_reading_kwh": 157780.0,
+    "units_consumed_kwh": 1085.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9222.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-13T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de1"
+    },
+    "reading_number": "ELEC-U2-0030",
+    "reading_date": "2026-09-13",
+    "date": "2026-09-13",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 53850.0,
+    "closing_reading_kwh": 54280.0,
+    "units_consumed_kwh": 430.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3655.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-13T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de2"
+    },
+    "reading_number": "ELEC-U1-0029",
+    "reading_date": "2026-09-12",
+    "date": "2026-09-12",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 157780.0,
+    "closing_reading_kwh": 158880.0,
+    "units_consumed_kwh": 1100.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9350.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-12T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de3"
+    },
+    "reading_number": "ELEC-U2-0029",
+    "reading_date": "2026-09-12",
+    "date": "2026-09-12",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 54280.0,
+    "closing_reading_kwh": 54640.0,
+    "units_consumed_kwh": 360.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3060.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-12T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de4"
+    },
+    "reading_number": "ELEC-U1-0028",
+    "reading_date": "2026-09-11",
+    "date": "2026-09-11",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 158880.0,
+    "closing_reading_kwh": 159995.0,
+    "units_consumed_kwh": 1115.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9477.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-11T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de5"
+    },
+    "reading_number": "ELEC-U2-0028",
+    "reading_date": "2026-09-11",
+    "date": "2026-09-11",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 54640.0,
+    "closing_reading_kwh": 55010.0,
+    "units_consumed_kwh": 370.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3145.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-11T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de6"
+    },
+    "reading_number": "ELEC-U1-0027",
+    "reading_date": "2026-09-10",
+    "date": "2026-09-10",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 159995.0,
+    "closing_reading_kwh": 161125.0,
+    "units_consumed_kwh": 1130.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9605.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-10T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de7"
+    },
+    "reading_number": "ELEC-U2-0027",
+    "reading_date": "2026-09-10",
+    "date": "2026-09-10",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 55010.0,
+    "closing_reading_kwh": 55390.0,
+    "units_consumed_kwh": 380.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3230.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-10T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de8"
+    },
+    "reading_number": "ELEC-U1-0026",
+    "reading_date": "2026-09-09",
+    "date": "2026-09-09",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 161125.0,
+    "closing_reading_kwh": 162270.0,
+    "units_consumed_kwh": 1145.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 35.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9732.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4de9"
+    },
+    "reading_number": "ELEC-U2-0026",
+    "reading_date": "2026-09-09",
+    "date": "2026-09-09",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 55390.0,
+    "closing_reading_kwh": 55780.0,
+    "units_consumed_kwh": 390.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3315.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dea"
+    },
+    "reading_number": "ELEC-U1-0025",
+    "reading_date": "2026-09-08",
+    "date": "2026-09-08",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 162270.0,
+    "closing_reading_kwh": 163250.0,
+    "units_consumed_kwh": 980.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8330.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-08T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4deb"
+    },
+    "reading_number": "ELEC-U2-0025",
+    "reading_date": "2026-09-08",
+    "date": "2026-09-08",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 55780.0,
+    "closing_reading_kwh": 56180.0,
+    "units_consumed_kwh": 400.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3400.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-08T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dec"
+    },
+    "reading_number": "ELEC-U1-0024",
+    "reading_date": "2026-09-07",
+    "date": "2026-09-07",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 163250.0,
+    "closing_reading_kwh": 164245.0,
+    "units_consumed_kwh": 995.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8457.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-07T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ded"
+    },
+    "reading_number": "ELEC-U2-0024",
+    "reading_date": "2026-09-07",
+    "date": "2026-09-07",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 56180.0,
+    "closing_reading_kwh": 56590.0,
+    "units_consumed_kwh": 410.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3485.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-07T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dee"
+    },
+    "reading_number": "ELEC-U1-0023",
+    "reading_date": "2026-09-06",
+    "date": "2026-09-06",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 164245.0,
+    "closing_reading_kwh": 165255.0,
+    "units_consumed_kwh": 1010.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8585.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-06T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4def"
+    },
+    "reading_number": "ELEC-U2-0023",
+    "reading_date": "2026-09-06",
+    "date": "2026-09-06",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 56590.0,
+    "closing_reading_kwh": 57010.0,
+    "units_consumed_kwh": 420.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3570.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-06T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df0"
+    },
+    "reading_number": "ELEC-U1-0022",
+    "reading_date": "2026-09-05",
+    "date": "2026-09-05",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 165255.0,
+    "closing_reading_kwh": 166280.0,
+    "units_consumed_kwh": 1025.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8712.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-05T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df1"
+    },
+    "reading_number": "ELEC-U2-0022",
+    "reading_date": "2026-09-05",
+    "date": "2026-09-05",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 57010.0,
+    "closing_reading_kwh": 57440.0,
+    "units_consumed_kwh": 430.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3655.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-05T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df2"
+    },
+    "reading_number": "ELEC-U1-0021",
+    "reading_date": "2026-09-04",
+    "date": "2026-09-04",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 166280.0,
+    "closing_reading_kwh": 167320.0,
+    "units_consumed_kwh": 1040.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8840.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-04T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df3"
+    },
+    "reading_number": "ELEC-U2-0021",
+    "reading_date": "2026-09-04",
+    "date": "2026-09-04",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 57440.0,
+    "closing_reading_kwh": 57800.0,
+    "units_consumed_kwh": 360.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3060.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-04T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df4"
+    },
+    "reading_number": "ELEC-U1-0020",
+    "reading_date": "2026-09-03",
+    "date": "2026-09-03",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 167320.0,
+    "closing_reading_kwh": 168375.0,
+    "units_consumed_kwh": 1055.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8967.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-03T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df5"
+    },
+    "reading_number": "ELEC-U2-0020",
+    "reading_date": "2026-09-03",
+    "date": "2026-09-03",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 57800.0,
+    "closing_reading_kwh": 58170.0,
+    "units_consumed_kwh": 370.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3145.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-03T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df6"
+    },
+    "reading_number": "ELEC-U1-0019",
+    "reading_date": "2026-09-02",
+    "date": "2026-09-02",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 168375.0,
+    "closing_reading_kwh": 169445.0,
+    "units_consumed_kwh": 1070.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 35.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9095.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df7"
+    },
+    "reading_number": "ELEC-U2-0019",
+    "reading_date": "2026-09-02",
+    "date": "2026-09-02",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 58170.0,
+    "closing_reading_kwh": 58550.0,
+    "units_consumed_kwh": 380.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3230.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-02T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df8"
+    },
+    "reading_number": "ELEC-U1-0018",
+    "reading_date": "2026-09-01",
+    "date": "2026-09-01",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 169445.0,
+    "closing_reading_kwh": 170530.0,
+    "units_consumed_kwh": 1085.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9222.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-01T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4df9"
+    },
+    "reading_number": "ELEC-U2-0018",
+    "reading_date": "2026-09-01",
+    "date": "2026-09-01",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 58550.0,
+    "closing_reading_kwh": 58940.0,
+    "units_consumed_kwh": 390.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3315.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-09-01T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dfa"
+    },
+    "reading_number": "ELEC-U1-0017",
+    "reading_date": "2026-08-31",
+    "date": "2026-08-31",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 170530.0,
+    "closing_reading_kwh": 171630.0,
+    "units_consumed_kwh": 1100.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9350.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-31T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dfb"
+    },
+    "reading_number": "ELEC-U2-0017",
+    "reading_date": "2026-08-31",
+    "date": "2026-08-31",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 58940.0,
+    "closing_reading_kwh": 59340.0,
+    "units_consumed_kwh": 400.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3400.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-31T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dfc"
+    },
+    "reading_number": "ELEC-U1-0016",
+    "reading_date": "2026-08-30",
+    "date": "2026-08-30",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 171630.0,
+    "closing_reading_kwh": 172745.0,
+    "units_consumed_kwh": 1115.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9477.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-30T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dfd"
+    },
+    "reading_number": "ELEC-U2-0016",
+    "reading_date": "2026-08-30",
+    "date": "2026-08-30",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 59340.0,
+    "closing_reading_kwh": 59750.0,
+    "units_consumed_kwh": 410.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3485.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-30T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dfe"
+    },
+    "reading_number": "ELEC-U1-0015",
+    "reading_date": "2026-08-29",
+    "date": "2026-08-29",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 172745.0,
+    "closing_reading_kwh": 173875.0,
+    "units_consumed_kwh": 1130.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9605.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4dff"
+    },
+    "reading_number": "ELEC-U2-0015",
+    "reading_date": "2026-08-29",
+    "date": "2026-08-29",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 59750.0,
+    "closing_reading_kwh": 60170.0,
+    "units_consumed_kwh": 420.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3570.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e00"
+    },
+    "reading_number": "ELEC-U1-0014",
+    "reading_date": "2026-08-28",
+    "date": "2026-08-28",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 173875.0,
+    "closing_reading_kwh": 175020.0,
+    "units_consumed_kwh": 1145.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9732.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-28T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e01"
+    },
+    "reading_number": "ELEC-U2-0014",
+    "reading_date": "2026-08-28",
+    "date": "2026-08-28",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 60170.0,
+    "closing_reading_kwh": 60600.0,
+    "units_consumed_kwh": 430.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3655.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-28T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e02"
+    },
+    "reading_number": "ELEC-U1-0013",
+    "reading_date": "2026-08-27",
+    "date": "2026-08-27",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 175020.0,
+    "closing_reading_kwh": 176000.0,
+    "units_consumed_kwh": 980.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8330.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-27T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e03"
+    },
+    "reading_number": "ELEC-U2-0013",
+    "reading_date": "2026-08-27",
+    "date": "2026-08-27",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 60600.0,
+    "closing_reading_kwh": 60960.0,
+    "units_consumed_kwh": 360.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3060.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-27T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e04"
+    },
+    "reading_number": "ELEC-U1-0012",
+    "reading_date": "2026-08-26",
+    "date": "2026-08-26",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 176000.0,
+    "closing_reading_kwh": 176995.0,
+    "units_consumed_kwh": 995.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 35.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8457.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-26T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e05"
+    },
+    "reading_number": "ELEC-U2-0012",
+    "reading_date": "2026-08-26",
+    "date": "2026-08-26",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 60960.0,
+    "closing_reading_kwh": 61330.0,
+    "units_consumed_kwh": 370.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3145.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-26T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e06"
+    },
+    "reading_number": "ELEC-U1-0011",
+    "reading_date": "2026-08-25",
+    "date": "2026-08-25",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 176995.0,
+    "closing_reading_kwh": 178005.0,
+    "units_consumed_kwh": 1010.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8585.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-25T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e07"
+    },
+    "reading_number": "ELEC-U2-0011",
+    "reading_date": "2026-08-25",
+    "date": "2026-08-25",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 61330.0,
+    "closing_reading_kwh": 61710.0,
+    "units_consumed_kwh": 380.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3230.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-25T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e08"
+    },
+    "reading_number": "ELEC-U1-0010",
+    "reading_date": "2026-08-24",
+    "date": "2026-08-24",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 178005.0,
+    "closing_reading_kwh": 179030.0,
+    "units_consumed_kwh": 1025.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8712.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-24T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e09"
+    },
+    "reading_number": "ELEC-U2-0010",
+    "reading_date": "2026-08-24",
+    "date": "2026-08-24",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 61710.0,
+    "closing_reading_kwh": 62100.0,
+    "units_consumed_kwh": 390.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3315.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-24T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e0a"
+    },
+    "reading_number": "ELEC-U1-0009",
+    "reading_date": "2026-08-23",
+    "date": "2026-08-23",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 179030.0,
+    "closing_reading_kwh": 180070.0,
+    "units_consumed_kwh": 1040.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8840.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e0b"
+    },
+    "reading_number": "ELEC-U2-0009",
+    "reading_date": "2026-08-23",
+    "date": "2026-08-23",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 62100.0,
+    "closing_reading_kwh": 62500.0,
+    "units_consumed_kwh": 400.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3400.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e0c"
+    },
+    "reading_number": "ELEC-U1-0008",
+    "reading_date": "2026-08-22",
+    "date": "2026-08-22",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 180070.0,
+    "closing_reading_kwh": 181125.0,
+    "units_consumed_kwh": 1055.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8967.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e0d"
+    },
+    "reading_number": "ELEC-U2-0008",
+    "reading_date": "2026-08-22",
+    "date": "2026-08-22",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 62500.0,
+    "closing_reading_kwh": 62910.0,
+    "units_consumed_kwh": 410.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3485.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e0e"
+    },
+    "reading_number": "ELEC-U1-0007",
+    "reading_date": "2026-08-21",
+    "date": "2026-08-21",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 181125.0,
+    "closing_reading_kwh": 182195.0,
+    "units_consumed_kwh": 1070.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9095.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-21T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e0f"
+    },
+    "reading_number": "ELEC-U2-0007",
+    "reading_date": "2026-08-21",
+    "date": "2026-08-21",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 62910.0,
+    "closing_reading_kwh": 63330.0,
+    "units_consumed_kwh": 420.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3570.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-21T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e10"
+    },
+    "reading_number": "ELEC-U1-0006",
+    "reading_date": "2026-08-20",
+    "date": "2026-08-20",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 182195.0,
+    "closing_reading_kwh": 183280.0,
+    "units_consumed_kwh": 1085.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9222.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-20T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e11"
+    },
+    "reading_number": "ELEC-U2-0006",
+    "reading_date": "2026-08-20",
+    "date": "2026-08-20",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 63330.0,
+    "closing_reading_kwh": 63760.0,
+    "units_consumed_kwh": 430.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3655.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-20T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e12"
+    },
+    "reading_number": "ELEC-U1-0005",
+    "reading_date": "2026-08-19",
+    "date": "2026-08-19",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 183280.0,
+    "closing_reading_kwh": 184380.0,
+    "units_consumed_kwh": 1100.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 35.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9350.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-19T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e13"
+    },
+    "reading_number": "ELEC-U2-0005",
+    "reading_date": "2026-08-19",
+    "date": "2026-08-19",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 63760.0,
+    "closing_reading_kwh": 64120.0,
+    "units_consumed_kwh": 360.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3060.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-19T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e14"
+    },
+    "reading_number": "ELEC-U1-0004",
+    "reading_date": "2026-08-18",
+    "date": "2026-08-18",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 184380.0,
+    "closing_reading_kwh": 185495.0,
+    "units_consumed_kwh": 1115.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9477.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-18T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e15"
+    },
+    "reading_number": "ELEC-U2-0004",
+    "reading_date": "2026-08-18",
+    "date": "2026-08-18",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 64120.0,
+    "closing_reading_kwh": 64490.0,
+    "units_consumed_kwh": 370.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3145.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-18T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e16"
+    },
+    "reading_number": "ELEC-U1-0003",
+    "reading_date": "2026-08-17",
+    "date": "2026-08-17",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 185495.0,
+    "closing_reading_kwh": 186625.0,
+    "units_consumed_kwh": 1130.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9605.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-17T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e17"
+    },
+    "reading_number": "ELEC-U2-0003",
+    "reading_date": "2026-08-17",
+    "date": "2026-08-17",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 64490.0,
+    "closing_reading_kwh": 64870.0,
+    "units_consumed_kwh": 380.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3230.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-17T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e18"
+    },
+    "reading_number": "ELEC-U1-0002",
+    "reading_date": "2026-08-16",
+    "date": "2026-08-16",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 186625.0,
+    "closing_reading_kwh": 187770.0,
+    "units_consumed_kwh": 1145.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 9732.5,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e19"
+    },
+    "reading_number": "ELEC-U2-0002",
+    "reading_date": "2026-08-16",
+    "date": "2026-08-16",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 64870.0,
+    "closing_reading_kwh": 65260.0,
+    "units_consumed_kwh": 390.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3315.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1a"
+    },
+    "reading_number": "ELEC-U1-0001",
+    "reading_date": "2026-08-15",
+    "date": "2026-08-15",
+    "unit_id": "Unit_1",
+    "meter_id": "MTR-U1-HT01",
+    "meter_number": "MTR-U1-HT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 187770.0,
+    "closing_reading_kwh": 188750.0,
+    "units_consumed_kwh": 980.0,
+    "power_factor": 0.98,
+    "peak_demand_kva": 240.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 8330.0,
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-08-15T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1b"
+    },
+    "reading_number": "ELEC-U2-0001",
+    "reading_date": "2026-08-15",
+    "date": "2026-08-15",
+    "unit_id": "Unit_2",
+    "meter_id": "MTR-U2-LT01",
+    "meter_number": "MTR-U2-LT01",
+    "meter_type": "GRID_EB",
+    "opening_reading_kwh": 65260.0,
+    "closing_reading_kwh": 65660.0,
+    "units_consumed_kwh": 400.0,
+    "power_factor": 0.99,
+    "peak_demand_kva": 95.0,
+    "shift": "General",
+    "status": "CONFIRMED",
+    "dg_units_kwh": 0.0,
+    "tariff_rate_inr": 8.5,
+    "total_power_cost": 3400.0,
+    "recorded_by": "Chetan Prajapati",
+    "created_by": "Chetan Prajapati",
+    "created_at": {
+      "$date": "2026-08-15T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

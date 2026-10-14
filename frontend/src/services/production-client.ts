@@ -6,6 +6,10 @@ import {
   ProductionOutputInput,
   ProductionVarianceReport,
   ProductionDashboardSummary,
+  DailyProductionEntry,
+  DailyProductionCreate,
+  DailyProductionUpdate,
+  DailyProductionSummary,
 } from '@/types/production';
 import { PaginatedResponse } from '@/types/master';
 
@@ -25,7 +29,7 @@ export const productionClient = {
   async getDashboard(unit_id?: string): Promise<ProductionDashboardSummary> {
     const query = unit_id ? `?unit_id=${unit_id}` : '';
     const res = await apiClient.get<ProductionDashboardSummary>(`/production/dashboard${query}`);
-    if (!res.data) throw new Error('Failed to fetch production dashboard metrics');
+    if (!res.data) throw new Error(res.error?.message || 'Failed to fetch production dashboard metrics');
     return res.data;
   },
 
@@ -43,7 +47,7 @@ export const productionClient = {
 
     const qs = query.toString() ? `?${query.toString()}` : '';
     const res = await apiClient.get<PaginatedResponse<ProductionOrder>>(`/production/orders${qs}`);
-    if (!res.data) throw new Error('Failed to retrieve production orders');
+    if (!res.data) throw new Error(res.error?.message || 'Failed to retrieve production orders');
     return res.data;
   },
 
@@ -112,4 +116,75 @@ export const productionClient = {
     if (!res.data) throw new Error('Failed to fetch variance report');
     return res.data;
   },
+
+  /**
+   * Daily Production Planning & Actual
+   * Main daily entry screen for Shivakumar
+   */
+  async listDaily(params?: {
+    date?: string;
+    department?: string;
+    unit_id?: string;
+    labour?: string;
+    machine?: string;
+    search?: string;
+  }): Promise<DailyProductionEntry[]> {
+    const query = new URLSearchParams();
+    if (params?.date) query.set('date', params.date);
+    if (params?.department && params.department !== 'ALL') query.set('department', params.department);
+    if (params?.unit_id) query.set('unit_id', params.unit_id);
+    if (params?.labour) query.set('labour', params.labour);
+    if (params?.machine) query.set('machine', params.machine);
+    if (params?.search) query.set('search', params.search);
+
+    const qs = query.toString() ? `?${query.toString()}` : '';
+    const res = await apiClient.get<DailyProductionEntry[]>(`/production/daily${qs}`);
+    return res.data || [];
+  },
+
+  async getDailySummary(params?: {
+    date?: string;
+    department?: string;
+    unit_id?: string;
+  }): Promise<DailyProductionSummary> {
+    const query = new URLSearchParams();
+    if (params?.date) query.set('date', params.date);
+    if (params?.department && params.department !== 'ALL') query.set('department', params.department);
+    if (params?.unit_id) query.set('unit_id', params.unit_id);
+
+    const qs = query.toString() ? `?${query.toString()}` : '';
+    const res = await apiClient.get<DailyProductionSummary>(`/production/daily/summary${qs}`);
+    if (!res.data) {
+      return {
+        total_entries: 0,
+        total_planned_qty: 0,
+        total_actual_qty: 0,
+        total_good_qty: 0,
+        total_scrap_qty: 0,
+        total_rework_qty: 0,
+        overall_completion_pct: 0,
+        overall_performance_pct: 0,
+        total_daily_earned_inr: 0,
+        department_breakdown: [],
+      };
+    }
+    return res.data;
+  },
+
+  async createDaily(data: DailyProductionCreate): Promise<DailyProductionEntry> {
+    const res = await apiClient.post<DailyProductionEntry>('/production/daily', data);
+    if (!res.data) throw new Error('Failed to create daily production record');
+    return res.data;
+  },
+
+  async updateDaily(id: string, data: DailyProductionUpdate): Promise<DailyProductionEntry> {
+    const res = await apiClient.put<DailyProductionEntry>(`/production/daily/${id}`, data);
+    if (!res.data) throw new Error('Failed to update daily production record');
+    return res.data;
+  },
+
+  async deleteDaily(id: string): Promise<void> {
+    await apiClient.delete(`/production/daily/${id}`);
+  },
 };
+

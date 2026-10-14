@@ -1,0 +1,2092 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf09e22c4d053867213161"
+    },
+    "token_hash": "167b1954b99b1e531636d6c42229a4aa351cd51e6a973614b2c619aa82833b61",
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T04:49:38.572Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T12:49:38.572Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T04:50:38.050Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "LcltqlP6s5FnXIhA-Na2Q4mMUXXh5zbeWK8AA6jSUNU"
+  },
+  {
+    "_id": {
+      "$oid": "6acf0a202c4d053867213164"
+    },
+    "token_hash": "9d6936e5b48c05d19c3da30be3ab2d2b29d87c9aa3d25ece4b1305e4ae60c909",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T04:50:40.390Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T12:50:40.390Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T04:59:54.230Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "lFGeyshCTT0j7lK_4v6eeTENQyWp8KyT25i4UeVLKdQ"
+  },
+  {
+    "_id": {
+      "$oid": "6acf0c632c4d053867213167"
+    },
+    "token_hash": "6df47c6d5db2e13c03c7cdccbbdc796a412aeea41553d4897ed8d987263432c8",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:00:19.384Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:00:19.384Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:10:43.007Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "thkXzNNwtzZ96E_mcjnHm0Rn_P-jP3Yf_oJDi2QH1BQ"
+  },
+  {
+    "_id": {
+      "$oid": "6acf0f3a28a3df70aaf1c874"
+    },
+    "token_hash": "c1ba0cbc8ddf4ba65d673282c487d8760305b578d37116aa000e85e76b627266",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:12:26.891Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:12:26.891Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:13:58.841Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "Tb4rsm1SYxfK2qDH_DHB3GRCPATU-NYCvnFoRMHPv-4"
+  },
+  {
+    "_id": {
+      "$oid": "6acf10d23ec9cbb7b6ba8b2b"
+    },
+    "token_hash": "cd702404b2e72b95a07a0c2c96be4ef2a5cfd0e8451ef95b93bad97d425d3b39",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:19:14.150Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:19:14.150Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:20:38.382Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "xozPfyzSNfAajgC_q6etLGUWbj70eZnbK5sR0yfK_E0"
+  },
+  {
+    "_id": {
+      "$oid": "6acf11d737e9e687a3acd4b4"
+    },
+    "token_hash": "0ce4f35fb8d44d9d6b0b61455bcd851b06aa1555974eb25a153b57d62a71ed07",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:23:35.373Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:23:35.373Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:24:10.472Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "9bNhQBj8BGUNx5NicZGE1duQB-x1P1SV7CZf6DoGKwk"
+  },
+  {
+    "_id": {
+      "$oid": "6acf11ff6a0622d5dc3a93ec"
+    },
+    "token_hash": "39a49c24ded4d2964efda28469028e9808438c97810293c8443507bb37ce1e1c",
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T05:24:15.585Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:24:15.585Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:27:06.954Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "ngh79ZVk5aC9xpXKC2PWU8E6Z1YWk_9-KSj2nQ_Vzw0"
+  },
+  {
+    "_id": {
+      "$oid": "6acf12acf54727e83c4f9746"
+    },
+    "token_hash": "0313c72d67e39e8ee49562ef70a6fa97d8e2d2be74f9d04f48b8c63a9ab97f2b",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:27:08.970Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:27:08.970Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:40.004Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "NggfKM5Pe-Wxhn9qa2fAglrhXRqiO37bHU5vnuHD46o"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e278da0aeb7802f87c"
+    },
+    "token_hash": "1c00ad60e581fd1bdeaef552524192b1751469d35aedbeba416ff52f2124dca4",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:32:18.771Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:18.771Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:18.771Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "3yXFsWUDngVaRzwICHVJzYr0FijUBELy1_Wz2RCZM8Y"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e278da0aeb7802f87e"
+    },
+    "token_hash": "65e87f90aaf095d665f08e9e0e428609c723d8528be11792f0674164cf521be2",
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:32:18.920Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:18.920Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:18.920Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "wZA_9sQ-8q_8JOwE6cUTZHTCq1CH-z7orNSVSD3kCNo"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f880"
+    },
+    "token_hash": "5191234588ff385a339996bfac04f11417b8694e326a082c4b07b2f918b8a889",
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T05:32:19.070Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:19.070Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:19.070Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "EfQCNdmF7YmqCacoqWx_VXc5NmqGidSCyhy65DJQ0JU"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f882"
+    },
+    "token_hash": "dcf3deafa9270a2ade665911e624325bb94bd653c10958fd9a5181f80d331bb3",
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "role": "INVENTORY_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:32:19.216Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:19.216Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:19.216Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "xGlEAcYlvHM9ZjdEbmrkFwCbpu_uA4ZUd841V-oOwIk"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f884"
+    },
+    "token_hash": "d3821af47000e068cc0ddc0dee94b39dd493efec93c561cb2602fc470db69d58",
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T05:32:19.362Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:19.362Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:19.362Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "wfBbhJxGKCu7ZbWz1BbMaLfxTkGPyv9gf9G6amPOnnQ"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f886"
+    },
+    "token_hash": "38d52e2637c169425cbb83e9c80037be2991ef7e0739094e305961d1ea95826a",
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T05:32:19.576Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:19.576Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:19.576Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "mGXm3rGa6t_R1VGCVbFS4ecsmaBMrUcO8geSCaC5sv8"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f888"
+    },
+    "token_hash": "5b99299be3693a2ff3526cb5bc00488546be7b21c45923431e7e53e71cd0e408",
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "role": "ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:32:19.778Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:19.778Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:19.778Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "R5XV8wQeL41RfSf-WR5LH5jWSkMQoZDY6adjJiCDE7k"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e378da0aeb7802f88a"
+    },
+    "token_hash": "e902a21277e779d0bfe73cbbad87911b829a62f1cad1edebc539fdcf8502f421",
+    "user_id": "6acf133b35a67d012664f166",
+    "email": "kavitadeshmukh@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T05:32:19.914Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:19.914Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:19.914Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "MhIaFlC-fBnL8I20gpYzxbSDEYdLEFmaaxmitZNYjXU"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e478da0aeb7802f88c"
+    },
+    "token_hash": "12603eca991dc221c7cd2b018821c8b93195474aed41baea3f5a0703aa977db6",
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:32:20.064Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:20.064Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:20.064Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "ndj4H8jx2aXhrzXxIRfpL0wmvltOGe15vceBjAi58Ig"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13e478da0aeb7802f88e"
+    },
+    "token_hash": "cabcd29af141c9655799dd5cdb0ec7ab02a1c46582c029d2d113a8eb5fe7ed0e",
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T05:32:20.201Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:20.201Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:20.201Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "zw7tdVhgn7d1AYQXBQ-LrSnab6NFqF60Y6dQOg2JFxs"
+  },
+  {
+    "_id": {
+      "$oid": "6acf13fddd55ef44ffc19e8f"
+    },
+    "token_hash": "38fba8c8a4c236d9083cc88e07ec4d59b011dbb7617cf51530169b63e7d1ea4a",
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:32:45.538Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:45.538Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:32:51.963Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "nZTPPBptSE-UVBoxpA6QOJgS3rO4zNnfuV__o3-vnWM"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1406dd55ef44ffc19e92"
+    },
+    "token_hash": "c9fef2a4e9eba4836bc68c882a7218d8f0ea0935f156e78a0643ad158ea84688",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:32:54.313Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:32:54.313Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:35.472Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "nqeQYr92ZRnxRsTm9j7Fb7zWbbn5Wt3Pd5sI3C-ClkM"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b4a"
+    },
+    "token_hash": "c6b255c0b04a0df13fd28a54c4e7e27ed3330e11f4434df65fb85008c5f87989",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:33:20.052Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:20.052Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:20.052Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "D-glY4PwjnIUMtDwi7Y7tKKRDwTM-BuLozhpEC1hiu8"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b4c"
+    },
+    "token_hash": "69bd5698a09abbf9b92b9389d73b717371a84ceae18ce1c74f28ca1e2444e1c2",
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:33:20.192Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:20.192Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:20.192Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "AuVBeSiGd8KyVE2DB1-k7l7wpCWRbyiNfPX0p75oGew"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b4e"
+    },
+    "token_hash": "a01ffa5a62a9d6247abc16ad30bb4bc35e69ef6e9e4ce06c5085a382521f4626",
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T05:33:20.348Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:20.348Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:20.348Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "4Z1tSqbNUiMX_VOz_CXUSKFapZeadCaHKqIhK4M6Uos"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b50"
+    },
+    "token_hash": "4e065f6e30aa1bb52f630a3b974eae0ab5828643b4576840aa3b7350656c7b88",
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "role": "INVENTORY_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:33:20.544Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:20.544Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:20.544Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "6upPPwYRghRk9R_ndzg89d7bEChGev_quLaqFoopAv4"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142090e4489f316a7b52"
+    },
+    "token_hash": "fb4f815a0fffa0866a2bd12f0b05eb10ac82573eaadb0390083825fd909fe719",
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T05:33:20.720Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:20.720Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:20.720Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "QtveYwWlfbGWy6yruY_1sqil3_Eu40qUNO2fF8mKdNw"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b54"
+    },
+    "token_hash": "fa5616a341f007acb0dd50e0c99e37f7e1c784bc889d9829ae8c5e050f5502c1",
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T05:33:21.060Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:21.060Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:21.060Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "19t1v_mwBqS-jUeQMFzyxvKbnyMUGREVszh6TusClH8"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b56"
+    },
+    "token_hash": "9d96d5a6c70272641174e26069b846a321d13aa38fb9dbb4e9287f2cb89d4a97",
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "role": "ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:33:21.256Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:21.256Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:21.256Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "CZ-OL3Fg8u8Yv7LwdngvGADa_BFSuKKJye1AQmq5eDI"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b58"
+    },
+    "token_hash": "0206e8e103c21d9a87afa51c40d8eaf4daabf7bf369f905c3163eb3127e9c865",
+    "user_id": "6acf133b35a67d012664f166",
+    "email": "kavitadeshmukh@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T05:33:21.436Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:21.436Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:21.436Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "ca6L8UuWaSygRs3fCqP0DuIlBwE8l6PY6qrSvivcnJY"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b5a"
+    },
+    "token_hash": "9b5bf2ab306c939683ffb56e30bd23c40c96986b3d88861bb7cf6d2bab24ff2b",
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:33:21.616Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:21.616Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:21.616Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "dX5UCWEMrB9YGsssp_R70eTtmxWhUZCtK1s04PGS0j4"
+  },
+  {
+    "_id": {
+      "$oid": "6acf142190e4489f316a7b5c"
+    },
+    "token_hash": "dd34149854e5a8b82a3bcd9ee193375569b806392e577f8156a43201f719c9fc",
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T05:33:21.754Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:21.754Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:21.754Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "qs2ImeEXWvpP3ZqBSSg6_ZYNVq3ZE6-lq6bYpxeimwU"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1433dd55ef44ffc19e96"
+    },
+    "token_hash": "ec4d55d2df0e68938824713fce8a6a78cf94e8c5327f1a04817036ea0bbdc84e",
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "role": "ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:33:39.990Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:39.990Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:55.342Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "YRxos4_TnVbzMBMC5tuiT5vrmoE4MUuZ7HKujZYe9vQ"
+  },
+  {
+    "_id": {
+      "$oid": "6acf14390cbd2745737993ea"
+    },
+    "token_hash": "86d1a546e9bc36650f3ac7db505f80996d261dd2c01d4d92f9ccdd4c5f863b4e",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:33:45.124Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:33:45.124Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:33:45.150Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "Jv7UDBMOKWMyfPG6unXxhF6SYDFiHDtKWXaYpc3Ble0"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1449dd55ef44ffc19e99"
+    },
+    "token_hash": "e6a7b76d9cc4083bf2aefc07aff3414d549e55df6307ede9ab15db62e52d8a10",
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T05:34:01.134Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:01.134Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:36:13.513Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "hA3CCfBZbdqcFE30W3a4zGo3ZBswW5iNhvhTagmamjE"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5b7"
+    },
+    "token_hash": "e91115003f40244d361ca4ce4bf4428b023a0bae4ae6f5cc5e0cada67237c7c5",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:34:13.356Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:13.356Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:13.356Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "fG0LbjPVo1tIe8zLIR2psOzPBoPqdTLnf8ERo8I-wuw"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5b9"
+    },
+    "token_hash": "6ecc5637b0f0157af610e13ed21723f8a62b86c1d1ff9f444fbcfb7b2d7e6710",
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:34:13.519Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:13.519Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:13.519Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "McjGnXhpTwU8oSBBJ1hWOgsFNhOtl8F6vXBjZZre-Ts"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5bb"
+    },
+    "token_hash": "88a6708b298af36b761c096e0d07af266612576cf3eef08b66c221487645f8ff",
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T05:34:13.670Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:13.670Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:13.670Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "CXXAqpBGIAhfprF_5z6rgqPoboMYuFBv_MGLuz8X2-Q"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5bd"
+    },
+    "token_hash": "fda0f863ba1206638726713f6e55699003599a7185705531464d2434f13a00a0",
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "role": "INVENTORY_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:34:13.814Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:13.814Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:13.814Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "rzRabdR8nKa2JyMm4L8NkoUp1UdHoJbYuk1fEf4Do-I"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1455e92f247f9fd6c5bf"
+    },
+    "token_hash": "e6feb2d022df4c12652a2d76e0b87ed23fa11cdc7aea1922b1ffe8b3eb64407c",
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T05:34:13.956Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:13.956Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:13.956Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "xUcRyZViXUh_SD5RS0LWRLaDjGecRsBBSc4yLMcm_Fs"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c1"
+    },
+    "token_hash": "62afcd6ef406778c7e124f775c2ae3d99c06a80e7eac9a3dc3a1c809887fc057",
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T05:34:14.109Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:14.109Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:14.109Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "wgL7IXfgqZxtxetH6P9-sBqSDSPEvEvppYG6pF60DHU"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c3"
+    },
+    "token_hash": "9935d44d9eb2bd9140e5834faa2f308bdbfc1f165a5987c6057d30f373427d1d",
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "role": "ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:34:14.261Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:14.261Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:14.261Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "HX5ANesHIsVN5HyhU0TFh_2iAPNUffOxwnBqdxZ7PqY"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c5"
+    },
+    "token_hash": "966752f5e4dd78c485705af95631f5c0a9c40cc8c23835c069b820a6f3b9a192",
+    "user_id": "6acf133b35a67d012664f166",
+    "email": "kavitadeshmukh@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T05:34:14.426Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:14.426Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:14.426Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "w4AJ4CKDUzCNuPsNmyCpbqUA7YGfk2tobxIBYcCNITo"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c7"
+    },
+    "token_hash": "62c71ef88e5522c86c57a347138168c582b6524421f57322b1ddef030dd6fa40",
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T05:34:14.563Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:14.563Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:14.563Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "Ki18vm4NwdA09rbdI8z4mJz6zT__DYnjJqNIdvWMe2M"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1456e92f247f9fd6c5c9"
+    },
+    "token_hash": "09b9d8e931c3aabb90e82eab7f7423f5ca67352b197d489610071234baf2649a",
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T05:34:14.704Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:14.704Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:14.704Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "YlSKy0kvIJL7iSVBFZ-wAyoUi7OMH35guqICNJyUG4Y"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1476cfd89a838fc56832"
+    },
+    "token_hash": "0abda7d626209a9fab14eb3e856249ad872b40c3219fdb931f3031201eabcdb9",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:34:46.667Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:46.667Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:47.687Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "tLGr97AWovPkrWwVlw_NZp79bgRRJxYCI9P80e7O-oQ"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1477cfd89a838fc56835"
+    },
+    "token_hash": "9d59dcc322706b452441cd0da74f1392b53bc7ffe3490902ee8fb0c52afe6a54",
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T05:34:47.896Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:34:47.896Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:34:47.973Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "4FX2qdXtbEPucNKVhN3g4JyVtd22xovhZw695Mn9hX0"
+  },
+  {
+    "_id": {
+      "$oid": "6acf14cfdd55ef44ffc19ea7"
+    },
+    "token_hash": "811e13407b0739b01230f31c30837a314a8d36b917b5827d0a07de88a0c9564e",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:36:15.183Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:36:15.183Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:38:20.681Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "qJ3dGVSote4H-w-hK-NUU0jfYwWQuNuW9F3ydrIaFzc"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1623dfb89d7421814452"
+    },
+    "token_hash": "da251b7ebddf1f22237ff168381b69b14e8d44b471c8fcda687c702f1359389a",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:41:55.886Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:41:55.886Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:41:57.696Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "9F-zCM372UDDlWgoc-31gDGwYgynNd2WdPFId04eD4k"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1625dfb89d7421814454"
+    },
+    "token_hash": "92c14fc06c34cb378688ae8b1667c1d2f3fce9a16bc0d2cef17c397594368c9d",
+    "user_id": "6acf133b35a67d012664f130",
+    "email": "vikasverma@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T05:41:57.906Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:41:57.906Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:41:57.989Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "8SIs3eTQ8FvTsb-z3lNzGfbP8DQsiZk9SUzD4KPcXyo"
+  },
+  {
+    "_id": {
+      "$oid": "6acf16a0fe4bf48eb35106e9"
+    },
+    "token_hash": "98eda0aafd4a89be3a22e096e891c61a7de095558e1cb1c9c452718f5cb166f5",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:44:00.890Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:44:00.890Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:44:01.212Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "5w1zAGeXUH7HsGn6jh7w3m9ARFYafxiKUuGoyUQSalk"
+  },
+  {
+    "_id": {
+      "$oid": "6acf16a1fe4bf48eb35106eb"
+    },
+    "token_hash": "3d18e4d82544e97a4ade39bac26bf4bf365e64757e3822b2f353b60090e1e8b2",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:44:01.406Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:44:01.406Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:44:01.418Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "snyT7q7zZuzQb4O-2pKDWBJ9-CshMvT6HYF9NfamiDw"
+  },
+  {
+    "_id": {
+      "$oid": "6acf171bacdf5d42def47a97"
+    },
+    "token_hash": "a31542c63c041fb097ac9ac0e96c8a8545985c731f5b60b08bb725b7d3162594",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:46:03.448Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:46:03.448Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:46:03.879Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "-gjYAYQPyYWx1sOACWD0A8gLG8VjyfghcscYKqIsaK0"
+  },
+  {
+    "_id": {
+      "$oid": "6acf175e2a9f7b21bdc5bbd6"
+    },
+    "token_hash": "92bfa5bc6566ef08bcf48b43885121995f62edf0f4858f139b2806468805a4bb",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:47:10.092Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:47:10.092Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:47:10.788Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "lJHEeHJfADESWI6rmrh0_-J4rY7u2xLTcCTltgbEVXI"
+  },
+  {
+    "_id": {
+      "$oid": "6acf17672a9f7b21bdc5bbd8"
+    },
+    "token_hash": "198616289370b7f53664be252322c7a17e861fa8ddc2351a01d7555be3722f47",
+    "user_id": "6acf133b35a67d012664f124",
+    "email": "amitpatel@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T05:47:19.518Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:47:19.518Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:47:19.551Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "zUr0i0d8l0Stt3R0COBsI99BaNrLVxW8CtcQYdeeWpw"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1882f429915a541f578b"
+    },
+    "token_hash": "e6e4f89865805f5671a407011ff00c280eecdcf56f1618ff4f1d18aa76c6c2e4",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:52:02.293Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:52:02.293Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:52:02.339Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "O7kBe-N9hcGhuDgbFE1y_D_YNQhdftLpbjsZ3fhcpZ8"
+  },
+  {
+    "_id": {
+      "$oid": "6acf188bf429915a541f578d"
+    },
+    "token_hash": "97b101221d9f0551c7ed00ba4cd23953d060a511432c81f895d08067372067be",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T05:52:11.346Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T13:52:11.346Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T05:52:11.375Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "UVHJ-tobrh0bodjHVjwTGIhKhiiEEK_6yZzjrXdedOw"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1e65b4530e8d862d10c4"
+    },
+    "token_hash": "b73acdf809cd199e0961730e621117ade06836ef3cdf579cfc33f09e187c734a",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T06:17:09.666Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:17:09.666Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:17:09.773Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "gIZttWCfmUMHjo0GTU6W_U7KoB8vof9JzTkWHchAztY"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e552e633013ef91852"
+    },
+    "token_hash": "2ed22da2711c47d02f74c82e525cff07af9625b09a14d67f4dab099402c739b5",
+    "user_id": "6acf133b35a67d012664f124",
+    "email": "amitpatel@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:32:05.814Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:05.814Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:05.814Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "ZDgMLAltA1qA4YwwGMALDQ_entIrq4ogf_3Lhm5RYlk"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e652e633013ef91854"
+    },
+    "token_hash": "36ce2d4cb04fc8f0eb21bad420013e9fe19d5350ee2b5a9e320ad3a0fc8c5b7b",
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "role": "ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T06:32:06.160Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:06.160Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:06.160Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "Z1KpvrGMyLI7d6kTIWIhh0ZNprwfPGkKlndMa4dTmnE"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e652e633013ef91856"
+    },
+    "token_hash": "bfcf5ae1f88a316f9c07734969983680f0b0b5afb38c98f1e2d5c06cf0741fce",
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:32:06.450Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:06.450Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:06.450Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "_xnrSsZ5K85FwI3cJPkxlVDxkPndEfdYH4vLu3QUNIk"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e652e633013ef91858"
+    },
+    "token_hash": "1265a953f4509c707359f00b14c7785d01bb96d4ce4d73af8a5a6dded962a0a4",
+    "user_id": "6acf133b35a67d012664f169",
+    "email": "deepakjoshi@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T06:32:06.673Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:06.673Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:06.673Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "Irn5TW8GzKGeHfrWUuRh54sTZ8envl14pYee3wG32oI"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e652e633013ef9185a"
+    },
+    "token_hash": "10550b0a471355a02d09ccbf11241e74c9a0210142d3c4c8776886e31a2466dd",
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T06:32:06.869Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:06.869Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:06.869Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "Xd1nzGZjif-Alkw443xk8tUdSaXnjkfzfx9X7i0ziBw"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e752e633013ef9185c"
+    },
+    "token_hash": "4a796bcc3d909aa4b4020b23ac72f1d6552cd6c3cace67afccba7223db4203d3",
+    "user_id": "6acf133b35a67d012664f15d",
+    "email": "manishtiwari@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:32:07.148Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:07.148Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:07.148Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "JJevP_rxz95-ju20zOybz8dV0J4G44vhXvwInxhqE2s"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e752e633013ef9185e"
+    },
+    "token_hash": "8bdf983ade93f8a7ccae4632278f37adc1b7183618fe8d2736da323a4e1f5b77",
+    "user_id": "6acf09d377fcf49754f5b413",
+    "email": "mayan@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:32:07.739Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:07.739Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:07.739Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "ZN_mnzckHhbYB2xk36FSN4y6uJUQSfSXSumAjF_SpEg"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e852e633013ef91860"
+    },
+    "token_hash": "e1fe4bfcbd8eed320b8ac70af7e29a5995ae5d8c826c5e4e089d9bd51c483104",
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T06:32:08.200Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:08.200Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:08.200Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "-Tul2TrMa3D3XkQ2qBGP-whGo-lWBXWy6vJItWYf36I"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e852e633013ef91862"
+    },
+    "token_hash": "489f338e467fd26f5a4fe3ae2872dae8ba669b87f39f189a507fe1e178384ffd",
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T06:32:08.395Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:08.395Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:08.395Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "NjxbkGS7Dh-cd4BJivCbj8GGjGWOeFX0wjN0RWihFz4"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21e852e633013ef91864"
+    },
+    "token_hash": "9ee191e0056a2c7d24db159de22d1fd44bf6c8c6f1cb9cf851fffc71cb41520a",
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T06:32:08.601Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:32:08.601Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:32:08.601Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-httpx/0.28.1",
+    "is_revoked": false,
+    "csrf_token": "YQQCwfEiRf20Sa3zkmU0PKG1w46wxcdVo0erLK2zscY"
+  },
+  {
+    "_id": {
+      "$oid": "6acf243223e9fb53827b387b"
+    },
+    "token_hash": "93000e6c319ff52ee2dd213dd52000ea0addb8b771ce5ed482a55e69c38e5d80",
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:41:54.984Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:41:54.984Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:45:35.619Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "d7vitshUAGxd7_JwuySE_2Gp4_26Oo4aqkr_o1P4vDY"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2515169543fe9d7aeddb"
+    },
+    "token_hash": "205a5094c4ac1707343b976a472eb3d2d6e8d45b168f697a1d2341f1e7ca3779",
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T06:45:41.014Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:45:41.014Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:51:52.777Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "f8NJGcAiRh7dEUfseGUmwJN3He8h0UMD2VqzjSzGmuA"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2690a0501976ed1a35f5"
+    },
+    "token_hash": "f34040841ccb4f4340f998950375055b5be53813a61d935f694cc97bd19d0c1c",
+    "user_id": "6acf133b35a67d012664f169",
+    "email": "deepakjoshi@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T06:52:00.892Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:52:00.892Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:52:13.061Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "xk3oYHuLDirjN_XmJ1R-TecgvAID2bRV0Wk0HOVdx6k"
+  },
+  {
+    "_id": {
+      "$oid": "6acf26a3a0501976ed1a35f8"
+    },
+    "token_hash": "d1ad2530b56a34a50237ab3a5de1a7d573f5e91ea45192f6d99db6148b1d2f29",
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:52:19.028Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:52:19.028Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:54:49.328Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "-F7xxb_aUJp6BRAV5U6ICTU5PRDAYH6wygEslCGj6ik"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2740a0501976ed1a35fc"
+    },
+    "token_hash": "42b508d632d98a99aa1ca00736873f30177430762786d0ffbf725933e19a801b",
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T06:54:56.846Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:54:56.846Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:55:27.862Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "aJRitPIJoqfp6Bum38xUmUwImfQxwXFcbNfVl9SsHzs"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2767a0501976ed1a35ff"
+    },
+    "token_hash": "29127046fb4d47885b5d1a4ed6be841d0d7223a9fbb45cc24825d33c71f5eac1",
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "role": "INVENTORY_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T06:55:35.925Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:55:35.925Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:33.875Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "NFnZwf8b8pNZtRLBem9Fnm184bDYYt7blX1dxtdr4SQ"
+  },
+  {
+    "_id": {
+      "$oid": "6acf278ca0501976ed1a3601"
+    },
+    "token_hash": "d85ebea5aa61120a9f9e4e2ad02fc3ad90a460a166951ffa80ffc84cc427a38a",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T06:56:12.065Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:12.065Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:12.179Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "cfS3NybtBT1QsUgM8ssBje2uiJjxt7uDi70WQqnhEYc"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2794a0501976ed1a3603"
+    },
+    "token_hash": "e4a302814ebf852ecc3677d33b1f1a252dd38c337e04cd38a37f7dbd3647c0b7",
+    "user_id": "6acf133b35a67d012664f124",
+    "email": "amitpatel@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:56:20.380Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:20.380Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:20.491Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "hm38Q1VpycKik3MuRh1eh4E-5W72DD0zyxkhGGuqTaw"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2794a0501976ed1a3605"
+    },
+    "token_hash": "12c8534a7637318d01a3b5130fbf696507d0453e6e07e766b11384ec579bc9f0",
+    "user_id": "6acf133b35a67d012664f15a",
+    "email": "ananyaiyer@rgtech.com",
+    "role": "ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T06:56:20.734Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:20.734Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:20.971Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "S12Fhd6peP97DTd4z7NfEJ_6TRShzW0YEFUIRS7_9bk"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2795a0501976ed1a3607"
+    },
+    "token_hash": "2ea352b438dae1005ec46eb226efdc2009828540451cc71cf6afc841c4bd5a08",
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:56:21.242Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:21.242Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:21.270Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "Zw27t-wXHgaErFsJrO6ioqegkgmPd5gl0HeqMnRUp-c"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2795a0501976ed1a3609"
+    },
+    "token_hash": "953786cd2123320f7cd80c93d598b9a649b8016210e4baaba457d6155118d981",
+    "user_id": "6acf133b35a67d012664f169",
+    "email": "deepakjoshi@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T06:56:21.495Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:21.495Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:21.519Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "rJVlXHEhDRdRECsU42QmlZOmXMu5cxOH2u_1T6VUea4"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2795a0501976ed1a360b"
+    },
+    "token_hash": "7f95191ce2288e4577bd087fac4fbdaa2c40f7ba47a0c9943ecfa0abb3649b72",
+    "user_id": "6acf133b35a67d012664f12d",
+    "email": "nehamodi@rgtech.com",
+    "role": "QC_INSPECTOR",
+    "created_at": {
+      "$date": "2026-10-14T06:56:21.755Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:21.755Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:21.783Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "zyhx2gGxjttOMcGgPNabyedKgr8yUm__v8fZnzkwcB8"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2796a0501976ed1a360d"
+    },
+    "token_hash": "906f75db4b234d3ed40cc96ccfb7c634d19eb01b29379a2d09e67125f8ed4d13",
+    "user_id": "6acf133b35a67d012664f142",
+    "email": "priyashah@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T06:56:22.023Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:22.023Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:22.065Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "X7UjnqLyD6_aex9-ysUIUaj0V0i7tIxmTTWFa-BdG9c"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2796a0501976ed1a360f"
+    },
+    "token_hash": "74dc6a9e6dd1b91fa332493733d6df4ee2df121bc1f3acb0ece2f333c2792999",
+    "user_id": "6acf133b35a67d012664f121",
+    "email": "rahulsharma@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T06:56:22.339Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:22.339Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:22.377Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "ShU5crUOyWMYSnU8gJFSr-SZcnGaocB6FU1g1GwFmAc"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2796a0501976ed1a3611"
+    },
+    "token_hash": "3db473026df39a187a5b2490a049df877d4efb6dc68f7e801d282544cc4d5916",
+    "user_id": "6acf21d131a7ee8dd089743f",
+    "email": "rajeshkhatri@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:56:22.595Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:22.595Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:22.629Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "pLIMrirrzAuvCs3RL0hiPZjapO7lRk-Xa19cc0QTDX0"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2796a0501976ed1a3613"
+    },
+    "token_hash": "da20a442db91d2c9265612c85e5cfe62e4e1e1055b9360ced51bb8ea89b27a56",
+    "user_id": "6acf09d377fcf49754f5b413",
+    "email": "mayan@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T06:56:22.893Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:56:22.893Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T06:56:22.928Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "IEK-cE6fxn8K83KhTtxMAH8_ge4dpNekphU5aH5HWtU"
+  },
+  {
+    "_id": {
+      "$oid": "6acf27c856f7b28b3872a51e"
+    },
+    "token_hash": "082abbdb2b2680a25ac4c61043ea183f0db337982ef8a8f1a51a2e6d488786d2",
+    "user_id": "6acf133b35a67d012664f171",
+    "email": "rameshsolanki@rgtech.com",
+    "role": "PRODUCTION_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T06:57:12.761Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T14:57:12.761Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:00:40.038Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "7HT8oXuQOHeIbTX8B8D3NgNxYJMUVZmt18JgKv0zLlI"
+  },
+  {
+    "_id": {
+      "$oid": "6acf28a31398cedfc80d707c"
+    },
+    "token_hash": "ea0459b79591a390404ca32f0c41d48ec5e317bd398d31eb84aa339e006ba732",
+    "user_id": "6acf09d377fcf49754f5b412",
+    "email": "hr@rgtech.com",
+    "role": "HR",
+    "created_at": {
+      "$date": "2026-10-14T07:00:51.346Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:00:51.346Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:01:17.850Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "zFe8uiHYfkmpXGZ6npZ9boLAAhwT004aRfItR1WWGTo"
+  },
+  {
+    "_id": {
+      "$oid": "6acf28c51398cedfc80d707f"
+    },
+    "token_hash": "3a3981f15ce36b7f0fefd6ef50a1bcf39cf02b32b08037ec056291604bdfa7c8",
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T07:01:25.751Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:01:25.751Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:02:09.799Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "F9yu6-721lAzDF3wd3uR71F2QT_GgeaqTkfbFDvo5rE"
+  },
+  {
+    "_id": {
+      "$oid": "6acf29afbfd0d47bb9017b5d"
+    },
+    "token_hash": "5ae3e1756f06a2c2dd42769525e5431f328149ca73a7f1a564c3717bd5436faf",
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T07:05:19.523Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:05:19.523Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:06:09.118Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "Gy_FUOHwqmBb5KZ3PaWfkQJdBf45DHfOVpdhhbhL5VM"
+  },
+  {
+    "_id": {
+      "$oid": "6acf29d6bfd0d47bb9017b5f"
+    },
+    "token_hash": "ee989e27c34b0e038f4af8652ea59efc95089df9f5a1c5af16e29e94d3361434",
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "role": "INVENTORY_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T07:05:58.189Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:05:58.189Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:06:00.128Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "5ULnaAKgQ-2gcHbS53wAhtlEIPSdEtitiZI9RMTbwgk"
+  },
+  {
+    "_id": {
+      "$oid": "6acf29e5bfd0d47bb9017b62"
+    },
+    "token_hash": "bb8240503d818a1e8294f7f8fda79a2357bfc597ce6c258d7a483dfdbc4cc624",
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "role": "INVENTORY_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T07:06:13.923Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:06:13.923Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:06:14.237Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "pAgKbq0NAXqw5_w77Y1y_vZQ9fvLvhwyW5GBNF48jP0"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2a46bfd0d47bb9017b64"
+    },
+    "token_hash": "4591349ab20f229d6cdd03f67f705bad6ff52d39b6d8b5c44e294b5a73d899d9",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T07:07:50.869Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:07:50.869Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:07:51.309Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "kxnZqErYKl1u7sgu6-wXH1eH4KblCm4NbwVANFiSTxE"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2a58bfd0d47bb9017b66"
+    },
+    "token_hash": "41f6b8a90f93ef796954f3911c18ea042e0bc026bbe8cab32b7627185d6ea10b",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin@rgtech.com",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T07:08:08.612Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:08:08.612Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:08:08.755Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Python-urllib/3.14",
+    "is_revoked": false,
+    "csrf_token": "Vr1EfgcCN1vxFtTiiOOlpR2A9fAlS4VK9Xgk-6VvZSE"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2a97bfd0d47bb9017b68"
+    },
+    "token_hash": "dff4ae39e084f37f274db6415c9b01fe7b0bd5e839e1dc2fb5ad203578f6828f",
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T07:09:11.538Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:09:11.538Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:09:44.956Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "87kycveXwRJ73TulRiv9Lnd9y74bd-xjkrlaCEXyM14"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2abcbfd0d47bb9017b6b"
+    },
+    "token_hash": "55df2fec8103db5ae7c0ba1708190575519b33f68e087a8cb41ff622f0246925",
+    "user_id": "6acf133b35a67d012664f14e",
+    "email": "sanjayrawat@rgtech.com",
+    "role": "SALES_DISPATCH",
+    "created_at": {
+      "$date": "2026-10-14T07:09:48.472Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:09:48.472Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:10:09.874Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "j8kTNgnLCDlxCUBeTfQmwZvGJeXKj4RSDSxFjhGUPNI"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2ad4bfd0d47bb9017b70"
+    },
+    "token_hash": "fd28d0e111a9793fc943db9ede1482d87c8a3ed0b20f2f7cfeb2378d4537df4d",
+    "user_id": "6acf133b35a67d012664f139",
+    "email": "sureshraina@rgtech.com",
+    "role": "INVENTORY_MANAGER",
+    "created_at": {
+      "$date": "2026-10-14T07:10:12.999Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:10:12.999Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:14:34.199Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "Y79b1QnKBTbKbRJD3HXdhv56axQb7l0FvnhnOeTzV0A"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2bddbfd0d47bb9017b75"
+    },
+    "token_hash": "1f32dadf127ef59daa0a260bf3c916f6dc4cdb71429636a74ff1be9322f2b91f",
+    "user_id": "6acf09d377fcf49754f5b411",
+    "email": "admin",
+    "role": "SUPER_ADMIN",
+    "created_at": {
+      "$date": "2026-10-14T07:14:37.762Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:14:37.762Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:38:58.409Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": true,
+    "csrf_token": "zMuzVyd5Zjq4c2YHTjFwLgmUTpQ2h2F0xi6tlukyCT0"
+  },
+  {
+    "_id": {
+      "$oid": "6acf3195361fe758922bd716"
+    },
+    "token_hash": "91385408a78327feae3741c8b883c37a49bda96680b32cfd5d672e24c462d6c5",
+    "user_id": "6acf133b35a67d012664f174",
+    "email": "chetanprajapati@rgtech.com",
+    "role": "EMPLOYEE",
+    "created_at": {
+      "$date": "2026-10-14T07:39:01.631Z"
+    },
+    "expires_at": {
+      "$date": "2026-10-14T15:39:01.631Z"
+    },
+    "last_activity_at": {
+      "$date": "2026-10-14T07:39:08.369Z"
+    },
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+    "is_revoked": false,
+    "csrf_token": "EAn4NaPXwGOZjTQViAo-F1VxXE1kwf14J4x_x8v-z-k"
+  }
+]

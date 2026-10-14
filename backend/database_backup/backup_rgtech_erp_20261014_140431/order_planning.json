@@ -1,0 +1,546 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e98322"
+    },
+    "order_number": "SO-2026-0001",
+    "order_date": "2026-09-10",
+    "customer": "Gujarat Heavy Machinery Pvt Ltd",
+    "customer_code": "CUST-001",
+    "brand": "OptiMatrix",
+    "variant": "Semi-Automatic Envelope Machine ENV-100",
+    "length": "100 mm",
+    "order_qty": 2.0,
+    "required_dispatch_date": "2026-10-15",
+    "priority": "HIGH",
+    "order_status": "CONFIRMED",
+    "planned_qty": 2.0,
+    "produced_qty": 1.0,
+    "balance_qty": 1.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 2.0,
+    "final_approval": "APPROVED",
+    "remarks": "Sub-assembly CNC machining finished; final electrical panel wiring in progress.",
+    "unit_id": "Unit_1",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e98323"
+    },
+    "order_number": "SO-2026-0001",
+    "order_date": "2026-09-10",
+    "customer": "Gujarat Heavy Machinery Pvt Ltd",
+    "customer_code": "CUST-001",
+    "brand": "OptiMatrix",
+    "variant": "Semi-Automatic Envelope Machine ENV-100 (Extended Bed)",
+    "length": "150 mm",
+    "order_qty": 1.0,
+    "required_dispatch_date": "2026-10-18",
+    "priority": "HIGH",
+    "order_status": "CONFIRMED",
+    "planned_qty": 1.0,
+    "produced_qty": 0.0,
+    "balance_qty": 1.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 1.0,
+    "final_approval": "APPROVED",
+    "remarks": "Custom guide rails received from Unit 1 grinding shop. Ready for assembly.",
+    "unit_id": "Unit_2",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e98324"
+    },
+    "order_number": "SO-2026-0002",
+    "order_date": "2026-09-18",
+    "customer": "Precision Automotive Comps Ltd",
+    "customer_code": "CUST-002",
+    "brand": "OptiMatrix Pro",
+    "variant": "Fully-Automatic Envelope Maker ENV-200",
+    "length": "200 mm",
+    "order_qty": 3.0,
+    "required_dispatch_date": "2026-10-28",
+    "priority": "URGENT",
+    "order_status": "PARTIALLY_DISPATCHED",
+    "planned_qty": 3.0,
+    "produced_qty": 2.0,
+    "balance_qty": 1.0,
+    "dispatch_qty": 1.0,
+    "dispatch_balance": 2.0,
+    "final_approval": "APPROVED",
+    "remarks": "Unit 1 unit dispatched via VRL Logistics; remaining 2 units on final test bench.",
+    "unit_id": "Unit_2",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e98325"
+    },
+    "order_number": "SO-2026-0003",
+    "order_date": "2026-09-25",
+    "customer": "Apex Industrial Tools & Equip",
+    "customer_code": "CUST-003",
+    "brand": "OptiMatrix",
+    "variant": "High-Speed Folder Gluer FG-500 (Standard)",
+    "length": "120 mm",
+    "order_qty": 2.0,
+    "required_dispatch_date": "2026-10-30",
+    "priority": "HIGH",
+    "order_status": "CONFIRMED",
+    "planned_qty": 2.0,
+    "produced_qty": 1.0,
+    "balance_qty": 1.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 2.0,
+    "final_approval": "APPROVED",
+    "remarks": "Rubber feeder rollers vulcanized; belt drive tension calibration pending.",
+    "unit_id": "Unit_1",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e98326"
+    },
+    "order_number": "SO-2026-0004",
+    "order_date": "2026-09-02",
+    "customer": "Shree Ram Engineering Works",
+    "customer_code": "CUST-004",
+    "brand": "OptiMatrix",
+    "variant": "Rotary Die Cutter RDC-300",
+    "length": "250 mm",
+    "order_qty": 1.0,
+    "required_dispatch_date": "2026-09-28",
+    "priority": "MEDIUM",
+    "order_status": "DISPATCHED",
+    "planned_qty": 1.0,
+    "produced_qty": 1.0,
+    "balance_qty": 0.0,
+    "dispatch_qty": 1.0,
+    "dispatch_balance": 0.0,
+    "final_approval": "APPROVED",
+    "remarks": "Order complete and fully dispatched with QA compliance report.",
+    "unit_id": "Unit_1",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e98327"
+    },
+    "order_number": "SO-2026-0005",
+    "order_date": "2026-10-02",
+    "customer": "Kalyani Packaging Solutions",
+    "customer_code": "CUST-005",
+    "brand": "OptiMatrix Eco",
+    "variant": "Semi-Automatic Envelope Machine ENV-100 (Eco)",
+    "length": "80 mm",
+    "order_qty": 4.0,
+    "required_dispatch_date": "2026-11-05",
+    "priority": "MEDIUM",
+    "order_status": "CONFIRMED",
+    "planned_qty": 4.0,
+    "produced_qty": 2.0,
+    "balance_qty": 2.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 4.0,
+    "final_approval": "APPROVED",
+    "remarks": "Milling and surface grinding underway at Unit 1. On schedule.",
+    "unit_id": "Unit_1",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e98328"
+    },
+    "order_number": "SO-2026-0005",
+    "order_date": "2026-10-02",
+    "customer": "Kalyani Packaging Solutions",
+    "customer_code": "CUST-005",
+    "brand": "OptiMatrix Eco",
+    "variant": "Semi-Automatic Envelope Machine ENV-100 (Heavy)",
+    "length": "120 mm",
+    "order_qty": 2.0,
+    "required_dispatch_date": "2026-11-10",
+    "priority": "MEDIUM",
+    "order_status": "CONFIRMED",
+    "planned_qty": 2.0,
+    "produced_qty": 0.0,
+    "balance_qty": 2.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 2.0,
+    "final_approval": "PENDING",
+    "remarks": "Waiting for gear box batch from VEND-002 before machining.",
+    "unit_id": "Unit_2",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e98329"
+    },
+    "order_number": "SO-2026-0006",
+    "order_date": "2026-10-05",
+    "customer": "Mehta Paper Converters",
+    "customer_code": "CUST-006",
+    "brand": "OptiMatrix",
+    "variant": "Paper Window Patching Machine WPM-150",
+    "length": "150 mm",
+    "order_qty": 1.0,
+    "required_dispatch_date": "2026-11-15",
+    "priority": "LOW",
+    "order_status": "DRAFT",
+    "planned_qty": 1.0,
+    "produced_qty": 0.0,
+    "balance_qty": 1.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 1.0,
+    "final_approval": "PENDING",
+    "remarks": "Preliminary BOM estimation complete. Awaiting final advance payment.",
+    "unit_id": "Unit_2",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e9832a"
+    },
+    "order_number": "SO-2026-0007",
+    "order_date": "2026-10-08",
+    "customer": "Sterling Printing & Packaging",
+    "customer_code": "CUST-007",
+    "brand": "OptiMatrix Pro",
+    "variant": "High-Speed Folder Gluer FG-500 (Pro Series)",
+    "length": "180 mm",
+    "order_qty": 2.0,
+    "required_dispatch_date": "2026-11-20",
+    "priority": "HIGH",
+    "order_status": "CONFIRMED",
+    "planned_qty": 2.0,
+    "produced_qty": 1.0,
+    "balance_qty": 1.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 2.0,
+    "final_approval": "APPROVED",
+    "remarks": "Main chassis casting stress-relieved. CNC spindle boring scheduled.",
+    "unit_id": "Unit_1",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1b2b16816a0757e9832b"
+    },
+    "order_number": "SO-2026-0008",
+    "order_date": "2026-10-10",
+    "customer": "Zenith Flexo Prints Pvt Ltd",
+    "customer_code": "CUST-008",
+    "brand": "OptiMatrix",
+    "variant": "Thermal Laminating Machine TLM-400",
+    "length": "160 mm",
+    "order_qty": 3.0,
+    "required_dispatch_date": "2026-11-25",
+    "priority": "URGENT",
+    "order_status": "CONFIRMED",
+    "planned_qty": 3.0,
+    "produced_qty": 1.0,
+    "balance_qty": 2.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 3.0,
+    "final_approval": "APPROVED",
+    "remarks": "Heating roller hard chrome plating completed. Thermocouple wiring ongoing.",
+    "unit_id": "Unit_2",
+    "updated_by": "Taha",
+    "created_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:03:23.208Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1ecbb4530e8d862d10c6"
+    },
+    "order_id": "6acf18736a2d59b83bff4e21",
+    "order_number": "SO-2026-0001",
+    "order_date": "2026-09-14",
+    "customer": "Ravi Stationery Mfg Pvt Ltd",
+    "customer_code": "CUST-001",
+    "brand": "OptiMatrix",
+    "variant": "Semi-Automatic Envelope Machine ENV-100 (Standard)",
+    "length": "100 mm",
+    "order_qty": 3.0,
+    "required_dispatch_date": "2026-10-25",
+    "priority": "HIGH",
+    "order_status": "CONFIRMED",
+    "planned_qty": 3.0,
+    "produced_qty": 0.0,
+    "balance_qty": 3.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 3.0,
+    "final_approval": "APPROVED",
+    "remarks": "Planned for Unit_1. Material verified.",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:18:51.976Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:18:51.976Z"
+    },
+    "updated_by": "Taha"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1eccb4530e8d862d10c7"
+    },
+    "order_id": "6acf18736a2d59b83bff4e2c",
+    "order_number": "SO-2026-0006",
+    "order_date": "2026-10-09",
+    "customer": "Pune Industrial Automation Traders",
+    "customer_code": "CUST-006",
+    "brand": "OptiMatrix",
+    "variant": "Semi-Automatic Envelope Machine ENV-100 (Standard)",
+    "length": "100 mm",
+    "order_qty": 2.0,
+    "required_dispatch_date": "2026-10-25",
+    "priority": "MEDIUM",
+    "order_status": "CONFIRMED",
+    "planned_qty": 2.0,
+    "produced_qty": 0.0,
+    "balance_qty": 2.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 2.0,
+    "final_approval": "APPROVED",
+    "remarks": "Planned for Unit_1. Material verified.",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:18:52.063Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:18:52.063Z"
+    },
+    "updated_by": "Taha"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1eccb4530e8d862d10c8"
+    },
+    "order_id": "6acf18736a2d59b83bff4e2d",
+    "order_number": "SO-2026-0007",
+    "order_date": "2026-09-26",
+    "customer": "Chennai Office Machinery Pvt Ltd",
+    "customer_code": "CUST-007",
+    "brand": "OptiMatrix",
+    "variant": "Automated Carton Packing Machine PKG-300",
+    "length": "Standard",
+    "order_qty": 2.0,
+    "required_dispatch_date": "2026-10-25",
+    "priority": "MEDIUM",
+    "order_status": "CONFIRMED",
+    "planned_qty": 2.0,
+    "produced_qty": 0.0,
+    "balance_qty": 2.0,
+    "dispatch_qty": 0.0,
+    "dispatch_balance": 2.0,
+    "final_approval": "APPROVED",
+    "remarks": "Planned for Unit_2. Material verified.",
+    "unit_id": "Unit_2",
+    "created_at": {
+      "$date": "2026-10-14T06:18:52.141Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:18:52.141Z"
+    },
+    "updated_by": "Taha"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1eccb4530e8d862d10c9"
+    },
+    "order_id": "6acf18736a2d59b83bff4e22",
+    "order_number": "SO-2026-0002",
+    "order_date": "2026-09-04",
+    "customer": "National Paper Converting Ind.",
+    "customer_code": "CUST-002",
+    "brand": "OptiMatrix",
+    "variant": "Fully Automatic Envelope Machine ENV-200",
+    "length": "Standard",
+    "order_qty": 2.0,
+    "required_dispatch_date": "2026-10-25",
+    "priority": "MEDIUM",
+    "order_status": "DISPATCHED",
+    "planned_qty": 2.0,
+    "produced_qty": 2.0,
+    "balance_qty": 0.0,
+    "dispatch_qty": 2.0,
+    "dispatch_balance": 0.0,
+    "final_approval": "APPROVED",
+    "remarks": "Planned for Unit_1. Material verified.",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:18:52.184Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:18:52.184Z"
+    },
+    "updated_by": "Taha"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1eccb4530e8d862d10ca"
+    },
+    "order_id": "6acf18736a2d59b83bff4e28",
+    "order_number": "SO-2026-0004",
+    "order_date": "2026-08-25",
+    "customer": "Delhi Automated Packaging Systems",
+    "customer_code": "CUST-004",
+    "brand": "OptiMatrix",
+    "variant": "Compact Desktop Envelope Machine ENV-MINI (Compact)",
+    "length": "50 mm",
+    "order_qty": 5.0,
+    "required_dispatch_date": "2026-10-25",
+    "priority": "MEDIUM",
+    "order_status": "DISPATCHED",
+    "planned_qty": 5.0,
+    "produced_qty": 5.0,
+    "balance_qty": 0.0,
+    "dispatch_qty": 5.0,
+    "dispatch_balance": 0.0,
+    "final_approval": "APPROVED",
+    "remarks": "Planned for Unit_1. Material verified.",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:18:52.219Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:18:52.219Z"
+    },
+    "updated_by": "Taha"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1eccb4530e8d862d10cb"
+    },
+    "order_id": "6acf18736a2d59b83bff4e2b",
+    "order_number": "SO-2026-0005",
+    "order_date": "2026-09-29",
+    "customer": "Hyderabad Print & Pack Logistics",
+    "customer_code": "CUST-005",
+    "brand": "OptiMatrix",
+    "variant": "Fully Automatic Envelope Machine ENV-200",
+    "length": "Standard",
+    "order_qty": 1.0,
+    "required_dispatch_date": "2026-10-25",
+    "priority": "MEDIUM",
+    "order_status": "DISPATCHED",
+    "planned_qty": 1.0,
+    "produced_qty": 1.0,
+    "balance_qty": 0.0,
+    "dispatch_qty": 1.0,
+    "dispatch_balance": 0.0,
+    "final_approval": "APPROVED",
+    "remarks": "Planned for Unit_1. Material verified.",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:18:52.221Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:18:52.221Z"
+    },
+    "updated_by": "Taha"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1eccb4530e8d862d10cc"
+    },
+    "order_id": "6acf18736a2d59b83bff4e25",
+    "order_number": "SO-2026-0003",
+    "order_date": "2026-09-19",
+    "customer": "Bengaluru Office Products Ltd",
+    "customer_code": "CUST-003",
+    "brand": "OptiMatrix",
+    "variant": "Automated Carton Packing Machine PKG-300",
+    "length": "Standard",
+    "order_qty": 1.0,
+    "required_dispatch_date": "2026-10-25",
+    "priority": "HIGH",
+    "order_status": "PARTIALLY_DISPATCHED",
+    "planned_qty": 1.0,
+    "produced_qty": 1.0,
+    "balance_qty": 0.0,
+    "dispatch_qty": 1.0,
+    "dispatch_balance": 0.0,
+    "final_approval": "APPROVED",
+    "remarks": "Planned for Unit_2. Material verified.",
+    "unit_id": "Unit_2",
+    "created_at": {
+      "$date": "2026-10-14T06:18:52.223Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:18:52.223Z"
+    },
+    "updated_by": "Taha"
+  }
+]

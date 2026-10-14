@@ -205,13 +205,16 @@ JOB_ROLE_DEFAULT_PERMISSIONS = {
 
     # Inventory & Purchase
     "Inventory Manager": [
-        "inventory:read", "inventory:create", "inventory:update", "inventory:post", "inventory:export",
-        "bom:read", "orders:read", "wastage:read", "reports:read", "reports:export", "master:read", "master:create", "master:update",
+        "inventory:read", "inventory:create", "inventory:update", "inventory:post", "inventory:export", "inventory:delete",
+        "bom:read", "bom:create", "bom:update", "bom:delete", "bom:approve",
+        "production:read", "production:create", "production:update", "production:post", "production:export", "production:delete",
+        "orders:read", "wastage:read", "reports:read", "reports:export", "master:read", "master:create", "master:update",
     ],
     "Storekeeper": ["inventory:read", "inventory:update", "inventory:post", "master:read"],
     "Warehouse Executive": ["inventory:read", "inventory:update", "master:read"],
     "Purchase Manager": [
-        "inventory:read", "inventory:create", "orders:read", "master:read", "master:create", "master:update", "reports:read",
+        "inventory:read", "inventory:create", "inventory:update", "inventory:post", "inventory:export", "inventory:delete",
+        "orders:read", "master:read", "master:create", "master:update", "reports:read", "reports:export",
     ],
     "Purchase Executive": ["inventory:read", "orders:read", "master:read"],
 
@@ -324,8 +327,9 @@ DEFAULT_ROLE_PERMISSIONS = {
         "master:read",
     ],
     RoleName.INVENTORY_MANAGER: [
-        "inventory:read", "inventory:create", "inventory:update", "inventory:post", "inventory:export",
-        "bom:read",
+        "inventory:read", "inventory:create", "inventory:update", "inventory:post", "inventory:export", "inventory:delete",
+        "bom:read", "bom:create", "bom:update", "bom:delete", "bom:approve",
+        "production:read", "production:create", "production:update", "production:post", "production:export", "production:delete",
         "orders:read",
         "wastage:read", "wastage:create", "wastage:update", "wastage:approve",
         "reports:read", "reports:export",

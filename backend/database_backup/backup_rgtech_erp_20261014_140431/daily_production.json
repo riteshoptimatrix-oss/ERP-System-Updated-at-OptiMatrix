@@ -1,0 +1,446 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802d2"
+    },
+    "date": "2026-10-14",
+    "order_no": "SO-2026-0001",
+    "customer": "Gujarat Heavy Machinery Pvt Ltd",
+    "variant": "Semi-Automatic Envelope Machine ENV-100",
+    "length": "100 mm",
+    "labour": "Jagdish Panchal",
+    "machine": "CNC VMC Milling Center (VMC-01)",
+    "department": "Machining",
+    "planned_qty": 20.0,
+    "actual_qty": 20.0,
+    "rework_qty": 1.0,
+    "scrap_qty": 0.0,
+    "good_qty": 19.0,
+    "completion_pct": 95.0,
+    "work_type": "REGULAR",
+    "standard_target": 20.0,
+    "performance_pct": 100.0,
+    "daily_earned_inr": 1140.0,
+    "rate_per_unit": 60.0,
+    "start_time": "08:30 AM",
+    "end_time": "05:00 PM",
+    "supervisor_remarks": "Tool holder alignment checked; bore tolerance within \u00b10.01mm.",
+    "priority_change": "NORMAL",
+    "unit_id": "Unit_1",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802d3"
+    },
+    "date": "2026-10-14",
+    "order_no": "SO-2026-0001",
+    "customer": "Gujarat Heavy Machinery Pvt Ltd",
+    "variant": "Semi-Automatic Envelope Machine ENV-100 (Extended Bed)",
+    "length": "150 mm",
+    "labour": "Ramesh Solanki",
+    "machine": "Horizontal Surface Grinder (SGR-02)",
+    "department": "Machining",
+    "planned_qty": 15.0,
+    "actual_qty": 14.0,
+    "rework_qty": 0.0,
+    "scrap_qty": 1.0,
+    "good_qty": 13.0,
+    "completion_pct": 86.7,
+    "work_type": "REGULAR",
+    "standard_target": 15.0,
+    "performance_pct": 93.3,
+    "daily_earned_inr": 910.0,
+    "rate_per_unit": 70.0,
+    "start_time": "09:00 AM",
+    "end_time": "05:30 PM",
+    "supervisor_remarks": "1 plate rejected due to surface hardness imperfection from roughing.",
+    "priority_change": "HIGH",
+    "unit_id": "Unit_1",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802d4"
+    },
+    "date": "2026-10-13",
+    "order_no": "SO-2026-0003",
+    "customer": "Apex Industrial Tools & Equip",
+    "variant": "High-Speed Folder Gluer FG-500 (Standard)",
+    "length": "120 mm",
+    "labour": "Dinesh Makwana",
+    "machine": "Precision Lathe Heavy Duty (LTH-03)",
+    "department": "Machining",
+    "planned_qty": 18.0,
+    "actual_qty": 18.0,
+    "rework_qty": 0.0,
+    "scrap_qty": 0.0,
+    "good_qty": 18.0,
+    "completion_pct": 100.0,
+    "work_type": "REGULAR",
+    "standard_target": 16.0,
+    "performance_pct": 112.5,
+    "daily_earned_inr": 1350.0,
+    "rate_per_unit": 75.0,
+    "start_time": "08:00 AM",
+    "end_time": "04:30 PM",
+    "supervisor_remarks": "Drive shaft machining completed ahead of schedule; high finish quality.",
+    "priority_change": "NORMAL",
+    "unit_id": "Unit_1",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802d5"
+    },
+    "date": "2026-10-14",
+    "order_no": "SO-2026-0002",
+    "customer": "Precision Automotive Comps Ltd",
+    "variant": "Fully-Automatic Envelope Maker ENV-200",
+    "length": "200 mm",
+    "labour": "Suresh Suthar",
+    "machine": "Main Assembly Rig Line 1 (ASM-01)",
+    "department": "Assembly",
+    "planned_qty": 2.0,
+    "actual_qty": 2.0,
+    "rework_qty": 0.0,
+    "scrap_qty": 0.0,
+    "good_qty": 2.0,
+    "completion_pct": 100.0,
+    "work_type": "REGULAR",
+    "standard_target": 2.0,
+    "performance_pct": 100.0,
+    "daily_earned_inr": 1800.0,
+    "rate_per_unit": 900.0,
+    "start_time": "08:30 AM",
+    "end_time": "05:30 PM",
+    "supervisor_remarks": "Complete mechanical sub-frame and gearbox coupling assembled.",
+    "priority_change": "URGENT",
+    "unit_id": "Unit_2",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802d6"
+    },
+    "date": "2026-10-14",
+    "order_no": "SO-2026-0002",
+    "customer": "Precision Automotive Comps Ltd",
+    "variant": "Fully-Automatic Envelope Maker ENV-200",
+    "length": "200 mm",
+    "labour": "Kamlesh Parmar",
+    "machine": "Electrical Wiring Bench (ELEC-01)",
+    "department": "Assembly",
+    "planned_qty": 2.0,
+    "actual_qty": 1.0,
+    "rework_qty": 1.0,
+    "scrap_qty": 0.0,
+    "good_qty": 1.0,
+    "completion_pct": 50.0,
+    "work_type": "REGULAR",
+    "standard_target": 2.0,
+    "performance_pct": 50.0,
+    "daily_earned_inr": 750.0,
+    "rate_per_unit": 750.0,
+    "start_time": "09:00 AM",
+    "end_time": "05:00 PM",
+    "supervisor_remarks": "Control cabinet wiring 1 set completed; second unit waiting for PLC module.",
+    "priority_change": "HIGH",
+    "unit_id": "Unit_2",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802d7"
+    },
+    "date": "2026-10-13",
+    "order_no": "SO-2026-0005",
+    "customer": "Kalyani Packaging Solutions",
+    "variant": "Semi-Automatic Envelope Machine ENV-100 (Eco)",
+    "length": "80 mm",
+    "labour": "Pravin Chavda",
+    "machine": "Secondary Assembly Bench (ASM-02)",
+    "department": "Assembly",
+    "planned_qty": 4.0,
+    "actual_qty": 3.0,
+    "rework_qty": 0.0,
+    "scrap_qty": 0.0,
+    "good_qty": 3.0,
+    "completion_pct": 75.0,
+    "work_type": "OVERTIME",
+    "standard_target": 3.0,
+    "performance_pct": 100.0,
+    "daily_earned_inr": 1500.0,
+    "rate_per_unit": 500.0,
+    "start_time": "08:30 AM",
+    "end_time": "07:00 PM",
+    "supervisor_remarks": "3 feeder rollers fitted and test-rotated under no-load condition.",
+    "priority_change": "NORMAL",
+    "unit_id": "Unit_2",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802d8"
+    },
+    "date": "2026-10-14",
+    "order_no": "SO-2026-0007",
+    "customer": "Sterling Printing & Packaging",
+    "variant": "High-Speed Folder Gluer FG-500 (Pro Series)",
+    "length": "180 mm",
+    "labour": "Sunil Vaghela",
+    "machine": "CNC Plasma / Flame Cutting Table (CUT-01)",
+    "department": "Fabrication",
+    "planned_qty": 12.0,
+    "actual_qty": 12.0,
+    "rework_qty": 0.0,
+    "scrap_qty": 1.0,
+    "good_qty": 11.0,
+    "completion_pct": 91.7,
+    "work_type": "REGULAR",
+    "standard_target": 12.0,
+    "performance_pct": 100.0,
+    "daily_earned_inr": 1100.0,
+    "rate_per_unit": 100.0,
+    "start_time": "08:30 AM",
+    "end_time": "05:00 PM",
+    "supervisor_remarks": "Base frame structural plates profiled from 25mm MS plate stock.",
+    "priority_change": "NORMAL",
+    "unit_id": "Unit_1",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802d9"
+    },
+    "date": "2026-10-13",
+    "order_no": "SO-2026-0008",
+    "customer": "Zenith Flexo Prints Pvt Ltd",
+    "variant": "Thermal Laminating Machine TLM-400",
+    "length": "160 mm",
+    "labour": "Ashok Rathod",
+    "machine": "Hydraulic Sheet Metal Press Brake (BND-01)",
+    "department": "Fabrication",
+    "planned_qty": 16.0,
+    "actual_qty": 16.0,
+    "rework_qty": 1.0,
+    "scrap_qty": 0.0,
+    "good_qty": 15.0,
+    "completion_pct": 93.8,
+    "work_type": "REGULAR",
+    "standard_target": 15.0,
+    "performance_pct": 106.7,
+    "daily_earned_inr": 1200.0,
+    "rate_per_unit": 80.0,
+    "start_time": "09:00 AM",
+    "end_time": "05:30 PM",
+    "supervisor_remarks": "Guard covers and safety shroud bending completed with uniform 90\u00b0 radii.",
+    "priority_change": "HIGH",
+    "unit_id": "Unit_1",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802da"
+    },
+    "date": "2026-10-14",
+    "order_no": "SO-2026-0007",
+    "customer": "Sterling Printing & Packaging",
+    "variant": "High-Speed Folder Gluer FG-500 (Pro Series)",
+    "length": "180 mm",
+    "labour": "Bhavesh Barot",
+    "machine": "MIG Welding Station 02 (WLD-02)",
+    "department": "Welding",
+    "planned_qty": 6.0,
+    "actual_qty": 6.0,
+    "rework_qty": 0.0,
+    "scrap_qty": 0.0,
+    "good_qty": 6.0,
+    "completion_pct": 100.0,
+    "work_type": "REGULAR",
+    "standard_target": 5.0,
+    "performance_pct": 120.0,
+    "daily_earned_inr": 1200.0,
+    "rate_per_unit": 200.0,
+    "start_time": "08:30 AM",
+    "end_time": "05:00 PM",
+    "supervisor_remarks": "Gusset ribs full-penetration fillet welded; DP test passed.",
+    "priority_change": "NORMAL",
+    "unit_id": "Unit_1",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802db"
+    },
+    "date": "2026-10-14",
+    "order_no": "SO-2026-0001",
+    "customer": "Gujarat Heavy Machinery Pvt Ltd",
+    "variant": "Semi-Automatic Envelope Machine ENV-100",
+    "length": "100 mm",
+    "labour": "Manoj Tiwari",
+    "machine": "CMM & Digital Height Gauge (QC-01)",
+    "department": "Quality Control",
+    "planned_qty": 20.0,
+    "actual_qty": 20.0,
+    "rework_qty": 1.0,
+    "scrap_qty": 0.0,
+    "good_qty": 19.0,
+    "completion_pct": 95.0,
+    "work_type": "REGULAR",
+    "standard_target": 20.0,
+    "performance_pct": 100.0,
+    "daily_earned_inr": 1140.0,
+    "rate_per_unit": 60.0,
+    "start_time": "09:30 AM",
+    "end_time": "05:00 PM",
+    "supervisor_remarks": "Dimensional CMM report logged; 1 part sent for re-deburring.",
+    "priority_change": "NORMAL",
+    "unit_id": "Unit_2",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802dc"
+    },
+    "date": "2026-10-14",
+    "order_no": "SO-2026-0002",
+    "customer": "Precision Automotive Comps Ltd",
+    "variant": "Fully-Automatic Envelope Maker ENV-200",
+    "length": "200 mm",
+    "labour": "Neha Shah",
+    "machine": "Electrical & Hi-Pot Test Rig (TEST-01)",
+    "department": "Quality Control",
+    "planned_qty": 1.0,
+    "actual_qty": 1.0,
+    "rework_qty": 0.0,
+    "scrap_qty": 0.0,
+    "good_qty": 1.0,
+    "completion_pct": 100.0,
+    "work_type": "REGULAR",
+    "standard_target": 1.0,
+    "performance_pct": 100.0,
+    "daily_earned_inr": 1200.0,
+    "rate_per_unit": 1200.0,
+    "start_time": "10:00 AM",
+    "end_time": "04:30 PM",
+    "supervisor_remarks": "Insulation resistance: >100M\u03a9; emergency stop circuit verified.",
+    "priority_change": "NORMAL",
+    "unit_id": "Unit_2",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1d8f7f87d01cb10802dd"
+    },
+    "date": "2026-10-12",
+    "order_no": "SO-2026-0004",
+    "customer": "Shree Ram Engineering Works",
+    "variant": "Rotary Die Cutter RDC-300",
+    "length": "250 mm",
+    "labour": "Gopal Bharwad",
+    "machine": "Cylindrical Grinder (CGR-01)",
+    "department": "Grinding",
+    "planned_qty": 4.0,
+    "actual_qty": 4.0,
+    "rework_qty": 0.0,
+    "scrap_qty": 0.0,
+    "good_qty": 4.0,
+    "completion_pct": 100.0,
+    "work_type": "REGULAR",
+    "standard_target": 4.0,
+    "performance_pct": 100.0,
+    "daily_earned_inr": 1400.0,
+    "rate_per_unit": 350.0,
+    "start_time": "08:30 AM",
+    "end_time": "05:30 PM",
+    "supervisor_remarks": "Hardened anvil roll ground to Ra 0.2 micron mirror polish.",
+    "priority_change": "NORMAL",
+    "unit_id": "Unit_1",
+    "recorded_by": "Shivakumar",
+    "created_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:13:35.661Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

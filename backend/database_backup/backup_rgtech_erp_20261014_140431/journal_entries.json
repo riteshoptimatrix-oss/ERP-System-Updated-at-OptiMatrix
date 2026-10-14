@@ -1,0 +1,58 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e38"
+    },
+    "entry_number": "JE-2026-001",
+    "narration": "Depreciation booking for September 2026",
+    "entry_date": "2026-09-30",
+    "lines": [
+      {
+        "account_code": "5300-OPERATING-EXPENSES",
+        "debit": 45000.0,
+        "credit": 0.0
+      },
+      {
+        "account_code": "1510-ACCUM-DEPRECIATION",
+        "debit": 0.0,
+        "credit": 45000.0
+      }
+    ],
+    "total_debit": 45000.0,
+    "total_credit": 45000.0,
+    "status": "POSTED",
+    "posted_by": "Manish Tiwari",
+    "created_at": {
+      "$date": "2026-09-30T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e39"
+    },
+    "entry_number": "JE-2026-002",
+    "narration": "Power & Electricity expense accrual",
+    "entry_date": "2026-09-30",
+    "lines": [
+      {
+        "account_code": "5200-POWER-ELECTRICITY-EXPENSE",
+        "debit": 84500.0,
+        "credit": 0.0
+      },
+      {
+        "account_code": "2000-ACCOUNTS-PAYABLE",
+        "debit": 0.0,
+        "credit": 84500.0
+      }
+    ],
+    "total_debit": 84500.0,
+    "total_credit": 84500.0,
+    "status": "POSTED",
+    "posted_by": "Manish Tiwari",
+    "created_at": {
+      "$date": "2026-09-30T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

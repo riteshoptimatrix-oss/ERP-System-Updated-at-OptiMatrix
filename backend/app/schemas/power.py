@@ -65,11 +65,16 @@ class PowerCutLogCreate(BaseModel):
     start_time: datetime = Field(..., description="Start timestamp of the outage")
     end_time: datetime = Field(..., description="End timestamp of the outage")
     outage_type: OutageType = Field(default=OutageType.GRID_FAILURE)
-    reason: str = Field(..., min_length=3, max_length=500, description="Reason for the power interruption")
+    reason: str = Field(..., min_length=2, max_length=500, description="Reason for the power interruption")
     backup_generator_used: bool = Field(default=False, description="Whether diesel generator was started")
     fuel_consumed_liters: Optional[float] = Field(None, ge=0.0, description="Diesel liters consumed during DG run")
     affected_departments: List[str] = Field(default_factory=list, description="Affected departments/lines")
     production_order_ids: List[str] = Field(default_factory=list, description="Affected running production orders")
+    restart_delay_minutes: Optional[float] = Field(None, ge=0.0, description="Machine Restart Delay (Min)")
+    downtime_duration_str: Optional[str] = Field(None, description="Formatted downtime duration e.g. 0:12:00")
+    power_cut_time: Optional[str] = Field(None, description="Power cut display time e.g. 10:53 AM")
+    power_restored_time: Optional[str] = Field(None, description="Power restored display time e.g. 11:05 AM")
+    incident_date: Optional[str] = Field(None, description="Date string e.g. 06-Aug-2026")
     remarks: Optional[str] = Field(None, max_length=500)
 
 
@@ -86,9 +91,36 @@ class PowerCutLogResponse(BaseModel):
     fuel_consumed_liters: Optional[float] = None
     affected_departments: List[str]
     production_order_ids: List[str]
+    restart_delay_minutes: Optional[float] = None
+    downtime_duration_str: Optional[str] = None
+    power_cut_time: Optional[str] = None
+    power_restored_time: Optional[str] = None
+    incident_date: Optional[str] = None
     remarks: Optional[str] = None
     created_at: datetime
     created_by: str
+
+
+# -------------------------------------------------------------
+# Daily Electricity & Scrap Tracker Models
+# -------------------------------------------------------------
+class DailyElectricityScrapTracker(BaseModel):
+    id: Optional[str] = None
+    date: str = Field(..., description="Date of entry e.g. 12-Aug-2026")
+    total_production_kg: float = Field(default=0.0, description="Total Production in kg")
+    product_type: str = Field(default="Tubing", description="Product Type: Braider, Tubing, Braided, etc.")
+    startup_scrap_kg: float = Field(default=0.0, description="Startup Scrap (kg)")
+    cutting_scrap_kg: float = Field(default=0.0, description="Cutting Scrap (kg)")
+    total_scrap_kg: float = Field(default=0.0, description="Total Scrap (kg)")
+    scrap_percent_str: str = Field(default="0.00%", description="Scrap % of Production")
+    electricity_off_count: int = Field(default=0, description="Electricity Off No. of Times")
+    total_off_time_min: float = Field(default=0.0, description="Total Off Time (min)")
+    machine_working_hours: str = Field(default="8.0", description="Machine Working Hours")
+    shift_duration_hr: float = Field(default=8.0, description="Shift Duration (Hr)")
+    main_reason: Optional[str] = Field(None, description="Main Reason e.g. power failure")
+    remarks: Optional[str] = Field(None, description="Remarks")
+    unit_id: str = Field(default="Unit_1")
+    created_at: Optional[datetime] = None
 
 
 # -------------------------------------------------------------

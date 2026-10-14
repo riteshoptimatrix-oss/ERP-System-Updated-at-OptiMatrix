@@ -182,6 +182,11 @@ class PowerRepository:
             "fuel_consumed_liters": outage_data.fuel_consumed_liters,
             "affected_departments": outage_data.affected_departments,
             "production_order_ids": outage_data.production_order_ids,
+            "restart_delay_minutes": outage_data.restart_delay_minutes,
+            "downtime_duration_str": outage_data.downtime_duration_str,
+            "power_cut_time": outage_data.power_cut_time,
+            "power_restored_time": outage_data.power_restored_time,
+            "incident_date": outage_data.incident_date,
             "remarks": outage_data.remarks,
             "created_at": now,
             "created_by": logged_by,
@@ -237,10 +242,6 @@ class PowerRepository:
                     "_id": None,
                     "total_count": {"$sum": 1},
                     "total_minutes": {"$sum": "$duration_minutes"},
-                    "dg_count": {
-                        "$sum": {"$cond": [{"$eq": ["$backup_generator_used", True]}, 1, 0]}
-                    },
-                    "total_fuel": {"$sum": "$fuel_consumed_liters"},
                 }
             }
         ]
@@ -283,3 +284,57 @@ class PowerRepository:
             "total_dg_consumption_kwh": round(consumption_by_type.get(MeterType.DIESEL_GENERATOR.value, 0.0), 2),
             "total_solar_consumption_kwh": round(consumption_by_type.get(MeterType.SOLAR.value, 0.0), 2),
         }
+
+    # -------------------------------------------------------------
+    # 4. Daily Electricity & Scrap Tracker
+    # -------------------------------------------------------------
+    async def create_electricity_scrap_tracker(self, data: Dict[str, Any]) -> Dict[str, Any]:
+        """Record or update a daily electricity and scrap row."""
+        doc = {
+            "date": data.get("date"),
+            "total_production_kg": float(data.get("total_production_kg", 0.0)),
+            "product_type": data.get("product_type", "Tubing"),
+            "startup_scrap_kg": float(data.get("startup_scrap_kg", 0.0)),
+            "cutting_scrap_kg": float(data.get("cutting_scrap_kg", 0.0)),
+            "total_scrap_kg": float(data.get("total_scrap_kg", 0.0)),
+            "scrap_percent_str": data.get("scrap_percent_str", "0.00%"),
+            "electricity_off_count": int(data.get("electricity_off_count", 0)),
+            "total_off_time_min": float(data.get("total_off_time_min", 0.0)),
+            "machine_working_hours": str(data.get("machine_working_hours", "8.0")),
+            "shift_duration_hr": float(data.get("shift_duration_hr", 8.0)),
+            "main_reason": data.get("main_reason"),
+            "remarks": data.get("remarks"),
+            "unit_id": data.get("unit_id", "Unit_1"),
+            "created_at": datetime.now(timezone.utc),
+        }
+        res = await self.db["daily_electricity_scrap"].insert_one(doc)
+        doc["_id"] = res.inserted_id
+        return doc
+
+    async def list_electricity_scrap_tracker(
+        self,
+        unit_id: Optional[str] = None,
+        product_type: Optional[str] = None,
+        search: Optional[str] = None,
+        page: int = 1,
+        page_size: int = 100,
+    ) -> Tuple[List[Dict[str, Any]], int]:
+        """Paginated list of daily electricity & scrap tracker entries."""
+        query: Dict[str, Any] = {}
+        if unit_id and unit_id not in ["ALL", "BOTH"]:
+            query["unit_id"] = unit_id
+        if product_type and product_type != "ALL":
+            query["product_type"] = product_type
+        if search:
+            query["$or"] = [
+                {"date": {"$regex": search, "$options": "i"}},
+                {"product_type": {"$regex": search, "$options": "i"}},
+                {"main_reason": {"$regex": search, "$options": "i"}},
+                {"remarks": {"$regex": search, "$options": "i"}},
+            ]
+        total = await self.db["daily_electricity_scrap"].count_documents(query)
+        skip = (page - 1) * page_size
+        cursor = self.db["daily_electricity_scrap"].find(query).sort("_id", 1).skip(skip).limit(page_size)
+        items = await cursor.to_list(length=page_size)
+        return items, total
+

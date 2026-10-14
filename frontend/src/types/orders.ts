@@ -144,3 +144,56 @@ export interface StockAvailabilityResult {
   status: string;
   message: string;
 }
+
+export interface OrderPlanningItem {
+  id?: string;
+  order_id?: string;
+  order_number: string;
+  order_date: string;
+  customer: string;
+  customer_code?: string;
+  brand: string;
+  variant: string;
+  length: string;
+  order_qty: number;
+  required_dispatch_date?: string;
+  priority: 'URGENT' | 'HIGH' | 'MEDIUM' | 'LOW' | string;
+  order_status: string;
+  planned_qty: number;
+  produced_qty: number;
+  balance_qty: number;
+  dispatch_qty: number;
+  dispatch_balance: number;
+  final_approval: 'APPROVED' | 'PENDING' | 'ON_HOLD' | string;
+  remarks?: string;
+  unit_id?: string;
+  updated_at?: string;
+  updated_by?: string;
+}
+
+export interface OrderPlanningUpdate {
+  planned_qty?: number;
+  produced_qty?: number;
+  dispatch_qty?: number;
+  required_dispatch_date?: string;
+  priority?: string;
+  order_status?: string;
+  final_approval?: string;
+  remarks?: string;
+  brand?: string;
+  variant?: string;
+  length?: string;
+}
+
+export interface OrderPlanningSummary {
+  total_planning_lines: number;
+  total_order_qty: number;
+  total_planned_qty: number;
+  total_produced_qty: number;
+  total_balance_qty: number;
+  total_dispatch_qty: number;
+  total_dispatch_balance: number;
+  approved_lines: number;
+  pending_lines: number;
+}
+

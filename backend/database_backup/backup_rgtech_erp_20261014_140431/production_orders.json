@@ -1,0 +1,388 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1ae"
+    },
+    "order_number": "PRD-2026-0001",
+    "product_id": "6acf133b35a67d012664f0da",
+    "product_code": "FP-ENV-100",
+    "product_name": "Semi-Automatic Envelope Machine ENV-100",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f186",
+    "bom_number": "BOM-ENV100-R3",
+    "bom_revision_no": "R3",
+    "unit_id": "Unit_1",
+    "target_warehouse_id": "6acf133b35a67d012664f0b3",
+    "target_warehouse_code": "WH-U1-FG01",
+    "planned_quantity": 5.0,
+    "produced_quantity": 5.0,
+    "rejected_quantity": 0.0,
+    "status": "COMPLETED",
+    "progress_percent": 100,
+    "scheduled_start_date": {
+      "$date": "2026-08-30T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "actual_completion_date": {
+      "$date": "2026-09-30T05:51:39.563Z"
+    },
+    "assigned_supervisor_id": "6acf133b35a67d012664f125",
+    "assigned_supervisor_name": "Amit Patel",
+    "notes": "Project completed with 100% QA dimensional pass. Export crated.",
+    "created_at": {
+      "$date": "2026-08-30T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1b1"
+    },
+    "order_number": "PRD-2026-0002",
+    "product_id": "6acf133b35a67d012664f0db",
+    "product_code": "FP-ENV-200",
+    "product_name": "Fully Automatic Envelope Machine ENV-200",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f187",
+    "bom_number": "BOM-ENV200-R2",
+    "bom_revision_no": "R2",
+    "unit_id": "Unit_1",
+    "target_warehouse_id": "6acf133b35a67d012664f0b3",
+    "target_warehouse_code": "WH-U1-FG01",
+    "planned_quantity": 3.0,
+    "produced_quantity": 2.0,
+    "rejected_quantity": 0.0,
+    "status": "IN_PROGRESS",
+    "progress_percent": 65,
+    "scheduled_start_date": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-10-24T05:51:39.563Z"
+    },
+    "actual_completion_date": null,
+    "assigned_supervisor_id": "6acf133b35a67d012664f122",
+    "assigned_supervisor_name": "Rahul Sharma",
+    "notes": "CNC boring and shaft milling completed. Gumming station integration ongoing.",
+    "created_at": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1b4"
+    },
+    "order_number": "PRD-2026-0003",
+    "product_id": "6acf133b35a67d012664f0dc",
+    "product_code": "FP-PKG-300",
+    "product_name": "Automated Carton Packing Machine PKG-300",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f188",
+    "bom_number": "BOM-PKG300-R1",
+    "bom_revision_no": "R1",
+    "unit_id": "Unit_2",
+    "target_warehouse_id": "6acf133b35a67d012664f0b8",
+    "target_warehouse_code": "WH-U2-FG01",
+    "planned_quantity": 2.0,
+    "produced_quantity": 0.0,
+    "rejected_quantity": 0.0,
+    "status": "IN_PROGRESS",
+    "progress_percent": 40,
+    "scheduled_start_date": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-11-01T05:51:39.563Z"
+    },
+    "actual_completion_date": null,
+    "assigned_supervisor_id": "6acf133b35a67d012664f12b",
+    "assigned_supervisor_name": "Suresh Suthar",
+    "notes": "Unit 2 Assembly bay: Sub-assemblies wired. Awaiting stepper drive testing.",
+    "created_at": {
+      "$date": "2026-10-02T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1b5"
+    },
+    "order_number": "PRD-2026-0004",
+    "product_id": "6acf133b35a67d012664f0dd",
+    "product_code": "FP-ENV-MINI",
+    "product_name": "Compact Desktop Envelope Machine ENV-MINI",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f189",
+    "bom_number": "BOM-ENVMINI-R1",
+    "bom_revision_no": "R1",
+    "unit_id": "Unit_1",
+    "target_warehouse_id": "6acf133b35a67d012664f0b3",
+    "target_warehouse_code": "WH-U1-FG01",
+    "planned_quantity": 10.0,
+    "produced_quantity": 10.0,
+    "rejected_quantity": 1.0,
+    "status": "COMPLETED",
+    "progress_percent": 100,
+    "scheduled_start_date": {
+      "$date": "2026-09-09T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "actual_completion_date": {
+      "$date": "2026-10-05T05:51:39.563Z"
+    },
+    "assigned_supervisor_id": "6acf133b35a67d012664f128",
+    "assigned_supervisor_name": "Jagdish Panchal",
+    "notes": "Desktop envelope run completed. 1 frame rejected for surface porosity.",
+    "created_at": {
+      "$date": "2026-09-09T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1b8"
+    },
+    "order_number": "PRD-2026-0005",
+    "product_id": "6acf133b35a67d012664f0da",
+    "product_code": "FP-ENV-100",
+    "product_name": "Semi-Automatic Envelope Machine ENV-100",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f186",
+    "bom_number": "BOM-ENV100-R3",
+    "bom_revision_no": "R3",
+    "unit_id": "Unit_1",
+    "target_warehouse_id": "6acf133b35a67d012664f0b3",
+    "target_warehouse_code": "WH-U1-FG01",
+    "planned_quantity": 4.0,
+    "produced_quantity": 0.0,
+    "rejected_quantity": 0.0,
+    "status": "RELEASED",
+    "progress_percent": 15,
+    "scheduled_start_date": {
+      "$date": "2026-10-10T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-11-05T05:51:39.563Z"
+    },
+    "actual_completion_date": null,
+    "assigned_supervisor_id": "6acf133b35a67d012664f125",
+    "assigned_supervisor_name": "Amit Patel",
+    "notes": "Raw material requisition issued to Store A. Laser plate cutting in progress.",
+    "created_at": {
+      "$date": "2026-10-10T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1b9"
+    },
+    "order_number": "PRD-2026-0006",
+    "product_id": "6acf133b35a67d012664f0dc",
+    "product_code": "FP-PKG-300",
+    "product_name": "Automated Carton Packing Machine PKG-300",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f188",
+    "bom_number": "BOM-PKG300-R1",
+    "bom_revision_no": "R1",
+    "unit_id": "Unit_2",
+    "target_warehouse_id": "6acf133b35a67d012664f0b8",
+    "target_warehouse_code": "WH-U2-FG01",
+    "planned_quantity": 2.0,
+    "produced_quantity": 0.0,
+    "rejected_quantity": 0.0,
+    "status": "DRAFT",
+    "progress_percent": 0,
+    "scheduled_start_date": {
+      "$date": "2026-10-19T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-11-18T05:51:39.563Z"
+    },
+    "actual_completion_date": null,
+    "assigned_supervisor_id": "6acf133b35a67d012664f12b",
+    "assigned_supervisor_name": "Suresh Suthar",
+    "notes": "Edge case: Unreleased planned project awaiting motor allocation.",
+    "created_at": {
+      "$date": "2026-10-19T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1ba"
+    },
+    "order_number": "PRD-2026-0007",
+    "product_id": "6acf133b35a67d012664f0db",
+    "product_code": "FP-ENV-200",
+    "product_name": "Fully Automatic Envelope Machine ENV-200",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f187",
+    "bom_number": "BOM-ENV200-R2",
+    "bom_revision_no": "R2",
+    "unit_id": "Unit_1",
+    "target_warehouse_id": "6acf133b35a67d012664f0b3",
+    "target_warehouse_code": "WH-U1-FG01",
+    "planned_quantity": 6.0,
+    "produced_quantity": 4.0,
+    "rejected_quantity": 0.0,
+    "status": "IN_PROGRESS",
+    "progress_percent": 80,
+    "scheduled_start_date": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-10-19T05:51:39.563Z"
+    },
+    "actual_completion_date": null,
+    "assigned_supervisor_id": "6acf133b35a67d012664f122",
+    "assigned_supervisor_name": "Rahul Sharma",
+    "notes": "Critical client order: 4 units already passed QC inspection.",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1bd"
+    },
+    "order_number": "PRD-2026-0008",
+    "product_id": "6acf133b35a67d012664f0dc",
+    "product_code": "FP-PKG-300",
+    "product_name": "Automated Carton Packing Machine PKG-300",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f188",
+    "bom_number": "BOM-PKG300-R1",
+    "bom_revision_no": "R1",
+    "unit_id": "Unit_2",
+    "target_warehouse_id": "6acf133b35a67d012664f0b8",
+    "target_warehouse_code": "WH-U2-FG01",
+    "planned_quantity": 1.0,
+    "produced_quantity": 0.0,
+    "rejected_quantity": 0.0,
+    "status": "IN_PROGRESS",
+    "progress_percent": 50,
+    "scheduled_start_date": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-10-26T05:51:39.563Z"
+    },
+    "actual_completion_date": null,
+    "assigned_supervisor_id": "6acf133b35a67d012664f12b",
+    "assigned_supervisor_name": "Suresh Suthar",
+    "notes": "Custom automated feed conveyor sub-assembly integration.",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1be"
+    },
+    "order_number": "PRD-2026-0009",
+    "product_id": "6acf133b35a67d012664f0dd",
+    "product_code": "FP-ENV-MINI",
+    "product_name": "Compact Desktop Envelope Machine ENV-MINI",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f189",
+    "bom_number": "BOM-ENVMINI-R1",
+    "bom_revision_no": "R1",
+    "unit_id": "Unit_1",
+    "target_warehouse_id": "6acf133b35a67d012664f0b3",
+    "target_warehouse_code": "WH-U1-FG01",
+    "planned_quantity": 8.0,
+    "produced_quantity": 8.0,
+    "rejected_quantity": 0.0,
+    "status": "COMPLETED",
+    "progress_percent": 100,
+    "scheduled_start_date": {
+      "$date": "2026-08-25T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-09-22T05:51:39.563Z"
+    },
+    "actual_completion_date": {
+      "$date": "2026-09-24T05:51:39.563Z"
+    },
+    "assigned_supervisor_id": "6acf133b35a67d012664f128",
+    "assigned_supervisor_name": "Jagdish Panchal",
+    "notes": "Batch completed ahead of schedule with zero defect rejections.",
+    "created_at": {
+      "$date": "2026-08-25T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133c35a67d012664f1c1"
+    },
+    "order_number": "PRD-2026-0010",
+    "product_id": "6acf133b35a67d012664f0db",
+    "product_code": "FP-ENV-200",
+    "product_name": "Fully Automatic Envelope Machine ENV-200",
+    "product_uom": "PCS",
+    "bom_id": "6acf133b35a67d012664f187",
+    "bom_number": "BOM-ENV200-R2",
+    "bom_revision_no": "R2",
+    "unit_id": "Unit_1",
+    "target_warehouse_id": "6acf133b35a67d012664f0b3",
+    "target_warehouse_code": "WH-U1-FG01",
+    "planned_quantity": 2.0,
+    "produced_quantity": 0.0,
+    "rejected_quantity": 0.0,
+    "status": "CANCELLED",
+    "progress_percent": 0,
+    "scheduled_start_date": {
+      "$date": "2026-08-15T05:51:39.563Z"
+    },
+    "target_completion_date": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "actual_completion_date": null,
+    "assigned_supervisor_id": "6acf133b35a67d012664f122",
+    "assigned_supervisor_name": "Rahul Sharma",
+    "notes": "Edge case: Client requested revision to servo motor spec; order cancelled and rebooked.",
+    "created_at": {
+      "$date": "2026-08-15T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

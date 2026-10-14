@@ -1,0 +1,2284 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1c"
+    },
+    "incident_number": "OUTAGE-2026-0001",
+    "unit_id": "Unit_1",
+    "incident_date": "2026-09-22",
+    "start_time": {
+      "$date": "2026-09-22T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-09-22T06:36:39.563Z"
+    },
+    "duration_minutes": 45.0,
+    "outage_duration_minutes": 45,
+    "outage_type": "GRID_FAILURE",
+    "reason": "GEB 66kV substation feeder isolator flashover",
+    "description": "GEB 66kV substation feeder isolator flashover",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 25.0,
+    "dg_diesel_consumed_litres": 25.0,
+    "production_hours_lost": 0.75,
+    "affected_departments": [
+      "Machining"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0001"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1d"
+    },
+    "incident_number": "OUTAGE-2026-0002",
+    "unit_id": "Unit_2",
+    "incident_date": "2026-09-29",
+    "start_time": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-09-29T06:21:39.563Z"
+    },
+    "duration_minutes": 30.0,
+    "outage_duration_minutes": 30,
+    "outage_type": "SCHEDULED_MAINTENANCE",
+    "reason": "Transformer tap changer maintenance",
+    "description": "Transformer tap changer maintenance",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 15.0,
+    "dg_diesel_consumed_litres": 15.0,
+    "production_hours_lost": 0.5,
+    "affected_departments": [
+      "Assembly & QC"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0003"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1e"
+    },
+    "incident_number": "OUTAGE-2026-0003",
+    "unit_id": "Unit_1",
+    "incident_date": "2026-09-07",
+    "start_time": {
+      "$date": "2026-09-07T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-09-07T07:06:39.563Z"
+    },
+    "duration_minutes": 75.0,
+    "outage_duration_minutes": 75,
+    "outage_type": "GRID_FAILURE",
+    "reason": "Heavy thunderstorm lightning strike on GIDC overhead lines",
+    "description": "Heavy thunderstorm lightning strike on GIDC overhead lines",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 40.0,
+    "dg_diesel_consumed_litres": 40.0,
+    "production_hours_lost": 1.25,
+    "affected_departments": [
+      "Machining"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0001"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-07T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1f"
+    },
+    "incident_number": "OUTAGE-2026-0004",
+    "unit_id": "Unit_2",
+    "incident_date": "2026-10-04",
+    "start_time": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-10-04T06:11:39.563Z"
+    },
+    "duration_minutes": 20.0,
+    "outage_duration_minutes": 20,
+    "outage_type": "LOCAL_TRIP",
+    "reason": "Quarterly diesel generator load test and switchover",
+    "description": "Quarterly diesel generator load test and switchover",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 10.0,
+    "dg_diesel_consumed_litres": 10.0,
+    "production_hours_lost": 0.33,
+    "affected_departments": [
+      "Assembly & QC"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0003"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e20"
+    },
+    "incident_number": "OUTAGE-2026-0005",
+    "unit_id": "Unit_1",
+    "incident_date": "2026-09-14",
+    "start_time": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-09-14T06:51:39.563Z"
+    },
+    "duration_minutes": 60.0,
+    "outage_duration_minutes": 60,
+    "outage_type": "GRID_FAILURE",
+    "reason": "Main HT breaker trip due to industrial feeder overload",
+    "description": "Main HT breaker trip due to industrial feeder overload",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 32.0,
+    "dg_diesel_consumed_litres": 32.0,
+    "production_hours_lost": 1.0,
+    "affected_departments": [
+      "Machining"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0001"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbee"
+    },
+    "incident_number": "OUTAGE-2026-PC0001",
+    "sno": "1",
+    "unit_id": "Unit_1",
+    "incident_date": "06-Aug-2026",
+    "power_cut_time": "10:53 AM",
+    "power_restored_time": "11:05 AM",
+    "start_time": {
+      "$date": "2026-08-06T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-06T00:00:00Z"
+    },
+    "duration_minutes": 12.0,
+    "downtime_duration_str": "0:12:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.896Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbef"
+    },
+    "incident_number": "OUTAGE-2026-PC0002",
+    "sno": "2",
+    "unit_id": "Unit_1",
+    "incident_date": "06-Aug-2026",
+    "power_cut_time": "15:40",
+    "power_restored_time": "15:50",
+    "start_time": {
+      "$date": "2026-08-06T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-06T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.896Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf0"
+    },
+    "incident_number": "OUTAGE-2026-PC0003",
+    "sno": "3",
+    "unit_id": "Unit_1",
+    "incident_date": "06-Aug-2026",
+    "power_cut_time": "5:20 PM",
+    "power_restored_time": "6:22 PM",
+    "start_time": {
+      "$date": "2026-08-06T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-06T00:00:00Z"
+    },
+    "duration_minutes": 62.0,
+    "downtime_duration_str": "1:02:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.896Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf1"
+    },
+    "incident_number": "OUTAGE-2026-PC0004",
+    "sno": "4",
+    "unit_id": "Unit_1",
+    "incident_date": "07-Aug-2026",
+    "power_cut_time": "10:20",
+    "power_restored_time": "10:40",
+    "start_time": {
+      "$date": "2026-08-07T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-07T00:00:00Z"
+    },
+    "duration_minutes": 20.0,
+    "downtime_duration_str": "0:20:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.896Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf2"
+    },
+    "incident_number": "OUTAGE-2026-PC0005",
+    "sno": "5",
+    "unit_id": "Unit_1",
+    "incident_date": "07-Aug-2026",
+    "power_cut_time": "4:00 PM",
+    "power_restored_time": "5:00 PM",
+    "start_time": {
+      "$date": "2026-08-07T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-07T00:00:00Z"
+    },
+    "duration_minutes": 60.0,
+    "downtime_duration_str": "1:00:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.896Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf3"
+    },
+    "incident_number": "OUTAGE-2026-PC0006",
+    "sno": "6",
+    "unit_id": "Unit_1",
+    "incident_date": "10-08-26",
+    "power_cut_time": "2:40 PM",
+    "power_restored_time": "2:50 PM",
+    "start_time": {
+      "$date": "2026-08-10T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-10T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf4"
+    },
+    "incident_number": "OUTAGE-2026-PC0007",
+    "sno": "7",
+    "unit_id": "Unit_1",
+    "incident_date": "10-08-26",
+    "power_cut_time": "3:55 PM",
+    "power_restored_time": "4:05 PM",
+    "start_time": {
+      "$date": "2026-08-10T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-10T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf5"
+    },
+    "incident_number": "OUTAGE-2026-PC0008",
+    "sno": "8",
+    "unit_id": "Unit_1",
+    "incident_date": "10-08-26",
+    "power_cut_time": "4:30 PM",
+    "power_restored_time": "4:40 PM",
+    "start_time": {
+      "$date": "2026-08-10T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-10T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf6"
+    },
+    "incident_number": "OUTAGE-2026-PC0009",
+    "sno": "9",
+    "unit_id": "Unit_1",
+    "incident_date": "10-08-26",
+    "power_cut_time": "10:45 AM",
+    "power_restored_time": "10:55 AM",
+    "start_time": {
+      "$date": "2026-08-10T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-10T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf7"
+    },
+    "incident_number": "OUTAGE-2026-PC0010",
+    "sno": "10",
+    "unit_id": "Unit_1",
+    "incident_date": "13-08-26",
+    "power_cut_time": "14:50",
+    "power_restored_time": "4:00 PM",
+    "start_time": {
+      "$date": "2026-08-13T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-13T00:00:00Z"
+    },
+    "duration_minutes": 70.0,
+    "downtime_duration_str": "1:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "fuse failure",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf8"
+    },
+    "incident_number": "OUTAGE-2026-PC0011",
+    "sno": "11",
+    "unit_id": "Unit_1",
+    "incident_date": "14-08-26",
+    "power_cut_time": "12:10 PM",
+    "power_restored_time": "1:05 PM",
+    "start_time": {
+      "$date": "2026-08-14T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-14T00:00:00Z"
+    },
+    "duration_minutes": 55.0,
+    "downtime_duration_str": "0:55:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbf9"
+    },
+    "incident_number": "OUTAGE-2026-PC0012",
+    "sno": "12",
+    "unit_id": "Unit_1",
+    "incident_date": "14-08-26",
+    "power_cut_time": "3:55 PM",
+    "power_restored_time": "4:20 PM",
+    "start_time": {
+      "$date": "2026-08-14T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-14T00:00:00Z"
+    },
+    "duration_minutes": 25.0,
+    "downtime_duration_str": "0:25:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbfa"
+    },
+    "incident_number": "OUTAGE-2026-PC0013",
+    "sno": "13",
+    "unit_id": "Unit_1",
+    "incident_date": "17-08-26",
+    "power_cut_time": "16:30",
+    "power_restored_time": "4:35 PM",
+    "start_time": {
+      "$date": "2026-08-17T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-17T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbfb"
+    },
+    "incident_number": "OUTAGE-2026-PC0014",
+    "sno": "14",
+    "unit_id": "Unit_1",
+    "incident_date": "20-08-26",
+    "power_cut_time": "11:00 AM",
+    "power_restored_time": "11:05 AM",
+    "start_time": {
+      "$date": "2026-08-20T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-20T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbfc"
+    },
+    "incident_number": "OUTAGE-2026-PC0015",
+    "sno": "14",
+    "unit_id": "Unit_1",
+    "incident_date": "20-08-26",
+    "power_cut_time": "4:05 PM",
+    "power_restored_time": "4:10 PM",
+    "start_time": {
+      "$date": "2026-08-20T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-20T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbfd"
+    },
+    "incident_number": "OUTAGE-2026-PC0016",
+    "sno": "15",
+    "unit_id": "Unit_1",
+    "incident_date": "25-08-26",
+    "power_cut_time": "12:51",
+    "power_restored_time": "12:57 PM",
+    "start_time": {
+      "$date": "2026-08-25T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-25T00:00:00Z"
+    },
+    "duration_minutes": 6.0,
+    "downtime_duration_str": "0:06:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.897Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbfe"
+    },
+    "incident_number": "OUTAGE-2026-PC0017",
+    "sno": "16",
+    "unit_id": "Unit_1",
+    "incident_date": "25-08-26",
+    "power_cut_time": "2:55 PM",
+    "power_restored_time": "4:00 PM",
+    "start_time": {
+      "$date": "2026-08-25T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-25T00:00:00Z"
+    },
+    "duration_minutes": 65.0,
+    "downtime_duration_str": "1:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbff"
+    },
+    "incident_number": "OUTAGE-2026-PC0018",
+    "sno": "17",
+    "unit_id": "Unit_1",
+    "incident_date": "26-08-26",
+    "power_cut_time": "12:00 PM",
+    "power_restored_time": "12:06 PM",
+    "start_time": {
+      "$date": "2026-08-26T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-26T00:00:00Z"
+    },
+    "duration_minutes": 6.0,
+    "downtime_duration_str": "0:06:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc00"
+    },
+    "incident_number": "OUTAGE-2026-PC0019",
+    "sno": "18",
+    "unit_id": "Unit_1",
+    "incident_date": "27-08-26",
+    "power_cut_time": "10:30 AM",
+    "power_restored_time": "11:15 AM",
+    "start_time": {
+      "$date": "2026-08-27T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-27T00:00:00Z"
+    },
+    "duration_minutes": 45.0,
+    "downtime_duration_str": "0:45:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc01"
+    },
+    "incident_number": "OUTAGE-2026-PC0020",
+    "sno": "19",
+    "unit_id": "Unit_1",
+    "incident_date": "27-08-26",
+    "power_cut_time": "11:30 AM",
+    "power_restored_time": "11:45 AM",
+    "start_time": {
+      "$date": "2026-08-27T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-27T00:00:00Z"
+    },
+    "duration_minutes": 15.0,
+    "downtime_duration_str": "0:15:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc02"
+    },
+    "incident_number": "OUTAGE-2026-PC0021",
+    "sno": "20",
+    "unit_id": "Unit_1",
+    "incident_date": "28-08-26",
+    "power_cut_time": "9:48 AM",
+    "power_restored_time": "09:52",
+    "start_time": {
+      "$date": "2026-08-28T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-28T00:00:00Z"
+    },
+    "duration_minutes": 4.0,
+    "downtime_duration_str": "0:04:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc03"
+    },
+    "incident_number": "OUTAGE-2026-PC0022",
+    "sno": "21",
+    "unit_id": "Unit_1",
+    "incident_date": "28-08-26",
+    "power_cut_time": "4:30 PM",
+    "power_restored_time": "6:30 PM",
+    "start_time": {
+      "$date": "2026-08-28T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-28T00:00:00Z"
+    },
+    "duration_minutes": 120.0,
+    "downtime_duration_str": "2:00:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc04"
+    },
+    "incident_number": "OUTAGE-2026-PC0023",
+    "sno": "22",
+    "unit_id": "Unit_1",
+    "incident_date": "29-08-26",
+    "power_cut_time": "11:00 AM",
+    "power_restored_time": "1:05 PM",
+    "start_time": {
+      "$date": "2026-08-29T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-29T00:00:00Z"
+    },
+    "duration_minutes": 125.0,
+    "downtime_duration_str": "2:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc05"
+    },
+    "incident_number": "OUTAGE-2026-PC0024",
+    "sno": "23",
+    "unit_id": "Unit_1",
+    "incident_date": "29-08-26",
+    "power_cut_time": "2:07 PM",
+    "power_restored_time": "2:25 PM",
+    "start_time": {
+      "$date": "2026-08-29T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-29T00:00:00Z"
+    },
+    "duration_minutes": 18.0,
+    "downtime_duration_str": "0:18:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc06"
+    },
+    "incident_number": "OUTAGE-2026-PC0025",
+    "sno": "24",
+    "unit_id": "Unit_1",
+    "incident_date": "31-08-26",
+    "power_cut_time": "11:14 AM",
+    "power_restored_time": "11:31 AM",
+    "start_time": {
+      "$date": "2026-08-31T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-31T00:00:00Z"
+    },
+    "duration_minutes": 17.0,
+    "downtime_duration_str": "0:17:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc07"
+    },
+    "incident_number": "OUTAGE-2026-PC0026",
+    "sno": "25",
+    "unit_id": "Unit_1",
+    "incident_date": "31-08-26",
+    "power_cut_time": "3:21 PM",
+    "power_restored_time": "3:33 PM",
+    "start_time": {
+      "$date": "2026-08-31T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-31T00:00:00Z"
+    },
+    "duration_minutes": 12.0,
+    "downtime_duration_str": "0:12:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc08"
+    },
+    "incident_number": "OUTAGE-2026-PC0027",
+    "sno": "26",
+    "unit_id": "Unit_1",
+    "incident_date": "31-08-26",
+    "power_cut_time": "3:45 PM",
+    "power_restored_time": "4:06 PM",
+    "start_time": {
+      "$date": "2026-08-31T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-08-31T00:00:00Z"
+    },
+    "duration_minutes": 21.0,
+    "downtime_duration_str": "0:21:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc09"
+    },
+    "incident_number": "OUTAGE-2026-PC0028",
+    "sno": "27",
+    "unit_id": "Unit_1",
+    "incident_date": "01-09-26",
+    "power_cut_time": "1:10 PM",
+    "power_restored_time": "1:25 PM",
+    "start_time": {
+      "$date": "2026-09-01T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-01T00:00:00Z"
+    },
+    "duration_minutes": 15.0,
+    "downtime_duration_str": "0:15:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc0a"
+    },
+    "incident_number": "OUTAGE-2026-PC0029",
+    "sno": "28",
+    "unit_id": "Unit_1",
+    "incident_date": "01-09-26",
+    "power_cut_time": "4:12 PM",
+    "power_restored_time": "4:40 PM",
+    "start_time": {
+      "$date": "2026-09-01T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-01T00:00:00Z"
+    },
+    "duration_minutes": 28.0,
+    "downtime_duration_str": "0:28:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc0b"
+    },
+    "incident_number": "OUTAGE-2026-PC0030",
+    "sno": "29",
+    "unit_id": "Unit_1",
+    "incident_date": "02-09-26",
+    "power_cut_time": "10:48 AM",
+    "power_restored_time": "10:59 AM",
+    "start_time": {
+      "$date": "2026-09-02T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-02T00:00:00Z"
+    },
+    "duration_minutes": 11.0,
+    "downtime_duration_str": "0:11:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc0c"
+    },
+    "incident_number": "OUTAGE-2026-PC0031",
+    "sno": "30",
+    "unit_id": "Unit_1",
+    "incident_date": "03-09-26",
+    "power_cut_time": "11:25 AM",
+    "power_restored_time": "11:27 AM",
+    "start_time": {
+      "$date": "2026-09-03T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-03T00:00:00Z"
+    },
+    "duration_minutes": 2.0,
+    "downtime_duration_str": "0:02:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc0d"
+    },
+    "incident_number": "OUTAGE-2026-PC0032",
+    "sno": "31",
+    "unit_id": "Unit_1",
+    "incident_date": "03-09-26",
+    "power_cut_time": "12:09 PM",
+    "power_restored_time": "12:21 PM",
+    "start_time": {
+      "$date": "2026-09-03T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-03T00:00:00Z"
+    },
+    "duration_minutes": 12.0,
+    "downtime_duration_str": "0:12:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc0e"
+    },
+    "incident_number": "OUTAGE-2026-PC0033",
+    "sno": "32",
+    "unit_id": "Unit_1",
+    "incident_date": "04-09-26",
+    "power_cut_time": "11:00 AM",
+    "power_restored_time": "11:15 AM",
+    "start_time": {
+      "$date": "2026-09-04T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-04T00:00:00Z"
+    },
+    "duration_minutes": 15.0,
+    "downtime_duration_str": "0:15:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc0f"
+    },
+    "incident_number": "OUTAGE-2026-PC0034",
+    "sno": "33",
+    "unit_id": "Unit_1",
+    "incident_date": "04-09-26",
+    "power_cut_time": "12:37 PM",
+    "power_restored_time": "12:42 PM",
+    "start_time": {
+      "$date": "2026-09-04T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-04T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc10"
+    },
+    "incident_number": "OUTAGE-2026-PC0035",
+    "sno": "34",
+    "unit_id": "Unit_1",
+    "incident_date": "04-09-26",
+    "power_cut_time": "6:57 PM",
+    "power_restored_time": "7:10 PM",
+    "start_time": {
+      "$date": "2026-09-04T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-04T00:00:00Z"
+    },
+    "duration_minutes": 13.0,
+    "downtime_duration_str": "0:13:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.898Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc11"
+    },
+    "incident_number": "OUTAGE-2026-PC0036",
+    "sno": "35",
+    "unit_id": "Unit_1",
+    "incident_date": "09-09-26",
+    "power_cut_time": "1:10 PM",
+    "power_restored_time": "1:30 PM",
+    "start_time": {
+      "$date": "2026-09-09T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-09T00:00:00Z"
+    },
+    "duration_minutes": 20.0,
+    "downtime_duration_str": "0:20:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc12"
+    },
+    "incident_number": "OUTAGE-2026-PC0037",
+    "sno": "36",
+    "unit_id": "Unit_1",
+    "incident_date": "09-09-26",
+    "power_cut_time": "6:21 PM",
+    "power_restored_time": "6:30 PM",
+    "start_time": {
+      "$date": "2026-09-09T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-09T00:00:00Z"
+    },
+    "duration_minutes": 9.0,
+    "downtime_duration_str": "0:09:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc13"
+    },
+    "incident_number": "OUTAGE-2026-PC0038",
+    "sno": "37",
+    "unit_id": "Unit_1",
+    "incident_date": "12-09-26",
+    "power_cut_time": "9:45 AM",
+    "power_restored_time": "9:55 AM",
+    "start_time": {
+      "$date": "2026-09-12T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-12T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc14"
+    },
+    "incident_number": "OUTAGE-2026-PC0039",
+    "sno": "38",
+    "unit_id": "Unit_1",
+    "incident_date": "14-09-26",
+    "power_cut_time": "6:35 PM",
+    "power_restored_time": "6:40 PM",
+    "start_time": {
+      "$date": "2026-09-14T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-14T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc15"
+    },
+    "incident_number": "OUTAGE-2026-PC0040",
+    "sno": "39",
+    "unit_id": "Unit_1",
+    "incident_date": "15-09-26",
+    "power_cut_time": "10:57 AM",
+    "power_restored_time": "11:05 AM",
+    "start_time": {
+      "$date": "2026-09-15T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-15T00:00:00Z"
+    },
+    "duration_minutes": 8.0,
+    "downtime_duration_str": "0:08:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc16"
+    },
+    "incident_number": "OUTAGE-2026-PC0041",
+    "sno": "40",
+    "unit_id": "Unit_1",
+    "incident_date": "15-09-26",
+    "power_cut_time": "12:05 PM",
+    "power_restored_time": "12:10 PM",
+    "start_time": {
+      "$date": "2026-09-15T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-15T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc17"
+    },
+    "incident_number": "OUTAGE-2026-PC0042",
+    "sno": "41",
+    "unit_id": "Unit_1",
+    "incident_date": "15-09-26",
+    "power_cut_time": "1:17 PM",
+    "power_restored_time": "1:45 PM",
+    "start_time": {
+      "$date": "2026-09-15T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-15T00:00:00Z"
+    },
+    "duration_minutes": 28.0,
+    "downtime_duration_str": "0:28:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc18"
+    },
+    "incident_number": "OUTAGE-2026-PC0043",
+    "sno": "42",
+    "unit_id": "Unit_1",
+    "incident_date": "16-09-26",
+    "power_cut_time": "12:10 PM",
+    "power_restored_time": "12:20",
+    "start_time": {
+      "$date": "2026-09-16T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-16T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc19"
+    },
+    "incident_number": "OUTAGE-2026-PC0044",
+    "sno": "43",
+    "unit_id": "Unit_1",
+    "incident_date": "16-09-26",
+    "power_cut_time": "3:31 PM",
+    "power_restored_time": "3:40 PM",
+    "start_time": {
+      "$date": "2026-09-16T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-16T00:00:00Z"
+    },
+    "duration_minutes": 9.0,
+    "downtime_duration_str": "0:09:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc1a"
+    },
+    "incident_number": "OUTAGE-2026-PC0045",
+    "sno": "44",
+    "unit_id": "Unit_1",
+    "incident_date": "16-09-26",
+    "power_cut_time": "4:36 PM",
+    "power_restored_time": "4:40 PM",
+    "start_time": {
+      "$date": "2026-09-16T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-16T00:00:00Z"
+    },
+    "duration_minutes": 4.0,
+    "downtime_duration_str": "0:04:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc1b"
+    },
+    "incident_number": "OUTAGE-2026-PC0046",
+    "sno": "45",
+    "unit_id": "Unit_1",
+    "incident_date": "21-09-26",
+    "power_cut_time": "11:05 AM",
+    "power_restored_time": "11:15 AM",
+    "start_time": {
+      "$date": "2026-09-21T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-21T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc1c"
+    },
+    "incident_number": "OUTAGE-2026-PC0047",
+    "sno": "46",
+    "unit_id": "Unit_1",
+    "incident_date": "21-09-26",
+    "power_cut_time": "12:32 PM",
+    "power_restored_time": "12:40 PM",
+    "start_time": {
+      "$date": "2026-09-21T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-21T00:00:00Z"
+    },
+    "duration_minutes": 8.0,
+    "downtime_duration_str": "0:08:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc1d"
+    },
+    "incident_number": "OUTAGE-2026-PC0048",
+    "sno": "47",
+    "unit_id": "Unit_1",
+    "incident_date": "22-09-26",
+    "power_cut_time": "9:45 AM",
+    "power_restored_time": "10:00 AM",
+    "start_time": {
+      "$date": "2026-09-22T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-22T00:00:00Z"
+    },
+    "duration_minutes": 15.0,
+    "downtime_duration_str": "0:15:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc1e"
+    },
+    "incident_number": "OUTAGE-2026-PC0049",
+    "sno": "48",
+    "unit_id": "Unit_1",
+    "incident_date": "24-09-26",
+    "power_cut_time": "1:30 PM",
+    "power_restored_time": "1:50 PM",
+    "start_time": {
+      "$date": "2026-09-24T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-24T00:00:00Z"
+    },
+    "duration_minutes": 20.0,
+    "downtime_duration_str": "0:20:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc1f"
+    },
+    "incident_number": "OUTAGE-2026-PC0050",
+    "sno": "49",
+    "unit_id": "Unit_1",
+    "incident_date": "24-09-26",
+    "power_cut_time": "3:10 PM",
+    "power_restored_time": "3:18 PM",
+    "start_time": {
+      "$date": "2026-09-24T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-24T00:00:00Z"
+    },
+    "duration_minutes": 8.0,
+    "downtime_duration_str": "0:08:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc20"
+    },
+    "incident_number": "OUTAGE-2026-PC0051",
+    "sno": "50",
+    "unit_id": "Unit_1",
+    "incident_date": "25-09-26",
+    "power_cut_time": "11:50 PM",
+    "power_restored_time": "11:59 PM",
+    "start_time": {
+      "$date": "2026-09-25T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-25T00:00:00Z"
+    },
+    "duration_minutes": 9.0,
+    "downtime_duration_str": "0:09:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc21"
+    },
+    "incident_number": "OUTAGE-2026-PC0052",
+    "sno": "51",
+    "unit_id": "Unit_1",
+    "incident_date": "25-09-26",
+    "power_cut_time": "4:05 PM",
+    "power_restored_time": "4:10 PM",
+    "start_time": {
+      "$date": "2026-09-25T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-25T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc22"
+    },
+    "incident_number": "OUTAGE-2026-PC0053",
+    "sno": "52",
+    "unit_id": "Unit_1",
+    "incident_date": "25-09-26",
+    "power_cut_time": "4:20 PM",
+    "power_restored_time": "4:40 PM",
+    "start_time": {
+      "$date": "2026-09-25T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-25T00:00:00Z"
+    },
+    "duration_minutes": 20.0,
+    "downtime_duration_str": "0:20:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc23"
+    },
+    "incident_number": "OUTAGE-2026-PC0054",
+    "sno": "53",
+    "unit_id": "Unit_1",
+    "incident_date": "25-09-26",
+    "power_cut_time": "5:03 PM",
+    "power_restored_time": "6:30 PM",
+    "start_time": {
+      "$date": "2026-09-25T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-25T00:00:00Z"
+    },
+    "duration_minutes": 87.0,
+    "downtime_duration_str": "1:27:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc24"
+    },
+    "incident_number": "OUTAGE-2026-PC0055",
+    "sno": "54",
+    "unit_id": "Unit_1",
+    "incident_date": "26-09-26",
+    "power_cut_time": "11:00 AM",
+    "power_restored_time": "11:10 AM",
+    "start_time": {
+      "$date": "2026-09-26T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-26T00:00:00Z"
+    },
+    "duration_minutes": 10.0,
+    "downtime_duration_str": "0:10:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.899Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc25"
+    },
+    "incident_number": "OUTAGE-2026-PC0056",
+    "sno": "55",
+    "unit_id": "Unit_1",
+    "incident_date": "28-09-26",
+    "power_cut_time": "10:25 AM",
+    "power_restored_time": "10:30 AM",
+    "start_time": {
+      "$date": "2026-09-28T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-28T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.900Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc26"
+    },
+    "incident_number": "OUTAGE-2026-PC0057",
+    "sno": "56",
+    "unit_id": "Unit_1",
+    "incident_date": "28-09-26",
+    "power_cut_time": "12:45 PM",
+    "power_restored_time": "1:00 PM",
+    "start_time": {
+      "$date": "2026-09-28T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-28T00:00:00Z"
+    },
+    "duration_minutes": 15.0,
+    "downtime_duration_str": "0:15:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.900Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc27"
+    },
+    "incident_number": "OUTAGE-2026-PC0058",
+    "sno": "57",
+    "unit_id": "Unit_1",
+    "incident_date": "30-09-26",
+    "power_cut_time": "9:45 AM",
+    "power_restored_time": "9:50 AM",
+    "start_time": {
+      "$date": "2026-09-30T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-09-30T00:00:00Z"
+    },
+    "duration_minutes": 5.0,
+    "downtime_duration_str": "0:05:00",
+    "restart_delay_minutes": 0.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.900Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc28"
+    },
+    "incident_number": "OUTAGE-2026-PC0059",
+    "sno": "58",
+    "unit_id": "Unit_1",
+    "incident_date": "01-10-26",
+    "power_cut_time": "12:18 PM",
+    "power_restored_time": "12:23 PM",
+    "start_time": {
+      "$date": "2026-10-01T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-10-01T00:00:00Z"
+    },
+    "duration_minutes": 14.7,
+    "downtime_duration_str": "0:14:43",
+    "restart_delay_minutes": 10.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.900Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc29"
+    },
+    "incident_number": "OUTAGE-2026-PC0060",
+    "sno": "59",
+    "unit_id": "Unit_1",
+    "incident_date": "01-10-26",
+    "power_cut_time": "5:55 PM",
+    "power_restored_time": "6:20 PM",
+    "start_time": {
+      "$date": "2026-10-01T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-10-01T00:00:00Z"
+    },
+    "duration_minutes": 125.0,
+    "downtime_duration_str": "2:05:00",
+    "restart_delay_minutes": 100.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.900Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cc2a"
+    },
+    "incident_number": "OUTAGE-2026-PC0061",
+    "sno": "60",
+    "unit_id": "Unit_1",
+    "incident_date": "05-10-26",
+    "power_cut_time": "9:40 AM",
+    "power_restored_time": "11:40 AM",
+    "start_time": {
+      "$date": "2026-10-05T00:00:00Z"
+    },
+    "end_time": {
+      "$date": "2026-10-05T00:00:00Z"
+    },
+    "duration_minutes": 170.0,
+    "downtime_duration_str": "2:50:00",
+    "restart_delay_minutes": 50.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "power cut",
+    "backup_generator_used": false,
+    "fuel_consumed_liters": null,
+    "affected_departments": [
+      "Machining & Extrusion",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "remarks": "MCB Trip",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.900Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf26c8a0501976ed1a35fa"
+    },
+    "incident_number": "OUTAGE-202610-0001",
+    "unit_id": "Unit_2",
+    "start_time": {
+      "$date": "2026-10-14T06:52:00Z"
+    },
+    "end_time": {
+      "$date": "2026-11-06T06:52:00Z"
+    },
+    "duration_minutes": 33120.0,
+    "outage_type": "GRID_FAILURE",
+    "reason": "Due to Heavy Rain",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 0.0,
+    "affected_departments": [
+      "Machine Shop",
+      "Assembly"
+    ],
+    "production_order_ids": [],
+    "restart_delay_minutes": null,
+    "downtime_duration_str": null,
+    "power_cut_time": null,
+    "power_restored_time": null,
+    "incident_date": null,
+    "remarks": null,
+    "created_at": {
+      "$date": "2026-10-14T06:52:56.405Z"
+    },
+    "created_by": "chetanprajapati@rgtech.com"
+  }
+]

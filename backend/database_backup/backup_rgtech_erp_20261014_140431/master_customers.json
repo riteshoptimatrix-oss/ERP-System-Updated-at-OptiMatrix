@@ -1,0 +1,202 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0de"
+    },
+    "code": "CUST-001",
+    "name": "Ravi Stationery Mfg Pvt Ltd",
+    "gstin": "24AAACR1234C1Z5",
+    "pan": "AAACR1234C",
+    "contact_person": "Ravi Mehta",
+    "phone": "+91 98250 11223",
+    "email": "purchase@ravistat.com",
+    "billing_address": "12 Navrangpura Commercial Complex, Ahmedabad - 380009",
+    "shipping_address": "Plot 45, Changodar GIDC, Ahmedabad - 382213",
+    "credit_limit": 2500000.0,
+    "payment_terms_days": 45,
+    "unit_id": "Unit_1",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0df"
+    },
+    "code": "CUST-002",
+    "name": "National Paper Converting Ind.",
+    "gstin": "27AAACN5678D1Z3",
+    "pan": "AAACN5678D",
+    "contact_person": "Deepa Shetty",
+    "phone": "+91 98200 44556",
+    "email": "orders@npi.in",
+    "billing_address": "Saki Vihar Road, Andheri East, Mumbai - 400072",
+    "shipping_address": "Plot 18, TTC Industrial Area, Navi Mumbai - 400705",
+    "credit_limit": 4000000.0,
+    "payment_terms_days": 30,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0e0"
+    },
+    "code": "CUST-003",
+    "name": "Bengaluru Office Products Ltd",
+    "gstin": "29AAACB2345E1Z7",
+    "pan": "AAACB2345E",
+    "contact_person": "Sunil Kumar",
+    "phone": "+91 98450 77889",
+    "email": "procurement@bopindia.in",
+    "billing_address": "5th Block, Koramangala Industrial Area, Bengaluru - 560034",
+    "shipping_address": "Phase-1, Peenya Industrial Area, Bengaluru - 560058",
+    "credit_limit": 2000000.0,
+    "payment_terms_days": 30,
+    "unit_id": "Unit_2",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0e1"
+    },
+    "code": "CUST-004",
+    "name": "Delhi Automated Packaging Systems",
+    "gstin": "07AAACD3456F1Z1",
+    "pan": "AAACD3456F",
+    "contact_person": "Anil Sharma",
+    "phone": "+91 98110 33445",
+    "email": "anil@dps-delhi.com",
+    "billing_address": "Okhla Industrial Area Phase II, New Delhi - 110020",
+    "shipping_address": "Sector 58, IMT Faridabad, Haryana - 121004",
+    "credit_limit": 1500000.0,
+    "payment_terms_days": 45,
+    "unit_id": "Unit_1",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0e2"
+    },
+    "code": "CUST-005",
+    "name": "Hyderabad Print & Pack Logistics",
+    "gstin": "36AAACH4567G1Z9",
+    "pan": "AAACH4567G",
+    "contact_person": "Padma Reddy",
+    "phone": "+91 98490 88990",
+    "email": "padma@hppl.in",
+    "billing_address": "IDA Jeedimetla, Hyderabad - 500055",
+    "shipping_address": "IDA Jeedimetla, Hyderabad - 500055",
+    "credit_limit": 1800000.0,
+    "payment_terms_days": 60,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0e3"
+    },
+    "code": "CUST-006",
+    "name": "Pune Industrial Automation Traders",
+    "gstin": "27AAACP5678H1Z5",
+    "pan": "AAACP5678H",
+    "contact_person": "Ashish Joshi",
+    "phone": "+91 98220 55667",
+    "email": "ashish@puneindustrial.com",
+    "billing_address": "Bhosari MIDC, Pune - 411026",
+    "shipping_address": "Chakan MIDC Phase-2, Pune - 410501",
+    "credit_limit": 1200000.0,
+    "payment_terms_days": 30,
+    "unit_id": "Unit_1",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0e4"
+    },
+    "code": "CUST-007",
+    "name": "Chennai Office Machinery Pvt Ltd",
+    "gstin": "33AAACM6789I1Z3",
+    "pan": "AAACM6789I",
+    "contact_person": "Karthik Raja",
+    "phone": "+91 98400 66778",
+    "email": "karthik@comachines.in",
+    "billing_address": "Ambattur Industrial Estate, Chennai - 600058",
+    "shipping_address": "Sriperumbudur SIPCOT, Chennai - 602105",
+    "credit_limit": 2200000.0,
+    "payment_terms_days": 45,
+    "unit_id": "Unit_2",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0e5"
+    },
+    "code": "CUST-008",
+    "name": "Kolkata Bookbinding & Stationery",
+    "gstin": "19AAACK7890J1Z2",
+    "pan": "AAACK7890J",
+    "contact_person": "Sourav Mukherjee",
+    "phone": "+91 98300 22334",
+    "email": "sourav@kbbinders.com",
+    "billing_address": "Taratala Road, Kolkata - 700088",
+    "shipping_address": "Dankuni Industrial Complex, Hooghly - 712311",
+    "credit_limit": 900000.0,
+    "payment_terms_days": 30,
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  }
+]

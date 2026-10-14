@@ -319,11 +319,11 @@ async def list_my_attendance_corrections(
     return [
         AttendanceCorrectionResponse(
             id=str(doc["_id"]),
-            request_number=doc["request_number"],
-            employee_id=doc["employee_id"],
-            employee_code=doc["employee_code"],
-            employee_name=doc["employee_name"],
-            date=doc["date"],
+            request_number=doc.get("request_number") or f"ACR-{str(doc['_id'])[-6:].upper()}",
+            employee_id=doc.get("employee_id", emp_id_str),
+            employee_code=doc.get("employee_code", emp_code),
+            employee_name=doc.get("employee_name", ""),
+            date=doc.get("date", ""),
             requested_check_in=doc.get("requested_check_in"),
             requested_check_out=doc.get("requested_check_out"),
             requested_status=doc.get("requested_status"),

@@ -51,12 +51,31 @@ export interface AnnouncementItem {
   id: string;
   title: string;
   content: string;
+  message?: string;
   priority: 'LOW' | 'NORMAL' | 'HIGH' | 'URGENT';
   unit_id: string;
+  audience_type?: 'all' | 'specific' | 'department' | 'role';
+  recipients?: string[];
+  recipient_names?: string[];
+  author_id?: string;
   author_name: string;
   author_role: string;
+  is_read?: boolean;
+  read_at?: string;
+  read_count?: number;
   published_at: string;
+  created_at?: string;
   expires_at?: string;
+}
+
+export interface AnnouncementRecipientOption {
+  id: string;
+  code: string;
+  name: string;
+  email: string;
+  department?: string;
+  role?: string;
+  unit_id?: string;
 }
 
 export interface EmployeeDashboardResponse {

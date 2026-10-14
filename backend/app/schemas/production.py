@@ -156,3 +156,99 @@ class ProductionDashboardSummary(BaseModel):
     total_produced_units: float
     total_rejected_units: float
     overall_yield_percentage: float
+
+
+# -------------------------------------------------------------
+# Daily Production Planning & Actual Models
+# Main daily entry screen for Shivakumar
+# -------------------------------------------------------------
+class DailyProductionEntry(BaseModel):
+    id: Optional[str] = None
+    date: str = Field(..., description="Date (YYYY-MM-DD)")
+    order_no: str = Field(..., description="Order No. e.g. SO-2026-0001 or PRD-2026-0001")
+    customer: str = Field(..., description="Customer Name")
+    variant: str = Field(..., description="Variant / Machine Model")
+    length: str = Field(default="Standard", description="Cut length or dimensional spec")
+    labour: str = Field(..., description="Labour / Operator Name")
+    machine: str = Field(..., description="Machine Name or Tag e.g. CNC Spindle 01")
+    department: str = Field(default="Machining", description="Department: Machining, Assembly, Fabrication, QC, Grinding, Welding")
+    planned_qty: float = Field(default=0.0, ge=0.0, description="Planned Qty")
+    actual_qty: float = Field(default=0.0, ge=0.0, description="Actual Qty Produced")
+    rework_qty: float = Field(default=0.0, ge=0.0, description="Rework Qty")
+    scrap_qty: float = Field(default=0.0, ge=0.0, description="Scrap Qty")
+    good_qty: float = Field(default=0.0, description="Good Qty (Actual - Scrap - Rework)")
+    completion_pct: float = Field(default=0.0, description="Completion % (Good Qty / Planned Qty * 100)")
+    work_type: str = Field(default="REGULAR", description="Work Type e.g. REGULAR, OVERTIME, REWORK, URGENT")
+    standard_target: float = Field(default=0.0, ge=0.0, description="Standard Target")
+    performance_pct: float = Field(default=0.0, description="Performance % (Actual Qty / Standard Target * 100)")
+    daily_earned_inr: float = Field(default=0.0, ge=0.0, description="Daily Earned INR")
+    rate_per_unit: float = Field(default=0.0, ge=0.0, description="Rate per standard or good unit")
+    start_time: Optional[str] = Field(None, description="Start Time e.g. 09:00 AM")
+    end_time: Optional[str] = Field(None, description="End Time e.g. 05:30 PM")
+    supervisor_remarks: Optional[str] = Field(None, description="Supervisor Remarks")
+    priority_change: Optional[str] = Field(default="NORMAL", description="Priority Change: NORMAL, HIGH, URGENT, HOLD")
+    unit_id: Optional[str] = "Unit_1"
+    recorded_by: Optional[str] = "Shivakumar"
+    created_at: Optional[datetime] = None
+    updated_at: Optional[datetime] = None
+
+
+class DailyProductionCreate(BaseModel):
+    date: str
+    order_no: str
+    customer: str
+    variant: str
+    length: Optional[str] = "Standard"
+    labour: str
+    machine: str
+    department: Optional[str] = "Machining"
+    planned_qty: float = 0.0
+    actual_qty: float = 0.0
+    rework_qty: float = 0.0
+    scrap_qty: float = 0.0
+    work_type: Optional[str] = "REGULAR"
+    standard_target: float = 0.0
+    rate_per_unit: Optional[float] = 0.0
+    daily_earned_inr: Optional[float] = None
+    start_time: Optional[str] = None
+    end_time: Optional[str] = None
+    supervisor_remarks: Optional[str] = None
+    priority_change: Optional[str] = "NORMAL"
+    unit_id: Optional[str] = "Unit_1"
+
+
+class DailyProductionUpdate(BaseModel):
+    date: Optional[str] = None
+    order_no: Optional[str] = None
+    customer: Optional[str] = None
+    variant: Optional[str] = None
+    length: Optional[str] = None
+    labour: Optional[str] = None
+    machine: Optional[str] = None
+    department: Optional[str] = None
+    planned_qty: Optional[float] = None
+    actual_qty: Optional[float] = None
+    rework_qty: Optional[float] = None
+    scrap_qty: Optional[float] = None
+    work_type: Optional[str] = None
+    standard_target: Optional[float] = None
+    rate_per_unit: Optional[float] = None
+    daily_earned_inr: Optional[float] = None
+    start_time: Optional[str] = None
+    end_time: Optional[str] = None
+    supervisor_remarks: Optional[str] = None
+    priority_change: Optional[str] = None
+
+
+class DailyProductionSummary(BaseModel):
+    total_entries: int
+    total_planned_qty: float
+    total_actual_qty: float
+    total_good_qty: float
+    total_scrap_qty: float
+    total_rework_qty: float
+    overall_completion_pct: float
+    overall_performance_pct: float
+    total_daily_earned_inr: float
+    department_breakdown: List[Dict[str, Any]]
+

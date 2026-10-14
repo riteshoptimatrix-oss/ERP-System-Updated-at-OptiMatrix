@@ -12,16 +12,28 @@ import {
   Download,
   Eye,
   FileText,
+  ShieldAlert,
 } from 'lucide-react';
+import { useAuth } from '@/context/AuthContext';
+import { useRouter } from 'next/navigation';
 
 export default function EmployeePayrollPage() {
+  const { user, isLoading: authLoading } = useAuth();
+  const router = useRouter();
+
   const [structure, setStructure] = useState<SalaryStructure | null>(null);
   const [payslips, setPayslips] = useState<Payslip[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [selectedPayslip, setSelectedPayslip] = useState<Payslip | null>(null);
   const [errorMessage, setErrorMessage] = useState<string>('');
 
+  const isSuperAdmin = user?.role === 'SUPER_ADMIN';
+
   const loadData = useCallback(async () => {
+    if (authLoading || isSuperAdmin) {
+      setIsLoading(false);
+      return;
+    }
     setIsLoading(true);
     setErrorMessage('');
     try {
@@ -36,7 +48,7 @@ export default function EmployeePayrollPage() {
     } finally {
       setIsLoading(false);
     }
-  }, []);
+  }, [authLoading, isSuperAdmin]);
 
   useEffect(() => {
     loadData();
@@ -57,6 +69,29 @@ export default function EmployeePayrollPage() {
     ? calculatedPF + calculatedESI + (structure.professional_tax || 0) + (structure.tds_monthly || 0)
     : 0;
   const estimatedNet = structure ? Math.max(0, structure.gross_monthly_standard - totalDeductions) : 0;
+
+  if (isSuperAdmin) {
+    return (
+      <div className="max-w-4xl mx-auto p-6 sm:p-8 space-y-4">
+        <div className="p-8 rounded-2xl bg-[#FAF8F5] border border-[#E7E5DE] text-center space-y-3">
+          <ShieldAlert className="w-10 h-10 text-[#78716C] mx-auto" />
+          <h2 className="text-xl font-bold text-[#0F172A]">Employee Payroll Hidden in Super Admin</h2>
+          <p className="text-xs text-[#57534E] max-w-md mx-auto">
+            Super Administrator accounts are corporate root accounts and do not maintain personal employee wage structures or monthly payslips. To manage organizational payroll, please visit the central <strong>Payroll & Salaries</strong> module.
+          </p>
+          <div className="pt-2">
+            <Button
+              size="sm"
+              onClick={() => router.push('/payroll')}
+              className="text-xs bg-[#0F172A] text-white hover:bg-[#1E293B]"
+            >
+              Go to HR Payroll System
+            </Button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 max-w-6xl mx-auto">
@@ -160,27 +195,27 @@ export default function EmployeePayrollPage() {
             </div>
 
             {/* Net Take-Home Highlight */}
-            <div className="p-5 rounded-xl bg-[#0F172A] text-white flex flex-col justify-between">
+            <div className="p-5 rounded-xl bg-[#FAF8F5] border border-[#E7E5DE] text-[#0F172A] shadow-sm flex flex-col justify-between">
               <div>
-                <span className="text-[11px] font-mono uppercase tracking-wider text-slate-400 block mb-1">
+                <span className="text-[11px] font-mono uppercase tracking-wider text-[#78716C] block mb-1 font-semibold">
                   Monthly Net Take-Home Pay
                 </span>
-                <span className="text-3xl font-mono font-bold block text-emerald-400">
+                <span className="text-3xl font-mono font-bold block text-emerald-600">
                   {formatCurrency(estimatedNet)}
                 </span>
-                <p className="text-xs text-slate-300 mt-2">
+                <p className="text-xs text-[#57534E] mt-2">
                   Direct credit to verified bank account on the 1st of every month.
                 </p>
               </div>
 
-              <div className="pt-4 border-t border-slate-700 text-[11px] text-slate-400 space-y-1">
+              <div className="pt-4 border-t border-[#E7E5DE] text-[11px] text-[#78716C] space-y-1">
                 <div className="flex justify-between">
                   <span>Pay Frequency:</span>
-                  <span className="text-slate-200">Monthly (30 Days)</span>
+                  <span className="text-[#0F172A] font-medium">Monthly (30 Days)</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Bank Account:</span>
-                  <span className="text-slate-200 font-mono">
+                  <span className="text-[#0F172A] font-mono font-medium">
                     {structure.bank_account_number ? `•••• •••• ${structure.bank_account_number.slice(-4)}` : 'On Record'}
                   </span>
                 </div>

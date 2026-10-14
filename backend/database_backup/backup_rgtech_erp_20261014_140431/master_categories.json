@@ -1,0 +1,121 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f088"
+    },
+    "code": "CAT-RAW-STEEL",
+    "name": "Steel & Metal Raw Stock",
+    "category_type": "RAW_MATERIAL",
+    "description": "IS:2062 MS plates, SS-304 rounds, CI castings",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f089"
+    },
+    "code": "CAT-RAW-POLYMER",
+    "name": "Polymers & Seals",
+    "category_type": "RAW_MATERIAL",
+    "description": "Nylon PA6 bushes, rubber gaskets, seals",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f08a"
+    },
+    "code": "CAT-RAW-ELEC",
+    "name": "Motors & Electrical Drives",
+    "category_type": "RAW_MATERIAL",
+    "description": "Induction motors, run capacitors, wiring harnesses",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f08b"
+    },
+    "code": "CAT-RAW-CONS",
+    "name": "Coolants & Consumables",
+    "category_type": "CONSUMABLE",
+    "description": "Servo-cut cutting fluids, welding rods, machine paint",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f08c"
+    },
+    "code": "CAT-FP-ENV",
+    "name": "Envelope Making Machines",
+    "category_type": "FINISHED_PRODUCT",
+    "description": "High-precision automated paper converting machinery",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f08d"
+    },
+    "code": "CAT-FP-PKG",
+    "name": "Carton Packaging Machines",
+    "category_type": "FINISHED_PRODUCT",
+    "description": "Automated cartooning and box packing machinery",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f08e"
+    },
+    "code": "CAT-SPARE",
+    "name": "Replacement Spares & Kits",
+    "category_type": "SPARES",
+    "description": "Spindle bearings, belts, wear components",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  }
+]

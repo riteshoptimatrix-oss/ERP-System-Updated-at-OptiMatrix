@@ -1,0 +1,118 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d14"
+    },
+    "run_number": "PAY-2026-07",
+    "period": "2026-07",
+    "period_label": "July 2026",
+    "start_date": "2026-07-01",
+    "end_date": "2026-07-31",
+    "status": "POSTED",
+    "unit_id": "Unit_1",
+    "working_days_in_month": 26,
+    "total_employees": 34,
+    "total_gross_payout": 1827000.0,
+    "total_deductions": 165120.0,
+    "total_net_payout": 1661880.0,
+    "gross_amount": 1827000.0,
+    "net_amount": 1661880.0,
+    "approved_by": "Ritesh Gajjar",
+    "posted_by": "Ritesh Gajjar",
+    "created_by": "Ritesh Gajjar",
+    "processed_at": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d36"
+    },
+    "run_number": "PAY-2026-08",
+    "period": "2026-08",
+    "period_label": "August 2026",
+    "start_date": "2026-08-01",
+    "end_date": "2026-08-31",
+    "status": "POSTED",
+    "unit_id": "Unit_1",
+    "working_days_in_month": 26,
+    "total_employees": 34,
+    "total_gross_payout": 1827000.0,
+    "total_deductions": 165120.0,
+    "total_net_payout": 1661880.0,
+    "gross_amount": 1827000.0,
+    "net_amount": 1661880.0,
+    "approved_by": "Ritesh Gajjar",
+    "posted_by": "Ritesh Gajjar",
+    "created_by": "Ritesh Gajjar",
+    "processed_at": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d58"
+    },
+    "run_number": "PAY-2026-09",
+    "period": "2026-09",
+    "period_label": "September 2026",
+    "start_date": "2026-09-01",
+    "end_date": "2026-09-30",
+    "status": "POSTED",
+    "unit_id": "Unit_1",
+    "working_days_in_month": 26,
+    "total_employees": 34,
+    "total_gross_payout": 1827000.0,
+    "total_deductions": 165120.0,
+    "total_net_payout": 1661880.0,
+    "gross_amount": 1827000.0,
+    "net_amount": 1661880.0,
+    "approved_by": "Ritesh Gajjar",
+    "posted_by": "Ritesh Gajjar",
+    "created_by": "Ritesh Gajjar",
+    "processed_at": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d7a"
+    },
+    "run_number": "PAY-2026-10",
+    "period": "2026-10",
+    "period_label": "October 2026",
+    "start_date": "2026-10-01",
+    "end_date": "2026-10-31",
+    "status": "DRAFT",
+    "unit_id": "Unit_1",
+    "working_days_in_month": 26,
+    "total_employees": 34,
+    "total_gross_payout": 1827000.0,
+    "total_deductions": 165120.0,
+    "total_net_payout": 1661880.0,
+    "gross_amount": 1827000.0,
+    "net_amount": 1661880.0,
+    "approved_by": null,
+    "posted_by": null,
+    "created_by": "Ritesh Gajjar",
+    "processed_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

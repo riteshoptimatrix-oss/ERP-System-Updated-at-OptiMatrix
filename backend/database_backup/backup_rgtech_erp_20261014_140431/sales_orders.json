@@ -1,0 +1,378 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e21"
+    },
+    "order_number": "SO-2026-0001",
+    "customer_id": "6acf133b35a67d012664f0e6",
+    "customer_code": "CUST-001",
+    "customer_name": "Ravi Stationery Mfg Pvt Ltd",
+    "customer_po_number": "PO-CUST-001-9912",
+    "unit_id": "Unit_1",
+    "status": "CONFIRMED",
+    "order_date": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "delivery_due_date": "2026-10-09",
+    "billing_address": "Plot 001, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "shipping_address": "Plot 001, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "items": [
+      {
+        "product_id": "6acf133b35a67d012664f0da",
+        "product_code": "FP-ENV-100",
+        "product_name": "Semi-Automatic Envelope Machine ENV-100",
+        "quantity": 3.0,
+        "unit_price": 245000.0,
+        "discount_percent": 0.0,
+        "tax_percent": 18.0,
+        "dispatched_quantity": 0.0,
+        "subtotal": 735000.0,
+        "tax_amount": 132300.0,
+        "total_amount": 867300.0,
+        "uom": "PCS"
+      }
+    ],
+    "subtotal": 735000.0,
+    "tax_total": 132300.0,
+    "grand_total": 867300.0,
+    "total_amount": 867300.0,
+    "total_ordered_qty": 3.0,
+    "total_dispatched_qty": 0.0,
+    "dispatch_percent": 0.0,
+    "created_by": "Priya Shah",
+    "created_at": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e22"
+    },
+    "order_number": "SO-2026-0002",
+    "customer_id": "6acf133b35a67d012664f0e7",
+    "customer_code": "CUST-002",
+    "customer_name": "National Paper Converting Ind.",
+    "customer_po_number": "PO-CUST-002-9912",
+    "unit_id": "Unit_1",
+    "status": "DISPATCHED",
+    "order_date": {
+      "$date": "2026-09-04T05:51:39.563Z"
+    },
+    "delivery_due_date": "2026-10-02",
+    "billing_address": "Plot 002, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "shipping_address": "Plot 002, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "items": [
+      {
+        "product_id": "6acf133b35a67d012664f0db",
+        "product_code": "FP-ENV-200",
+        "product_name": "Fully Automatic Envelope Machine ENV-200",
+        "quantity": 2.0,
+        "unit_price": 415000.0,
+        "discount_percent": 0.0,
+        "tax_percent": 18.0,
+        "dispatched_quantity": 2.0,
+        "subtotal": 830000.0,
+        "tax_amount": 149400.0,
+        "total_amount": 979400.0,
+        "uom": "PCS"
+      }
+    ],
+    "subtotal": 830000.0,
+    "tax_total": 149400.0,
+    "grand_total": 979400.0,
+    "total_amount": 979400.0,
+    "total_ordered_qty": 2.0,
+    "total_dispatched_qty": 2.0,
+    "dispatch_percent": 100.0,
+    "created_by": "Priya Shah",
+    "created_at": {
+      "$date": "2026-09-04T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e25"
+    },
+    "order_number": "SO-2026-0003",
+    "customer_id": "6acf133b35a67d012664f0e8",
+    "customer_code": "CUST-003",
+    "customer_name": "Bengaluru Office Products Ltd",
+    "customer_po_number": "PO-CUST-003-9912",
+    "unit_id": "Unit_2",
+    "status": "PARTIALLY_DISPATCHED",
+    "order_date": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "delivery_due_date": "2026-10-24",
+    "billing_address": "Plot 003, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "shipping_address": "Plot 003, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "items": [
+      {
+        "product_id": "6acf133b35a67d012664f0dc",
+        "product_code": "FP-PKG-300",
+        "product_name": "Automated Carton Packing Machine PKG-300",
+        "quantity": 1.0,
+        "unit_price": 565000.0,
+        "discount_percent": 0.0,
+        "tax_percent": 18.0,
+        "dispatched_quantity": 1.0,
+        "subtotal": 565000.0,
+        "tax_amount": 101700.0,
+        "total_amount": 666700.0,
+        "uom": "PCS"
+      }
+    ],
+    "subtotal": 565000.0,
+    "tax_total": 101700.0,
+    "grand_total": 666700.0,
+    "total_amount": 666700.0,
+    "total_ordered_qty": 1.0,
+    "total_dispatched_qty": 1.0,
+    "dispatch_percent": 100.0,
+    "created_by": "Priya Shah",
+    "created_at": {
+      "$date": "2026-09-19T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e28"
+    },
+    "order_number": "SO-2026-0004",
+    "customer_id": "6acf133b35a67d012664f0e9",
+    "customer_code": "CUST-004",
+    "customer_name": "Delhi Automated Packaging Systems",
+    "customer_po_number": "PO-CUST-004-9912",
+    "unit_id": "Unit_1",
+    "status": "DISPATCHED",
+    "order_date": {
+      "$date": "2026-08-25T05:51:39.563Z"
+    },
+    "delivery_due_date": "2026-09-24",
+    "billing_address": "Plot 004, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "shipping_address": "Plot 004, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "items": [
+      {
+        "product_id": "6acf133b35a67d012664f0dd",
+        "product_code": "FP-ENV-MINI",
+        "product_name": "Compact Desktop Envelope Machine ENV-MINI",
+        "quantity": 5.0,
+        "unit_price": 128000.0,
+        "discount_percent": 0.0,
+        "tax_percent": 18.0,
+        "dispatched_quantity": 5.0,
+        "subtotal": 640000.0,
+        "tax_amount": 115200.0,
+        "total_amount": 755200.0,
+        "uom": "PCS"
+      }
+    ],
+    "subtotal": 640000.0,
+    "tax_total": 115200.0,
+    "grand_total": 755200.0,
+    "total_amount": 755200.0,
+    "total_ordered_qty": 5.0,
+    "total_dispatched_qty": 5.0,
+    "dispatch_percent": 100.0,
+    "created_by": "Priya Shah",
+    "created_at": {
+      "$date": "2026-08-25T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e2b"
+    },
+    "order_number": "SO-2026-0005",
+    "customer_id": "6acf133b35a67d012664f0ea",
+    "customer_code": "CUST-005",
+    "customer_name": "Hyderabad Print & Pack Logistics",
+    "customer_po_number": "PO-CUST-005-9912",
+    "unit_id": "Unit_1",
+    "status": "DISPATCHED",
+    "order_date": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "delivery_due_date": "2026-10-29",
+    "billing_address": "Plot 005, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "shipping_address": "Plot 005, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "items": [
+      {
+        "product_id": "6acf133b35a67d012664f0db",
+        "product_code": "FP-ENV-200",
+        "product_name": "Fully Automatic Envelope Machine ENV-200",
+        "quantity": 1.0,
+        "unit_price": 415000.0,
+        "discount_percent": 0.0,
+        "tax_percent": 18.0,
+        "dispatched_quantity": 1.0,
+        "subtotal": 415000.0,
+        "tax_amount": 74700.0,
+        "total_amount": 489700.0,
+        "uom": "PCS"
+      }
+    ],
+    "subtotal": 415000.0,
+    "tax_total": 74700.0,
+    "grand_total": 489700.0,
+    "total_amount": 489700.0,
+    "total_ordered_qty": 1.0,
+    "total_dispatched_qty": 1.0,
+    "dispatch_percent": 100.0,
+    "created_by": "Priya Shah",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T05:52:11.379Z"
+    },
+    "updated_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e2c"
+    },
+    "order_number": "SO-2026-0006",
+    "customer_id": "6acf133b35a67d012664f0eb",
+    "customer_code": "CUST-006",
+    "customer_name": "Pune Industrial Automation Traders",
+    "customer_po_number": "PO-CUST-006-9912",
+    "unit_id": "Unit_1",
+    "status": "CONFIRMED",
+    "order_date": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "delivery_due_date": "2026-11-08",
+    "billing_address": "Plot 006, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "shipping_address": "Plot 006, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "items": [
+      {
+        "product_id": "6acf133b35a67d012664f0da",
+        "product_code": "FP-ENV-100",
+        "product_name": "Semi-Automatic Envelope Machine ENV-100",
+        "quantity": 2.0,
+        "unit_price": 245000.0,
+        "discount_percent": 0.0,
+        "tax_percent": 18.0,
+        "dispatched_quantity": 0.0,
+        "subtotal": 490000.0,
+        "tax_amount": 88200.0,
+        "total_amount": 578200.0,
+        "uom": "PCS"
+      }
+    ],
+    "subtotal": 490000.0,
+    "tax_total": 88200.0,
+    "grand_total": 578200.0,
+    "total_amount": 578200.0,
+    "total_ordered_qty": 2.0,
+    "total_dispatched_qty": 0.0,
+    "dispatch_percent": 0.0,
+    "created_by": "Priya Shah",
+    "created_at": {
+      "$date": "2026-10-09T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:05:48.711Z"
+    },
+    "updated_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e2d"
+    },
+    "order_number": "SO-2026-0007",
+    "customer_id": "6acf133b35a67d012664f0ec",
+    "customer_code": "CUST-007",
+    "customer_name": "Chennai Office Machinery Pvt Ltd",
+    "customer_po_number": "PO-CUST-007-9912",
+    "unit_id": "Unit_2",
+    "status": "CONFIRMED",
+    "order_date": {
+      "$date": "2026-09-26T05:51:39.563Z"
+    },
+    "delivery_due_date": "2026-11-03",
+    "billing_address": "Plot 007, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "shipping_address": "Plot 007, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "items": [
+      {
+        "product_id": "6acf133b35a67d012664f0dc",
+        "product_code": "FP-PKG-300",
+        "product_name": "Automated Carton Packing Machine PKG-300",
+        "quantity": 2.0,
+        "unit_price": 565000.0,
+        "discount_percent": 0.0,
+        "tax_percent": 18.0,
+        "dispatched_quantity": 0.0,
+        "subtotal": 1130000.0,
+        "tax_amount": 203400.0,
+        "total_amount": 1333400.0,
+        "uom": "PCS"
+      }
+    ],
+    "subtotal": 1130000.0,
+    "tax_total": 203400.0,
+    "grand_total": 1333400.0,
+    "total_amount": 1333400.0,
+    "total_ordered_qty": 2.0,
+    "total_dispatched_qty": 0.0,
+    "dispatch_percent": 0.0,
+    "created_by": "Priya Shah",
+    "created_at": {
+      "$date": "2026-09-26T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e2e"
+    },
+    "order_number": "SO-2026-0008",
+    "customer_id": "6acf133b35a67d012664f0ed",
+    "customer_code": "CUST-008",
+    "customer_name": "Kolkata Bookbinding & Stationery",
+    "customer_po_number": "PO-CUST-008-9912",
+    "unit_id": "Unit_1",
+    "status": "CANCELLED",
+    "order_date": {
+      "$date": "2026-08-30T05:51:39.563Z"
+    },
+    "delivery_due_date": "2026-09-19",
+    "billing_address": "Plot 008, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "shipping_address": "Plot 008, GIDC Estate, Vatva, Ahmedabad, Gujarat 382445",
+    "items": [
+      {
+        "product_id": "6acf133b35a67d012664f0dd",
+        "product_code": "FP-ENV-MINI",
+        "product_name": "Compact Desktop Envelope Machine ENV-MINI",
+        "quantity": 2.0,
+        "unit_price": 128000.0,
+        "discount_percent": 0.0,
+        "tax_percent": 18.0,
+        "dispatched_quantity": 0.0,
+        "subtotal": 256000.0,
+        "tax_amount": 46080.0,
+        "total_amount": 302080.0,
+        "uom": "PCS"
+      }
+    ],
+    "subtotal": 256000.0,
+    "tax_total": 46080.0,
+    "grand_total": 302080.0,
+    "total_amount": 302080.0,
+    "total_ordered_qty": 2.0,
+    "total_dispatched_qty": 0.0,
+    "dispatch_percent": 0.0,
+    "created_by": "Priya Shah",
+    "created_at": {
+      "$date": "2026-08-30T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

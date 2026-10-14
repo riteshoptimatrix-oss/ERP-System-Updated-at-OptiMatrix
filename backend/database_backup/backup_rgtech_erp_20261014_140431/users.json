@@ -1,0 +1,1991 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf09d377fcf49754f5b411"
+    },
+    "email": "admin@rgtech.com",
+    "username": "admin",
+    "full_name": "Ritesh Gajjar",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$VMkEWqaxwMkGBN8tgP0f7g$hj/jmLX5+YVmAtkIATdnNJwVVQPa1piO9Zag+D4noz0",
+    "role": "SUPER_ADMIN",
+    "allowed_units": [
+      "BOTH"
+    ],
+    "is_active": true,
+    "created_at": {
+      "$date": "2026-10-14T04:49:23.219Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T07:14:37.762Z"
+    },
+    "employee_code": "EMP-B411",
+    "permissions": [
+      "attendance:administer",
+      "attendance:approve",
+      "attendance:create",
+      "attendance:export",
+      "attendance:post",
+      "attendance:read",
+      "attendance:update",
+      "audit:administer",
+      "audit:approve",
+      "audit:create",
+      "audit:export",
+      "audit:post",
+      "audit:read",
+      "audit:update",
+      "bom:administer",
+      "bom:approve",
+      "bom:create",
+      "bom:export",
+      "bom:post",
+      "bom:read",
+      "bom:update",
+      "crm:administer",
+      "crm:approve",
+      "crm:create",
+      "crm:export",
+      "crm:post",
+      "crm:read",
+      "crm:update",
+      "finance:administer",
+      "finance:approve",
+      "finance:create",
+      "finance:export",
+      "finance:post",
+      "finance:read",
+      "finance:update",
+      "hr:administer",
+      "hr:approve",
+      "hr:create",
+      "hr:export",
+      "hr:post",
+      "hr:read",
+      "hr:update",
+      "inventory:administer",
+      "inventory:approve",
+      "inventory:create",
+      "inventory:export",
+      "inventory:post",
+      "inventory:read",
+      "inventory:update",
+      "master:administer",
+      "master:approve",
+      "master:create",
+      "master:export",
+      "master:post",
+      "master:read",
+      "master:update",
+      "orders:administer",
+      "orders:approve",
+      "orders:create",
+      "orders:export",
+      "orders:post",
+      "orders:read",
+      "orders:update",
+      "payroll:administer",
+      "payroll:approve",
+      "payroll:create",
+      "payroll:export",
+      "payroll:post",
+      "payroll:read",
+      "payroll:update",
+      "power:administer",
+      "power:approve",
+      "power:create",
+      "power:export",
+      "power:post",
+      "power:read",
+      "power:update",
+      "production:administer",
+      "production:approve",
+      "production:create",
+      "production:export",
+      "production:post",
+      "production:read",
+      "production:update",
+      "qc:administer",
+      "qc:approve",
+      "qc:create",
+      "qc:export",
+      "qc:post",
+      "qc:read",
+      "qc:update",
+      "reports:administer",
+      "reports:approve",
+      "reports:create",
+      "reports:export",
+      "reports:post",
+      "reports:read",
+      "reports:update",
+      "roles:administer",
+      "roles:approve",
+      "roles:create",
+      "roles:export",
+      "roles:post",
+      "roles:read",
+      "roles:update",
+      "sales:administer",
+      "sales:approve",
+      "sales:create",
+      "sales:export",
+      "sales:post",
+      "sales:read",
+      "sales:update",
+      "users:administer",
+      "users:approve",
+      "users:create",
+      "users:export",
+      "users:post",
+      "users:read",
+      "users:update",
+      "wastage:administer",
+      "wastage:approve",
+      "wastage:create",
+      "wastage:export",
+      "wastage:post",
+      "wastage:read",
+      "wastage:update"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "6acf09d377fcf49754f5b412"
+    },
+    "email": "hr@rgtech.com",
+    "username": "hr_admin",
+    "full_name": "Pooja Patel",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$QGMq7ErDh8Rdxtx7hHtHlQ$zccVaDDGV0D4Cz1zbbXtdw/C9EWIDfJ61okxAmqKppU",
+    "role": "HR",
+    "account_type": "HR",
+    "department": "HR",
+    "job_role": "HR Manager",
+    "job_roles": [
+      "Payroll Manager",
+      "HR Manager"
+    ],
+    "employee_code": "EMP-126",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "attendance:approve",
+      "attendance:create",
+      "attendance:export",
+      "attendance:read",
+      "attendance:update",
+      "hr:approve",
+      "hr:create",
+      "hr:export",
+      "hr:read",
+      "hr:update",
+      "master:create",
+      "master:read",
+      "master:update",
+      "payroll:approve",
+      "payroll:create",
+      "payroll:export",
+      "payroll:post",
+      "payroll:read",
+      "payroll:update",
+      "reports:export",
+      "reports:read",
+      "users:create",
+      "users:read",
+      "users:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f166",
+    "reporting_officer_name": "Kavita Deshmukh",
+    "created_at": {
+      "$date": "2022-03-10T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:43.919Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T07:00:51.346Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf09d377fcf49754f5b413"
+    },
+    "email": "mayan@rgtech.com",
+    "username": "mayank_gajjar",
+    "full_name": "Mayank Gajjar",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$Gd/FmG/2QeM2X7Kyi+UyqA$aQsKxjMpzebhnt+Fuwxvb1twvi05ul3G2O6NxKnopQ4",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Employee General",
+    "job_role": "Operations Executive",
+    "job_roles": [
+      "Purchase Executive"
+    ],
+    "employee_code": "EMP-001",
+    "allowed_units": [
+      "Unit_1"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f139",
+    "reporting_officer_name": "Suresh Raina",
+    "created_at": {
+      "$date": "2023-04-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:44.271Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:56:22.893Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f121"
+    },
+    "email": "rahulsharma@rgtech.com",
+    "username": "rahul_sharma",
+    "full_name": "Rahul Sharma",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$CkJ58XPGhxA0pLOmK6qkEw$ehHn2Hgrv1XDaKyxdYQ9YuOyXJQj1+yisB4S6ELu1gA",
+    "role": "PRODUCTION_MANAGER",
+    "account_type": "EMPLOYEE",
+    "department": "Production",
+    "job_role": "Production Manager",
+    "job_roles": [
+      "Production Manager",
+      "Production Planner"
+    ],
+    "employee_code": "EMP-101",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "bom:create",
+      "bom:read",
+      "bom:update",
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "power:approve",
+      "power:create",
+      "power:read",
+      "power:update",
+      "production:approve",
+      "production:create",
+      "production:export",
+      "production:post",
+      "production:read",
+      "production:update",
+      "reports:export",
+      "reports:read",
+      "wastage:approve",
+      "wastage:create",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2022-01-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:44.904Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:56:22.339Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f124"
+    },
+    "email": "amitpatel@rgtech.com",
+    "username": "amit_patel",
+    "full_name": "Amit Patel",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$/YUsAT1JsgslfdZZfonsag$yWXqBBFld6yLv6jLwtmQhjlOADlG7mH6X9r7lPYo1mU",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Production",
+    "job_role": "Production Supervisor",
+    "job_roles": [
+      "Production Supervisor",
+      "Shift In-charge"
+    ],
+    "employee_code": "EMP-102",
+    "allowed_units": [
+      "Unit_1"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "bom:read",
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "power:create",
+      "power:read",
+      "production:create",
+      "production:post",
+      "production:read",
+      "production:update",
+      "wastage:create",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f121",
+    "reporting_officer_name": "Rahul Sharma",
+    "created_at": {
+      "$date": "2022-06-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:43.103Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:56:20.380Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f127"
+    },
+    "email": "jagdishpanchal@rgtech.com",
+    "username": "jagdish_panchal",
+    "full_name": "Jagdish Panchal",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Production Department",
+    "job_role": "Machine Operator",
+    "job_roles": [
+      "Machine Operator"
+    ],
+    "employee_code": "EMP-103",
+    "allowed_units": [
+      "Unit_1"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "production:read",
+      "production:update",
+      "wastage:create"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f124",
+    "reporting_officer_name": "Amit Patel",
+    "created_at": {
+      "$date": "2023-02-10T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f12a"
+    },
+    "email": "sureshsuthar@rgtech.com",
+    "username": "suresh_suthar",
+    "full_name": "Suresh Suthar",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Production Department",
+    "job_role": "Assembly Operator",
+    "job_roles": [
+      "Assembly Operator",
+      "Shift In-charge"
+    ],
+    "employee_code": "EMP-104",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "power:create",
+      "power:read",
+      "production:create",
+      "production:post",
+      "production:read",
+      "production:update",
+      "wastage:create",
+      "wastage:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f121",
+    "reporting_officer_name": "Rahul Sharma",
+    "created_at": {
+      "$date": "2023-04-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f12d"
+    },
+    "email": "nehamodi@rgtech.com",
+    "username": "neha_modi",
+    "full_name": "Neha Modi",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$vMdG89SUlPbNFPzpVPqRyw$zEWkKg/eKUk5+W9LEAy3wzSfmnLT8bQ+0SYPyaV5mxs",
+    "role": "QC_INSPECTOR",
+    "account_type": "EMPLOYEE",
+    "department": "Quality Control",
+    "job_role": "QC Manager",
+    "job_roles": [
+      "QC Manager"
+    ],
+    "employee_code": "EMP-105",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "master:read",
+      "production:read",
+      "qc:approve",
+      "qc:create",
+      "qc:export",
+      "qc:read",
+      "qc:update",
+      "reports:export",
+      "reports:read",
+      "wastage:approve",
+      "wastage:create",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2022-03-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:44.437Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:56:21.755Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f130"
+    },
+    "email": "vikasverma@rgtech.com",
+    "username": "vikas_verma",
+    "full_name": "Vikas Verma",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "QC_INSPECTOR",
+    "account_type": "EMPLOYEE",
+    "department": "Quality Control",
+    "job_role": "QC Inspector",
+    "job_roles": [
+      "QC Inspector"
+    ],
+    "employee_code": "EMP-106",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "master:read",
+      "production:read",
+      "qc:approve",
+      "qc:create",
+      "qc:export",
+      "qc:read",
+      "qc:update",
+      "reports:read",
+      "wastage:create",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f12d",
+    "reporting_officer_name": "Neha Modi",
+    "created_at": {
+      "$date": "2022-08-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f133"
+    },
+    "email": "anjalitrivedi@rgtech.com",
+    "username": "anjali_trivedi",
+    "full_name": "Anjali Trivedi",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Quality Control",
+    "job_role": "QA Engineer",
+    "job_roles": [
+      "QA Engineer",
+      "Testing Technician"
+    ],
+    "employee_code": "EMP-107",
+    "allowed_units": [
+      "Unit_1"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "production:read",
+      "qc:create",
+      "qc:read",
+      "qc:update",
+      "reports:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f12d",
+    "reporting_officer_name": "Neha Modi",
+    "created_at": {
+      "$date": "2023-01-20T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f136"
+    },
+    "email": "bhavikchauhan@rgtech.com",
+    "username": "bhavik_chauhan",
+    "full_name": "Bhavik Chauhan",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Quality Control",
+    "job_role": "Wastage Inspector",
+    "job_roles": [
+      "Wastage Inspector"
+    ],
+    "employee_code": "EMP-108",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "production:read",
+      "qc:read",
+      "wastage:create",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f130",
+    "reporting_officer_name": "Vikas Verma",
+    "created_at": {
+      "$date": "2023-07-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f139"
+    },
+    "email": "sureshraina@rgtech.com",
+    "username": "suresh_raina",
+    "full_name": "Suresh Raina",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$h+txRJVIYruqDfLORVVzcg$Lh/tpO3u6nKkE4mq6ElJGe6K4T8dRUP9rzvRUgngRrg",
+    "role": "INVENTORY_MANAGER",
+    "account_type": "EMPLOYEE",
+    "department": "Inventory & Production",
+    "job_role": "Inventory Manager",
+    "job_roles": [
+      "Inventory Manager",
+      "Purchase Manager"
+    ],
+    "employee_code": "EMP-109",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "bom:approve",
+      "bom:create",
+      "bom:delete",
+      "bom:read",
+      "bom:update",
+      "inventory:create",
+      "inventory:delete",
+      "inventory:export",
+      "inventory:post",
+      "inventory:read",
+      "inventory:update",
+      "master:create",
+      "master:read",
+      "master:update",
+      "orders:read",
+      "production:create",
+      "production:delete",
+      "production:export",
+      "production:post",
+      "production:read",
+      "production:update",
+      "reports:export",
+      "reports:read",
+      "wastage:approve",
+      "wastage:create",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2022-02-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:45.883Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T07:10:12.999Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f13c"
+    },
+    "email": "dineshkarthik@rgtech.com",
+    "username": "dinesh_karthik",
+    "full_name": "Dinesh Karthik",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Inventory & Purchase",
+    "job_role": "Storekeeper",
+    "job_roles": [
+      "Storekeeper"
+    ],
+    "employee_code": "EMP-110",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:post",
+      "inventory:read",
+      "inventory:update",
+      "master:read",
+      "orders:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f139",
+    "reporting_officer_name": "Suresh Raina",
+    "created_at": {
+      "$date": "2022-09-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f13f"
+    },
+    "email": "pareshsolanki@rgtech.com",
+    "username": "paresh_solanki",
+    "full_name": "Paresh Solanki",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Inventory & Purchase",
+    "job_role": "Warehouse Executive",
+    "job_roles": [
+      "Warehouse Executive"
+    ],
+    "employee_code": "EMP-111",
+    "allowed_units": [
+      "Unit_1"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "inventory:update",
+      "master:read",
+      "orders:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f139",
+    "reporting_officer_name": "Suresh Raina",
+    "created_at": {
+      "$date": "2023-08-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f142"
+    },
+    "email": "priyashah@rgtech.com",
+    "username": "priya_shah",
+    "full_name": "Priya Shah",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$wlBEH8QokYco+fUMGAg4BA$TE5GQjYLX8e6ABQiaSOtwZSQZaZI9XiBKNUXLEhdRrc",
+    "role": "SALES_DISPATCH",
+    "account_type": "EMPLOYEE",
+    "department": "Sales & CRM",
+    "job_role": "Sales Manager",
+    "job_roles": [
+      "Sales Manager",
+      "Lead Manager"
+    ],
+    "employee_code": "EMP-112",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "crm:create",
+      "crm:export",
+      "crm:read",
+      "crm:update",
+      "inventory:read",
+      "master:create",
+      "master:read",
+      "master:update",
+      "orders:create",
+      "orders:export",
+      "orders:read",
+      "orders:update",
+      "reports:export",
+      "reports:read",
+      "sales:create",
+      "sales:export",
+      "sales:post",
+      "sales:read",
+      "sales:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2022-04-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:44.670Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:56:22.023Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f145"
+    },
+    "email": "rohangupta@rgtech.com",
+    "username": "rohan_gupta",
+    "full_name": "Rohan Gupta",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$VYgN7Mhy0nwNamd1bipbew$7eFzd8TJU6y59Pr0EDEzGejCJ4vLboUpa5SlibsdZyQ",
+    "role": "SALES_DISPATCH",
+    "account_type": "EMPLOYEE",
+    "department": "Sales & CRM",
+    "job_role": "Sales Executive",
+    "job_roles": [
+      "Sales Executive"
+    ],
+    "employee_code": "EMP-113",
+    "allowed_units": [
+      "Unit_1",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "crm:create",
+      "crm:export",
+      "crm:read",
+      "crm:update",
+      "inventory:read",
+      "master:create",
+      "master:read",
+      "master:update",
+      "orders:create",
+      "orders:export",
+      "orders:read",
+      "orders:update",
+      "reports:read",
+      "sales:create",
+      "sales:export",
+      "sales:post",
+      "sales:read",
+      "sales:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f142",
+    "reporting_officer_name": "Priya Shah",
+    "created_at": {
+      "$date": "2022-10-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:45.482Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f148"
+    },
+    "email": "meeranair@rgtech.com",
+    "username": "meera_nair",
+    "full_name": "Meera Nair",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Sales & CRM",
+    "job_role": "CRM Executive",
+    "job_roles": [
+      "CRM Executive",
+      "Customer Relationship Executive"
+    ],
+    "employee_code": "EMP-114",
+    "allowed_units": [
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "crm:create",
+      "crm:read",
+      "crm:update",
+      "inventory:read",
+      "master:create",
+      "master:read",
+      "orders:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f142",
+    "reporting_officer_name": "Priya Shah",
+    "created_at": {
+      "$date": "2023-03-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f14b"
+    },
+    "email": "hardikdave@rgtech.com",
+    "username": "hardik_dave",
+    "full_name": "Hardik Dave",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Sales & CRM",
+    "job_role": "Lead Manager",
+    "job_roles": [
+      "Lead Manager"
+    ],
+    "employee_code": "EMP-115",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "crm:create",
+      "crm:read",
+      "crm:update",
+      "inventory:read",
+      "master:create",
+      "master:read",
+      "orders:read",
+      "reports:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f142",
+    "reporting_officer_name": "Priya Shah",
+    "created_at": {
+      "$date": "2023-06-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f14e"
+    },
+    "email": "sanjayrawat@rgtech.com",
+    "username": "sanjay_rawat",
+    "full_name": "Sanjay Rawat",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$Yafc0fREjJ9mdeCeJJzwrQ$HA5ffPMlJwbR+BoMODK9yQYL3k+ZIvNqw/5jZ49e9B8",
+    "role": "SALES_DISPATCH",
+    "account_type": "EMPLOYEE",
+    "department": "Dispatch & Logistic",
+    "job_role": "Dispatch Manager",
+    "job_roles": [
+      "Dispatch Manager"
+    ],
+    "employee_code": "EMP-116",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "crm:create",
+      "crm:export",
+      "crm:read",
+      "crm:update",
+      "inventory:read",
+      "master:create",
+      "master:read",
+      "master:update",
+      "orders:create",
+      "orders:export",
+      "orders:read",
+      "orders:update",
+      "reports:export",
+      "reports:read",
+      "sales:create",
+      "sales:export",
+      "sales:post",
+      "sales:read",
+      "sales:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2022-05-10T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:45.676Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T07:09:48.472Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f151"
+    },
+    "email": "karanmalhotra@rgtech.com",
+    "username": "karan_malhotra",
+    "full_name": "Karan Malhotra",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Dispatch & Logistics",
+    "job_role": "Dispatch Executive",
+    "job_roles": [
+      "Dispatch Executive"
+    ],
+    "employee_code": "EMP-117",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "sales:read",
+      "sales:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f14e",
+    "reporting_officer_name": "Sanjay Rawat",
+    "created_at": {
+      "$date": "2022-11-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f154"
+    },
+    "email": "nileshparmar@rgtech.com",
+    "username": "nilesh_parmar",
+    "full_name": "Nilesh Parmar",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Dispatch & Logistics",
+    "job_role": "Packing Operator",
+    "job_roles": [
+      "Packing Operator"
+    ],
+    "employee_code": "EMP-118",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "sales:read",
+      "sales:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f14e",
+    "reporting_officer_name": "Sanjay Rawat",
+    "created_at": {
+      "$date": "2023-05-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f157"
+    },
+    "email": "vinodmakwana@rgtech.com",
+    "username": "vinod_makwana",
+    "full_name": "Vinod Makwana",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Dispatch & Logistics",
+    "job_role": "Logistics Coordinator",
+    "job_roles": [
+      "Logistics Coordinator"
+    ],
+    "employee_code": "EMP-119",
+    "allowed_units": [
+      "Unit_1"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "reports:read",
+      "sales:read",
+      "sales:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f14e",
+    "reporting_officer_name": "Sanjay Rawat",
+    "created_at": {
+      "$date": "2023-09-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f15a"
+    },
+    "email": "ananyaiyer@rgtech.com",
+    "username": "ananya_iyer",
+    "full_name": "Ananya Iyer",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$ZhnbOCXeoFBRfTLQ/UmhDQ$Qu64V/qjcGFD7dFbXm94GNM6zMLpESQyvQMwgbXycmo",
+    "role": "ADMIN",
+    "account_type": "ADMIN",
+    "department": "Billing & Finance",
+    "job_role": "Billing Manager",
+    "job_roles": [
+      "Billing Manager",
+      "Finance Manager"
+    ],
+    "employee_code": "EMP-120",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "attendance:administer",
+      "attendance:approve",
+      "attendance:create",
+      "attendance:export",
+      "attendance:post",
+      "attendance:read",
+      "attendance:update",
+      "audit:approve",
+      "audit:create",
+      "audit:export",
+      "audit:post",
+      "audit:read",
+      "audit:update",
+      "bom:administer",
+      "bom:approve",
+      "bom:create",
+      "bom:export",
+      "bom:post",
+      "bom:read",
+      "bom:update",
+      "crm:administer",
+      "crm:approve",
+      "crm:create",
+      "crm:export",
+      "crm:post",
+      "crm:read",
+      "crm:update",
+      "finance:administer",
+      "finance:approve",
+      "finance:create",
+      "finance:export",
+      "finance:post",
+      "finance:read",
+      "finance:update",
+      "hr:administer",
+      "hr:approve",
+      "hr:create",
+      "hr:export",
+      "hr:post",
+      "hr:read",
+      "hr:update",
+      "inventory:administer",
+      "inventory:approve",
+      "inventory:create",
+      "inventory:export",
+      "inventory:post",
+      "inventory:read",
+      "inventory:update",
+      "master:administer",
+      "master:approve",
+      "master:create",
+      "master:export",
+      "master:post",
+      "master:read",
+      "master:update",
+      "orders:administer",
+      "orders:approve",
+      "orders:create",
+      "orders:export",
+      "orders:post",
+      "orders:read",
+      "orders:update",
+      "payroll:administer",
+      "payroll:approve",
+      "payroll:create",
+      "payroll:export",
+      "payroll:post",
+      "payroll:read",
+      "payroll:update",
+      "power:administer",
+      "power:approve",
+      "power:create",
+      "power:export",
+      "power:post",
+      "power:read",
+      "power:update",
+      "production:administer",
+      "production:approve",
+      "production:create",
+      "production:export",
+      "production:post",
+      "production:read",
+      "production:update",
+      "qc:administer",
+      "qc:approve",
+      "qc:create",
+      "qc:export",
+      "qc:post",
+      "qc:read",
+      "qc:update",
+      "reports:administer",
+      "reports:approve",
+      "reports:create",
+      "reports:export",
+      "reports:post",
+      "reports:read",
+      "reports:update",
+      "roles:approve",
+      "roles:create",
+      "roles:export",
+      "roles:post",
+      "roles:read",
+      "roles:update",
+      "sales:administer",
+      "sales:approve",
+      "sales:create",
+      "sales:export",
+      "sales:post",
+      "sales:read",
+      "sales:update",
+      "users:administer",
+      "users:approve",
+      "users:create",
+      "users:export",
+      "users:post",
+      "users:read",
+      "users:update",
+      "wastage:administer",
+      "wastage:approve",
+      "wastage:create",
+      "wastage:export",
+      "wastage:post",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2022-01-20T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:43.236Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:56:20.734Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f15d"
+    },
+    "email": "manishtiwari@rgtech.com",
+    "username": "manish_tiwari",
+    "full_name": "Manish Tiwari",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$21zR2AkQkiwSexUMyOFfUQ$Ohd38QEFxelJDZVlq5B60PoxbRA2JvzqedUMU8OicGE",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Billing & Finance",
+    "job_role": "Accountant",
+    "job_roles": [
+      "Accountant"
+    ],
+    "employee_code": "EMP-121",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "crm:read",
+      "finance:create",
+      "finance:post",
+      "finance:read",
+      "finance:update",
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "payroll:read",
+      "reports:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f15a",
+    "reporting_officer_name": "Ananya Iyer",
+    "created_at": {
+      "$date": "2022-07-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:44.118Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:32:07.148Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f160"
+    },
+    "email": "swatikulkarni@rgtech.com",
+    "username": "swati_kulkarni",
+    "full_name": "Swati Kulkarni",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Billing & Finance",
+    "job_role": "Billing Executive",
+    "job_roles": [
+      "Billing Executive"
+    ],
+    "employee_code": "EMP-122",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "crm:read",
+      "finance:create",
+      "finance:post",
+      "finance:read",
+      "finance:update",
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "reports:read",
+      "sales:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f15a",
+    "reporting_officer_name": "Ananya Iyer",
+    "created_at": {
+      "$date": "2023-02-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f163"
+    },
+    "email": "chiragbarot@rgtech.com",
+    "username": "chirag_barot",
+    "full_name": "Chirag Barot",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Billing & Finance",
+    "job_role": "Accounts Executive",
+    "job_roles": [
+      "Accounts Executive"
+    ],
+    "employee_code": "EMP-123",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "crm:read",
+      "finance:create",
+      "finance:post",
+      "finance:read",
+      "finance:update",
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "reports:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f15d",
+    "reporting_officer_name": "Manish Tiwari",
+    "created_at": {
+      "$date": "2023-10-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f166"
+    },
+    "email": "kavitadeshmukh@rgtech.com",
+    "username": "kavita_deshmukh",
+    "full_name": "Kavita Deshmukh",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "HR",
+    "account_type": "HR",
+    "department": "HR & Administration",
+    "job_role": "HR Manager",
+    "job_roles": [
+      "HR Manager",
+      "Payroll Manager"
+    ],
+    "employee_code": "EMP-124",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "attendance:approve",
+      "attendance:create",
+      "attendance:export",
+      "attendance:read",
+      "attendance:update",
+      "hr:approve",
+      "hr:create",
+      "hr:export",
+      "hr:read",
+      "hr:update",
+      "master:create",
+      "master:read",
+      "master:update",
+      "payroll:approve",
+      "payroll:create",
+      "payroll:export",
+      "payroll:post",
+      "payroll:read",
+      "payroll:update",
+      "reports:export",
+      "reports:read",
+      "users:create",
+      "users:read",
+      "users:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2022-02-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f169"
+    },
+    "email": "deepakjoshi@rgtech.com",
+    "username": "deepak_joshi",
+    "full_name": "Deepak Joshi",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$2UKCfLfHQWFv6Tv2UuMZRQ$LyM6OS319ZQ0nLCSNkEpLf5DsNoR07G/SGADG9SgUXA",
+    "role": "HR",
+    "account_type": "HR",
+    "department": "HR & Admin",
+    "job_role": "HR Executive",
+    "job_roles": [
+      "HR Executive",
+      "Attendance Manager"
+    ],
+    "employee_code": "EMP-125",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "attendance:approve",
+      "attendance:create",
+      "attendance:export",
+      "attendance:read",
+      "attendance:update",
+      "hr:approve",
+      "hr:create",
+      "hr:export",
+      "hr:read",
+      "hr:update",
+      "master:create",
+      "master:read",
+      "master:update",
+      "payroll:approve",
+      "payroll:create",
+      "payroll:export",
+      "payroll:post",
+      "payroll:read",
+      "payroll:update",
+      "reports:export",
+      "reports:read",
+      "users:create",
+      "users:read",
+      "users:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f166",
+    "reporting_officer_name": "Kavita Deshmukh",
+    "created_at": {
+      "$date": "2022-08-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:43.580Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:56:21.495Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f16e"
+    },
+    "email": "rinagoswami@rgtech.com",
+    "username": "rina_goswami",
+    "full_name": "Rina Goswami",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "HR & Administration",
+    "job_role": "Recruiter",
+    "job_roles": [
+      "Recruiter",
+      "Office Administrator"
+    ],
+    "employee_code": "EMP-127",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "attendance:read",
+      "hr:create",
+      "hr:read",
+      "inventory:read",
+      "master:read",
+      "orders:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f166",
+    "reporting_officer_name": "Kavita Deshmukh",
+    "created_at": {
+      "$date": "2023-04-10T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f171"
+    },
+    "email": "rameshsolanki@rgtech.com",
+    "username": "ramesh_solanki",
+    "full_name": "Ramesh Solanki",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$hOY2Dw0r0L16aDtbKgW+/A$QE4uB5P/EG1lNhGPc8nQQ7bMxmomtcGUEIjsRBz3y+I",
+    "role": "PRODUCTION_MANAGER",
+    "account_type": "EMPLOYEE",
+    "department": "Maintenance & Technical",
+    "job_role": "Maintenance Manager",
+    "job_roles": [
+      "Maintenance Manager"
+    ],
+    "employee_code": "EMP-128",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "bom:create",
+      "bom:read",
+      "bom:update",
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "power:approve",
+      "power:create",
+      "power:export",
+      "power:read",
+      "power:update",
+      "production:approve",
+      "production:create",
+      "production:export",
+      "production:post",
+      "production:read",
+      "production:update",
+      "reports:export",
+      "reports:read",
+      "wastage:approve",
+      "wastage:create",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2022-02-20T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:45.340Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:57:12.761Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f174"
+    },
+    "email": "chetanprajapati@rgtech.com",
+    "username": "chetan_prajapati",
+    "full_name": "Chetan Prajapati",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$4gQers3VVq5MmSAqz7MR/A$5z2n6z7Zd5vU+tu+/wQpJboCFQvyfp1Kk2NV4GXX4is",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Maintenance & Technical",
+    "job_role": "Maintenance Technician",
+    "job_roles": [
+      "Maintenance Technician",
+      "Electrician"
+    ],
+    "employee_code": "EMP-129",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "power:create",
+      "power:read",
+      "power:update",
+      "production:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f171",
+    "reporting_officer_name": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2022-09-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1",
+    "updated_at": {
+      "$date": "2026-10-14T06:31:43.415Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T07:39:01.631Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f177"
+    },
+    "email": "bharatmistry@rgtech.com",
+    "username": "bharat_mistry",
+    "full_name": "Bharat Mistry",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Maintenance & Technical",
+    "job_role": "Mechanical Technician",
+    "job_roles": [
+      "Mechanical Technician",
+      "CNC Programmer"
+    ],
+    "employee_code": "EMP-130",
+    "allowed_units": [
+      "Unit_1"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "bom:read",
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "power:create",
+      "power:read",
+      "production:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f171",
+    "reporting_officer_name": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2023-01-10T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f17a"
+    },
+    "email": "arvindvaghela@rgtech.com",
+    "username": "arvind_vaghela",
+    "full_name": "Arvind Vaghela",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Maintenance & Technical",
+    "job_role": "Electrician",
+    "job_roles": [
+      "Electrician"
+    ],
+    "employee_code": "EMP-131",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "power:create",
+      "power:read",
+      "power:update"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f171",
+    "reporting_officer_name": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2023-06-20T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f17d"
+    },
+    "email": "tanyasaxena@rgtech.com",
+    "username": "tanya_saxena",
+    "full_name": "Tanya Saxena",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Production Department",
+    "job_role": "Production Planner",
+    "job_roles": [
+      "Production Planner"
+    ],
+    "employee_code": "EMP-132",
+    "allowed_units": [
+      "Unit_1"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "bom:read",
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "production:create",
+      "production:read",
+      "production:update",
+      "reports:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f121",
+    "reporting_officer_name": "Rahul Sharma",
+    "created_at": {
+      "$date": "2026-10-12T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f180"
+    },
+    "email": "rajeshkhanna@rgtech.com",
+    "username": "rajesh_khanna",
+    "full_name": "Rajesh Khanna",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "EMPLOYEE",
+    "account_type": "EMPLOYEE",
+    "department": "Quality Control",
+    "job_role": "Testing Technician",
+    "job_roles": [
+      "Testing Technician"
+    ],
+    "employee_code": "EMP-133",
+    "allowed_units": [
+      "Unit_2"
+    ],
+    "is_active": false,
+    "must_change_password": false,
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read",
+      "production:read",
+      "qc:create",
+      "qc:read"
+    ],
+    "reporting_officer_id": "6acf133b35a67d012664f12d",
+    "reporting_officer_name": "Neha Modi",
+    "created_at": {
+      "$date": "2023-01-15T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f183"
+    },
+    "email": "oconnor.dsouza@rgtech.com",
+    "username": "oconnor_dsouza",
+    "full_name": "O'Connor-Fernandez D'Souza",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$FPnMle7MjwgBKFxs/TDcEA$MBTxrc0rmUXbF6kXqp8/48He4yJReubaQS1GlJ/Yl0g",
+    "role": "ADMIN",
+    "account_type": "ADMIN",
+    "department": "Billing & Finance",
+    "job_role": "Finance Manager",
+    "job_roles": [
+      "Finance Manager"
+    ],
+    "employee_code": "EMP-134",
+    "allowed_units": [
+      "Unit_1",
+      "Unit_2",
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "permissions": [
+      "attendance:administer",
+      "attendance:approve",
+      "attendance:create",
+      "attendance:export",
+      "attendance:post",
+      "attendance:read",
+      "attendance:update",
+      "audit:approve",
+      "audit:create",
+      "audit:export",
+      "audit:post",
+      "audit:read",
+      "audit:update",
+      "bom:administer",
+      "bom:approve",
+      "bom:create",
+      "bom:export",
+      "bom:post",
+      "bom:read",
+      "bom:update",
+      "crm:administer",
+      "crm:approve",
+      "crm:create",
+      "crm:export",
+      "crm:post",
+      "crm:read",
+      "crm:update",
+      "finance:administer",
+      "finance:approve",
+      "finance:create",
+      "finance:export",
+      "finance:post",
+      "finance:read",
+      "finance:update",
+      "hr:administer",
+      "hr:approve",
+      "hr:create",
+      "hr:export",
+      "hr:post",
+      "hr:read",
+      "hr:update",
+      "inventory:administer",
+      "inventory:approve",
+      "inventory:create",
+      "inventory:export",
+      "inventory:post",
+      "inventory:read",
+      "inventory:update",
+      "master:administer",
+      "master:approve",
+      "master:create",
+      "master:export",
+      "master:post",
+      "master:read",
+      "master:update",
+      "orders:administer",
+      "orders:approve",
+      "orders:create",
+      "orders:export",
+      "orders:post",
+      "orders:read",
+      "orders:update",
+      "payroll:administer",
+      "payroll:approve",
+      "payroll:create",
+      "payroll:export",
+      "payroll:post",
+      "payroll:read",
+      "payroll:update",
+      "power:administer",
+      "power:approve",
+      "power:create",
+      "power:export",
+      "power:post",
+      "power:read",
+      "power:update",
+      "production:administer",
+      "production:approve",
+      "production:create",
+      "production:export",
+      "production:post",
+      "production:read",
+      "production:update",
+      "qc:administer",
+      "qc:approve",
+      "qc:create",
+      "qc:export",
+      "qc:post",
+      "qc:read",
+      "qc:update",
+      "reports:administer",
+      "reports:approve",
+      "reports:create",
+      "reports:export",
+      "reports:post",
+      "reports:read",
+      "reports:update",
+      "roles:approve",
+      "roles:create",
+      "roles:export",
+      "roles:post",
+      "roles:read",
+      "roles:update",
+      "sales:administer",
+      "sales:approve",
+      "sales:create",
+      "sales:export",
+      "sales:post",
+      "sales:read",
+      "sales:update",
+      "users:administer",
+      "users:approve",
+      "users:create",
+      "users:export",
+      "users:post",
+      "users:read",
+      "users:update",
+      "wastage:administer",
+      "wastage:approve",
+      "wastage:create",
+      "wastage:export",
+      "wastage:post",
+      "wastage:read",
+      "wastage:update"
+    ],
+    "reporting_officer_id": "6acf09d377fcf49754f5b411",
+    "reporting_officer_name": "Ritesh Gajjar",
+    "created_at": {
+      "$date": "2023-05-01T00:00:00Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf21d131a7ee8dd089743f"
+    },
+    "email": "rajeshkhatri@rgtech.com",
+    "username": "rajeshkhatri",
+    "full_name": "Rajesh Khatri",
+    "hashed_password": "$argon2id$v=19$m=65536,t=3,p=4$B4EVt/rMHMlfqmk0S04oVw$jHYI+L/kJFePOYvScOX9ukcCz0oLFdN7bmkOE6Q8tiY",
+    "role": "EMPLOYEE",
+    "department": "Employee General",
+    "job_role": "Operations Executive",
+    "allowed_units": [
+      "BOTH"
+    ],
+    "is_active": true,
+    "must_change_password": false,
+    "created_at": {
+      "$date": "2026-10-14T06:31:45.088Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:31:45.088Z"
+    },
+    "last_login_at": {
+      "$date": "2026-10-14T06:56:22.595Z"
+    },
+    "permissions": [
+      "inventory:read",
+      "master:read",
+      "orders:read"
+    ]
+  }
+]

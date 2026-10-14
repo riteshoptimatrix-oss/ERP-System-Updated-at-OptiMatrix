@@ -1,0 +1,731 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f18a"
+    },
+    "item_id": "6acf133b35a67d012664f0c8",
+    "item_code": "RM-MS-PLATE-6MM",
+    "item_name": "MS Plate 6mm IS:2062",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-MSP6-01",
+    "current_quantity": 4500.0,
+    "quantity": 4500.0,
+    "uom": "KG",
+    "unit_cost": 68.0,
+    "total_valuation": 306000.0,
+    "reorder_level": 1200.0,
+    "safety_stock": 600.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f18c"
+    },
+    "item_id": "6acf133b35a67d012664f0c9",
+    "item_code": "RM-MS-PLATE-10MM",
+    "item_name": "MS Plate 10mm IS:2062",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-MSP10-01",
+    "current_quantity": 2800.0,
+    "quantity": 2800.0,
+    "uom": "KG",
+    "unit_cost": 72.0,
+    "total_valuation": 201600.0,
+    "reorder_level": 800.0,
+    "safety_stock": 400.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f18e"
+    },
+    "item_id": "6acf133b35a67d012664f0ca",
+    "item_code": "RM-SS-ROD-20MM",
+    "item_name": "SS Round Bar 20mm AISI 304",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b1",
+    "warehouse_code": "WH-U1-RM02",
+    "warehouse_name": "Unit 1 Castings & Bar Stock Store",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-SS20-01",
+    "current_quantity": 220.0,
+    "quantity": 220.0,
+    "uom": "KG",
+    "unit_cost": 280.0,
+    "total_valuation": 61600.0,
+    "reorder_level": 350.0,
+    "safety_stock": 150.0,
+    "is_below_reorder": true,
+    "is_below_minimum": true,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f190"
+    },
+    "item_id": "6acf133b35a67d012664f0cb",
+    "item_code": "RM-CI-CAST-001",
+    "item_name": "CI Rough Body Casting Grade 25",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b1",
+    "warehouse_code": "WH-U1-RM02",
+    "warehouse_name": "Unit 1 Castings & Bar Stock Store",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-CIC-01",
+    "current_quantity": 35.0,
+    "quantity": 35.0,
+    "uom": "NOS",
+    "unit_cost": 18500.0,
+    "total_valuation": 647500.0,
+    "reorder_level": 40.0,
+    "safety_stock": 20.0,
+    "is_below_reorder": true,
+    "is_below_minimum": true,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f192"
+    },
+    "item_id": "6acf133b35a67d012664f0cc",
+    "item_code": "RM-MS-CHANNEL",
+    "item_name": "MS Channel 100x50 IS:808",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-MSC-01",
+    "current_quantity": 600.0,
+    "quantity": 600.0,
+    "uom": "MTR",
+    "unit_cost": 520.0,
+    "total_valuation": 312000.0,
+    "reorder_level": 250.0,
+    "safety_stock": 100.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f194"
+    },
+    "item_id": "6acf133b35a67d012664f0d3",
+    "item_code": "RM-WELD-ROD-E6013",
+    "item_name": "Welding Electrode E6013 3.15mm",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-WR-01",
+    "current_quantity": 180.0,
+    "quantity": 180.0,
+    "uom": "KG",
+    "unit_cost": 160.0,
+    "total_valuation": 28800.0,
+    "reorder_level": 80.0,
+    "safety_stock": 30.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f196"
+    },
+    "item_id": "6acf133b35a67d012664f0d4",
+    "item_code": "RM-CUTTING-OIL",
+    "item_name": "Water Soluble Cutting Fluid",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-CO-01",
+    "current_quantity": 450.0,
+    "quantity": 450.0,
+    "uom": "LTR",
+    "unit_cost": 210.0,
+    "total_valuation": 94500.0,
+    "reorder_level": 250.0,
+    "safety_stock": 100.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f198"
+    },
+    "item_id": "6acf133b35a67d012664f0d5",
+    "item_code": "RM-PAINT-GREY",
+    "item_name": "Industrial Enamel Machine Grey",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-PNT-01",
+    "current_quantity": 110.0,
+    "quantity": 110.0,
+    "uom": "LTR",
+    "unit_cost": 340.0,
+    "total_valuation": 37400.0,
+    "reorder_level": 60.0,
+    "safety_stock": 25.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f19a"
+    },
+    "item_id": "6acf133b35a67d012664f0cd",
+    "item_code": "RM-MOTOR-0.5HP",
+    "item_name": "AC Induction Motor 0.5 HP",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b5",
+    "warehouse_code": "WH-U2-RM01",
+    "warehouse_name": "Unit 2 Electricals & Fasteners Store",
+    "unit_id": "Unit_2",
+    "batch_no": "BATCH-MTR05-01",
+    "current_quantity": 42.0,
+    "quantity": 42.0,
+    "uom": "NOS",
+    "unit_cost": 4200.0,
+    "total_valuation": 176400.0,
+    "reorder_level": 25.0,
+    "safety_stock": 10.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f19c"
+    },
+    "item_id": "6acf133b35a67d012664f0ce",
+    "item_code": "RM-MOTOR-1HP",
+    "item_name": "AC Induction Motor 1.0 HP",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b5",
+    "warehouse_code": "WH-U2-RM01",
+    "warehouse_name": "Unit 2 Electricals & Fasteners Store",
+    "unit_id": "Unit_2",
+    "batch_no": "BATCH-MTR1-01",
+    "current_quantity": 28.0,
+    "quantity": 28.0,
+    "uom": "NOS",
+    "unit_cost": 6800.0,
+    "total_valuation": 190400.0,
+    "reorder_level": 20.0,
+    "safety_stock": 8.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f19e"
+    },
+    "item_id": "6acf133b35a67d012664f0cf",
+    "item_code": "RM-BEARING-6205",
+    "item_name": "Deep Groove Ball Bearing 6205ZZ",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b5",
+    "warehouse_code": "WH-U2-RM01",
+    "warehouse_name": "Unit 2 Electricals & Fasteners Store",
+    "unit_id": "Unit_2",
+    "batch_no": "BATCH-BRG-01",
+    "current_quantity": 380.0,
+    "quantity": 380.0,
+    "uom": "NOS",
+    "unit_cost": 240.0,
+    "total_valuation": 91200.0,
+    "reorder_level": 120.0,
+    "safety_stock": 50.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1a0"
+    },
+    "item_id": "6acf133b35a67d012664f0d0",
+    "item_code": "RM-CAPACITOR-25",
+    "item_name": "Motor Run Capacitor 25uF 440V",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b5",
+    "warehouse_code": "WH-U2-RM01",
+    "warehouse_name": "Unit 2 Electricals & Fasteners Store",
+    "unit_id": "Unit_2",
+    "batch_no": "BATCH-CAP-01",
+    "current_quantity": 140.0,
+    "quantity": 140.0,
+    "uom": "NOS",
+    "unit_cost": 180.0,
+    "total_valuation": 25200.0,
+    "reorder_level": 60.0,
+    "safety_stock": 25.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1a2"
+    },
+    "item_id": "6acf133b35a67d012664f0d1",
+    "item_code": "RM-RUBBER-GSKT",
+    "item_name": "Nitrile Rubber Gasket Strip 3mm",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b6",
+    "warehouse_code": "WH-U2-RM02",
+    "warehouse_name": "Unit 2 Polymers & Paint Store",
+    "unit_id": "Unit_2",
+    "batch_no": "BATCH-RBR-01",
+    "current_quantity": 850.0,
+    "quantity": 850.0,
+    "uom": "MTR",
+    "unit_cost": 95.0,
+    "total_valuation": 80750.0,
+    "reorder_level": 400.0,
+    "safety_stock": 180.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1a4"
+    },
+    "item_id": "6acf133b35a67d012664f0d2",
+    "item_code": "RM-NYLON-BUSH",
+    "item_name": "Engineering Nylon Bush 20x30mm",
+    "item_type": "RAW_MATERIAL",
+    "warehouse_id": "6acf133b35a67d012664f0b6",
+    "warehouse_code": "WH-U2-RM02",
+    "warehouse_name": "Unit 2 Polymers & Paint Store",
+    "unit_id": "Unit_2",
+    "batch_no": "BATCH-NYL-01",
+    "current_quantity": 420.0,
+    "quantity": 420.0,
+    "uom": "NOS",
+    "unit_cost": 75.0,
+    "total_valuation": 31500.0,
+    "reorder_level": 220.0,
+    "safety_stock": 100.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1a6"
+    },
+    "item_id": "6acf133b35a67d012664f0da",
+    "item_code": "FP-ENV-100",
+    "item_name": "Semi-Automatic Envelope Machine ENV-100",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "warehouse_name": "Unit 1 Finished Envelope Machines Store",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-ENV100-26A",
+    "current_quantity": 20.0,
+    "quantity": 20.0,
+    "uom": "PCS",
+    "unit_cost": 185000.0,
+    "total_valuation": 3700000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1a8"
+    },
+    "item_id": "6acf133b35a67d012664f0db",
+    "item_code": "FP-ENV-200",
+    "item_name": "Fully Automatic Envelope Machine ENV-200",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "warehouse_name": "Unit 1 Finished Envelope Machines Store",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-ENV200-26A",
+    "current_quantity": 15.0,
+    "quantity": 15.0,
+    "uom": "PCS",
+    "unit_cost": 310000.0,
+    "total_valuation": 4650000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1aa"
+    },
+    "item_id": "6acf133b35a67d012664f0dc",
+    "item_code": "FP-PKG-300",
+    "item_name": "Automated Carton Packing Machine PKG-300",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b8",
+    "warehouse_code": "WH-U2-FG01",
+    "warehouse_name": "Unit 2 Final Dispatch & Crated FG Bay",
+    "unit_id": "Unit_2",
+    "batch_no": "BATCH-PKG300-26A",
+    "current_quantity": 15.0,
+    "quantity": 15.0,
+    "uom": "PCS",
+    "unit_cost": 420000.0,
+    "total_valuation": 6300000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f1ac"
+    },
+    "item_id": "6acf133b35a67d012664f0dd",
+    "item_code": "FP-ENV-MINI",
+    "item_name": "Compact Desktop Envelope Machine ENV-MINI",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "warehouse_name": "Unit 1 Finished Envelope Machines Store",
+    "unit_id": "Unit_1",
+    "batch_no": "BATCH-MINI-26A",
+    "current_quantity": 25.0,
+    "quantity": 25.0,
+    "uom": "PCS",
+    "unit_cost": 95000.0,
+    "total_valuation": 2375000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf16eb35a67d012664f1c2"
+    },
+    "warehouse_id": "6acf133b35a67d012664f0b2",
+    "batch_no": "BATCH-01",
+    "item_id": "6acf133b35a67d012664f0db",
+    "created_at": {
+      "$date": "2026-10-14T05:45:15.350Z"
+    },
+    "item_code": "FP-ENV-200",
+    "item_name": "Fully Automatic Envelope Machine ENV-200",
+    "item_type": "FINISHED_GOOD",
+    "quantity_on_hand": 100.0,
+    "quantity_reserved": 0.0,
+    "reorder_level": 0.0,
+    "safety_stock": 0.0,
+    "unit_id": "Unit_1",
+    "uom": "PCS",
+    "updated_at": {
+      "$date": "2026-10-14T05:45:15.350Z"
+    },
+    "valuation_rate": 5000.0,
+    "warehouse_code": "WH-U1-WIP",
+    "warehouse_name": "Unit 1 Machining WIP Buffer Bay",
+    "quantity_available": 100.0
+  },
+  {
+    "_id": {
+      "$oid": "6acf186c35a67d012664f1c3"
+    },
+    "item_id": "6acf133b35a67d012664f0da",
+    "item_code": "FP-ENV-100",
+    "item_name": "Semi-Automatic Envelope Machine ENV-100",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "warehouse_name": "Unit 1 Finished Envelope Machines Store",
+    "unit_id": "Unit_1",
+    "batch_no": "DEFAULT",
+    "current_quantity": 50.0,
+    "quantity": 50.0,
+    "uom": "PCS",
+    "unit_cost": 185000.0,
+    "total_valuation": 9250000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf186c35a67d012664f1c4"
+    },
+    "item_id": "6acf133b35a67d012664f0da",
+    "item_code": "FP-ENV-100",
+    "item_name": "Semi-Automatic Envelope Machine ENV-100",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "DEFAULT",
+    "current_quantity": 30.0,
+    "quantity": 30.0,
+    "uom": "PCS",
+    "unit_cost": 185000.0,
+    "total_valuation": 5550000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf186c35a67d012664f1c6"
+    },
+    "item_id": "6acf133b35a67d012664f0db",
+    "item_code": "FP-ENV-200",
+    "item_name": "Fully Automatic Envelope Machine ENV-200",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "warehouse_name": "Unit 1 Finished Envelope Machines Store",
+    "unit_id": "Unit_1",
+    "batch_no": "DEFAULT",
+    "current_quantity": 40.0,
+    "quantity": 40.0,
+    "uom": "PCS",
+    "unit_cost": 310000.0,
+    "total_valuation": 12400000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf186c35a67d012664f1c7"
+    },
+    "item_id": "6acf133b35a67d012664f0db",
+    "item_code": "FP-ENV-200",
+    "item_name": "Fully Automatic Envelope Machine ENV-200",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "DEFAULT",
+    "current_quantity": 25.0,
+    "quantity": 25.0,
+    "uom": "PCS",
+    "unit_cost": 310000.0,
+    "total_valuation": 7750000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf186c35a67d012664f1c9"
+    },
+    "item_id": "6acf133b35a67d012664f0dc",
+    "item_code": "FP-PKG-300",
+    "item_name": "Automated Carton Packing Machine PKG-300",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b8",
+    "warehouse_code": "WH-U2-FG01",
+    "warehouse_name": "Unit 2 Final Dispatch & Crated FG Bay",
+    "unit_id": "Unit_2",
+    "batch_no": "DEFAULT",
+    "current_quantity": 50.0,
+    "quantity": 50.0,
+    "uom": "PCS",
+    "unit_cost": 420000.0,
+    "total_valuation": 21000000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf186c35a67d012664f1ca"
+    },
+    "item_id": "6acf133b35a67d012664f0dc",
+    "item_code": "FP-PKG-300",
+    "item_name": "Automated Carton Packing Machine PKG-300",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b5",
+    "warehouse_code": "WH-U2-RM01",
+    "warehouse_name": "Unit 2 Electricals & Fasteners Store",
+    "unit_id": "Unit_2",
+    "batch_no": "DEFAULT",
+    "current_quantity": 20.0,
+    "quantity": 20.0,
+    "uom": "PCS",
+    "unit_cost": 420000.0,
+    "total_valuation": 8400000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf186c35a67d012664f1cc"
+    },
+    "item_id": "6acf133b35a67d012664f0dd",
+    "item_code": "FP-ENV-MINI",
+    "item_name": "Compact Desktop Envelope Machine ENV-MINI",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b3",
+    "warehouse_code": "WH-U1-FG01",
+    "warehouse_name": "Unit 1 Finished Envelope Machines Store",
+    "unit_id": "Unit_1",
+    "batch_no": "DEFAULT",
+    "current_quantity": 60.0,
+    "quantity": 60.0,
+    "uom": "PCS",
+    "unit_cost": 95000.0,
+    "total_valuation": 5700000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf186c35a67d012664f1cd"
+    },
+    "item_id": "6acf133b35a67d012664f0dd",
+    "item_code": "FP-ENV-MINI",
+    "item_name": "Compact Desktop Envelope Machine ENV-MINI",
+    "item_type": "FINISHED_GOOD",
+    "warehouse_id": "6acf133b35a67d012664f0b0",
+    "warehouse_code": "WH-U1-RM01",
+    "warehouse_name": "Unit 1 Heavy Plates & Steel Yard",
+    "unit_id": "Unit_1",
+    "batch_no": "DEFAULT",
+    "current_quantity": 30.0,
+    "quantity": 30.0,
+    "uom": "PCS",
+    "unit_cost": 95000.0,
+    "total_valuation": 2850000.0,
+    "reorder_level": 1.0,
+    "safety_stock": 1.0,
+    "is_below_reorder": false,
+    "is_below_minimum": false,
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf12ddf54727e83c4f9749"
+    },
+    "lead_id": "6acf12ddf54727e83c4f9748",
+    "activity_type": "NOTE",
+    "summary": "Lead Created",
+    "details": "Lead recorded by admin@rgtech.com. Initial stage: LeadStatus.NEW.",
+    "created_at": {
+      "$date": "2026-10-14T05:27:57.774Z"
+    },
+    "created_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1322f54727e83c4f974a"
+    },
+    "lead_id": "6acf12ddf54727e83c4f9748",
+    "activity_type": "STATUS_CHANGE",
+    "summary": "Stage changed: NEW \u2794 LeadStatus.CONTACTED",
+    "details": "Updated by admin@rgtech.com.",
+    "created_at": {
+      "$date": "2026-10-14T05:29:06.778Z"
+    },
+    "created_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1323f54727e83c4f974b"
+    },
+    "lead_id": "6acf12ddf54727e83c4f9748",
+    "activity_type": "STATUS_CHANGE",
+    "summary": "Stage changed: CONTACTED \u2794 LeadStatus.QUALIFIED",
+    "details": "Updated by admin@rgtech.com.",
+    "created_at": {
+      "$date": "2026-10-14T05:29:07.487Z"
+    },
+    "created_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1324f54727e83c4f974c"
+    },
+    "lead_id": "6acf12ddf54727e83c4f9748",
+    "activity_type": "STATUS_CHANGE",
+    "summary": "Stage changed: QUALIFIED \u2794 LeadStatus.PROPOSAL_SENT",
+    "details": "Updated by admin@rgtech.com.",
+    "created_at": {
+      "$date": "2026-10-14T05:29:08.217Z"
+    },
+    "created_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1324f54727e83c4f974d"
+    },
+    "lead_id": "6acf12ddf54727e83c4f9748",
+    "activity_type": "STATUS_CHANGE",
+    "summary": "Stage changed: PROPOSAL_SENT \u2794 LeadStatus.NEGOTIATION",
+    "details": "Updated by admin@rgtech.com.",
+    "created_at": {
+      "$date": "2026-10-14T05:29:08.870Z"
+    },
+    "created_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf1325f54727e83c4f974e"
+    },
+    "lead_id": "6acf12ddf54727e83c4f9748",
+    "activity_type": "STATUS_CHANGE",
+    "summary": "Stage changed: NEGOTIATION \u2794 LeadStatus.CONVERTED",
+    "details": "Updated by admin@rgtech.com.",
+    "created_at": {
+      "$date": "2026-10-14T05:29:09.338Z"
+    },
+    "created_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf17682a9f7b21bdc5bbda"
+    },
+    "lead_id": "6acf1753234fe58d82e4773b",
+    "activity_type": "STATUS_CHANGE",
+    "summary": "Stage changed: PROPOSAL_SENT \u2794 LeadStatus.NEGOTIATION",
+    "details": "Updated by admin@rgtech.com.",
+    "created_at": {
+      "$date": "2026-10-14T05:47:20.074Z"
+    },
+    "created_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf176b2a9f7b21bdc5bbdb"
+    },
+    "lead_id": "6acf1753234fe58d82e4773b",
+    "activity_type": "STATUS_CHANGE",
+    "summary": "Stage changed: NEGOTIATION \u2794 LeadStatus.CONVERTED",
+    "details": "Updated by admin@rgtech.com.",
+    "created_at": {
+      "$date": "2026-10-14T05:47:23.971Z"
+    },
+    "created_by": "admin@rgtech.com"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e3b"
+    },
+    "lead_id": "6acf18736a2d59b83bff4e3a",
+    "activity_type": "MEETING",
+    "title": "Initial technical consultation for High-Speed Automatic Envelope Machine ENV-200",
+    "description": "Discussed plant layout requirements and electrical 3-phase wiring parameters for Navkar Packaging Industries Pvt Ltd.",
+    "performed_by": "priyashah@rgtech.com",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e3d"
+    },
+    "lead_id": "6acf18736a2d59b83bff4e3c",
+    "activity_type": "CALL",
+    "title": "Initial technical consultation for Carton Packaging Machine PKG-300 with conveyor",
+    "description": "Discussed plant layout requirements and electrical 3-phase wiring parameters for Deccan Converting & Paper Bags Ltd.",
+    "performed_by": "rohangupta@rgtech.com",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e3f"
+    },
+    "lead_id": "6acf18736a2d59b83bff4e3e",
+    "activity_type": "CALL",
+    "title": "Initial technical consultation for Compact Desktop Envelope Machine ENV-MINI",
+    "description": "Discussed plant layout requirements and electrical 3-phase wiring parameters for Apex Stationery & Forms Co..",
+    "performed_by": "priyashah@rgtech.com",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e41"
+    },
+    "lead_id": "6acf18736a2d59b83bff4e40",
+    "activity_type": "MEETING",
+    "title": "Initial technical consultation for Semi-Automatic Envelope Machine ENV-100",
+    "description": "Discussed plant layout requirements and electrical 3-phase wiring parameters for Shree Ganesh Book Mfg & Printers.",
+    "performed_by": "priyashah@rgtech.com",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e43"
+    },
+    "lead_id": "6acf18736a2d59b83bff4e42",
+    "activity_type": "CALL",
+    "title": "Initial technical consultation for Automatic Carton Packer spare assemblies",
+    "description": "Discussed plant layout requirements and electrical 3-phase wiring parameters for Maruti Cartons & Corrugators.",
+    "performed_by": "meeranair@rgtech.com",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e45"
+    },
+    "lead_id": "6acf18736a2d59b83bff4e44",
+    "activity_type": "CALL",
+    "title": "Initial technical consultation for Tender bid lost on pricing discount terms",
+    "description": "Discussed plant layout requirements and electrical 3-phase wiring parameters for Tamil Nadu Educational Stationery.",
+    "performed_by": "rohangupta@rgtech.com",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e47"
+    },
+    "lead_id": "6acf18736a2d59b83bff4e46",
+    "activity_type": "CALL",
+    "title": "Initial technical consultation for ENV-100 tooling expansion with window die-cutter",
+    "description": "Discussed plant layout requirements and electrical 3-phase wiring parameters for Kalyani Paper Converting Works.",
+    "performed_by": "priyashah@rgtech.com",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e49"
+    },
+    "lead_id": "6acf18736a2d59b83bff4e48",
+    "activity_type": "CALL",
+    "title": "Initial technical consultation for Inquiry for PKG-300 carton forming station",
+    "description": "Discussed plant layout requirements and electrical 3-phase wiring parameters for Galaxy Blister & Box Packers.",
+    "performed_by": "meeranair@rgtech.com",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

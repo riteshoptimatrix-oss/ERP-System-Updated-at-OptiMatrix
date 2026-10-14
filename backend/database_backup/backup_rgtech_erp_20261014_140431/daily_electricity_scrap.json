@@ -1,0 +1,926 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbc4"
+    },
+    "date": "12-Aug-2026",
+    "total_production_kg": 395.0,
+    "product_type": "Braider",
+    "startup_scrap_kg": 2.25,
+    "cutting_scrap_kg": 0.5,
+    "total_scrap_kg": 2.75,
+    "scrap_percent_str": "0.70%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "8.5",
+    "shift_duration_hr": 8.0,
+    "main_reason": "",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbc5"
+    },
+    "date": "13-Aug-2026",
+    "total_production_kg": 309.0,
+    "product_type": "Braider",
+    "startup_scrap_kg": 8.0,
+    "cutting_scrap_kg": 9.0,
+    "total_scrap_kg": 17.0,
+    "scrap_percent_str": "5.50%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 70.0,
+    "machine_working_hours": "8.5",
+    "shift_duration_hr": 8.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbc6"
+    },
+    "date": "14-Aug-2026",
+    "total_production_kg": 150.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 2.1,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 15.1,
+    "scrap_percent_str": "10.07%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 80.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 8.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbc7"
+    },
+    "date": "17-Aug-2026",
+    "total_production_kg": 320.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 3.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 3.0,
+    "scrap_percent_str": "0.94%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 5.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 8.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbc8"
+    },
+    "date": "18-Aug-2026",
+    "total_production_kg": 255.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 35.0,
+    "cutting_scrap_kg": 0.8,
+    "total_scrap_kg": 35.8,
+    "scrap_percent_str": "14.04%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 8.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbc9"
+    },
+    "date": "19-Aug-2026",
+    "total_production_kg": 341.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 4.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 4.0,
+    "scrap_percent_str": "1.17%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 8.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbca"
+    },
+    "date": "20-Aug-2026",
+    "total_production_kg": 315.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 14.5,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 14.5,
+    "scrap_percent_str": "4.60%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 5.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 8.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbcb"
+    },
+    "date": "21-Aug-2026",
+    "total_production_kg": 325.57,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 9.7,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 9.7,
+    "scrap_percent_str": "2.98%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 5.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 8.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbcc"
+    },
+    "date": "24-Aug-2026",
+    "total_production_kg": 319.0,
+    "product_type": "Braider",
+    "startup_scrap_kg": 3.5,
+    "cutting_scrap_kg": 6.2,
+    "total_scrap_kg": 9.7,
+    "scrap_percent_str": "3.04%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "7.5",
+    "shift_duration_hr": 8.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbcd"
+    },
+    "date": "25-Aug-2026",
+    "total_production_kg": 261.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 5.9,
+    "cutting_scrap_kg": 0.9,
+    "total_scrap_kg": 6.8,
+    "scrap_percent_str": "2.61%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 71.0,
+    "machine_working_hours": "8.5",
+    "shift_duration_hr": 8.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbce"
+    },
+    "date": "26-Aug-2026",
+    "total_production_kg": 358.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 9.1,
+    "cutting_scrap_kg": 0.1,
+    "total_scrap_kg": 9.2,
+    "scrap_percent_str": "2.57%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 6.0,
+    "machine_working_hours": "8.5",
+    "shift_duration_hr": 8.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbcf"
+    },
+    "date": "27-Aug-2026",
+    "total_production_kg": 319.16,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 4.0,
+    "cutting_scrap_kg": 0.2,
+    "total_scrap_kg": 4.2,
+    "scrap_percent_str": "1.32%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 60.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd0"
+    },
+    "date": "28-Aug-2026",
+    "total_production_kg": 294.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 9.0,
+    "cutting_scrap_kg": 6.2,
+    "total_scrap_kg": 15.2,
+    "scrap_percent_str": "5.17%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 130.0,
+    "machine_working_hours": "6.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd1"
+    },
+    "date": "29-Aug-2026",
+    "total_production_kg": 244.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 23.6,
+    "cutting_scrap_kg": 2.1,
+    "total_scrap_kg": 25.7,
+    "scrap_percent_str": "10.53%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 143.0,
+    "machine_working_hours": "6.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd2"
+    },
+    "date": "31-Aug-2026",
+    "total_production_kg": 338.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 9.1,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 9.1,
+    "scrap_percent_str": "2.69%",
+    "electricity_off_count": 3,
+    "total_off_time_min": 50.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd3"
+    },
+    "date": "1-Sep-2026",
+    "total_production_kg": 343.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 11.0,
+    "cutting_scrap_kg": 1.0,
+    "total_scrap_kg": 12.0,
+    "scrap_percent_str": "3.50%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 43.0,
+    "machine_working_hours": "8.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd4"
+    },
+    "date": "2-Sep-2026",
+    "total_production_kg": 380.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 6.2,
+    "cutting_scrap_kg": 0.5,
+    "total_scrap_kg": 6.7,
+    "scrap_percent_str": "1.76%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 11.0,
+    "machine_working_hours": "8.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd5"
+    },
+    "date": "3-Sep-2026",
+    "total_production_kg": 366.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 6.2,
+    "cutting_scrap_kg": 6.7,
+    "total_scrap_kg": 12.9,
+    "scrap_percent_str": "3.52%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 14.0,
+    "machine_working_hours": "9",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd6"
+    },
+    "date": "4-Sep-2026",
+    "total_production_kg": 484.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 0.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 0.0,
+    "scrap_percent_str": "0.00%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "..",
+    "shift_duration_hr": 9.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd7"
+    },
+    "date": "7-Sep-2026",
+    "total_production_kg": 435.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 3.0,
+    "cutting_scrap_kg": 1.0,
+    "total_scrap_kg": 4.0,
+    "scrap_percent_str": "0.92%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "9.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd8"
+    },
+    "date": "8-Sep-2026",
+    "total_production_kg": 436.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 2.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 2.0,
+    "scrap_percent_str": "0.46%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "9.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbd9"
+    },
+    "date": "9-Sep-2026",
+    "total_production_kg": 272.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 4.5,
+    "cutting_scrap_kg": 1.0,
+    "total_scrap_kg": 5.5,
+    "scrap_percent_str": "2.02%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 30.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbda"
+    },
+    "date": "10-Sep-2026",
+    "total_production_kg": 410.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 3.9,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 3.9,
+    "scrap_percent_str": "0.95%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "9",
+    "shift_duration_hr": 9.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbdb"
+    },
+    "date": "11-Sep-2026",
+    "total_production_kg": 426.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 7.2,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 7.2,
+    "scrap_percent_str": "1.69%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "9.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbdc"
+    },
+    "date": "12-Sep-2026",
+    "total_production_kg": 348.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 7.8,
+    "cutting_scrap_kg": 1.0,
+    "total_scrap_kg": 8.8,
+    "scrap_percent_str": "2.53%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 10.0,
+    "machine_working_hours": "9.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbdd"
+    },
+    "date": "14-Sep-2026",
+    "total_production_kg": 373.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 1.5,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 1.5,
+    "scrap_percent_str": "0.40%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 5.0,
+    "machine_working_hours": "8.5",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbde"
+    },
+    "date": "15-Sep-2026",
+    "total_production_kg": 360.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 5.0,
+    "cutting_scrap_kg": 1.0,
+    "total_scrap_kg": 6.0,
+    "scrap_percent_str": "1.67%",
+    "electricity_off_count": 3,
+    "total_off_time_min": 41.0,
+    "machine_working_hours": "9",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbdf"
+    },
+    "date": "16-Sep-2026",
+    "total_production_kg": 360.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 4.0,
+    "cutting_scrap_kg": 2.0,
+    "total_scrap_kg": 6.0,
+    "scrap_percent_str": "1.67%",
+    "electricity_off_count": 3,
+    "total_off_time_min": 23.0,
+    "machine_working_hours": "8",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe0"
+    },
+    "date": "18-Sep-2026",
+    "total_production_kg": 460.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 13.0,
+    "cutting_scrap_kg": 1.0,
+    "total_scrap_kg": 14.0,
+    "scrap_percent_str": "3.04%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "9",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe1"
+    },
+    "date": "21-Sep-2026",
+    "total_production_kg": 408.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 4.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 4.0,
+    "scrap_percent_str": "0.98%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 18.0,
+    "machine_working_hours": "9",
+    "shift_duration_hr": 9.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe2"
+    },
+    "date": "22-Sep-2026",
+    "total_production_kg": 517.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 2.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 2.0,
+    "scrap_percent_str": "0.39%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 15.0,
+    "machine_working_hours": "11",
+    "shift_duration_hr": 12.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe3"
+    },
+    "date": "23-Sep-2026",
+    "total_production_kg": 523.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 3.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 3.0,
+    "scrap_percent_str": "0.57%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "11",
+    "shift_duration_hr": 12.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe4"
+    },
+    "date": "24-Sep-2026",
+    "total_production_kg": 434.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 5.0,
+    "cutting_scrap_kg": 1.5,
+    "total_scrap_kg": 6.5,
+    "scrap_percent_str": "1.50%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 28.0,
+    "machine_working_hours": "11",
+    "shift_duration_hr": 12.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe5"
+    },
+    "date": "25-Sep-2026",
+    "total_production_kg": 232.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 8.0,
+    "cutting_scrap_kg": 3.0,
+    "total_scrap_kg": 11.0,
+    "scrap_percent_str": "4.74%",
+    "electricity_off_count": 4,
+    "total_off_time_min": 120.0,
+    "machine_working_hours": "7",
+    "shift_duration_hr": 12.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe6"
+    },
+    "date": "26-Sep-2026",
+    "total_production_kg": 445.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 6.0,
+    "cutting_scrap_kg": 2.5,
+    "total_scrap_kg": 8.5,
+    "scrap_percent_str": "1.91%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 10.0,
+    "machine_working_hours": "11",
+    "shift_duration_hr": 12.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe7"
+    },
+    "date": "28-Sep-2026",
+    "total_production_kg": 412.0,
+    "product_type": "Braided",
+    "startup_scrap_kg": 7.2,
+    "cutting_scrap_kg": 2.0,
+    "total_scrap_kg": 9.2,
+    "scrap_percent_str": "2.23%",
+    "electricity_off_count": 2,
+    "total_off_time_min": 20.0,
+    "machine_working_hours": "10",
+    "shift_duration_hr": 12.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe8"
+    },
+    "date": "29-Sep-2026",
+    "total_production_kg": 395.0,
+    "product_type": "Braided & Tubing",
+    "startup_scrap_kg": 5.0,
+    "cutting_scrap_kg": 1.0,
+    "total_scrap_kg": 6.0,
+    "scrap_percent_str": "1.52%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "10",
+    "shift_duration_hr": 12.0,
+    "main_reason": "...",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbe9"
+    },
+    "date": "30-Sep-2026",
+    "total_production_kg": 467.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 6.0,
+    "cutting_scrap_kg": 2.0,
+    "total_scrap_kg": 8.0,
+    "scrap_percent_str": "1.71%",
+    "electricity_off_count": 1,
+    "total_off_time_min": 5.0,
+    "machine_working_hours": "11",
+    "shift_duration_hr": 12.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbea"
+    },
+    "date": "1-Oct-2026",
+    "total_production_kg": 390.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 5.0,
+    "cutting_scrap_kg": 2.0,
+    "total_scrap_kg": 7.0,
+    "scrap_percent_str": "0:25:51",
+    "electricity_off_count": 2,
+    "total_off_time_min": 140.0,
+    "machine_working_hours": "9:40:00",
+    "shift_duration_hr": 12.0,
+    "main_reason": "power failure",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbeb"
+    },
+    "date": "2-Oct-2026",
+    "total_production_kg": 0.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 0.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 0.0,
+    "scrap_percent_str": "0.00%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "8.0",
+    "shift_duration_hr": 8.0,
+    "main_reason": "",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbec"
+    },
+    "date": "3-Oct-2026",
+    "total_production_kg": 320.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 4.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 4.0,
+    "scrap_percent_str": "1.25%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 420.0,
+    "machine_working_hours": "5:00:00",
+    "shift_duration_hr": 12.0,
+    "main_reason": "\"The machine started at 3:00 PM",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf2665a822125a11e4cbed"
+    },
+    "date": "5-Oct-2026",
+    "total_production_kg": 0.0,
+    "product_type": "Tubing",
+    "startup_scrap_kg": 0.0,
+    "cutting_scrap_kg": 0.0,
+    "total_scrap_kg": 0.0,
+    "scrap_percent_str": "0.00%",
+    "electricity_off_count": 0,
+    "total_off_time_min": 0.0,
+    "machine_working_hours": "8.0",
+    "shift_duration_hr": 8.0,
+    "main_reason": "",
+    "remarks": "",
+    "unit_id": "Unit_1",
+    "created_at": {
+      "$date": "2026-10-14T06:51:17.837Z"
+    }
+  }
+]

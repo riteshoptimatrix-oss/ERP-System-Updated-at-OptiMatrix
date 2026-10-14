@@ -275,11 +275,11 @@ async def list_announcement_recipients(
     seen_ids: Set[str] = set()
 
     # 1. From Employees collection
-    emp_cursor = db["employees"].find({"is_active": {"$ne": False}}).sort("name", 1)
+    emp_cursor = db["employees"].find({"is_active": True}).sort("full_name", 1)
     async for emp in emp_cursor:
         eid = str(emp["_id"])
         code = emp.get("code", "")
-        name = emp.get("name", "")
+        name = emp.get("full_name") or emp.get("name") or code or "Employee"
         email = emp.get("email", "")
         if eid not in seen_ids:
             seen_ids.add(eid)
@@ -290,18 +290,18 @@ async def list_announcement_recipients(
                     name=name,
                     email=email,
                     department=emp.get("department", "General"),
-                    role=emp.get("designation") or emp.get("role", "EMPLOYEE"),
+                    role=emp.get("designation") or emp.get("job_role") or emp.get("role", "EMPLOYEE"),
                     unit_id=emp.get("unit_id", "BOTH"),
                 )
             )
 
     # 2. From Users collection (in case users exist without employee docs)
-    user_cursor = db["users"].find({"is_active": {"$ne": False}}).sort("full_name", 1)
+    user_cursor = db["users"].find({"is_active": True}).sort("full_name", 1)
     async for u in user_cursor:
         uid = str(u["_id"])
         u_email = u.get("email", "")
         # Avoid duplicate entries matching existing employee emails
-        if any(opt.email.lower() == u_email.lower() for opt in options):
+        if any(opt.email.lower() == u_email.lower() for opt in options if opt.email):
             continue
         if uid not in seen_ids:
             seen_ids.add(uid)
@@ -309,7 +309,7 @@ async def list_announcement_recipients(
                 RecipientOption(
                     id=uid,
                     code=u.get("employee_code") or u.get("username", "USER"),
-                    name=u.get("full_name", u_email),
+                    name=u.get("full_name") or u_email or "User",
                     email=u_email,
                     department=u.get("department", "Operations"),
                     role=u.get("role", "EMPLOYEE"),

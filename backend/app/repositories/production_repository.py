@@ -639,3 +639,237 @@ class ProductionRepository:
             "total_rejected_units": tot_rej,
             "overall_yield_percentage": overall_yield,
         }
+
+    # -------------------------------------------------------------
+    # Daily Production Planning & Actual
+    # Main daily entry screen for Shivakumar (department-wise)
+    # -------------------------------------------------------------
+    async def list_daily_production(
+        self,
+        date_val: Optional[str] = None,
+        department: Optional[str] = None,
+        unit_id: Optional[str] = None,
+        labour: Optional[str] = None,
+        machine: Optional[str] = None,
+        search: Optional[str] = None,
+    ) -> List[Dict[str, Any]]:
+        """
+        List daily production entries filtered by department, date, operator/labour, machine, or unit.
+        """
+        filter_query: Dict[str, Any] = {}
+        if date_val:
+            filter_query["date"] = date_val
+        if department and department != "ALL":
+            filter_query["department"] = department
+        if unit_id and unit_id not in ["ALL", "BOTH"]:
+            filter_query["$or"] = [{"unit_id": unit_id}, {"unit_id": "BOTH"}]
+        if labour:
+            filter_query["labour"] = {"$regex": labour, "$options": "i"}
+        if machine:
+            filter_query["machine"] = {"$regex": machine, "$options": "i"}
+        if search:
+            rx = {"$regex": search, "$options": "i"}
+            filter_query["$or"] = [
+                {"order_no": rx},
+                {"customer": rx},
+                {"variant": rx},
+                {"length": rx},
+                {"labour": rx},
+                {"machine": rx},
+                {"department": rx},
+            ]
+
+        cursor = self.db["daily_production"].find(filter_query).sort([("date", -1), ("_id", -1)])
+        docs = await cursor.to_list(length=1000)
+        for d in docs:
+            d["id"] = str(d["_id"])
+            # Ensure computed fields
+            pq = float(d.get("planned_qty", 0.0))
+            aq = float(d.get("actual_qty", 0.0))
+            rq = float(d.get("rework_qty", 0.0))
+            sq = float(d.get("scrap_qty", 0.0))
+            gq = max(0.0, aq - rq - sq)
+            d["good_qty"] = gq
+            d["completion_pct"] = round((gq / pq * 100.0), 1) if pq > 0 else 0.0
+
+            st = float(d.get("standard_target", 0.0))
+            d["performance_pct"] = round((aq / st * 100.0), 1) if st > 0 else 0.0
+
+            rate = float(d.get("rate_per_unit", 0.0))
+            if rate > 0 and not d.get("daily_earned_inr"):
+                d["daily_earned_inr"] = round(gq * rate, 2)
+        return docs
+
+    async def get_daily_production_summary(
+        self,
+        date_val: Optional[str] = None,
+        department: Optional[str] = None,
+        unit_id: Optional[str] = None,
+    ) -> Dict[str, Any]:
+        """
+        Aggregate totals and department-wise metrics for Daily Production Planning & Actual.
+        """
+        filter_query: Dict[str, Any] = {}
+        if date_val:
+            filter_query["date"] = date_val
+        if department and department != "ALL":
+            filter_query["department"] = department
+        if unit_id and unit_id not in ["ALL", "BOTH"]:
+            filter_query["$or"] = [{"unit_id": unit_id}, {"unit_id": "BOTH"}]
+
+        docs = await self.db["daily_production"].find(filter_query).to_list(length=2000)
+
+        total_planned_qty = 0.0
+        total_actual_qty = 0.0
+        total_good_qty = 0.0
+        total_scrap_qty = 0.0
+        total_rework_qty = 0.0
+        total_daily_earned_inr = 0.0
+
+        dept_groups: Dict[str, Dict[str, float]] = {}
+
+        for d in docs:
+            pq = float(d.get("planned_qty", 0.0))
+            aq = float(d.get("actual_qty", 0.0))
+            rq = float(d.get("rework_qty", 0.0))
+            sq = float(d.get("scrap_qty", 0.0))
+            gq = max(0.0, aq - rq - sq)
+            earned = float(d.get("daily_earned_inr", 0.0))
+            dep = d.get("department", "Machining")
+
+            total_planned_qty += pq
+            total_actual_qty += aq
+            total_good_qty += gq
+            total_scrap_qty += sq
+            total_rework_qty += rq
+            total_daily_earned_inr += earned
+
+            if dep not in dept_groups:
+                dept_groups[dep] = {
+                    "department": dep,
+                    "entries_count": 0,
+                    "planned_qty": 0.0,
+                    "actual_qty": 0.0,
+                    "good_qty": 0.0,
+                    "scrap_qty": 0.0,
+                    "earned_inr": 0.0,
+                }
+            dept_groups[dep]["entries_count"] += 1
+            dept_groups[dep]["planned_qty"] += pq
+            dept_groups[dep]["actual_qty"] += aq
+            dept_groups[dep]["good_qty"] += gq
+            dept_groups[dep]["scrap_qty"] += sq
+            dept_groups[dep]["earned_inr"] += earned
+
+        overall_comp = (
+            round((total_good_qty / total_planned_qty * 100.0), 1)
+            if total_planned_qty > 0
+            else 0.0
+        )
+        overall_perf = (
+            round((total_good_qty / (total_good_qty + total_scrap_qty + total_rework_qty) * 100.0), 1)
+            if (total_good_qty + total_scrap_qty + total_rework_qty) > 0
+            else 0.0
+        )
+
+        dept_list = list(dept_groups.values())
+        for dg in dept_list:
+            dpq = dg["planned_qty"]
+            dg["completion_pct"] = round((dg["good_qty"] / dpq * 100.0), 1) if dpq > 0 else 0.0
+
+        return {
+            "total_entries": len(docs),
+            "total_planned_qty": round(total_planned_qty, 2),
+            "total_actual_qty": round(total_actual_qty, 2),
+            "total_good_qty": round(total_good_qty, 2),
+            "total_scrap_qty": round(total_scrap_qty, 2),
+            "total_rework_qty": round(total_rework_qty, 2),
+            "overall_completion_pct": overall_comp,
+            "overall_performance_pct": overall_perf,
+            "total_daily_earned_inr": round(total_daily_earned_inr, 2),
+            "department_breakdown": dept_list,
+        }
+
+    async def create_daily_production_entry(
+        self,
+        entry_data: Dict[str, Any],
+        recorded_by: str = "Shivakumar",
+    ) -> Dict[str, Any]:
+        """
+        Record a new daily production line for an operator/machine.
+        """
+        now = datetime.now(timezone.utc)
+        entry_data["created_at"] = now
+        entry_data["updated_at"] = now
+        entry_data["recorded_by"] = recorded_by
+
+        pq = float(entry_data.get("planned_qty", 0.0))
+        aq = float(entry_data.get("actual_qty", 0.0))
+        rq = float(entry_data.get("rework_qty", 0.0))
+        sq = float(entry_data.get("scrap_qty", 0.0))
+        gq = max(0.0, aq - rq - sq)
+        entry_data["good_qty"] = gq
+        entry_data["completion_pct"] = round((gq / pq * 100.0), 1) if pq > 0 else 0.0
+
+        st = float(entry_data.get("standard_target", 0.0))
+        entry_data["performance_pct"] = round((aq / st * 100.0), 1) if st > 0 else 0.0
+
+        rate = float(entry_data.get("rate_per_unit", 0.0))
+        if rate > 0 and not entry_data.get("daily_earned_inr"):
+            entry_data["daily_earned_inr"] = round(gq * rate, 2)
+        elif not entry_data.get("daily_earned_inr"):
+            entry_data["daily_earned_inr"] = 0.0
+
+        res = await self.db["daily_production"].insert_one(entry_data)
+        entry_data["id"] = str(res.inserted_id)
+        return entry_data
+
+    async def update_daily_production_entry(
+        self,
+        entry_id: str,
+        update_data: Dict[str, Any],
+    ) -> Optional[Dict[str, Any]]:
+        """
+        Update an existing daily production planning & actual row.
+        """
+        if not ObjectId.is_valid(entry_id):
+            return None
+
+        clean_update = {k: v for k, v in update_data.items() if v is not None}
+        clean_update["updated_at"] = datetime.now(timezone.utc)
+
+        current = await self.db["daily_production"].find_one({"_id": ObjectId(entry_id)})
+        if not current:
+            return None
+
+        pq = float(clean_update.get("planned_qty", current.get("planned_qty", 0.0)))
+        aq = float(clean_update.get("actual_qty", current.get("actual_qty", 0.0)))
+        rq = float(clean_update.get("rework_qty", current.get("rework_qty", 0.0)))
+        sq = float(clean_update.get("scrap_qty", current.get("scrap_qty", 0.0)))
+        gq = max(0.0, aq - rq - sq)
+        clean_update["good_qty"] = gq
+        clean_update["completion_pct"] = round((gq / pq * 100.0), 1) if pq > 0 else 0.0
+
+        st = float(clean_update.get("standard_target", current.get("standard_target", 0.0)))
+        clean_update["performance_pct"] = round((aq / st * 100.0), 1) if st > 0 else 0.0
+
+        rate = float(clean_update.get("rate_per_unit", current.get("rate_per_unit", 0.0)))
+        if rate > 0:
+            clean_update["daily_earned_inr"] = round(gq * rate, 2)
+
+        await self.db["daily_production"].update_one(
+            {"_id": ObjectId(entry_id)},
+            {"$set": clean_update},
+        )
+        updated = await self.db["daily_production"].find_one({"_id": ObjectId(entry_id)})
+        if updated:
+            updated["id"] = str(updated["_id"])
+        return updated
+
+    async def delete_daily_production_entry(self, entry_id: str) -> bool:
+        """Delete daily production record."""
+        if not ObjectId.is_valid(entry_id):
+            return False
+        res = await self.db["daily_production"].delete_one({"_id": ObjectId(entry_id)})
+        return res.deleted_count > 0
+

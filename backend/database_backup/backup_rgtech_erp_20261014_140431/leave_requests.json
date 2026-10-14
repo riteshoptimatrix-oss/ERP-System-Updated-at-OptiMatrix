@@ -1,0 +1,1718 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd0"
+    },
+    "application_number": "LV-2026-0001",
+    "employee_id": "6acf133b35a67d012664f122",
+    "employee_code": "EMP-101",
+    "employee_name": "Rahul Sharma",
+    "department": "Production Department",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd1"
+    },
+    "application_number": "LV-2026-0002",
+    "employee_id": "6acf133b35a67d012664f122",
+    "employee_code": "EMP-101",
+    "employee_name": "Rahul Sharma",
+    "department": "Production Department",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd2"
+    },
+    "application_number": "LV-2026-0003",
+    "employee_id": "6acf133b35a67d012664f125",
+    "employee_code": "EMP-102",
+    "employee_name": "Amit Patel",
+    "department": "Production Department",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd3"
+    },
+    "application_number": "LV-2026-0004",
+    "employee_id": "6acf133b35a67d012664f125",
+    "employee_code": "EMP-102",
+    "employee_name": "Amit Patel",
+    "department": "Production Department",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd4"
+    },
+    "application_number": "LV-2026-0005",
+    "employee_id": "6acf133b35a67d012664f128",
+    "employee_code": "EMP-103",
+    "employee_name": "Jagdish Panchal",
+    "department": "Production Department",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd5"
+    },
+    "application_number": "LV-2026-0006",
+    "employee_id": "6acf133b35a67d012664f128",
+    "employee_code": "EMP-103",
+    "employee_name": "Jagdish Panchal",
+    "department": "Production Department",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd6"
+    },
+    "application_number": "LV-2026-0007",
+    "employee_id": "6acf133b35a67d012664f12b",
+    "employee_code": "EMP-104",
+    "employee_name": "Suresh Suthar",
+    "department": "Production Department",
+    "unit_id": "Unit_2",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd7"
+    },
+    "application_number": "LV-2026-0008",
+    "employee_id": "6acf133b35a67d012664f12b",
+    "employee_code": "EMP-104",
+    "employee_name": "Suresh Suthar",
+    "department": "Production Department",
+    "unit_id": "Unit_2",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd8"
+    },
+    "application_number": "LV-2026-0009",
+    "employee_id": "6acf133b35a67d012664f12e",
+    "employee_code": "EMP-105",
+    "employee_name": "Neha Modi",
+    "department": "Quality Control",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cd9"
+    },
+    "application_number": "LV-2026-0010",
+    "employee_id": "6acf133b35a67d012664f12e",
+    "employee_code": "EMP-105",
+    "employee_name": "Neha Modi",
+    "department": "Quality Control",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cda"
+    },
+    "application_number": "LV-2026-0011",
+    "employee_id": "6acf133b35a67d012664f131",
+    "employee_code": "EMP-106",
+    "employee_name": "Vikas Verma",
+    "department": "Quality Control",
+    "unit_id": "Unit_2",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cdb"
+    },
+    "application_number": "LV-2026-0012",
+    "employee_id": "6acf133b35a67d012664f131",
+    "employee_code": "EMP-106",
+    "employee_name": "Vikas Verma",
+    "department": "Quality Control",
+    "unit_id": "Unit_2",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cdc"
+    },
+    "application_number": "LV-2026-0013",
+    "employee_id": "6acf133b35a67d012664f134",
+    "employee_code": "EMP-107",
+    "employee_name": "Anjali Trivedi",
+    "department": "Quality Control",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cdd"
+    },
+    "application_number": "LV-2026-0014",
+    "employee_id": "6acf133b35a67d012664f134",
+    "employee_code": "EMP-107",
+    "employee_name": "Anjali Trivedi",
+    "department": "Quality Control",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cde"
+    },
+    "application_number": "LV-2026-0015",
+    "employee_id": "6acf133b35a67d012664f137",
+    "employee_code": "EMP-108",
+    "employee_name": "Bhavik Chauhan",
+    "department": "Quality Control",
+    "unit_id": "Unit_2",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cdf"
+    },
+    "application_number": "LV-2026-0016",
+    "employee_id": "6acf133b35a67d012664f137",
+    "employee_code": "EMP-108",
+    "employee_name": "Bhavik Chauhan",
+    "department": "Quality Control",
+    "unit_id": "Unit_2",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce0"
+    },
+    "application_number": "LV-2026-0017",
+    "employee_id": "6acf133b35a67d012664f13a",
+    "employee_code": "EMP-109",
+    "employee_name": "Suresh Raina",
+    "department": "Inventory & Purchase",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce1"
+    },
+    "application_number": "LV-2026-0018",
+    "employee_id": "6acf133b35a67d012664f13a",
+    "employee_code": "EMP-109",
+    "employee_name": "Suresh Raina",
+    "department": "Inventory & Purchase",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce2"
+    },
+    "application_number": "LV-2026-0019",
+    "employee_id": "6acf133b35a67d012664f13d",
+    "employee_code": "EMP-110",
+    "employee_name": "Dinesh Karthik",
+    "department": "Inventory & Purchase",
+    "unit_id": "Unit_2",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce3"
+    },
+    "application_number": "LV-2026-0020",
+    "employee_id": "6acf133b35a67d012664f13d",
+    "employee_code": "EMP-110",
+    "employee_name": "Dinesh Karthik",
+    "department": "Inventory & Purchase",
+    "unit_id": "Unit_2",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce4"
+    },
+    "application_number": "LV-2026-0021",
+    "employee_id": "6acf09d377fcf49754f5b414",
+    "employee_code": "EMP-001",
+    "employee_name": "Mayank Gajjar",
+    "department": "Inventory & Purchase",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce5"
+    },
+    "application_number": "LV-2026-0022",
+    "employee_id": "6acf09d377fcf49754f5b414",
+    "employee_code": "EMP-001",
+    "employee_name": "Mayank Gajjar",
+    "department": "Inventory & Purchase",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce6"
+    },
+    "application_number": "LV-2026-0023",
+    "employee_id": "6acf133b35a67d012664f140",
+    "employee_code": "EMP-111",
+    "employee_name": "Paresh Solanki",
+    "department": "Inventory & Purchase",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce7"
+    },
+    "application_number": "LV-2026-0024",
+    "employee_id": "6acf133b35a67d012664f140",
+    "employee_code": "EMP-111",
+    "employee_name": "Paresh Solanki",
+    "department": "Inventory & Purchase",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce8"
+    },
+    "application_number": "LV-2026-0025",
+    "employee_id": "6acf133b35a67d012664f143",
+    "employee_code": "EMP-112",
+    "employee_name": "Priya Shah",
+    "department": "Sales & CRM",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ce9"
+    },
+    "application_number": "LV-2026-0026",
+    "employee_id": "6acf133b35a67d012664f143",
+    "employee_code": "EMP-112",
+    "employee_name": "Priya Shah",
+    "department": "Sales & CRM",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cea"
+    },
+    "application_number": "LV-2026-0027",
+    "employee_id": "6acf133b35a67d012664f146",
+    "employee_code": "EMP-113",
+    "employee_name": "Rohan Gupta",
+    "department": "Sales & CRM",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ceb"
+    },
+    "application_number": "LV-2026-0028",
+    "employee_id": "6acf133b35a67d012664f146",
+    "employee_code": "EMP-113",
+    "employee_name": "Rohan Gupta",
+    "department": "Sales & CRM",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cec"
+    },
+    "application_number": "LV-2026-0029",
+    "employee_id": "6acf133b35a67d012664f149",
+    "employee_code": "EMP-114",
+    "employee_name": "Meera Nair",
+    "department": "Sales & CRM",
+    "unit_id": "Unit_2",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4ced"
+    },
+    "application_number": "LV-2026-0030",
+    "employee_id": "6acf133b35a67d012664f149",
+    "employee_code": "EMP-114",
+    "employee_name": "Meera Nair",
+    "department": "Sales & CRM",
+    "unit_id": "Unit_2",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cee"
+    },
+    "application_number": "LV-2026-0031",
+    "employee_id": "6acf133b35a67d012664f14c",
+    "employee_code": "EMP-115",
+    "employee_name": "Hardik Dave",
+    "department": "Sales & CRM",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cef"
+    },
+    "application_number": "LV-2026-0032",
+    "employee_id": "6acf133b35a67d012664f14c",
+    "employee_code": "EMP-115",
+    "employee_name": "Hardik Dave",
+    "department": "Sales & CRM",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf0"
+    },
+    "application_number": "LV-2026-0033",
+    "employee_id": "6acf133b35a67d012664f14f",
+    "employee_code": "EMP-116",
+    "employee_name": "Sanjay Rawat",
+    "department": "Dispatch & Logistics",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf1"
+    },
+    "application_number": "LV-2026-0034",
+    "employee_id": "6acf133b35a67d012664f14f",
+    "employee_code": "EMP-116",
+    "employee_name": "Sanjay Rawat",
+    "department": "Dispatch & Logistics",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf2"
+    },
+    "application_number": "LV-2026-0035",
+    "employee_id": "6acf133b35a67d012664f152",
+    "employee_code": "EMP-117",
+    "employee_name": "Karan Malhotra",
+    "department": "Dispatch & Logistics",
+    "unit_id": "Unit_2",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf3"
+    },
+    "application_number": "LV-2026-0036",
+    "employee_id": "6acf133b35a67d012664f152",
+    "employee_code": "EMP-117",
+    "employee_name": "Karan Malhotra",
+    "department": "Dispatch & Logistics",
+    "unit_id": "Unit_2",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf4"
+    },
+    "application_number": "LV-2026-0037",
+    "employee_id": "6acf133b35a67d012664f155",
+    "employee_code": "EMP-118",
+    "employee_name": "Nilesh Parmar",
+    "department": "Dispatch & Logistics",
+    "unit_id": "Unit_2",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf5"
+    },
+    "application_number": "LV-2026-0038",
+    "employee_id": "6acf133b35a67d012664f155",
+    "employee_code": "EMP-118",
+    "employee_name": "Nilesh Parmar",
+    "department": "Dispatch & Logistics",
+    "unit_id": "Unit_2",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf6"
+    },
+    "application_number": "LV-2026-0039",
+    "employee_id": "6acf133b35a67d012664f158",
+    "employee_code": "EMP-119",
+    "employee_name": "Vinod Makwana",
+    "department": "Dispatch & Logistics",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf7"
+    },
+    "application_number": "LV-2026-0040",
+    "employee_id": "6acf133b35a67d012664f158",
+    "employee_code": "EMP-119",
+    "employee_name": "Vinod Makwana",
+    "department": "Dispatch & Logistics",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf8"
+    },
+    "application_number": "LV-2026-0041",
+    "employee_id": "6acf133b35a67d012664f15b",
+    "employee_code": "EMP-120",
+    "employee_name": "Ananya Iyer",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cf9"
+    },
+    "application_number": "LV-2026-0042",
+    "employee_id": "6acf133b35a67d012664f15b",
+    "employee_code": "EMP-120",
+    "employee_name": "Ananya Iyer",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cfa"
+    },
+    "application_number": "LV-2026-0043",
+    "employee_id": "6acf133b35a67d012664f15e",
+    "employee_code": "EMP-121",
+    "employee_name": "Manish Tiwari",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cfb"
+    },
+    "application_number": "LV-2026-0044",
+    "employee_id": "6acf133b35a67d012664f15e",
+    "employee_code": "EMP-121",
+    "employee_name": "Manish Tiwari",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cfc"
+    },
+    "application_number": "LV-2026-0045",
+    "employee_id": "6acf133b35a67d012664f161",
+    "employee_code": "EMP-122",
+    "employee_name": "Swati Kulkarni",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cfd"
+    },
+    "application_number": "LV-2026-0046",
+    "employee_id": "6acf133b35a67d012664f161",
+    "employee_code": "EMP-122",
+    "employee_name": "Swati Kulkarni",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cfe"
+    },
+    "application_number": "LV-2026-0047",
+    "employee_id": "6acf133b35a67d012664f164",
+    "employee_code": "EMP-123",
+    "employee_name": "Chirag Barot",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4cff"
+    },
+    "application_number": "LV-2026-0048",
+    "employee_id": "6acf133b35a67d012664f164",
+    "employee_code": "EMP-123",
+    "employee_name": "Chirag Barot",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d00"
+    },
+    "application_number": "LV-2026-0049",
+    "employee_id": "6acf133b35a67d012664f167",
+    "employee_code": "EMP-124",
+    "employee_name": "Kavita Deshmukh",
+    "department": "HR & Administration",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d01"
+    },
+    "application_number": "LV-2026-0050",
+    "employee_id": "6acf133b35a67d012664f167",
+    "employee_code": "EMP-124",
+    "employee_name": "Kavita Deshmukh",
+    "department": "HR & Administration",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d02"
+    },
+    "application_number": "LV-2026-0051",
+    "employee_id": "6acf133b35a67d012664f16a",
+    "employee_code": "EMP-125",
+    "employee_name": "Deepak Joshi",
+    "department": "HR & Administration",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d03"
+    },
+    "application_number": "LV-2026-0052",
+    "employee_id": "6acf133b35a67d012664f16a",
+    "employee_code": "EMP-125",
+    "employee_name": "Deepak Joshi",
+    "department": "HR & Administration",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d04"
+    },
+    "application_number": "LV-2026-0053",
+    "employee_id": "6acf133b35a67d012664f16c",
+    "employee_code": "EMP-126",
+    "employee_name": "Pooja Patel",
+    "department": "HR & Administration",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d05"
+    },
+    "application_number": "LV-2026-0054",
+    "employee_id": "6acf133b35a67d012664f16c",
+    "employee_code": "EMP-126",
+    "employee_name": "Pooja Patel",
+    "department": "HR & Administration",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d06"
+    },
+    "application_number": "LV-2026-0055",
+    "employee_id": "6acf133b35a67d012664f16f",
+    "employee_code": "EMP-127",
+    "employee_name": "Rina Goswami",
+    "department": "HR & Administration",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d07"
+    },
+    "application_number": "LV-2026-0056",
+    "employee_id": "6acf133b35a67d012664f16f",
+    "employee_code": "EMP-127",
+    "employee_name": "Rina Goswami",
+    "department": "HR & Administration",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d08"
+    },
+    "application_number": "LV-2026-0057",
+    "employee_id": "6acf133b35a67d012664f172",
+    "employee_code": "EMP-128",
+    "employee_name": "Ramesh Solanki",
+    "department": "Maintenance & Technical",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d09"
+    },
+    "application_number": "LV-2026-0058",
+    "employee_id": "6acf133b35a67d012664f172",
+    "employee_code": "EMP-128",
+    "employee_name": "Ramesh Solanki",
+    "department": "Maintenance & Technical",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d0a"
+    },
+    "application_number": "LV-2026-0059",
+    "employee_id": "6acf133b35a67d012664f175",
+    "employee_code": "EMP-129",
+    "employee_name": "Chetan Prajapati",
+    "department": "Maintenance & Technical",
+    "unit_id": "Unit_2",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d0b"
+    },
+    "application_number": "LV-2026-0060",
+    "employee_id": "6acf133b35a67d012664f175",
+    "employee_code": "EMP-129",
+    "employee_name": "Chetan Prajapati",
+    "department": "Maintenance & Technical",
+    "unit_id": "Unit_2",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d0c"
+    },
+    "application_number": "LV-2026-0061",
+    "employee_id": "6acf133b35a67d012664f178",
+    "employee_code": "EMP-130",
+    "employee_name": "Bharat Mistry",
+    "department": "Maintenance & Technical",
+    "unit_id": "Unit_1",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d0d"
+    },
+    "application_number": "LV-2026-0062",
+    "employee_id": "6acf133b35a67d012664f178",
+    "employee_code": "EMP-130",
+    "employee_name": "Bharat Mistry",
+    "department": "Maintenance & Technical",
+    "unit_id": "Unit_1",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d0e"
+    },
+    "application_number": "LV-2026-0063",
+    "employee_id": "6acf133b35a67d012664f17b",
+    "employee_code": "EMP-131",
+    "employee_name": "Arvind Vaghela",
+    "department": "Maintenance & Technical",
+    "unit_id": "Unit_2",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d0f"
+    },
+    "application_number": "LV-2026-0064",
+    "employee_id": "6acf133b35a67d012664f17b",
+    "employee_code": "EMP-131",
+    "employee_name": "Arvind Vaghela",
+    "department": "Maintenance & Technical",
+    "unit_id": "Unit_2",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "PENDING",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d10"
+    },
+    "application_number": "LV-2026-0065",
+    "employee_id": "6acf133b35a67d012664f181",
+    "employee_code": "EMP-133",
+    "employee_name": "Rajesh Khanna",
+    "department": "Quality Control",
+    "unit_id": "Unit_2",
+    "leave_type": "CASUAL_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "REJECTED",
+    "approved_by": null,
+    "approved_at": null,
+    "rejection_reason": "High production rush scheduled for ENV-200 line; please reschedule.",
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d11"
+    },
+    "application_number": "LV-2026-0066",
+    "employee_id": "6acf133b35a67d012664f181",
+    "employee_code": "EMP-133",
+    "employee_name": "Rajesh Khanna",
+    "department": "Quality Control",
+    "unit_id": "Unit_2",
+    "leave_type": "SICK_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d12"
+    },
+    "application_number": "LV-2026-0067",
+    "employee_id": "6acf133b35a67d012664f184",
+    "employee_code": "EMP-134",
+    "employee_name": "O'Connor-Fernandez D'Souza",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "EARNED_LEAVE",
+    "start_date": "2026-09-19",
+    "end_date": "2026-09-21",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-09-17T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-09-16T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4d13"
+    },
+    "application_number": "LV-2026-0068",
+    "employee_id": "6acf133b35a67d012664f184",
+    "employee_code": "EMP-134",
+    "employee_name": "O'Connor-Fernandez D'Souza",
+    "department": "Billing & Finance",
+    "unit_id": "Unit_1",
+    "leave_type": "UNPAID_LEAVE",
+    "start_date": "2026-08-25",
+    "end_date": "2026-08-27",
+    "days_count": 2.0,
+    "reason": "Personal family obligations and medical consultation.",
+    "status": "APPROVED",
+    "approved_by": "Kavita Deshmukh",
+    "approved_at": {
+      "$date": "2026-08-23T05:51:39.563Z"
+    },
+    "rejection_reason": null,
+    "created_at": {
+      "$date": "2026-08-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

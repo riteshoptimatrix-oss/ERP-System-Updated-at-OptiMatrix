@@ -1,0 +1,177 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1c"
+    },
+    "incident_number": "OUTAGE-2026-0001",
+    "unit_id": "Unit_1",
+    "incident_date": "2026-09-22",
+    "start_time": {
+      "$date": "2026-09-22T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-09-22T06:36:39.563Z"
+    },
+    "duration_minutes": 45.0,
+    "outage_duration_minutes": 45,
+    "outage_type": "GRID_FAILURE",
+    "reason": "GEB 66kV substation feeder isolator flashover",
+    "description": "GEB 66kV substation feeder isolator flashover",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 25.0,
+    "dg_diesel_consumed_litres": 25.0,
+    "production_hours_lost": 0.75,
+    "affected_departments": [
+      "Machining"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0001"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-22T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1d"
+    },
+    "incident_number": "OUTAGE-2026-0002",
+    "unit_id": "Unit_2",
+    "incident_date": "2026-09-29",
+    "start_time": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-09-29T06:21:39.563Z"
+    },
+    "duration_minutes": 30.0,
+    "outage_duration_minutes": 30,
+    "outage_type": "SCHEDULED_MAINTENANCE",
+    "reason": "Transformer tap changer maintenance",
+    "description": "Transformer tap changer maintenance",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 15.0,
+    "dg_diesel_consumed_litres": 15.0,
+    "production_hours_lost": 0.5,
+    "affected_departments": [
+      "Assembly & QC"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0003"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-29T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1e"
+    },
+    "incident_number": "OUTAGE-2026-0003",
+    "unit_id": "Unit_1",
+    "incident_date": "2026-09-07",
+    "start_time": {
+      "$date": "2026-09-07T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-09-07T07:06:39.563Z"
+    },
+    "duration_minutes": 75.0,
+    "outage_duration_minutes": 75,
+    "outage_type": "GRID_FAILURE",
+    "reason": "Heavy thunderstorm lightning strike on GIDC overhead lines",
+    "description": "Heavy thunderstorm lightning strike on GIDC overhead lines",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 40.0,
+    "dg_diesel_consumed_litres": 40.0,
+    "production_hours_lost": 1.25,
+    "affected_departments": [
+      "Machining"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0001"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-07T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e1f"
+    },
+    "incident_number": "OUTAGE-2026-0004",
+    "unit_id": "Unit_2",
+    "incident_date": "2026-10-04",
+    "start_time": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-10-04T06:11:39.563Z"
+    },
+    "duration_minutes": 20.0,
+    "outage_duration_minutes": 20,
+    "outage_type": "LOCAL_TRIP",
+    "reason": "Quarterly diesel generator load test and switchover",
+    "description": "Quarterly diesel generator load test and switchover",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 10.0,
+    "dg_diesel_consumed_litres": 10.0,
+    "production_hours_lost": 0.33,
+    "affected_departments": [
+      "Assembly & QC"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0003"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-10-04T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  },
+  {
+    "_id": {
+      "$oid": "6acf18736a2d59b83bff4e20"
+    },
+    "incident_number": "OUTAGE-2026-0005",
+    "unit_id": "Unit_1",
+    "incident_date": "2026-09-14",
+    "start_time": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "end_time": {
+      "$date": "2026-09-14T06:51:39.563Z"
+    },
+    "duration_minutes": 60.0,
+    "outage_duration_minutes": 60,
+    "outage_type": "GRID_FAILURE",
+    "reason": "Main HT breaker trip due to industrial feeder overload",
+    "description": "Main HT breaker trip due to industrial feeder overload",
+    "backup_generator_used": true,
+    "fuel_consumed_liters": 32.0,
+    "dg_diesel_consumed_litres": 32.0,
+    "production_hours_lost": 1.0,
+    "affected_departments": [
+      "Machining"
+    ],
+    "production_order_ids": [
+      "PRD-2026-0001"
+    ],
+    "recorded_by": "Ramesh Solanki",
+    "created_by": "Ramesh Solanki",
+    "created_at": {
+      "$date": "2026-09-14T05:51:39.563Z"
+    },
+    "_seed": "optimatrix_master_seed_v1"
+  }
+]

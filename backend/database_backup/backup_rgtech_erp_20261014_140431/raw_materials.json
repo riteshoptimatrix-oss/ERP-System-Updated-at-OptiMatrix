@@ -1,0 +1,324 @@
+[
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0c8"
+    },
+    "code": "RM-MS-PLATE-6MM",
+    "name": "MS Plate 6mm IS:2062",
+    "category_id": "CAT-RAW-STEEL",
+    "uom": "KG",
+    "hsn_code": "72085100",
+    "reorder_level": 1200.0,
+    "safety_stock": 600.0,
+    "standard_cost": 68.0,
+    "description": "Mild Steel Plate 6mm thickness for side frame structures",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0c9"
+    },
+    "code": "RM-MS-PLATE-10MM",
+    "name": "MS Plate 10mm IS:2062",
+    "category_id": "CAT-RAW-STEEL",
+    "uom": "KG",
+    "hsn_code": "72085100",
+    "reorder_level": 800.0,
+    "safety_stock": 400.0,
+    "standard_cost": 72.0,
+    "description": "Heavy base plate 10mm for machine bed rigidity",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0ca"
+    },
+    "code": "RM-SS-ROD-20MM",
+    "name": "SS Round Bar 20mm AISI 304",
+    "category_id": "CAT-RAW-STEEL",
+    "uom": "KG",
+    "hsn_code": "72221900",
+    "reorder_level": 350.0,
+    "safety_stock": 150.0,
+    "standard_cost": 280.0,
+    "description": "Stainless steel 304 round bar for roller shafts",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0cb"
+    },
+    "code": "RM-CI-CAST-001",
+    "name": "CI Rough Body Casting Grade 25",
+    "category_id": "CAT-RAW-STEEL",
+    "uom": "NOS",
+    "hsn_code": "73259100",
+    "reorder_level": 40.0,
+    "safety_stock": 20.0,
+    "standard_cost": 18500.0,
+    "description": "Heavy cast iron machine housing rough casting",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0cc"
+    },
+    "code": "RM-MS-CHANNEL",
+    "name": "MS Channel 100x50 IS:808",
+    "category_id": "CAT-RAW-STEEL",
+    "uom": "MTR",
+    "hsn_code": "72162100",
+    "reorder_level": 250.0,
+    "safety_stock": 100.0,
+    "standard_cost": 520.0,
+    "description": "Structural structural channel for chassis frame",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0cd"
+    },
+    "code": "RM-MOTOR-0.5HP",
+    "name": "AC Induction Motor 0.5 HP",
+    "category_id": "CAT-RAW-ELEC",
+    "uom": "NOS",
+    "hsn_code": "85011000",
+    "reorder_level": 25.0,
+    "safety_stock": 10.0,
+    "standard_cost": 4200.0,
+    "description": "Single-phase 1440 RPM continuous duty drive motor",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0ce"
+    },
+    "code": "RM-MOTOR-1HP",
+    "name": "AC Induction Motor 1.0 HP",
+    "category_id": "CAT-RAW-ELEC",
+    "uom": "NOS",
+    "hsn_code": "85011000",
+    "reorder_level": 20.0,
+    "safety_stock": 8.0,
+    "standard_cost": 6800.0,
+    "description": "Heavy-duty 3-phase induction drive motor",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0cf"
+    },
+    "code": "RM-BEARING-6205",
+    "name": "Deep Groove Ball Bearing 6205ZZ",
+    "category_id": "CAT-RAW-ELEC",
+    "uom": "NOS",
+    "hsn_code": "84821000",
+    "reorder_level": 120.0,
+    "safety_stock": 50.0,
+    "standard_cost": 240.0,
+    "description": "SKF precision shielded radial ball bearing",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0d0"
+    },
+    "code": "RM-CAPACITOR-25",
+    "name": "Motor Run Capacitor 25uF 440V",
+    "category_id": "CAT-RAW-ELEC",
+    "uom": "NOS",
+    "hsn_code": "85322990",
+    "reorder_level": 60.0,
+    "safety_stock": 25.0,
+    "standard_cost": 180.0,
+    "description": "Metallized polypropylene motor run capacitor",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0d1"
+    },
+    "code": "RM-RUBBER-GSKT",
+    "name": "Nitrile Rubber Gasket Strip 3mm",
+    "category_id": "CAT-RAW-POLYMER",
+    "uom": "MTR",
+    "hsn_code": "40081100",
+    "reorder_level": 400.0,
+    "safety_stock": 180.0,
+    "standard_cost": 95.0,
+    "description": "Oil-resistant nitrile sealing gasket",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0d2"
+    },
+    "code": "RM-NYLON-BUSH",
+    "name": "Engineering Nylon Bush 20x30mm",
+    "category_id": "CAT-RAW-POLYMER",
+    "uom": "NOS",
+    "hsn_code": "39262090",
+    "reorder_level": 220.0,
+    "safety_stock": 100.0,
+    "standard_cost": 75.0,
+    "description": "PA6 self-lubricating wear bush",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0d3"
+    },
+    "code": "RM-WELD-ROD-E6013",
+    "name": "Welding Electrode E6013 3.15mm",
+    "category_id": "CAT-RAW-CONS",
+    "uom": "KG",
+    "hsn_code": "83111000",
+    "reorder_level": 80.0,
+    "safety_stock": 30.0,
+    "standard_cost": 160.0,
+    "description": "All-position structural mild steel welding rods",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0d4"
+    },
+    "code": "RM-CUTTING-OIL",
+    "name": "Water Soluble Cutting Fluid",
+    "category_id": "CAT-RAW-CONS",
+    "uom": "LTR",
+    "hsn_code": "27101940",
+    "reorder_level": 250.0,
+    "safety_stock": 100.0,
+    "standard_cost": 210.0,
+    "description": "High-lubricity coolant for milling and boring",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "6acf133b35a67d012664f0d5"
+    },
+    "code": "RM-PAINT-GREY",
+    "name": "Industrial Enamel Machine Grey",
+    "category_id": "CAT-RAW-CONS",
+    "uom": "LTR",
+    "hsn_code": "32089090",
+    "reorder_level": 60.0,
+    "safety_stock": 25.0,
+    "standard_cost": 340.0,
+    "description": "Anticorrosive polyurethane industrial machine finish",
+    "unit_id": "BOTH",
+    "is_active": true,
+    "_seed": "optimatrix_master_seed_v1",
+    "created_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T05:51:39.563Z"
+    }
+  }
+]
