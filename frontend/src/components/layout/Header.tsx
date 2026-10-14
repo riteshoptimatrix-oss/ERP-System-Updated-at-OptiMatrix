@@ -32,8 +32,8 @@ export const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
           )}
 
           <Link href="/" className="flex items-center space-x-3">
-            <div className="h-9 w-9 rounded-lg bg-[#0F172A] flex items-center justify-center text-white font-bold text-sm shadow-xs tracking-tight">
-              RG
+            <div className="h-9 px-2.5 rounded-lg bg-[#0F172A] flex items-center justify-center text-white font-bold text-xs shadow-xs tracking-tight">
+              OMS
             </div>
             <div>
               <h1 className="text-base font-semibold text-[#0F172A] leading-tight">
