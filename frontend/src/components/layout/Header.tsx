@@ -40,7 +40,7 @@ export const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
                 Opti Matrix
               </h1>
               <p className="text-xs text-[#64748B]">
-                Manufacturing Operations ERP
+                IT Service Provider
               </p>
             </div>
           </Link>
