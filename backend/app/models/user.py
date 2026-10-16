@@ -195,7 +195,7 @@ JOB_ROLE_DEFAULT_PERMISSIONS = {
     ],
     "QC Inspector": [
         "qc:read", "qc:create", "qc:update", "qc:approve",
-        "production:read", "wastage:read", "wastage:create", "reports:read", "master:read",
+        "production:read", "wastage:read", "wastage:create",
     ],
     "QA Engineer": [
         "qc:read", "qc:create", "qc:update", "production:read", "reports:read", "master:read",
@@ -208,7 +208,7 @@ JOB_ROLE_DEFAULT_PERMISSIONS = {
         "inventory:read", "inventory:create", "inventory:update", "inventory:post", "inventory:export", "inventory:delete",
         "bom:read", "bom:create", "bom:update", "bom:delete", "bom:approve",
         "production:read", "production:create", "production:update", "production:post", "production:export", "production:delete",
-        "orders:read", "wastage:read", "reports:read", "reports:export", "master:read", "master:create", "master:update",
+        "orders:read", "wastage:read",
     ],
     "Storekeeper": ["inventory:read", "inventory:update", "inventory:post", "master:read"],
     "Warehouse Executive": ["inventory:read", "inventory:update", "master:read"],
@@ -223,25 +223,25 @@ JOB_ROLE_DEFAULT_PERMISSIONS = {
         "orders:read", "orders:create", "orders:update", "orders:export",
         "sales:read", "sales:create", "sales:update", "sales:post", "sales:export",
         "crm:read", "crm:create", "crm:update", "crm:export",
-        "inventory:read", "reports:read", "reports:export", "master:read", "master:create", "master:update",
+        "inventory:read",
     ],
     "Sales Executive": [
         "orders:read", "orders:create", "orders:update",
         "sales:read", "sales:create", "sales:update",
-        "crm:read", "crm:create", "crm:update", "master:read",
+        "crm:read", "crm:create", "crm:update",
     ],
-    "CRM Executive": ["crm:read", "crm:create", "crm:update", "orders:read", "master:read", "master:create"],
-    "Lead Manager": ["crm:read", "crm:create", "crm:update", "reports:read", "master:read", "master:create"],
-    "Customer Relationship Executive": ["crm:read", "crm:create", "crm:update", "orders:read", "master:read", "master:create"],
+    "CRM Executive": ["crm:read", "crm:create", "crm:update", "orders:read"],
+    "Lead Manager": ["crm:read", "crm:create", "crm:update"],
+    "Customer Relationship Executive": ["crm:read", "crm:create", "crm:update", "orders:read"],
 
     # Dispatch & Logistics
     "Dispatch Manager": [
         "orders:read", "orders:update", "sales:read", "sales:create", "sales:update", "sales:post", "sales:export",
-        "inventory:read", "reports:read", "reports:export",
+        "inventory:read",
     ],
     "Dispatch Executive": ["orders:read", "sales:read", "sales:update", "inventory:read"],
     "Packing Operator": ["orders:read", "sales:read", "sales:update"],
-    "Logistics Coordinator": ["orders:read", "sales:read", "sales:update", "reports:read"],
+    "Logistics Coordinator": ["orders:read", "sales:read", "sales:update"],
 
     # Billing & Finance
     "Billing Manager": [
@@ -332,23 +332,17 @@ DEFAULT_ROLE_PERMISSIONS = {
         "production:read", "production:create", "production:update", "production:post", "production:export", "production:delete",
         "orders:read",
         "wastage:read", "wastage:create", "wastage:update", "wastage:approve",
-        "reports:read", "reports:export",
-        "master:read", "master:create", "master:update",
     ],
     RoleName.QC_INSPECTOR: [
         "qc:read", "qc:create", "qc:update", "qc:approve", "qc:export",
         "production:read",
         "wastage:read", "wastage:create", "wastage:update",
-        "reports:read",
-        "master:read",
     ],
     RoleName.SALES_DISPATCH: [
         "orders:read", "orders:create", "orders:update", "orders:export",
         "sales:read", "sales:create", "sales:update", "sales:post", "sales:export",
         "crm:read", "crm:create", "crm:update", "crm:export",
         "inventory:read",
-        "reports:read",
-        "master:read", "master:create", "master:update",
     ],
     RoleName.EMPLOYEE: [
         "orders:read",

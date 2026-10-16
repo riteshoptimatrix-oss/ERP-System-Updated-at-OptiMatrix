@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Badge } from '@/components/ui/Badge';
 import { Button } from '@/components/ui/Button';
 import { useAuth } from '@/context/AuthContext';
@@ -32,14 +33,21 @@ export const Header: React.FC<HeaderProps> = ({ onToggleSidebar }) => {
           )}
 
           <Link href="/" className="flex items-center space-x-3">
-            <div className="h-9 px-2.5 rounded-lg bg-[#0F172A] flex items-center justify-center text-white font-bold text-xs shadow-xs tracking-tight">
-              OMS
+            <div className="relative h-9 w-auto flex items-center">
+              <Image
+                src="/logo.png"
+                alt="Opti Matrix Logo"
+                width={280}
+                height={92}
+                className="h-24 w-auto object-contain"
+                priority
+              />
             </div>
-            <div>
-              <h1 className="text-base font-semibold text-[#0F172A] leading-tight">
+            <div className="border-l border-[#E2E8F0] pl-3">
+              <h1 className="text-sm font-semibold text-[#0F172A] leading-tight">
                 Opti Matrix
               </h1>
-              <p className="text-xs text-[#64748B]">
+              <p className="text-[11px] text-[#64748B]">
                 IT Service Provider
               </p>
             </div>

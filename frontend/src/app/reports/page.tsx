@@ -27,7 +27,8 @@ import {
   IndianRupee,
   Send,
   Layers,
-  ArrowUpRight
+  ArrowUpRight,
+  ShieldAlert
 } from 'lucide-react';
 
 interface ReportTab {
@@ -119,6 +120,31 @@ export default function ReportsPage() {
     });
     window.open(url, '_blank');
   };
+
+  const isRestrictedRole =
+    user &&
+    user.role !== 'SUPER_ADMIN' &&
+    user.role !== 'ADMIN' &&
+    (user.role === 'SALES_DISPATCH' ||
+      user.account_type === 'SALES_DISPATCH' ||
+      user.role === 'QC_INSPECTOR' ||
+      user.account_type === 'QC_INSPECTOR' ||
+      user.designation === 'QC Inspector' ||
+      user.role === 'INVENTORY_MANAGER' ||
+      user.account_type === 'INVENTORY_MANAGER' ||
+      user.designation === 'Inventory Manager');
+
+  if (isRestrictedRole || !hasPermission('reports', 'read')) {
+    return (
+      <div className="max-w-md mx-auto mt-20 text-center p-8 bg-white rounded-xl shadow-sm border border-neutral-200">
+        <ShieldAlert className="w-12 h-12 text-amber-600 mx-auto mb-3" />
+        <h2 className="text-xl font-bold text-neutral-900">Access Restricted</h2>
+        <p className="text-sm text-neutral-600 mt-2">
+          Reports & Analytics is reserved for Executives and Administrators.
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto pb-12">

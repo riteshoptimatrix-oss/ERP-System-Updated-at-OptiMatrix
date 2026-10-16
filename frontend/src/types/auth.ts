@@ -19,6 +19,7 @@ export interface User {
   role: RoleName;
   account_type?: AccountType | string;
   department?: string;
+  designation?: string;
   job_role?: string;
   job_roles?: string[];
   employee_code?: string;

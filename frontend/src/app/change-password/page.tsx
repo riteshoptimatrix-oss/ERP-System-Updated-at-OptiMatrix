@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState, useId } from 'react';
+import Image from 'next/image';
 import { useAuth } from '@/context/AuthContext';
 import {
   Lock,
@@ -82,12 +83,18 @@ export default function ChangePasswordPage() {
       {/* Top Header Bar */}
       <header className="border-b border-[#E6E4DC] bg-[#FFFFFF] px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
-          <div className="w-8 h-8 rounded-md bg-[#315C45] flex items-center justify-center text-white shadow-xs">
-            <Building2 className="w-4 h-4 text-white" />
+          <div className="h-8 w-auto flex items-center">
+            <Image
+              src="/logo.png"
+              alt="Opti Matrix Logo"
+              width={120}
+              height={32}
+              className="h-8 w-auto object-contain"
+              priority
+            />
           </div>
-          <div>
+          <div className="border-l border-[#E6E4DC] pl-3">
             <span className="font-semibold text-sm tracking-tight text-[#202722]">Opti Matrix ERP</span>
-            <span className="text-xs text-[#73786F] ml-2 font-mono">ENFLOW PRECISION SYSTEMS</span>
           </div>
         </div>
 

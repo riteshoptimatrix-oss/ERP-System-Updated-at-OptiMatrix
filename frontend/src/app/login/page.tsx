@@ -1,6 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
+import Image from 'next/image';
 import { useAuth } from '@/context/AuthContext';
 import {
   Lock,
@@ -62,30 +63,15 @@ export default function LoginPage() {
         {/* Top Header: Wordmark & Operational Badges */}
         <div className="relative z-10 flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-3">
-            {/* Minimalist Engineered Geometric Mark */}
-            <div className="w-9 h-9 rounded-md bg-[#315C45] flex items-center justify-center text-white shadow-xs">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M12 2L2 7l10 5 10-5-10-5z" />
-                <path d="M2 17l10 5 10-5" />
-                <path d="M2 12l10 5 10-5" />
-              </svg>
-            </div>
-            <div>
-              <span className="font-semibold text-base tracking-tight text-[#202722] block font-sans">
-                Opti Matrix
-              </span>
-              <span className="text-[11px] font-medium tracking-wider text-[#73786F] uppercase block">
-                Enterprise Operations
-              </span>
+            <div className="h-16 w-auto flex items-center py-1">
+              <Image
+                src="/logo.png"
+                alt="Opti Matrix Logo"
+                width={260}
+                height={70}
+                className="h-14 md:h-16 w-auto object-contain drop-shadow-xs"
+                priority
+              />
             </div>
           </div>
 

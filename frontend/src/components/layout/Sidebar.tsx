@@ -185,6 +185,38 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpen = false, onClose }) => 
             return false;
           }
 
+          // Hide 'Master Data Hub', 'Excel Migration', and 'Company Announcements' for HR users
+          const isHRRole = user.role === 'HR' || user.account_type === 'HR' || user.department?.toUpperCase() === 'HR' || user.department?.toLowerCase() === 'human resources';
+          if (isHRRole && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN') {
+            if (item.href === '/master' || item.href === '/master/import') {
+              return false;
+            }
+          }
+
+          // Hide 'Reports & Analytics', 'Master Data Hub', and 'Excel Migration' for Sales & Dispatch users
+          const isSalesDispatchRole = user.role === 'SALES_DISPATCH' || user.account_type === 'SALES_DISPATCH';
+          if (isSalesDispatchRole && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN') {
+            if (item.href === '/reports' || item.href === '/master' || item.href === '/master/import') {
+              return false;
+            }
+          }
+
+          // Hide 'Reports & Analytics', 'Master Data Hub', and 'Excel Migration' for QC Inspector users
+          const isQCRole = user.role === 'QC_INSPECTOR' || user.account_type === 'QC_INSPECTOR' || user.designation === 'QC Inspector';
+          if (isQCRole && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN') {
+            if (item.href === '/reports' || item.href === '/master' || item.href === '/master/import') {
+              return false;
+            }
+          }
+
+          // Hide 'Reports & Analytics', 'Master Data Hub', and 'Excel Migration' for Inventory Manager users
+          const isInventoryManagerRole = user.role === 'INVENTORY_MANAGER' || user.account_type === 'INVENTORY_MANAGER' || user.designation === 'Inventory Manager';
+          if (isInventoryManagerRole && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN') {
+            if (item.href === '/reports' || item.href === '/master' || item.href === '/master/import') {
+              return false;
+            }
+          }
+
           const hasAccess = item.href === '/' || Boolean(item.isEmployeePortal) || hasPermission(item.module, item.action);
           if (!hasAccess) return false;
           if (!searchQuery.trim()) return true;

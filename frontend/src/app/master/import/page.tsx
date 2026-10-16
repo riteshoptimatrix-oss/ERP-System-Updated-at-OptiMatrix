@@ -38,8 +38,12 @@ const ENTITY_OPTIONS: { id: ImportEntityType; label: string; description: string
 ];
 
 export default function ExcelMigrationStudioPage() {
-  const { activeUnit, hasPermission } = useAuth();
+  const { user, activeUnit, hasPermission } = useAuth();
   const canImport = hasPermission('master', 'create');
+  const isHRUser = user && (user.role === 'HR' || user.account_type === 'HR' || user.department?.toUpperCase() === 'HR' || user.department?.toLowerCase() === 'human resources') && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN';
+  const isSalesDispatchUser = user && (user.role === 'SALES_DISPATCH' || user.account_type === 'SALES_DISPATCH') && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN';
+  const isQCUser = user && (user.role === 'QC_INSPECTOR' || user.account_type === 'QC_INSPECTOR' || user.designation === 'QC Inspector') && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN';
+  const isInventoryManagerUser = user && (user.role === 'INVENTORY_MANAGER' || user.account_type === 'INVENTORY_MANAGER' || user.designation === 'Inventory Manager') && user.role !== 'SUPER_ADMIN' && user.role !== 'ADMIN';
 
   const [selectedEntity, setSelectedEntity] = useState<ImportEntityType>('customers');
   const [selectedFile, setSelectedFile] = useState<File | null>(null);
@@ -113,6 +117,20 @@ export default function ExcelMigrationStudioPage() {
       setCommitLoading(false);
     }
   };
+
+  if (!canImport || isHRUser || isSalesDispatchUser || isQCUser || isInventoryManagerUser) {
+    return (
+      <div className="max-w-md mx-auto mt-20 text-center p-8 bg-white rounded-xl shadow-sm border border-neutral-200">
+        <ShieldAlert className="w-12 h-12 text-amber-600 mx-auto mb-3" />
+        <h2 className="text-xl font-bold text-neutral-900">Access Restricted</h2>
+        <p className="text-sm text-neutral-600 mt-2">
+          {isHRUser || isSalesDispatchUser || isQCUser || isInventoryManagerUser
+            ? 'Excel Migration & Bulk Import Studio is reserved for Administrators and Operations Managers.'
+            : 'You do not possess the required master:create permission to import master datasets.'}
+        </p>
+      </div>
+    );
+  }
 
   return (
     <div className="space-y-6 max-w-7xl mx-auto pb-12">
